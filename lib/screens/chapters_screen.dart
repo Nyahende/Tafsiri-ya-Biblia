@@ -25,6 +25,7 @@ class ChaptersScreen extends StatelessWidget {
         builder: (_) => VerseReadingScreen(
           bookName: bookName,
           chapterNumber: chapterNumber,
+          chapterCount: chapterCount,
         ),
       ),
     );

@@ -1,0 +1,65 @@
+{
+  "books": [
+    {
+      "name": "Mithali",
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Mithali za Sulemani mwana wa Daudi, mfalme wa Israeli;"
+          },
+          {
+            "number": 2,
+            "text": "Kwa kujua hekima na maelekezo; kwa kuyatambua maneno ya uelewa;"
+          },
+          {
+            "number": 3,
+            "text": "Kwa kupokea maelekezo ya kutenda kwa hekima, katika usahihi, hukumu na uadilifu;"
+          },
+          {
+            "number": 4,
+            "text": "Kwa kumpa maamuma busara, na kijana maarifa pamoja na uwezo wa kufikiri;"
+          },
+          {
+            "number": 5,
+            "text": "Mwenye hekima atasikia na kuongeza kujifunza; na mtu mwenye uelewa atapata mashauri yenye busara;"
+          },
+          {
+            "number": 6,
+            "text": "Kwa kuelewa mithali na maana yake, maneno ya wenye hekima na mafumbo yao;"
+          },
+          {
+            "number": 7,
+            "text": "Hofu ya BWANA ni mwanzo wa maarifa; lakini wajinga hudharau hekima na maelekezo."
+          },
+          {
+            "number": 8,
+            "text": "Mwanangu, yasikilize maelekezo ya baba yako, wala usiyaache mafundisho ya mama yako;"
+          },
+          {
+            "number": 9,
+            "text": "Kwa maana yatakuwa taji ya neema kichwani mwako, na mikufu shingoni mwako."
+          },
+          {
+            "number": 10,
+            "text": "Mwanangu, watu wabaya wakikushawishi, usikubali."
+          }
+        ],
+        "2": [
+          {
+            "number": 1,
+            "text": "Mwanangu, ukiyakubali maneno yangu, na kuzihifadhi amri zangu ndani yako;"
+          },
+          {
+            "number": 2,
+            "text": "Hata ukatega sikio lako kwa hekima, na kuuelekeza moyo wako kwenye uelewa;"
+          },
+          {
+            "number": 3,
+            "text": "Naam, ukiita maarifa, na kupaza sauti yako kwa ajili ya uelewa;"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
-import '/screens/books_screen.dart';
 
-class HomeScreen extends StatelessWidget {
+import '/screens/books_screen.dart';
+import '/screens/saved_verses_screen.dart';
+import '/screens/verse_reading_screen.dart';
+import '/services/bible_service.dart';
+import '/services/reading_progress_service.dart';
+import '../../screens/dictionary_screen.dart';
+
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
   static const Color backgroundColor = Color(0xFFFAF9F6);
   static const Color primaryBrown = Color(0xFF4E342E);
   static const Color secondaryBrown = Color(0xFF795548);
@@ -11,7 +22,129 @@ class HomeScreen extends StatelessWidget {
   static const Color lightGold = Color(0xFFFFF5D9);
   static const Color cardColor = Color(0xFFFFFDF8);
 
-  void _showComingSoon(BuildContext context, String section) {
+  ReadingProgress? _readingProgress;
+  DailyBibleVerse? _verseOfTheDay;
+
+  bool _isLoadingReadingProgress = true;
+  bool _isLoadingVerseOfTheDay = true;
+
+  String? _verseOfTheDayError;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadHomeData();
+  }
+
+  Future<void> _loadHomeData() async {
+    await Future.wait([_loadReadingProgress(), _loadVerseOfTheDay()]);
+  }
+
+  Future<void> _loadReadingProgress() async {
+    try {
+      final progress = await ReadingProgressService.getProgress();
+
+      if (!mounted) return;
+
+      setState(() {
+        _readingProgress = progress;
+        _isLoadingReadingProgress = false;
+      });
+    } catch (_) {
+      if (!mounted) return;
+
+      setState(() {
+        _readingProgress = null;
+        _isLoadingReadingProgress = false;
+      });
+    }
+  }
+
+  Future<void> _loadVerseOfTheDay() async {
+    try {
+      final verse = await BibleService.getVerseOfTheDay();
+
+      if (!mounted) return;
+
+      setState(() {
+        _verseOfTheDay = verse;
+        _isLoadingVerseOfTheDay = false;
+        _verseOfTheDayError = null;
+      });
+    } on BibleDataException catch (error) {
+      if (!mounted) return;
+
+      setState(() {
+        _verseOfTheDay = null;
+        _isLoadingVerseOfTheDay = false;
+        _verseOfTheDayError = error.message;
+      });
+    } catch (_) {
+      if (!mounted) return;
+
+      setState(() {
+        _verseOfTheDay = null;
+        _isLoadingVerseOfTheDay = false;
+        _verseOfTheDayError = 'Imeshindikana kupakia Neno la Leo.';
+      });
+    }
+  }
+
+  Future<void> _openBible() async {
+    await Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => const BooksScreen()),
+    );
+
+    if (!mounted) return;
+    await _loadReadingProgress();
+  }
+
+  Future<void> _continueReading() async {
+    final progress = _readingProgress;
+
+    if (progress == null) {
+      await _openBible();
+      return;
+    }
+
+    await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => VerseReadingScreen(
+          bookName: progress.bookName,
+          chapterNumber: progress.chapterNumber,
+          chapterCount: progress.chapterCount,
+        ),
+      ),
+    );
+
+    if (!mounted) return;
+    await _loadReadingProgress();
+  }
+
+  Future<void> _openVerseOfTheDay() async {
+    final verse = _verseOfTheDay;
+
+    if (verse == null) return;
+
+    await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => VerseReadingScreen(
+          bookName: verse.bookName,
+          chapterNumber: verse.chapterNumber,
+          chapterCount: verse.chapterCount,
+          initialVerseNumber: verse.verseNumber,
+        ),
+      ),
+    );
+
+    if (!mounted) return;
+    await _loadReadingProgress();
+  }
+
+  void _showComingSoon(String section) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text('$section inakuja hivi karibuni.'),
@@ -25,80 +158,64 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: backgroundColor,
       body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.fromLTRB(20, 18, 20, 30),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              _buildHeader(context),
-
-              const SizedBox(height: 24),
-
-              _buildVerseOfTheDay(),
-
-              const SizedBox(height: 26),
-
-              const Text(
-                'Endelea Kusoma',
-                style: TextStyle(
-                  color: primaryBrown,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+        child: RefreshIndicator(
+          color: gold,
+          onRefresh: _loadHomeData,
+          child: SingleChildScrollView(
+            physics: const AlwaysScrollableScrollPhysics(),
+            padding: const EdgeInsets.fromLTRB(20, 18, 20, 30),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _buildHeader(context),
+                const SizedBox(height: 24),
+                _buildVerseOfTheDay(),
+                const SizedBox(height: 26),
+                const Text(
+                  'Endelea Kusoma',
+                  style: TextStyle(
+                    color: primaryBrown,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
-
-              const SizedBox(height: 12),
-
-              _buildContinueReadingCard(context),
-
-              const SizedBox(height: 28),
-
-              GridView.count(
-                crossAxisCount: 2,
-                shrinkWrap: true,
-                physics: const NeverScrollableScrollPhysics(),
-                crossAxisSpacing: 14,
-                mainAxisSpacing: 14,
-                childAspectRatio: 1.15,
-                children: [
-                  FeatureCard(
-                    icon: Icons.menu_book_rounded,
-                    title: 'Soma Biblia',
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (_) => const BooksScreen()),
-                      );
-                    },
-                  ),
-                  FeatureCard(
-                    icon: Icons.headphones_rounded,
-                    title: 'Sikiliza Biblia',
-                    onTap: () {
-                      _showComingSoon(context, 'Sikiliza Biblia');
-                    },
-                  ),
-                  FeatureCard(
-                    icon: Icons.record_voice_over_rounded,
-                    title: 'Mafundisho',
-                    onTap: () {
-                      _showComingSoon(context, 'Mafundisho');
-                    },
-                  ),
-                  FeatureCard(
-                    icon: Icons.ondemand_video_rounded,
-                    title: 'Video za Biblia',
-                    onTap: () {
-                      _showComingSoon(context, 'Video za Biblia');
-                    },
-                  ),
-                ],
-              ),
-
-              const SizedBox(height: 14),
-
-              _buildDictionaryCard(context),
-            ],
+                const SizedBox(height: 12),
+                _buildContinueReadingCard(),
+                const SizedBox(height: 28),
+                GridView.count(
+                  crossAxisCount: 2,
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  crossAxisSpacing: 14,
+                  mainAxisSpacing: 14,
+                  childAspectRatio: 1.15,
+                  children: [
+                    FeatureCard(
+                      icon: Icons.menu_book_rounded,
+                      title: 'Soma Biblia',
+                      onTap: _openBible,
+                    ),
+                    FeatureCard(
+                      icon: Icons.headphones_rounded,
+                      title: 'Sikiliza Biblia',
+                      onTap: () => _showComingSoon('Sikiliza Biblia'),
+                    ),
+                    FeatureCard(
+                      icon: Icons.record_voice_over_rounded,
+                      title: 'Mafundisho',
+                      onTap: () => _showComingSoon('Mafundisho'),
+                    ),
+                    FeatureCard(
+                      icon: Icons.ondemand_video_rounded,
+                      title: 'Video za Biblia',
+                      onTap: () => _showComingSoon('Video za Biblia'),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 14),
+                _buildDictionaryCard(),
+              ],
+            ),
           ),
         ),
       ),
@@ -110,7 +227,7 @@ class HomeScreen extends StatelessWidget {
       children: [
         Container(
           width: 100,
-          height: 100,
+          height: 60,
           decoration: BoxDecoration(borderRadius: BorderRadius.circular(14)),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(14),
@@ -120,102 +237,195 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
         ),
-
-        const SizedBox(width: 12),
-
+        const SizedBox(width: 15),
         const Expanded(
           child: Text(
             'Tafsiri ya Biblia',
             style: TextStyle(
               color: primaryBrown,
-              fontSize: 23,
+              fontSize: 28,
               fontWeight: FontWeight.bold,
-              letterSpacing: 0.1,
+              letterSpacing: 0.2,
             ),
           ),
         ),
-
         IconButton(
-          tooltip: 'Mipangilio',
+          tooltip: 'Mistari Iliyohifadhiwa',
           onPressed: () {
-            _showComingSoon(context, 'Mipangilio');
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const SavedVersesScreen()),
+            );
           },
-          icon: const Icon(
-            Icons.settings_outlined,
-            color: primaryBrown,
-            size: 25,
-          ),
+          icon: const Icon(Icons.bookmark_rounded, color: gold, size: 20),
         ),
       ],
     );
   }
 
   Widget _buildVerseOfTheDay() {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(18),
-      decoration: BoxDecoration(
-        color: lightGold,
+    if (_isLoadingVerseOfTheDay) {
+      return Container(
+        width: double.infinity,
+        height: 160,
+        decoration: BoxDecoration(
+          color: lightGold,
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: gold.withValues(alpha: 0.25)),
+        ),
+        child: const Center(
+          child: CircularProgressIndicator(color: gold, strokeWidth: 2.5),
+        ),
+      );
+    }
+
+    if (_verseOfTheDayError != null) {
+      return Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: _loadVerseOfTheDay,
+          borderRadius: BorderRadius.circular(20),
+          child: Ink(
+            width: double.infinity,
+            padding: const EdgeInsets.all(18),
+            decoration: BoxDecoration(
+              color: lightGold,
+              borderRadius: BorderRadius.circular(20),
+              border: Border.all(color: gold.withValues(alpha: 0.25)),
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Row(
+                  children: [
+                    Icon(Icons.wb_sunny_outlined, color: gold, size: 22),
+                    SizedBox(width: 8),
+                    Text(
+                      'Neno la Leo',
+                      style: TextStyle(
+                        color: primaryBrown,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 14),
+                Text(
+                  _verseOfTheDayError!,
+                  style: const TextStyle(
+                    color: secondaryBrown,
+                    fontSize: 14,
+                    height: 1.45,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                const Text(
+                  'Gusa ili kujaribu tena.',
+                  style: TextStyle(
+                    color: gold,
+                    fontSize: 13,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
+    final verse = _verseOfTheDay;
+    if (verse == null) return const SizedBox.shrink();
+
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: _openVerseOfTheDay,
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: gold.withValues(alpha: 0.25)),
-      ),
-      child: const Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
+        child: Ink(
+          width: double.infinity,
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            color: lightGold,
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: gold.withValues(alpha: 0.25)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(Icons.wb_sunny_outlined, color: gold, size: 22),
-              SizedBox(width: 8),
+              const Row(
+                children: [
+                  Icon(Icons.wb_sunny_outlined, color: gold, size: 22),
+                  SizedBox(width: 8),
+                  Text(
+                    'Neno la Leo',
+                    style: TextStyle(
+                      color: primaryBrown,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Spacer(),
+                  Icon(Icons.arrow_forward_ios_rounded, color: gold, size: 16),
+                ],
+              ),
+              const SizedBox(height: 12),
               Text(
-                'Neno la Leo',
-                style: TextStyle(
+                '“${verse.verseText}”',
+                maxLines: 4,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(
                   color: primaryBrown,
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                  height: 1.45,
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
+              const SizedBox(height: 10),
+              Align(
+                alignment: Alignment.centerRight,
+                child: Text(
+                  '— ${verse.reference}',
+                  style: const TextStyle(
+                    color: secondaryBrown,
+                    fontSize: 13,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
             ],
           ),
-
-          SizedBox(height: 12),
-
-          Text(
-            '“Kwa kuwa hekima ni bora kuliko marijani; wala vitu vyote vinavyoweza kutamaniwa havilingani nayo.”',
-            maxLines: 3,
-            overflow: TextOverflow.ellipsis,
-            style: TextStyle(
-              color: primaryBrown,
-              fontSize: 16,
-              height: 1.45,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-
-          SizedBox(height: 10),
-
-          Align(
-            alignment: Alignment.centerRight,
-            child: Text(
-              '— Mithali 8:11',
-              style: TextStyle(
-                color: secondaryBrown,
-                fontSize: 13,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
 
-  Widget _buildContinueReadingCard(BuildContext context) {
+  Widget _buildContinueReadingCard() {
+    if (_isLoadingReadingProgress) {
+      return Container(
+        width: double.infinity,
+        height: 112,
+        decoration: BoxDecoration(
+          color: primaryBrown,
+          borderRadius: BorderRadius.circular(22),
+        ),
+        child: const Center(
+          child: CircularProgressIndicator(
+            color: Color(0xFFFFD76A),
+            strokeWidth: 2.5,
+          ),
+        ),
+      );
+    }
+
+    final progress = _readingProgress;
+    final bool hasProgress = progress != null;
+
     return Material(
       color: Colors.transparent,
       child: InkWell(
-        onTap: () {
-          _showComingSoon(context, 'Mithali, Sura ya 1');
-        },
+        onTap: _continueReading,
         borderRadius: BorderRadius.circular(22),
         child: Ink(
           padding: const EdgeInsets.all(20),
@@ -245,30 +455,33 @@ class HomeScreen extends StatelessWidget {
                   size: 31,
                 ),
               ),
-
               const SizedBox(width: 16),
-
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Mithali',
-                      style: TextStyle(
+                      hasProgress ? progress.bookName : 'Anza Kusoma Biblia',
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 21,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 4),
+                    const SizedBox(height: 4),
                     Text(
-                      'Sura ya 1',
-                      style: TextStyle(color: Color(0xFFEADFD9), fontSize: 15),
+                      hasProgress
+                          ? 'Sura ya ${progress.chapterNumber}'
+                          : 'Chagua kitabu na sura',
+                      style: const TextStyle(
+                        color: Color(0xFFEADFD9),
+                        fontSize: 15,
+                      ),
                     ),
-                    SizedBox(height: 8),
+                    const SizedBox(height: 8),
                     Text(
-                      'Endelea ulipoishia',
-                      style: TextStyle(
+                      hasProgress ? 'Endelea ulipoishia' : 'Fungua Biblia',
+                      style: const TextStyle(
                         color: Color(0xFFFFD76A),
                         fontSize: 13,
                         fontWeight: FontWeight.w600,
@@ -277,7 +490,6 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
               ),
-
               const Icon(Icons.arrow_forward_rounded, color: Colors.white),
             ],
           ),
@@ -286,12 +498,15 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildDictionaryCard(BuildContext context) {
+  Widget _buildDictionaryCard() {
     return Material(
       color: Colors.transparent,
       child: InkWell(
         onTap: () {
-          _showComingSoon(context, 'Kamusi ya Biblia');
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const DictionaryScreen()),
+          );
         },
         borderRadius: BorderRadius.circular(20),
         child: Ink(
@@ -315,9 +530,7 @@ class HomeScreen extends StatelessWidget {
                 backgroundColor: lightGold,
                 child: Icon(Icons.library_books_rounded, color: gold, size: 28),
               ),
-
               SizedBox(width: 15),
-
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -342,7 +555,6 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
               ),
-
               Icon(Icons.arrow_forward_ios_rounded, color: gold, size: 18),
             ],
           ),
@@ -403,9 +615,7 @@ class FeatureCard extends StatelessWidget {
                   ),
                   child: Icon(icon, color: gold, size: 28),
                 ),
-
                 const SizedBox(height: 14),
-
                 Text(
                   title,
                   textAlign: TextAlign.center,

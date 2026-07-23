@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Hekima",
+    "normalizedWord": "hekima",
+    "shortDefinition": "Uwezo wa kuelewa na kufanya uamuzi ulio sahihi.",
+    "definition": "Uwezo wa kuelewa mambo kwa kina, kuyahukumu kwa usahihi na kuchagua hatua inayofaa.",
+    "originalWord": "חָכְמָה",
+    "transliteration": "chokmah",
+    "originalLanguage": "Kiebrania",
+    "exampleReference": "Mithali 1:7",
+    "exampleText": "Hofu ya BWANA ni mwanzo wa maarifa."
+  },
+  {
+    "word": "Maamuma",
+    "normalizedWord": "maamuma",
+    "shortDefinition": "Mtu asiye na uzoefu au uelewa wa kutosha.",
+    "definition": "Mtu asiye na uzoefu, tahadhari au uelewa wa kutosha na ambaye anaweza kudanganywa kwa urahisi."
+  },
+  {
+    "word": "Ufisadi",
+    "normalizedWord": "ufisadi",
+    "shortDefinition": "Jambo linalokusudiwa kuleta madhara.",
+    "definition": "Tendo, mpango au jambo linalokusudiwa kuleta madhara, uharibifu au matatizo."
+  },
+  {
+    "word": "Uovu",
+    "normalizedWord": "uovu",
+    "shortDefinition": "Hali au tendo lililo kinyume na mema.",
+    "definition": "Hali, tabia au tendo lililo kinyume na mema, haki na mapenzi ya Mungu."
+  },
+  {
+    "word": "Usahihi",
+    "normalizedWord": "usahihi",
+    "shortDefinition": "Hali ya kuwa sawa mbele za Mungu.",
+    "definition": "Hali ya kuishi na kutenda kwa namna iliyo sawa, ya haki na inayokubalika mbele za Mungu."
+  }
+]

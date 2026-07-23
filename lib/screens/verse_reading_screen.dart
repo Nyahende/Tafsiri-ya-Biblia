@@ -1,15 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../../services/bible_service.dart';
+import '../../services/bookmark_service.dart';
+import '../../services/reading_progress_service.dart';
+import 'saved_verses_screen.dart';
+import 'package:share_plus/share_plus.dart';
+
 class VerseReadingScreen extends StatefulWidget {
   const VerseReadingScreen({
     super.key,
     required this.bookName,
     required this.chapterNumber,
+    required this.chapterCount,
+    this.initialVerseNumber,
   });
 
   final String bookName;
   final int chapterNumber;
+  final int chapterCount;
+  final int? initialVerseNumber;
 
   @override
   State<VerseReadingScreen> createState() => _VerseReadingScreenState();
@@ -23,71 +33,67 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
   static const Color lightGold = Color(0xFFFFF5D9);
   static const Color selectedVerseColor = Color(0xFFFFF1C7);
 
+  List<BibleVerse> _verses = [];
+
   int? _selectedVerseNumber;
 
+  bool _isLoading = true;
   bool _isBookmarked = false;
   bool _isPlayingAudio = false;
 
+  String? _errorMessage;
+
   double _fontSize = 18;
 
-  /*
-   * These are temporary sample verses.
-   *
-   * Later, this list will be replaced with verses loaded from:
-   * - a JSON file,
-   * - SQLite database,
-   * - API,
-   * - or Python backend.
-   */
-  final List<BibleVerse> _sampleVerses = const [
-    BibleVerse(
-      number: 1,
-      text: 'Mithali za Sulemani mwana wa Daudi, mfalme wa Israeli;',
-    ),
-    BibleVerse(
-      number: 2,
-      text: 'Kwa kujua hekima na maelekezo; kwa kuyatambua maneno ya uelewa;',
-    ),
-    BibleVerse(
-      number: 3,
-      text:
-          'Kwa kupokea maelekezo ya kutenda kwa hekima, katika usahihi, hukumu na uadilifu;',
-    ),
-    BibleVerse(
-      number: 4,
-      text:
-          'Kwa kumpa maamuma busara, na kijana maarifa pamoja na uwezo wa kufikiri;',
-    ),
-    BibleVerse(
-      number: 5,
-      text:
-          'Mwenye hekima atasikia na kuongeza kujifunza; na mtu mwenye uelewa atapata mashauri yenye busara;',
-    ),
-    BibleVerse(
-      number: 6,
-      text:
-          'Kwa kuelewa mithali na maana yake, maneno ya wenye hekima na mafumbo yao;',
-    ),
-    BibleVerse(
-      number: 7,
-      text:
-          'Hofu ya BWANA ni mwanzo wa maarifa; lakini wajinga hudharau hekima na maelekezo.',
-    ),
-    BibleVerse(
-      number: 8,
-      text:
-          'Mwanangu, yasikilize maelekezo ya baba yako, wala usiyaache mafundisho ya mama yako;',
-    ),
-    BibleVerse(
-      number: 9,
-      text:
-          'Kwa maana yatakuwa taji ya neema kichwani mwako, na mikufu shingoni mwako.',
-    ),
-    BibleVerse(
-      number: 10,
-      text: 'Mwanangu, watu wabaya wakikushawishi, usikubali.',
-    ),
-  ];
+  @override
+  void initState() {
+    super.initState();
+
+    _initializeChapter();
+  }
+
+  Future<void> _initializeChapter() async {
+    await _saveReadingProgress();
+
+    if (!mounted) {
+      return;
+    }
+
+    await _loadVerses();
+
+    if (!mounted) {
+      return;
+    }
+
+    if (widget.initialVerseNumber != null) {
+      final exists = _verses.any(
+        (verse) => verse.number == widget.initialVerseNumber,
+      );
+
+      if (exists) {
+        setState(() {
+          _selectedVerseNumber = widget.initialVerseNumber;
+        });
+
+        await _refreshSelectedBookmarkState();
+      }
+    }
+  }
+
+  Future<void> _saveReadingProgress() async {
+    try {
+      await ReadingProgressService.saveProgress(
+        bookName: widget.bookName,
+        chapterNumber: widget.chapterNumber,
+        chapterCount: widget.chapterCount,
+      );
+    } catch (_) {
+      /*
+     * Failure to save progress should not prevent
+     * the user from reading the Bible.
+     */
+    }
+  }
 
   BibleVerse? get _selectedVerse {
     if (_selectedVerseNumber == null) {
@@ -95,7 +101,7 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     }
 
     try {
-      return _sampleVerses.firstWhere(
+      return _verses.firstWhere(
         (verse) => verse.number == _selectedVerseNumber,
       );
     } catch (_) {
@@ -107,14 +113,101 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     return '${widget.bookName} ${widget.chapterNumber}';
   }
 
-  void _selectVerse(BibleVerse verse) {
+  bool get _hasPreviousChapter {
+    return widget.chapterNumber > 1;
+  }
+
+  bool get _hasNextChapter {
+    return widget.chapterNumber < widget.chapterCount;
+  }
+
+  Future<void> _loadVerses() async {
     setState(() {
-      if (_selectedVerseNumber == verse.number) {
-        _selectedVerseNumber = null;
-      } else {
-        _selectedVerseNumber = verse.number;
-      }
+      _isLoading = true;
+      _errorMessage = null;
+      _selectedVerseNumber = null;
+      _isBookmarked = false;
     });
+
+    try {
+      final verses = await BibleService.getVerses(
+        bookName: widget.bookName,
+        chapterNumber: widget.chapterNumber,
+      );
+
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _verses = verses;
+        _isLoading = false;
+      });
+    } on BibleDataException catch (error) {
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _verses = [];
+        _isLoading = false;
+        _errorMessage = error.message;
+      });
+    } catch (_) {
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _verses = [];
+        _isLoading = false;
+        _errorMessage = 'Imeshindikana kupakia sura hii.';
+      });
+    }
+  }
+
+  Future<void> _refreshSelectedBookmarkState() async {
+    final verse = _selectedVerse;
+
+    if (verse == null) {
+      if (mounted) {
+        setState(() {
+          _isBookmarked = false;
+        });
+      }
+      return;
+    }
+
+    final bookmarked = await BookmarkService.isBookmarked(
+      bookName: widget.bookName,
+      chapterNumber: widget.chapterNumber,
+      verseNumber: verse.number,
+    );
+
+    if (!mounted) {
+      return;
+    }
+
+    setState(() {
+      _isBookmarked = bookmarked;
+    });
+  }
+
+  Future<void> _selectVerse(BibleVerse verse) async {
+    if (_selectedVerseNumber == verse.number) {
+      setState(() {
+        _selectedVerseNumber = null;
+        _isBookmarked = false;
+      });
+      return;
+    }
+
+    setState(() {
+      _selectedVerseNumber = verse.number;
+      _isBookmarked = false;
+    });
+
+    await _refreshSelectedBookmarkState();
   }
 
   Future<void> _copySelectedVerse() async {
@@ -125,7 +218,8 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     }
 
     final text =
-        '${verse.text}\n\n${widget.bookName} '
+        '${verse.text}\n\n'
+        '${widget.bookName} '
         '${widget.chapterNumber}:${verse.number}';
 
     await Clipboard.setData(ClipboardData(text: text));
@@ -142,49 +236,83 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     );
   }
 
-  void _toggleBookmark() {
+  Future<void> _toggleBookmark() async {
     final verse = _selectedVerse;
 
     if (verse == null) {
       return;
     }
 
-    setState(() {
-      _isBookmarked = !_isBookmarked;
-    });
-
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(
-          _isBookmarked
-              ? 'Mstari umehifadhiwa.'
-              : 'Mstari umeondolewa kwenye zilizohifadhiwa.',
-        ),
-        behavior: SnackBarBehavior.floating,
-      ),
+    final bookmark = BibleBookmark(
+      bookName: widget.bookName,
+      chapterNumber: widget.chapterNumber,
+      chapterCount: widget.chapterCount,
+      verseNumber: verse.number,
+      verseText: verse.text,
+      savedAt: DateTime.now(),
     );
+
+    try {
+      if (_isBookmarked) {
+        await BookmarkService.removeBookmark(
+          bookName: widget.bookName,
+          chapterNumber: widget.chapterNumber,
+          verseNumber: verse.number,
+        );
+      } else {
+        await BookmarkService.addBookmark(bookmark);
+      }
+
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _isBookmarked = !_isBookmarked;
+      });
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            _isBookmarked
+                ? 'Mstari umehifadhiwa.'
+                : 'Mstari umeondolewa kwenye zilizohifadhiwa.',
+          ),
+          behavior: SnackBarBehavior.floating,
+        ),
+      );
+    } catch (_) {
+      if (!mounted) {
+        return;
+      }
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Imeshindikana kubadilisha hali ya mstari.'),
+          behavior: SnackBarBehavior.floating,
+        ),
+      );
+    }
   }
 
-  void _shareSelectedVerse() {
+  Future<void> _shareSelectedVerse() async {
     final verse = _selectedVerse;
 
     if (verse == null) {
       return;
     }
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(
-          'Kushiriki ${widget.bookName} '
-          '${widget.chapterNumber}:${verse.number}',
-        ),
-        behavior: SnackBarBehavior.floating,
-      ),
-    );
+    final text =
+        '''
+"${verse.text}"
 
-    /*
-     * Later we can use the share_plus package here.
-     */
+— ${widget.bookName} ${widget.chapterNumber}:${verse.number}
+
+Tafsiri ya Biblia
+Soma → Tafakari → Ishi
+''';
+
+    await SharePlus.instance.share(ShareParams(text: text));
   }
 
   void _openTranslationNotes() {
@@ -309,13 +437,6 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
 
   void _goToPreviousChapter() {
     if (widget.chapterNumber <= 1) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Hii ndiyo sura ya kwanza.'),
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
-
       return;
     }
 
@@ -325,18 +446,24 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
         builder: (_) => VerseReadingScreen(
           bookName: widget.bookName,
           chapterNumber: widget.chapterNumber - 1,
+          chapterCount: widget.chapterCount,
         ),
       ),
     );
   }
 
   void _goToNextChapter() {
+    if (widget.chapterNumber >= widget.chapterCount) {
+      return;
+    }
+
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
         builder: (_) => VerseReadingScreen(
           bookName: widget.bookName,
           chapterNumber: widget.chapterNumber + 1,
+          chapterCount: widget.chapterCount,
         ),
       ),
     );
@@ -407,12 +534,12 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
               }
 
               if (value == 'bookmarks') {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text('Mistari iliyohifadhiwa itafunguliwa hapa.'),
-                    behavior: SnackBarBehavior.floating,
-                  ),
-                );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const SavedVersesScreen()),
+                ).then((_) {
+                  _refreshSelectedBookmarkState();
+                });
               }
             },
             itemBuilder: (context) {
@@ -447,15 +574,7 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
           children: [
             _buildChapterHeader(),
 
-            Expanded(
-              child: ListView.builder(
-                padding: const EdgeInsets.fromLTRB(20, 10, 20, 130),
-                itemCount: _sampleVerses.length,
-                itemBuilder: (context, index) {
-                  return _buildVerse(_sampleVerses[index]);
-                },
-              ),
-            ),
+            Expanded(child: _buildVerseContent()),
           ],
         ),
       ),
@@ -516,6 +635,37 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     );
   }
 
+  Widget _buildVerseContent() {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator(color: gold));
+    }
+
+    if (_errorMessage != null) {
+      return _buildErrorState();
+    }
+
+    if (_verses.isEmpty) {
+      return const Center(
+        child: Padding(
+          padding: EdgeInsets.all(30),
+          child: Text(
+            'Hakuna mistari katika sura hii.',
+            textAlign: TextAlign.center,
+            style: TextStyle(color: secondaryBrown, fontSize: 16),
+          ),
+        ),
+      );
+    }
+
+    return ListView.builder(
+      padding: const EdgeInsets.fromLTRB(20, 10, 20, 130),
+      itemCount: _verses.length,
+      itemBuilder: (context, index) {
+        return _buildVerse(_verses[index]);
+      },
+    );
+  }
+
   Widget _buildVerse(BibleVerse verse) {
     final bool isSelected = _selectedVerseNumber == verse.number;
 
@@ -562,6 +712,75 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
               ),
             ),
           ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildErrorState() {
+    return Center(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.all(30),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              width: 72,
+              height: 72,
+              decoration: BoxDecoration(
+                color: lightGold,
+                borderRadius: BorderRadius.circular(22),
+              ),
+              child: const Icon(
+                Icons.menu_book_outlined,
+                color: gold,
+                size: 38,
+              ),
+            ),
+
+            const SizedBox(height: 18),
+
+            const Text(
+              'Sura Haijapatikana',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: primaryBrown,
+                fontSize: 21,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+
+            const SizedBox(height: 8),
+
+            Text(
+              _errorMessage ?? 'Imeshindikana kupakia sura hii.',
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: secondaryBrown,
+                fontSize: 15,
+                height: 1.5,
+              ),
+            ),
+
+            const SizedBox(height: 22),
+
+            FilledButton.icon(
+              onPressed: _loadVerses,
+              icon: const Icon(Icons.refresh_rounded),
+              label: const Text('Jaribu Tena'),
+              style: FilledButton.styleFrom(
+                backgroundColor: primaryBrown,
+                foregroundColor: Colors.white,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 22,
+                  vertical: 13,
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
@@ -624,11 +843,7 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
                   label: 'Shiriki',
                   onTap: _shareSelectedVerse,
                 ),
-                _buildActionButton(
-                  icon: Icons.menu_book_rounded,
-                  label: 'Maelezo',
-                  onTap: _openTranslationNotes,
-                ),
+
                 _buildActionButton(
                   icon: Icons.volume_up_rounded,
                   label: 'Sikiliza',
@@ -685,12 +900,19 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
           children: [
             Expanded(
               child: OutlinedButton.icon(
-                onPressed: _goToPreviousChapter,
+                onPressed: _hasPreviousChapter ? _goToPreviousChapter : null,
                 icon: const Icon(Icons.arrow_back_rounded),
                 label: const Text('Sura Iliyopita'),
                 style: OutlinedButton.styleFrom(
                   foregroundColor: primaryBrown,
-                  side: BorderSide(color: gold.withValues(alpha: 0.35)),
+                  disabledForegroundColor: secondaryBrown.withValues(
+                    alpha: 0.35,
+                  ),
+                  side: BorderSide(
+                    color: _hasPreviousChapter
+                        ? gold.withValues(alpha: 0.35)
+                        : primaryBrown.withValues(alpha: 0.08),
+                  ),
                   padding: const EdgeInsets.symmetric(vertical: 13),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(16),
@@ -703,13 +925,17 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
 
             Expanded(
               child: FilledButton.icon(
-                onPressed: _goToNextChapter,
+                onPressed: _hasNextChapter ? _goToNextChapter : null,
                 iconAlignment: IconAlignment.end,
                 icon: const Icon(Icons.arrow_forward_rounded),
                 label: const Text('Sura Inayofuata'),
                 style: FilledButton.styleFrom(
                   backgroundColor: primaryBrown,
                   foregroundColor: Colors.white,
+                  disabledBackgroundColor: primaryBrown.withValues(alpha: 0.12),
+                  disabledForegroundColor: secondaryBrown.withValues(
+                    alpha: 0.4,
+                  ),
                   padding: const EdgeInsets.symmetric(vertical: 13),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(16),
@@ -849,11 +1075,4 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
       ),
     );
   }
-}
-
-class BibleVerse {
-  const BibleVerse({required this.number, required this.text});
-
-  final int number;
-  final String text;
 }
