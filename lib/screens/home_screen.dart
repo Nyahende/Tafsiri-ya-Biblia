@@ -6,6 +6,7 @@ import '/screens/verse_reading_screen.dart';
 import '/services/bible_service.dart';
 import '/services/reading_progress_service.dart';
 import '../../screens/dictionary_screen.dart';
+import 'bible_search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -226,8 +227,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Row(
       children: [
         Container(
-          width: 100,
-          height: 60,
+          width: 90,
+          height: 58,
           decoration: BoxDecoration(borderRadius: BorderRadius.circular(14)),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(14),
@@ -237,27 +238,49 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
         ),
-        const SizedBox(width: 15),
+
+        const SizedBox(width: 12),
+
         const Expanded(
           child: Text(
             'Tafsiri ya Biblia',
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
             style: TextStyle(
               color: primaryBrown,
-              fontSize: 28,
+              fontSize: 24,
               fontWeight: FontWeight.bold,
               letterSpacing: 0.2,
             ),
           ),
         ),
+
+        IconButton(
+          tooltip: 'Tafuta katika Biblia',
+          visualDensity: VisualDensity.compact,
+          padding: const EdgeInsets.all(8),
+          constraints: const BoxConstraints(minWidth: 40, minHeight: 40),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const BibleSearchScreen()),
+            );
+          },
+          icon: const Icon(Icons.search_rounded, color: gold, size: 23),
+        ),
+
         IconButton(
           tooltip: 'Mistari Iliyohifadhiwa',
+          visualDensity: VisualDensity.compact,
+          padding: const EdgeInsets.all(8),
+          constraints: const BoxConstraints(minWidth: 40, minHeight: 40),
           onPressed: () {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (_) => const SavedVersesScreen()),
             );
           },
-          icon: const Icon(Icons.bookmark_rounded, color: gold, size: 20),
+          icon: const Icon(Icons.bookmark_rounded, color: gold, size: 22),
         ),
       ],
     );

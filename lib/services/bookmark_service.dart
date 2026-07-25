@@ -19,7 +19,8 @@ class BibleBookmark {
   final String verseText;
   final DateTime savedAt;
 
-  String get id => '$bookName-$chapterNumber-$verseNumber';
+  String get id =>
+      '${bookName.trim().toLowerCase()}-$chapterNumber-$verseNumber';
 
   String get reference => '$bookName $chapterNumber:$verseNumber';
 
@@ -36,47 +37,80 @@ class BibleBookmark {
 
   factory BibleBookmark.fromJson(Map<String, dynamic> json) {
     return BibleBookmark(
-      bookName: json['bookName'] as String,
-      chapterNumber: json['chapterNumber'] as int,
-      chapterCount: json['chapterCount'] as int,
-      verseNumber: json['verseNumber'] as int,
-      verseText: json['verseText'] as String,
-      savedAt: DateTime.parse(json['savedAt'] as String),
+      bookName: json['bookName']?.toString() ?? '',
+      chapterNumber: _parseInt(json['chapterNumber']),
+      chapterCount: _parseInt(json['chapterCount']),
+      verseNumber: _parseInt(json['verseNumber']),
+      verseText: json['verseText']?.toString() ?? '',
+      savedAt:
+          DateTime.tryParse(json['savedAt']?.toString() ?? '') ??
+          DateTime.now(),
     );
+  }
+
+  static int _parseInt(dynamic value) {
+    if (value is int) {
+      return value;
+    }
+
+    return int.tryParse(value?.toString() ?? '') ?? 0;
   }
 }
 
 class BookmarkService {
+  BookmarkService._();
+
   static const String _bookmarksKey = 'saved_bible_bookmarks';
 
-  static final SharedPreferencesAsync _preferences = SharedPreferencesAsync();
+  static Future<SharedPreferences> get _preferences async {
+    return SharedPreferences.getInstance();
+  }
 
   static Future<List<BibleBookmark>> getBookmarks() async {
-    final String? rawData = await _preferences.getString(_bookmarksKey);
-
-    if (rawData == null || rawData.trim().isEmpty) {
-      return [];
-    }
-
     try {
-      final decoded = jsonDecode(rawData);
+      final SharedPreferences preferences = await _preferences;
 
-      if (decoded is! List) {
+      final String? rawData = preferences.getString(_bookmarksKey);
+
+      if (rawData == null || rawData.trim().isEmpty) {
         return [];
       }
 
-      final bookmarks = decoded
-          .whereType<Map>()
-          .map(
-            (item) => BibleBookmark.fromJson(Map<String, dynamic>.from(item)),
-          )
-          .toList();
+      final dynamic decodedData = jsonDecode(rawData);
 
-      bookmarks.sort((a, b) => b.savedAt.compareTo(a.savedAt));
+      if (decodedData is! List) {
+        return [];
+      }
+
+      final List<BibleBookmark> bookmarks = [];
+
+      for (final dynamic item in decodedData) {
+        if (item is! Map) {
+          continue;
+        }
+
+        final BibleBookmark bookmark = BibleBookmark.fromJson(
+          Map<String, dynamic>.from(item),
+        );
+
+        if (bookmark.bookName.trim().isEmpty ||
+            bookmark.chapterNumber < 1 ||
+            bookmark.verseNumber < 1 ||
+            bookmark.verseText.trim().isEmpty) {
+          continue;
+        }
+
+        bookmarks.add(bookmark);
+      }
+
+      bookmarks.sort(
+        (BibleBookmark first, BibleBookmark second) =>
+            second.savedAt.compareTo(first.savedAt),
+      );
 
       return bookmarks;
-    } catch (_) {
-      return [];
+    } catch (error) {
+      throw Exception('Imeshindikana kupakia mistari iliyohifadhiwa: $error');
     }
   }
 
@@ -85,22 +119,27 @@ class BookmarkService {
     required int chapterNumber,
     required int verseNumber,
   }) async {
-    final bookmarks = await getBookmarks();
-    final id = '$bookName-$chapterNumber-$verseNumber';
+    final List<BibleBookmark> bookmarks = await getBookmarks();
 
-    return bookmarks.any((bookmark) => bookmark.id == id);
+    final String id =
+        '${bookName.trim().toLowerCase()}-$chapterNumber-$verseNumber';
+
+    return bookmarks.any((BibleBookmark bookmark) => bookmark.id == id);
   }
 
   static Future<void> addBookmark(BibleBookmark bookmark) async {
-    final bookmarks = await getBookmarks();
+    final List<BibleBookmark> bookmarks = await getBookmarks();
 
-    final exists = bookmarks.any((item) => item.id == bookmark.id);
+    final bool alreadyExists = bookmarks.any(
+      (BibleBookmark item) => item.id == bookmark.id,
+    );
 
-    if (exists) {
+    if (alreadyExists) {
       return;
     }
 
     bookmarks.insert(0, bookmark);
+
     await _saveBookmarks(bookmarks);
   }
 
@@ -109,41 +148,55 @@ class BookmarkService {
     required int chapterNumber,
     required int verseNumber,
   }) async {
-    final bookmarks = await getBookmarks();
-    final id = '$bookName-$chapterNumber-$verseNumber';
+    final List<BibleBookmark> bookmarks = await getBookmarks();
 
-    bookmarks.removeWhere((bookmark) => bookmark.id == id);
+    final String id =
+        '${bookName.trim().toLowerCase()}-$chapterNumber-$verseNumber';
+
+    bookmarks.removeWhere((BibleBookmark bookmark) => bookmark.id == id);
 
     await _saveBookmarks(bookmarks);
   }
 
-  static Future<void> toggleBookmark(BibleBookmark bookmark) async {
-    final bookmarked = await isBookmarked(
+  static Future<bool> toggleBookmark(BibleBookmark bookmark) async {
+    final bool currentlyBookmarked = await isBookmarked(
       bookName: bookmark.bookName,
       chapterNumber: bookmark.chapterNumber,
       verseNumber: bookmark.verseNumber,
     );
 
-    if (bookmarked) {
+    if (currentlyBookmarked) {
       await removeBookmark(
         bookName: bookmark.bookName,
         chapterNumber: bookmark.chapterNumber,
         verseNumber: bookmark.verseNumber,
       );
-    } else {
-      await addBookmark(bookmark);
+
+      return false;
     }
+
+    await addBookmark(bookmark);
+
+    return true;
   }
 
   static Future<void> clearBookmarks() async {
-    await _preferences.remove(_bookmarksKey);
+    final SharedPreferences preferences = await _preferences;
+
+    await preferences.remove(_bookmarksKey);
   }
 
   static Future<void> _saveBookmarks(List<BibleBookmark> bookmarks) async {
-    final encoded = jsonEncode(
-      bookmarks.map((bookmark) => bookmark.toJson()).toList(),
+    final SharedPreferences preferences = await _preferences;
+
+    final String encodedData = jsonEncode(
+      bookmarks.map((BibleBookmark bookmark) => bookmark.toJson()).toList(),
     );
 
-    await _preferences.setString(_bookmarksKey, encoded);
+    final bool saved = await preferences.setString(_bookmarksKey, encodedData);
+
+    if (!saved) {
+      throw Exception('SharedPreferences haikuhifadhi taarifa.');
+    }
   }
 }

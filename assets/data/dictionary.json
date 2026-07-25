@@ -1,37 +1,422 @@
-[
-  {
-    "word": "Hekima",
-    "normalizedWord": "hekima",
-    "shortDefinition": "Uwezo wa kuelewa na kufanya uamuzi ulio sahihi.",
-    "definition": "Uwezo wa kuelewa mambo kwa kina, kuyahukumu kwa usahihi na kuchagua hatua inayofaa.",
-    "originalWord": "חָכְמָה",
-    "transliteration": "chokmah",
-    "originalLanguage": "Kiebrania",
-    "exampleReference": "Mithali 1:7",
-    "exampleText": "Hofu ya BWANA ni mwanzo wa maarifa."
-  },
-  {
-    "word": "Maamuma",
-    "normalizedWord": "maamuma",
-    "shortDefinition": "Mtu asiye na uzoefu au uelewa wa kutosha.",
-    "definition": "Mtu asiye na uzoefu, tahadhari au uelewa wa kutosha na ambaye anaweza kudanganywa kwa urahisi."
-  },
-  {
-    "word": "Ufisadi",
-    "normalizedWord": "ufisadi",
-    "shortDefinition": "Jambo linalokusudiwa kuleta madhara.",
-    "definition": "Tendo, mpango au jambo linalokusudiwa kuleta madhara, uharibifu au matatizo."
-  },
-  {
-    "word": "Uovu",
-    "normalizedWord": "uovu",
-    "shortDefinition": "Hali au tendo lililo kinyume na mema.",
-    "definition": "Hali, tabia au tendo lililo kinyume na mema, haki na mapenzi ya Mungu."
-  },
-  {
-    "word": "Usahihi",
-    "normalizedWord": "usahihi",
-    "shortDefinition": "Hali ya kuwa sawa mbele za Mungu.",
-    "definition": "Hali ya kuishi na kutenda kwa namna iliyo sawa, ya haki na inayokubalika mbele za Mungu."
-  }
-]
+{
+  "words": [
+    {
+      "word": "Mithali",
+      "normalizedWord": "mithali",
+      "shortDefinition": "Kauli fupi yenye hekima inayofundisha ukweli wa maisha.",
+      "definition": "Kauli yenye kulinganisha, picha au fundisho inayotumiwa kueleza kanuni ya hekima, tabia, maisha au uhusiano wa mwanadamu na Mungu.",
+      "originalWord": "מָשָׁל",
+      "transliteration": "mashal",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:1",
+      "exampleText": "Mithali za Sulemani, mwana wa Daudi, mfalme wa Israeli."
+    },
+    {
+      "word": "Hekima",
+      "normalizedWord": "hekima",
+      "shortDefinition": "Uwezo wa kuelewa na kufanya uamuzi ulio sahihi.",
+      "definition": "Uwezo wa kuelewa mambo kwa kina, kuyahukumu kwa usahihi na kutumia maarifa kwa njia inayompendeza Mungu na kuleta matokeo yenye thamani.",
+      "originalWord": "חָכְמָה",
+      "transliteration": "chokmah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:2",
+      "exampleText": "Kujua hekima na maelekezo, kuyatambua maneno ya ufahamu."
+    },
+    {
+      "word": "Maelekezo",
+      "normalizedWord": "maelekezo",
+      "shortDefinition": "Mafundisho yanayomwongoza na kumrekebisha mtu.",
+      "definition": "Mafunzo, nidhamu, maonyo na urekebishaji unaokusudiwa kumjenga mtu katika tabia, hekima na mwenendo ulio sahihi.",
+      "originalWord": "מוּסָר",
+      "transliteration": "musar",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:2",
+      "exampleText": "Kujua hekima na maelekezo, kuyatambua maneno ya ufahamu."
+    },
+    {
+      "word": "Ufahamu",
+      "normalizedWord": "ufahamu",
+      "shortDefinition": "Uwezo wa kutambua maana na tofauti za mambo.",
+      "definition": "Uwezo wa kuchunguza jambo, kutambua tofauti zake, kuelewa maana yake na kufanya tathmini iliyo sahihi.",
+      "originalWord": "בִּינָה",
+      "transliteration": "binah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:2",
+      "exampleText": "Kujua hekima na maelekezo, kuyatambua maneno ya ufahamu."
+    },
+    {
+      "word": "Maarifa",
+      "normalizedWord": "maarifa",
+      "shortDefinition": "Ujuzi unaopatikana kwa kujifunza na kutambua ukweli.",
+      "definition": "Ufahamu wa kweli unaopatikana kupitia kujifunza, uzoefu na kumjua Mungu, kisha kutumiwa katika maisha ya kila siku.",
+      "originalWord": "דַּעַת",
+      "transliteration": "da'at",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:7",
+      "exampleText": "Kumhofu BWANA ni mwanzo wa maarifa, bali wajinga hudharau hekima na maelekezo."
+    },
+    {
+      "word": "Adili",
+      "normalizedWord": "adili",
+      "shortDefinition": "Mwenendo ulionyooka na unaolingana na haki.",
+      "definition": "Hali ya kuwa mnyofu, mwenye uaminifu na mwenye kutenda mambo yanayokubaliana na viwango vya haki na usahihi.",
+      "originalWord": "מֵישָׁרִים",
+      "transliteration": "mesharim",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:3",
+      "exampleText": "Kupokea maelekezo ya hekima, haki, kufanya maamuzi, na Adili."
+    },
+    {
+      "word": "Werevu",
+      "normalizedWord": "werevu",
+      "shortDefinition": "Uwezo wa kutambua mambo na kuchukua tahadhari.",
+      "definition": "Uwezo wa kuona hali mapema, kuelewa namna ya kushughulika nayo na kuepuka mitego bila kutumia ujanja wa uovu.",
+      "originalWord": "עָרְמָה",
+      "transliteration": "ormah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:4",
+      "exampleText": "Kuwapa maamuma werevu, na kijana maarifa na busara."
+    },
+    {
+      "word": "Busara",
+      "normalizedWord": "busara",
+      "shortDefinition": "Uwezo wa kufikiri kwa makini kabla ya kutenda.",
+      "definition": "Uwezo wa kupanga, kuchunguza nia na matokeo ya jambo, kisha kuchagua hatua inayofaa kwa uangalifu.",
+      "originalWord": "מְזִמָּה",
+      "transliteration": "mezimmah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:4",
+      "exampleText": "Kuwapa maamuma werevu, na kijana maarifa na busara."
+    },
+    {
+      "word": "Maamuma",
+      "normalizedWord": "maamuma",
+      "shortDefinition": "Mtu asiye na uzoefu na anayeshawishika kwa urahisi.",
+      "definition": "Mtu ambaye bado hajajengwa katika hekima, hana uthabiti wa kufanya maamuzi na yuko katika hatari ya kufuata ushawishi wa wengine bila kuchunguza.",
+      "originalWord": "פֶּתִי",
+      "transliteration": "peti",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:4",
+      "exampleText": "Kuwapa maamuma werevu, na kijana maarifa na busara."
+    },
+    {
+      "word": "Mjinga",
+      "normalizedWord": "mjinga",
+      "shortDefinition": "Mtu anayekataa hekima na maelekezo.",
+      "definition": "Katika Mithali, mjinga si mtu asiye na uwezo wa kujifunza pekee, bali ni mtu anayekataa hekima, maonyo na mwenendo ulio sahihi.",
+      "originalWord": "כְּסִיל",
+      "transliteration": "kesil",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 24:7",
+      "exampleText": "Hekima ni gharama sana kwa mjinga, hafumbui kinywa chake langoni."
+    },
+    {
+      "word": "Mdharau",
+      "normalizedWord": "mdharau",
+      "shortDefinition": "Mtu anayedharau maonyo, hekima na watu wengine.",
+      "definition": "Mtu mwenye kiburi anayebeza ukweli na maonyo, na ambaye mara nyingi huchochea mabishano na ugomvi.",
+      "originalWord": "לֵץ",
+      "transliteration": "lets",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 22:10",
+      "exampleText": "Mfukuze mdharau, na ugomvi utaondoka; naam, mabishano na fedheha vitakoma."
+    },
+    {
+      "word": "Kumhofu BWANA",
+    "normalizedWord": "kumhofu bwana",
+  "shortDefinition": "Kuogopa kutenda dhambi dhidi ya BWANA na kujiepusha na uovu.",
+  "definition": "Hofu ya BWANA ni hali ya kuogopa kumkosea Mungu kwa kutenda dhambi. Ni moyo unaokwepa, unakimbia na kuchukia dhambi kwa sababu ya kumheshimu BWANA. Hii ni tofauti na woga. Woga ni kumwogopa Mungu hata pale ambapo hakuna kosa lililotendwa (Mwanadamu hapaswi kumuogopa Mungu, Mwanadamu anapaswa Kumhofu Mungu. Mungu ni baba yetu na tunapaswa kumpenda, huwezi kumpenda Mungu unayemwogopa. Ila unaweza kumpenda Mungu unaye muhofu). Lakini hofu ya BWANA huzaliwa na utambuzi wa utakatifu wa Mungu na hamu ya kutomkosea. Hivyo, kumhofu BWANA ni kuogopa kutenda dhambi, kuikwepa na kuikimbia.",
+  "originalWord": "יִרְאַת יְהוָה",
+  "transliteration": "yir'at Yahweh",
+  "originalLanguage": "Kiebrania",
+  "exampleReference": "Mithali 1:7",
+  "exampleText": "Kumhofu BWANA ni mwanzo wa maarifa, bali wajinga hudharau hekima na maelekezo."
+    },
+    {
+      "word": "Usahihi",
+      "normalizedWord": "usahihi",
+      "shortDefinition": "Hali ya kuwa na mwenendo ulio sawa mbele za Mungu.",
+      "definition": "Mwenendo unaolingana na viwango vya Mungu vya haki, uaminifu na unyoofu katika matendo na mahusiano.",
+      "originalWord": "צְדָקָה",
+      "transliteration": "tsedaqah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 21:21",
+      "exampleText": "Yeye afuataye usahihi na rehema hupata uzima, usahihi, na heshima."
+    },
+    {
+      "word": "Haki",
+      "normalizedWord": "haki",
+      "shortDefinition": "Uamuzi au tendo linalolingana na ukweli.",
+      "definition": "Kanuni ya kuhukumu, kutenda na kuwatendea wengine kwa usawa kulingana na ukweli na viwango vya Mungu.",
+      "originalWord": "מִשְׁפָּט",
+      "transliteration": "mishpat",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 31:9",
+      "exampleText": "Fungua kinywa chako, hukumu kwa usahihi, na utetee haki ya maskini na wahitaji."
+    },
+    {
+      "word": "Rehema",
+      "normalizedWord": "rehema",
+      "shortDefinition": "Upendo mwaminifu unaooneshwa kwa wema na huruma.",
+      "definition": "Upendo wa kudumu, uaminifu na wema unaomfanya mtu kumsaidia, kumsamehe au kumtendea mwingine kwa huruma.",
+      "originalWord": "חֶסֶד",
+      "transliteration": "chesed",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 16:6",
+      "exampleText": "Kwa rehema na kweli, uovu husafishwa, na kwa hofu ya BWANA watu hujiepusha na uovu."
+    },
+    {
+      "word": "Kweli",
+      "normalizedWord": "kweli",
+      "shortDefinition": "Jambo la hakika lisilo na udanganyifu.",
+      "definition": "Uaminifu, uthabiti na ukweli unaoweza kutegemewa katika maneno, matendo na mahusiano.",
+      "originalWord": "אֱמֶת",
+      "transliteration": "emet",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 16:6",
+      "exampleText": "Kwa rehema na kweli, uovu husafishwa, na kwa hofu ya BWANA watu hujiepusha na uovu."
+    },
+    {
+      "word": "Uovu",
+      "normalizedWord": "uovu",
+      "shortDefinition": "Jambo baya linalopingana na mapenzi ya Mungu.",
+      "definition": "Tabia, nia au tendo lenye madhara na linalopingana na wema, haki na maagizo ya Mungu.",
+      "originalWord": "רַע",
+      "transliteration": "ra",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 16:6",
+      "exampleText": "Kwa rehema na kweli, uovu husafishwa, na kwa hofu ya BWANA watu hujiepusha na uovu."
+    },
+    {
+      "word": "Ubaya",
+      "normalizedWord": "ubaya",
+      "shortDefinition": "Hali ya kuwa kinyume na usahihi na haki.",
+      "definition": "Mwenendo wa uasi, kutenda yasiyo sahihi na kuendelea katika tabia inayopingana na sheria na tabia ya Mungu.",
+      "originalWord": "רֶשַׁע",
+      "transliteration": "resha",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 24:8",
+      "exampleText": "Yeye anayepanga kufanya ubaya ataitwa mtu wa ufisadi."
+    },
+    {
+      "word": "Ufisadi",
+      "normalizedWord": "ufisadi",
+      "shortDefinition": "Mipango au matendo yanayokusudia kuleta madhara.",
+      "definition": "Uovu unaopangwa na kutekelezwa kwa nia ya kudhuru, kudanganya, kuharibu au kuvunja yaliyo sahihi.",
+      "originalWord": "אָוֶן",
+      "transliteration": "aven",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 24:2",
+      "exampleText": "Maana mioyo yao hutafakari uharibifu, na midomo yao hunena ufisadi."
+    },
+    {
+      "word": "Nafsi",
+      "normalizedWord": "nafsi",
+      "shortDefinition": "Uhai na utu wa ndani wa mwanadamu.",
+      "definition": "Uhai wa mtu, utu wake wa ndani, hisia, tamaa na wakati mwingine mtu mwenyewe kama kiumbe hai.",
+      "originalWord": "נֶפֶשׁ",
+      "transliteration": "nephesh",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 21:23",
+      "exampleText": "Yeyote ahifadhaye kinywa chake na ulimi wake huihifadhi nafsi yake na taabu."
+    },
+    {
+      "word": "Kibali",
+      "normalizedWord": "kibali",
+      "shortDefinition": "Kukubaliwa na kutendewa kwa upendeleo mwema.",
+      "definition": "Hali ya kukubaliwa, kupendezewa au kupokea wema kutoka kwa Mungu au kwa watu.",
+      "originalWord": "רָצוֹן",
+      "transliteration": "ratzon",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 8:35",
+      "exampleText": "Maana anipataye mimi, hupata uzima, naye Atapata kibali kwa BWANA."
+    },
+    {
+      "word": "Shauri",
+      "normalizedWord": "shauri",
+      "shortDefinition": "Ushauri au mpango unaotolewa kwa hekima.",
+      "definition": "Mwongozo, mpango au pendekezo linalotokana na uchunguzi na hekima kwa kusudi la kufanya uamuzi unaofaa.",
+      "originalWord": "עֵצָה",
+      "transliteration": "etzah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 8:14",
+      "exampleText": "Shauri ni langu, na hekima timamu, mimi ni uelewa, nina nguvu."
+    },
+    {
+      "word": "Unyenyekevu",
+      "normalizedWord": "unyenyekevu",
+      "shortDefinition": "Hali ya kutokuwa na majivuno na kukubali kufundishwa.",
+      "definition": "Mtazamo wa kujitambua kwa usahihi, kutokujiona bora kuliko wengine na kuwa tayari kumtii Mungu na kupokea maelekezo.",
+      "originalWord": "עֲנָוָה",
+      "transliteration": "anavah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 15:33",
+      "exampleText": "Kumhofu BWANA ni maelekezo ya hekima, na kabla ya heshima huja unyenyekevu."
+    },
+    {
+      "word": "Kiburi",
+      "normalizedWord": "kiburi",
+      "shortDefinition": "Kujiona mkubwa au bora kupita kiasi.",
+      "definition": "Mtazamo wa kujiinua, kujitegemea bila kumtambua Mungu na kuwadharau wengine.",
+      "originalWord": "גָּאוֹן",
+      "transliteration": "ga'on",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 16:5",
+      "exampleText": "Kila mwenye kiburi moyoni ni chukizo kwa BWANA, hata mikono ikiungana, hataachwa bila adhabu."
+    },
+    {
+      "word": "Chukizo",
+      "normalizedWord": "chukizo",
+      "shortDefinition": "Jambo linalokataliwa kabisa kuwa baya au najisi.",
+      "definition": "Tabia au tendo ambalo ni la kuchukiza na lisilokubalika kabisa mbele za Mungu.",
+      "originalWord": "תּוֹעֵבָה",
+      "transliteration": "to'evah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 16:5",
+      "exampleText": "Kila mwenye kiburi moyoni ni chukizo kwa BWANA, hata mikono ikiungana, hataachwa bila adhabu."
+    },
+    {
+      "word": "Ubatili",
+      "normalizedWord": "ubatili",
+      "shortDefinition": "Jambo lisilo na ukweli, msingi au faida ya kudumu.",
+      "definition": "Maneno, mawazo au shughuli zilizo tupu, za udanganyifu au zisizo na thamani ya kweli.",
+      "originalWord": "שָׁוְא",
+      "transliteration": "shav",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 30:8",
+      "exampleText": "Uondoe mbali nami ubatili na uongo; usinipe umaskini wala utajiri; unilishe chakula kinachonitosha."
+    },
+    {
+      "word": "Ngao",
+      "normalizedWord": "ngao",
+      "shortDefinition": "Kifaa cha ulinzi; mfano wa ulinzi wa Mungu.",
+      "definition": "Kifaa kinachokinga mashambulizi, kinachotumiwa katika Mithali kuonesha namna Mungu anavyowalinda wale wanaomtumaini.",
+      "originalWord": "מָגֵן",
+      "transliteration": "magen",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 30:5",
+      "exampleText": "Kila neno la Mungu ni safi; yeye ni ngao kwa wale wanaomtumaini."
+    },
+    {
+      "word": "Mti wa Uzima",
+      "normalizedWord": "mti wa uzima",
+      "shortDefinition": "Mfano wa kitu kinachotoa uhai, baraka na ustawi.",
+      "definition": "Taswira ya uhai unaodumu, afya, baraka na ustawi unaopatikana kwa kushikamana na hekima.",
+      "originalWord": "עֵץ חַיִּים",
+      "transliteration": "etz chayyim",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 3:18",
+      "exampleText": "Yeye ni mti wa uzima kwa hao wamshikao, na ana kheri kila amuhifadhiye."
+    },
+    {
+      "word": "Kuzimu",
+      "normalizedWord": "kuzimu",
+      "shortDefinition": "Makao ya wafu katika fikra za Kiebrania.",
+      "definition": "Neno linalotaja ulimwengu au makao ya wafu, na katika Mithali hutumiwa kuonesha mwisho wa njia inayoelekea kwenye mauti.",
+      "originalWord": "שְׁאוֹל",
+      "transliteration": "Sheol",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 23:14",
+      "exampleText": "Utampiga kwa fimbo, na utaikomboa nafsi yake kutoka kuzimu."
+    },
+    {
+      "word": "Kura",
+      "normalizedWord": "kura",
+      "shortDefinition": "Kitu kilichotumiwa kufanya uchaguzi au uamuzi.",
+      "definition": "Njia ya kale ya kufanya uchaguzi, kugawa sehemu au kutafuta uamuzi kwa kutupa kitu kilichowakilisha chaguo.",
+      "originalWord": "גּוֹרָל",
+      "transliteration": "goral",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:14",
+      "exampleText": "Tupa kura yako pamoja nasi, tuwe na mkoba mmoja wa fedha."
+    },
+    {
+      "word": "Mkombozi",
+      "normalizedWord": "mkombozi",
+      "shortDefinition": "Jamaa mwenye wajibu wa kutetea na kurejesha haki.",
+      "definition": "Katika utamaduni wa Kiebrania, ni jamaa wa karibu aliyekuwa na wajibu wa kutetea familia, kurejesha mali na kusaidia aliyedhulumiwa.",
+      "originalWord": "גֹּאֵל",
+      "transliteration": "go'el",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 23:11",
+      "exampleText": "Maana mkombozi wao ni mwenye nguvu; ataitetea shauri lao dhidi yako."
+    },
+    {
+      "word": "Akiki",
+      "normalizedWord": "akiki",
+      "shortDefinition": "Jiwe au kitu cha thamani kubwa.",
+      "definition": "Kitu cha thamani kinachotumiwa kulinganisha uzuri na thamani ya hekima au ya mwanamke mwenye tabia njema.",
+      "originalWord": "פְּנִינִים",
+      "transliteration": "peninim",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 31:10",
+      "exampleText": "Ni nani awezaye kupata mwanamke mwenye tabia njema? Maana thamani yake ni kubwa kuliko akiki."
+    },
+    {
+      "word": "Mafumbo",
+      "normalizedWord": "mafumbo",
+      "shortDefinition": "Maneno yenye maana iliyofichika yanayohitaji kutafakariwa.",
+      "definition": "Kauli au maswali yaliyoficha maana yake ya moja kwa moja na yanayohitaji hekima na uelewa ili kutafsiriwa.",
+      "originalWord": "חִידָה",
+      "transliteration": "chidah",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:6",
+      "exampleText": "Kutambua mithali na kitendawili, na maneno ya wenye hekima na mafumbo yao."
+    },
+    {
+      "word": "Maonyo",
+      "normalizedWord": "maonyo",
+      "shortDefinition": "Maneno ya kukemea na kumrudisha mtu katika njia sahihi.",
+      "definition": "Urekebishaji unaofunua kosa, kumwonya mtu kuhusu matokeo yake na kumwita abadili mwenendo.",
+      "originalWord": "תּוֹכַחַת",
+      "transliteration": "tokhachat",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:23",
+      "exampleText": "Geukieni maonyo yangu, tazama, nitaimimina roho yangu kwenu, nitawajulisha maneno yangu."
+    },
+    {
+      "word": "Neema",
+      "normalizedWord": "neema",
+      "shortDefinition": "Upendeleo na uzuri unaomfanya mtu akubalike.",
+      "definition": "Wema, upendeleo au hali ya kupendeza inayomfanya mtu akubalike mbele za Mungu na mbele za watu.",
+      "originalWord": "חֵן",
+      "transliteration": "chen",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 1:9",
+      "exampleText": "Kwa maana hayo yatakuwa taji ya neema kichwani pako, na mikufu shingoni mwako."
+    },
+    {
+      "word": "Heshima",
+      "normalizedWord": "heshima",
+      "shortDefinition": "Hadhi na kutambuliwa kwa thamani ya mtu.",
+      "definition": "Uzito, hadhi na kutambuliwa kunakotokana na tabia njema, unyenyekevu na kumhofu Mungu.",
+      "originalWord": "כָּבוֹד",
+      "transliteration": "kavod",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 22:4",
+      "exampleText": "Kwa unyenyekevu na hofu ya BWANA huja utajiri, heshima, na uzima."
+    },
+    {
+      "word": "Amani",
+      "normalizedWord": "amani",
+      "shortDefinition": "Hali ya utulivu, usalama na ukamilifu.",
+      "definition": "Hali ya kuwa salama, kamili na katika mahusiano mazuri; si kutokuwepo kwa ugomvi pekee bali ustawi wa maisha.",
+      "originalWord": "שָׁלוֹם",
+      "transliteration": "shalom",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 3:17",
+      "exampleText": "Njia zake ni za kupendeza, na mapito yake yote ni amani."
+    },
+    {
+      "word": "Uzima",
+      "normalizedWord": "uzima",
+      "shortDefinition": "Uhai wenye ustawi na baraka.",
+      "definition": "Uhai wa kimwili pamoja na hali ya kustawi, kuwa salama na kuishi katika baraka na mapenzi ya Mungu.",
+      "originalWord": "חַיִּים",
+      "transliteration": "chayyim",
+      "originalLanguage": "Kiebrania",
+      "exampleReference": "Mithali 8:35",
+      "exampleText": "Maana anipataye mimi, hupata uzima, naye Atapata kibali kwa BWANA."
+    }
+  ]
+}

@@ -8,13 +8,9 @@ class DictionaryDetailScreen extends StatelessWidget {
   final DictionaryEntry entry;
 
   static const Color backgroundColor = Color(0xFFFAF9F6);
-
   static const Color primaryBrown = Color(0xFF4E342E);
-
   static const Color secondaryBrown = Color(0xFF795548);
-
   static const Color gold = Color(0xFFD4A017);
-
   static const Color lightGold = Color(0xFFFFF5D9);
 
   @override
@@ -52,6 +48,11 @@ class DictionaryDetailScreen extends StatelessWidget {
 
               _buildDefinitionCard(),
 
+              if (_hasExampleInformation) ...[
+                const SizedBox(height: 18),
+                _buildExampleCard(),
+              ],
+
               if (_hasOriginalLanguageInformation) ...[
                 const SizedBox(height: 18),
                 _buildOriginalLanguageCard(),
@@ -61,6 +62,14 @@ class DictionaryDetailScreen extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  bool get _hasExampleInformation {
+    final String? reference = entry.exampleReference;
+    final String? text = entry.exampleText;
+
+    return (reference != null && reference.trim().isNotEmpty) ||
+        (text != null && text.trim().isNotEmpty);
   }
 
   bool get _hasOriginalLanguageInformation {
@@ -112,7 +121,8 @@ class DictionaryDetailScreen extends StatelessWidget {
             ),
           ),
 
-          if (entry.transliteration != null) ...[
+          if (entry.transliteration != null &&
+              entry.transliteration!.trim().isNotEmpty) ...[
             const SizedBox(height: 7),
             Text(
               entry.transliteration!,
@@ -144,6 +154,47 @@ class DictionaryDetailScreen extends StatelessWidget {
     );
   }
 
+  Widget _buildExampleCard() {
+    final String? reference = entry.exampleReference;
+    final String? text = entry.exampleText;
+
+    return _buildInformationCard(
+      icon: Icons.format_quote_rounded,
+      title: 'Mfano katika Biblia',
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (reference != null && reference.trim().isNotEmpty)
+            Text(
+              reference,
+              style: const TextStyle(
+                color: gold,
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+
+          if (reference != null &&
+              reference.trim().isNotEmpty &&
+              text != null &&
+              text.trim().isNotEmpty)
+            const SizedBox(height: 10),
+
+          if (text != null && text.trim().isNotEmpty)
+            Text(
+              text,
+              style: const TextStyle(
+                color: secondaryBrown,
+                fontSize: 16,
+                height: 1.65,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildOriginalLanguageCard() {
     return _buildInformationCard(
       icon: Icons.translate_rounded,
@@ -151,13 +202,16 @@ class DictionaryDetailScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          if (entry.originalLanguage != null)
+          if (entry.originalLanguage != null &&
+              entry.originalLanguage!.trim().isNotEmpty)
             _buildDetailRow(label: 'Lugha', value: entry.originalLanguage!),
 
-          if (entry.originalWord != null)
+          if (entry.originalWord != null &&
+              entry.originalWord!.trim().isNotEmpty)
             _buildDetailRow(label: 'Neno la asili', value: entry.originalWord!),
 
-          if (entry.transliteration != null)
+          if (entry.transliteration != null &&
+              entry.transliteration!.trim().isNotEmpty)
             _buildDetailRow(label: 'Matamshi', value: entry.transliteration!),
         ],
       ),

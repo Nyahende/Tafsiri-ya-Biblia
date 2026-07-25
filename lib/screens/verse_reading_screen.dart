@@ -19,10 +19,14 @@ class VerseReadingScreen extends StatefulWidget {
   final String bookName;
   final int chapterNumber;
   final int chapterCount;
+
+  /// Verse to select and scroll to when this screen opens.
   final int? initialVerseNumber;
 
   @override
-  State<VerseReadingScreen> createState() => _VerseReadingScreenState();
+  State<VerseReadingScreen> createState() {
+    return _VerseReadingScreenState();
+  }
 }
 
 class _VerseReadingScreenState extends State<VerseReadingScreen> {
@@ -41,6 +45,8 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
   bool _isBookmarked = false;
   bool _isPlayingAudio = false;
 
+  final Set<int> _bookmarkedVerseNumbers = <int>{};
+
   String? _errorMessage;
 
   double _fontSize = 18;
@@ -48,6 +54,8 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
   @override
   void initState() {
     super.initState();
+
+    _selectedVerseNumber = widget.initialVerseNumber;
 
     _initializeChapter();
   }
@@ -65,19 +73,7 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
       return;
     }
 
-    if (widget.initialVerseNumber != null) {
-      final exists = _verses.any(
-        (verse) => verse.number == widget.initialVerseNumber,
-      );
-
-      if (exists) {
-        setState(() {
-          _selectedVerseNumber = widget.initialVerseNumber;
-        });
-
-        await _refreshSelectedBookmarkState();
-      }
-    }
+    await _loadBookmarkStatus();
   }
 
   Future<void> _saveReadingProgress() async {
@@ -89,9 +85,9 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
       );
     } catch (_) {
       /*
-     * Failure to save progress should not prevent
-     * the user from reading the Bible.
-     */
+      * Failure to save progress should not prevent
+      * the user from reading the Bible.
+      */
     }
   }
 
@@ -125,7 +121,7 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     setState(() {
       _isLoading = true;
       _errorMessage = null;
-      _selectedVerseNumber = null;
+      _selectedVerseNumber = widget.initialVerseNumber;
       _isBookmarked = false;
     });
 
@@ -142,6 +138,9 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
       setState(() {
         _verses = verses;
         _isLoading = false;
+        _isBookmarked =
+            _selectedVerseNumber != null &&
+            _bookmarkedVerseNumbers.contains(_selectedVerseNumber);
       });
     } on BibleDataException catch (error) {
       if (!mounted) {
@@ -166,48 +165,51 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     }
   }
 
-  Future<void> _refreshSelectedBookmarkState() async {
-    final verse = _selectedVerse;
-
-    if (verse == null) {
-      if (mounted) {
-        setState(() {
-          _isBookmarked = false;
-        });
-      }
-      return;
-    }
-
-    final bookmarked = await BookmarkService.isBookmarked(
-      bookName: widget.bookName,
-      chapterNumber: widget.chapterNumber,
-      verseNumber: verse.number,
-    );
-
-    if (!mounted) {
-      return;
-    }
-
+  void _selectVerse(BibleVerse verse) {
     setState(() {
-      _isBookmarked = bookmarked;
+      if (_selectedVerseNumber == verse.number) {
+        _selectedVerseNumber = null;
+        _isBookmarked = false;
+      } else {
+        _selectedVerseNumber = verse.number;
+        _isBookmarked = _bookmarkedVerseNumbers.contains(verse.number);
+      }
     });
   }
 
-  Future<void> _selectVerse(BibleVerse verse) async {
-    if (_selectedVerseNumber == verse.number) {
+  Future<void> _loadBookmarkStatus() async {
+    try {
+      final List<BibleBookmark> bookmarks =
+          await BookmarkService.getBookmarks();
+
+      if (!mounted) {
+        return;
+      }
+
+      final Set<int> savedVerseNumbers = bookmarks
+          .where(
+            (BibleBookmark bookmark) =>
+                bookmark.bookName.trim().toLowerCase() ==
+                    widget.bookName.trim().toLowerCase() &&
+                bookmark.chapterNumber == widget.chapterNumber,
+          )
+          .map((BibleBookmark bookmark) => bookmark.verseNumber)
+          .toSet();
+
       setState(() {
-        _selectedVerseNumber = null;
-        _isBookmarked = false;
+        _bookmarkedVerseNumbers
+          ..clear()
+          ..addAll(savedVerseNumbers);
+
+        _isBookmarked =
+            _selectedVerseNumber != null &&
+            _bookmarkedVerseNumbers.contains(_selectedVerseNumber);
       });
-      return;
+    } catch (error) {
+      debugPrint(
+        'Imeshindikana kupakia hali ya mistari iliyohifadhiwa: $error',
+      );
     }
-
-    setState(() {
-      _selectedVerseNumber = verse.number;
-      _isBookmarked = false;
-    });
-
-    await _refreshSelectedBookmarkState();
   }
 
   Future<void> _copySelectedVerse() async {
@@ -236,83 +238,100 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     );
   }
 
-  Future<void> _toggleBookmark() async {
-    final verse = _selectedVerse;
-
-    if (verse == null) {
-      return;
-    }
-
-    final bookmark = BibleBookmark(
-      bookName: widget.bookName,
-      chapterNumber: widget.chapterNumber,
-      chapterCount: widget.chapterCount,
-      verseNumber: verse.number,
-      verseText: verse.text,
-      savedAt: DateTime.now(),
-    );
-
+  Future<void> _toggleBookmark(BibleVerse verse) async {
     try {
-      if (_isBookmarked) {
-        await BookmarkService.removeBookmark(
+      final bool isNowSaved = await BookmarkService.toggleBookmark(
+        BibleBookmark(
           bookName: widget.bookName,
           chapterNumber: widget.chapterNumber,
+          chapterCount: widget.chapterCount,
           verseNumber: verse.number,
-        );
-      } else {
-        await BookmarkService.addBookmark(bookmark);
-      }
+          verseText: verse.text,
+          savedAt: DateTime.now(),
+        ),
+      );
 
       if (!mounted) {
         return;
       }
 
       setState(() {
-        _isBookmarked = !_isBookmarked;
+        if (isNowSaved) {
+          _bookmarkedVerseNumbers.add(verse.number);
+        } else {
+          _bookmarkedVerseNumbers.remove(verse.number);
+        }
+
+        if (_selectedVerseNumber == verse.number) {
+          _isBookmarked = isNowSaved;
+        }
       });
 
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(
-            _isBookmarked
-                ? 'Mstari umehifadhiwa.'
-                : 'Mstari umeondolewa kwenye zilizohifadhiwa.',
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(
+          SnackBar(
+            content: Text(
+              isNowSaved
+                  ? 'Mstari umehifadhiwa.'
+                  : 'Mstari umeondolewa kwenye zilizohifadhiwa.',
+            ),
+            behavior: SnackBarBehavior.floating,
           ),
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
-    } catch (_) {
+        );
+    } catch (error) {
       if (!mounted) {
         return;
       }
 
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Imeshindikana kubadilisha hali ya mstari.'),
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(
+          SnackBar(
+            content: Text('Imeshindikana kuhifadhi mstari: $error'),
+            behavior: SnackBarBehavior.floating,
+          ),
+        );
     }
   }
 
   Future<void> _shareSelectedVerse() async {
-    final verse = _selectedVerse;
+    final BibleVerse? verse = _selectedVerse;
 
     if (verse == null) {
       return;
     }
 
-    final text =
-        '''
-"${verse.text}"
+    final String reference =
+        '${widget.bookName} ${widget.chapterNumber}:${verse.number}';
 
-— ${widget.bookName} ${widget.chapterNumber}:${verse.number}
+    final String shareText =
+        '${verse.text}\n\n'
+        '$reference\n\n'
+        'Tafsiri ya Biblia';
 
-Tafsiri ya Biblia
-Soma → Tafakari → Ishi
-''';
+    try {
+      await SharePlus.instance.share(
+        ShareParams(
+          text: shareText,
+          subject: reference,
+          title: 'Shiriki $reference',
+        ),
+      );
+    } catch (error) {
+      if (!mounted) {
+        return;
+      }
 
-    await SharePlus.instance.share(ShareParams(text: text));
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(
+          SnackBar(
+            content: Text('Imeshindikana kushiriki mstari: $error'),
+            behavior: SnackBarBehavior.floating,
+          ),
+        );
+    }
   }
 
   void _openTranslationNotes() {
@@ -523,7 +542,7 @@ Soma → Tafakari → Ishi
           PopupMenuButton<String>(
             icon: const Icon(Icons.more_vert_rounded, color: primaryBrown),
             color: backgroundColor,
-            onSelected: (value) {
+            onSelected: (value) async {
               if (value == 'search') {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
@@ -534,26 +553,21 @@ Soma → Tafakari → Ishi
               }
 
               if (value == 'bookmarks') {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const SavedVersesScreen()),
-                ).then((_) {
-                  _refreshSelectedBookmarkState();
-                });
+                await Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (_) => const SavedVersesScreen(),
+                  ),
+                );
+
+                if (!mounted) {
+                  return;
+                }
+
+                await _loadBookmarkStatus();
               }
             },
             itemBuilder: (context) {
               return const [
-                PopupMenuItem(
-                  value: 'search',
-                  child: Row(
-                    children: [
-                      Icon(Icons.search_rounded, color: primaryBrown),
-                      SizedBox(width: 12),
-                      Text('Tafuta'),
-                    ],
-                  ),
-                ),
                 PopupMenuItem(
                   value: 'bookmarks',
                   child: Row(
@@ -835,8 +849,8 @@ Soma → Tafakari → Ishi
                   icon: _isBookmarked
                       ? Icons.bookmark_rounded
                       : Icons.bookmark_border_rounded,
-                  label: 'Hifadhi',
-                  onTap: _toggleBookmark,
+                  label: _isBookmarked ? 'Imehifadhiwa' : 'Hifadhi',
+                  onTap: () => _toggleBookmark(verse),
                 ),
                 _buildActionButton(
                   icon: Icons.share_rounded,

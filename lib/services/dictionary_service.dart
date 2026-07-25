@@ -27,17 +27,28 @@ class DictionaryService {
 
       final dynamic decodedData = jsonDecode(jsonString);
 
-      if (decodedData is! List) {
-        throw const FormatException('Dictionary JSON must contain a list.');
+      late final List<dynamic> rawEntries;
+
+      if (decodedData is List) {
+        rawEntries = decodedData;
+      } else if (decodedData is Map<String, dynamic> &&
+          decodedData['words'] is List) {
+        rawEntries = decodedData['words'] as List<dynamic>;
+      } else {
+        throw const FormatException(
+          'Dictionary JSON must be a list or contain a "words" list.',
+        );
       }
 
-      final List<DictionaryEntry> entries = decodedData
-          .map(
-            (dynamic item) => DictionaryEntry.fromJson(
-              Map<String, dynamic>.from(item as Map),
-            ),
-          )
-          .toList();
+      final List<DictionaryEntry> entries = rawEntries.map((dynamic item) {
+        if (item is! Map) {
+          throw const FormatException(
+            'Every dictionary entry must be a JSON object.',
+          );
+        }
+
+        return DictionaryEntry.fromJson(Map<String, dynamic>.from(item));
+      }).toList();
 
       entries.sort((DictionaryEntry first, DictionaryEntry second) {
         return first.word.toLowerCase().compareTo(second.word.toLowerCase());

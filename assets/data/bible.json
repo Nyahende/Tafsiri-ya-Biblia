@@ -1,62 +1,3736 @@
 {
+  "version": "1.0",
+  "language": "sw",
+  "name": "Biblia ya Kiswahili",
   "books": [
     {
+      "id": "mithali",
       "name": "Mithali",
+      "englishName": "Proverbs",
+      "testament": "Agano la Kale",
+      "bookNumber": 20,
+      "chapterCount": 31,
       "chapters": {
         "1": [
           {
             "number": 1,
-            "text": "Mithali za Sulemani mwana wa Daudi, mfalme wa Israeli;"
+            "text": "Mithali za Sulemani, mwana wa Daudi, mfalme wa Israeli."
           },
           {
             "number": 2,
-            "text": "Kwa kujua hekima na maelekezo; kwa kuyatambua maneno ya uelewa;"
+            "text": "Kujua hekima na maelekezo, kuyatambua maneno ya ufahamu."
           },
           {
             "number": 3,
-            "text": "Kwa kupokea maelekezo ya kutenda kwa hekima, katika usahihi, hukumu na uadilifu;"
+            "text": "Kupokea maelekezo ya hekima, haki, kufanya maamuzi, na Adili."
           },
           {
             "number": 4,
-            "text": "Kwa kumpa maamuma busara, na kijana maarifa pamoja na uwezo wa kufikiri;"
+            "text": "Kuwapa maamuma werevu, na kijana maarifa na busara."
           },
           {
             "number": 5,
-            "text": "Mwenye hekima atasikia na kuongeza kujifunza; na mtu mwenye uelewa atapata mashauri yenye busara;"
+            "text": "Mwenye hekima atasikia na atazidi kujifunza, na mwenye ufahamu atafikia mashauri yenye hekima."
           },
           {
             "number": 6,
-            "text": "Kwa kuelewa mithali na maana yake, maneno ya wenye hekima na mafumbo yao;"
+            "text": "Kutambua mithali na kitendawili, na maneno ya wenye hekima na mafumbo yao."
           },
           {
             "number": 7,
-            "text": "Hofu ya BWANA ni mwanzo wa maarifa; lakini wajinga hudharau hekima na maelekezo."
+            "text": "Kumhofu BWANA ni mwanzo wa maarifa, bali wajinga hudharau hekima na maelekezo."
           },
           {
             "number": 8,
-            "text": "Mwanangu, yasikilize maelekezo ya baba yako, wala usiyaache mafundisho ya mama yako;"
+            "text": "Mwanangu, yasikilize maelekezo ya baba yako, na usiiache sheria ya mama yako."
           },
           {
             "number": 9,
-            "text": "Kwa maana yatakuwa taji ya neema kichwani mwako, na mikufu shingoni mwako."
+            "text": "Kwa maana hayo yatakuwa taji ya neema kichwani pako, na mikufu shingoni mwako."
           },
           {
             "number": 10,
-            "text": "Mwanangu, watu wabaya wakikushawishi, usikubali."
+            "text": "Mwanangu, endapo wenye dhambi wakikushawishi, wewe usikubali."
+          },
+          {
+            "number": 11,
+            "text": "Wakisema, njoo nasi, tusubirie damu, tumvizie kwa siri asiyekuwa na hatia bila sababu."
+          },
+          {
+            "number": 12,
+            "text": "Tuwameze wazima kama kaburi, wazima kama hao washukao katika shimo."
+          },
+          {
+            "number": 13,
+            "text": "Tutapata mali za aina zote, tutazijaza nyumba zetu nyara."
+          },
+          {
+            "number": 14,
+            "text": "Tupa kura yako pamoja nasi, tuwe na mkoba mmoja wa fedha."
+          },
+          {
+            "number": 15,
+            "text": "Mwanangu, usiende njiani pamoja nao, epusha mguu wako katika njia yao."
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana miguu yao hukimbilia uovuni, na huharakisha kumwaga damu."
+          },
+          {
+            "number": 17,
+            "text": "Hakika, nyavu hutandazwa bure, mbele ya ndege yeyote."
+          },
+          {
+            "number": 18,
+            "text": "Lakini hao hukaa kusubiri damu yao wenyewe, wakiyavizia kwa siri maisha yao wenyewe."
+          },
+          {
+            "number": 19,
+            "text": "Ndivyo zilivyo njia za kila mwenye tamaa ya mali, hiyo huchukuwa maisha ya anaezimiliki."
+          },
+          {
+            "number": 20,
+            "text": "Hekima hupaza sauti yake nje, huinua sauti yake katika mitaa."
+          },
+          {
+            "number": 21,
+            "text": "Hulia katika sehemu kuu za mikutaniko, katika maingilio ya malango, katika mji huinua sauti yake akisema;"
+          },
+          {
+            "number": 22,
+            "text": "Enyi maamuma, hata lini mtapenda umaamuma? wenye dharau hufuraia dharau zao, na wajinga huchukia maarifa."
+          },
+          {
+            "number": 23,
+            "text": "Geukieni maonyo yangu, tazama, nitaimimina roho yangu kwenu, nitawajulisha maneno yangu."
+          },
+          {
+            "number": 24,
+            "text": "Kwasababu nimeita nanyi mkakataa, nimeunyosha mkono wangu hakuna aliyezingatia."
+          },
+          {
+            "number": 25,
+            "text": "Lakini mmeona kuwa shauri Langu ni sifuri, na hamkutaka maonyo yangu."
+          },
+          {
+            "number": 26,
+            "text": "Nami nitacheka maafa yenu, nitatania hofu yenu ijapo."
+          },
+          {
+            "number": 27,
+            "text": "Hofu yenu ijapo kama ukiwa, na uharibifu wenu ujapo kama upepo wa kimbunga, pale dhiki na uchungu vijapo juu yenu."
+          },
+          {
+            "number": 28,
+            "text": "Ndipo watakaponiita, lakini sitajibu, watanitafuta mapema, lakini hawatanipata."
+          },
+          {
+            "number": 29,
+            "text": "Kwamaana walichukia maarifa, na hawakuchagua Kumhofu BWANA."
+          },
+          {
+            "number": 30,
+            "text": "Hawakutaka ushauri wangu, walidharau maonyo yangu yote."
+          },
+          {
+            "number": 31,
+            "text": "Hivyo watakula tunda la njia yao, na kujazwa na hila zao."
+          },
+          {
+            "number": 32,
+            "text": "Kwamaana kugeuka kwa wajinga kutawachinja, na mafanikio ya wajinga yatawaharibu wao."
+          },
+          {
+            "number": 33,
+            "text": "Lakini mwenye kunisikiliza atakaa salama, atakuwa salama bila kuhofu uovu."
           }
         ],
         "2": [
           {
             "number": 1,
-            "text": "Mwanangu, ukiyakubali maneno yangu, na kuzihifadhi amri zangu ndani yako;"
+            "text": "Mwanangu, kama ukiyapokea maneno yangu, na kuzihifadhi amri zangu pamoja nawe"
           },
           {
             "number": 2,
-            "text": "Hata ukatega sikio lako kwa hekima, na kuuelekeza moyo wako kwenye uelewa;"
+            "text": "Hata ukatega sikio lako kusikia hekima, ukauelekeza moyo wako upate uelewa"
           },
           {
             "number": 3,
-            "text": "Naam, ukiita maarifa, na kupaza sauti yako kwa ajili ya uelewa;"
+            "text": "Naam, kama ukiita busara, ukapaza sauti yako upate ufahamu."
+          },
+          {
+            "number": 4,
+            "text": "Kama ukiutafuta kama fedha, na kuuchunguza kama hazina iliyositirika."
+          },
+          {
+            "number": 5,
+            "text": "Ndipo utakapofahamu kumhofu Mungu, na kupata kumjua Mungu."
+          },
+          {
+            "number": 6,
+            "text": "Kwa maana Bwana hutoa hekima, kinywani mwake hutoka maarifa na uelewa."
+          },
+          {
+            "number": 7,
+            "text": "Huwahifadhia wanyofu hekima kamili, yeye ni ngao kwa wale waendao katika unyofu."
+          },
+          {
+            "number": 8,
+            "text": "Hulinda mapito ya haki, na kuhifadhi njia ya watakatifu wake."
+          },
+          {
+            "number": 9,
+            "text": "Kisha utaelewa usahihi na haki, na kila pito jema."
+          },
+          {
+            "number": 10,
+            "text": "Hekima itakapoingia moyoni mwako, na maarifa yatakapoipendeza nafasi yako."
+          },
+          {
+            "number": 11,
+            "text": "Busara itakuhifadhi, uelewa utakutunza."
+          },
+          {
+            "number": 12,
+            "text": "Kukuokoa na njia ya uovu, na mtu anenae mambo ya ukaidi."
+          },
+          {
+            "number": 13,
+            "text": "Na hao wayaachayo mapito ya unyofu, na kutembea katika njia za giza."
+          },
+          {
+            "number": 14,
+            "text": "Wafurahio Kutenda maovu, na wapendezwao na ukaidi wa waovu."
+          },
+          {
+            "number": 15,
+            "text": "Ambao njia zao zimepotoka, na wenye hila katika mapito yao."
+          },
+          {
+            "number": 16,
+            "text": "Kukuokoa dhidi ya mwanamke asiyekua na maadili, mwanamke mwenye kushawishi kwa tamaa, mwenye kubembeleza kwa maneno yake."
+          },
+          {
+            "number": 17,
+            "text": "Amwachae mwenza wa ujana wake, na kulisahau agano la Mungu wake."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana nyumba yake huelekea mauti, na mapito yake katika wafu."
+          },
+          {
+            "number": 19,
+            "text": "Katika hao wamwendeao harudi hata mmoja, wala hawayarudii tena mapito ya uzima."
+          },
+          {
+            "number": 20,
+            "text": "Ili utembee katika njia za wema, na kuyahifadhi mapito ya walio sahihi."
+          },
+          {
+            "number": 21,
+            "text": "Kwa maana wanyofu watakaa katika nchi, na wakamilifu watadumu ndani yake."
+          },
+          {
+            "number": 22,
+            "text": "Watakatiliwa mbali kutoka duniani, na watendao maovu watang’olewa ndani yake."
+          }
+        ],
+        "3": [
+          {
+            "number": 1,
+            "text": "Mwanangu, usiisahau sheria yangu, bali moyo wako uzishike amri zangu."
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana utakua na uheri wa siku, maisha marefu na amani."
+          },
+          {
+            "number": 3,
+            "text": "Usiruhusu rehema na kweli vikakuacha, zifunge shingoni mwako, uziandike katika ubao wa moyo wako."
+          },
+          {
+            "number": 4,
+            "text": "Ndipo utakapopata kibali na uelewa mwema, mbele za Mungu na mwanadamu."
+          },
+          {
+            "number": 5,
+            "text": "Mtumaini BWANA kwa moyo wako wote, na usiutegemee uelewa wako mwenyewe."
+          },
+          {
+            "number": 6,
+            "text": "Katika njia zako zote mkiri yeye, nae atayaelekeza mapito yako."
+          },
+          {
+            "number": 7,
+            "text": "Usiwe mwenye hekima machoni pako, mhofu BWANA na ukajiepushe na uovu."
+          },
+          {
+            "number": 8,
+            "text": "Itakua afya kitovuni mwako, na uroto mifupani mwako."
+          },
+          {
+            "number": 9,
+            "text": "Mheshimu BWANA kwa mali yako, na kwa malimbuko ya ongezeko lako."
+          },
+          {
+            "number": 10,
+            "text": "Ndipo ghala zako zitakapojazwa kwa wingi, na vyombo vyako vya kukamulia zabibu vitakapopasuka kwa divai mpya."
+          },
+          {
+            "number": 11,
+            "text": "Mwanangu, usidharau kuadhibiwa na BWANA, wala usiyachoke masahihisho yake."
+          },
+          {
+            "number": 12,
+            "text": "Kwa maana, BWANA humsahihisha yule ampendae, kama vile baba kwa mwana ambaye humfurahia."
+          },
+          {
+            "number": 13,
+            "text": "Ana kheri mtu apataye hekima, na yule apataye uelewa."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana biashara yake ni bora kuliko biashara ya fedha, na faida yake kuliko dhahabu safi."
+          },
+          {
+            "number": 15,
+            "text": "Ina thamani kuliko marijani, wala vyote uvitamanivyo havilingani naye."
+          },
+          {
+            "number": 16,
+            "text": "Ana uheri wa siku mkono wake wa kuume, na utajiri na heshima mkono wake wa kushoto."
+          },
+          {
+            "number": 17,
+            "text": "Njia zake ni za kupendeza, na mapito yake yote ni amani."
+          },
+          {
+            "number": 18,
+            "text": "Yeye ni mti wa uzima kwa hao wamshikao, na ana kheri kila amuhifadhiye."
+          },
+          {
+            "number": 19,
+            "text": "Kwa hekima BWANA aliiweka misingi ya dunia, kwa uelewa wake alizifanya mbingu."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maarifa yake vilindi vyagawanyika, na mawingu yadondoza umande."
+          },
+          {
+            "number": 21,
+            "text": "Mwanangu, yasiondoke haya machoni pako, shika hekima kamili na busara."
+          },
+          {
+            "number": 22,
+            "text": "Basi yatakua uzima kwa nafsi yako, na neema shingoni mwako."
+          },
+          {
+            "number": 23,
+            "text": "Ndipo utakapokwenda katika njia yako salama, na mguu wako hautajikwaa."
+          },
+          {
+            "number": 24,
+            "text": "Ulalapo hutaogopa, naam utalala na usingizi wako utakua mtamu."
+          },
+          {
+            "number": 25,
+            "text": "Usiogope hofu ya ghafla, wala ukiwa wa waovu utakapokuja."
+          },
+          {
+            "number": 26,
+            "text": "Kwa maana BWANA atakua tumaini lako, nae atakulinda mguu wako usichukuliwe."
+          },
+          {
+            "number": 27,
+            "text": "Usiwanyime watu mema yaliyo haki yao, ikiwa katika uwezo wa mkono wako kuyatenda."
+          },
+          {
+            "number": 28,
+            "text": "Usimwambie Jirani yako, nenda, uje tena kesho nitakupa, nawe unacho kitu kile karibu nawe."
+          },
+          {
+            "number": 29,
+            "text": "Usipange mabaya dhidi ya Jirani yako, kwa maana anakaa karibu nawe na kujiona salama."
+          },
+          {
+            "number": 30,
+            "text": "Usishindane na mtu bila sababu, Ikiwa hajakudhuru kwa lolote."
+          },
+          {
+            "number": 31,
+            "text": "Usimhusudu mwenye kuonea, wala usiichague mojawapo ya njia zake."
+          },
+          {
+            "number": 32,
+            "text": "Kwa maana mtu mkaidi ni chukizo kwa BWANA, bali shauri lake la siri li pamoja na wanyoofu."
+          },
+          {
+            "number": 33,
+            "text": "Laana ya BWANA i katika nyumba ya wabaya, bali huibariki nyumba ya mtenda haki."
+          },
+          {
+            "number": 34,
+            "text": "Hakika, huwadharau wenye dharau, bali huwapa wanyenyekevu neema."
+          },
+          {
+            "number": 35,
+            "text": "Wenye hekima wataurithi utukufu, bali aibu itakua alama ya kudumu kwa wajinga."
+          }
+        ],
+        "4": [
+          {
+            "number": 1,
+            "text": "Wanangu, yasikilizeni maelekezo ya baba, weka umakini kwenye kujua uelewa."
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana nawapa mafundisho mema, msiiache sheria yangu."
+          },
+          {
+            "number": 3,
+            "text": "Nilipokua mwana kwa baba yangu, mpole na wa pekee kwa mama yangu."
+          },
+          {
+            "number": 4,
+            "text": "Yeye alinifundisha, akanambia, moyo wako uyahifadhi maneno yangu, shika amri zangu ukaishi."
+          },
+          {
+            "number": 5,
+            "text": "Jipatie hekima, jipatie uelewa, usiisahau wala kuyakataa mafundisho ya kinywa changu."
+          },
+          {
+            "number": 6,
+            "text": "Usimwache naye atakuhifadhi, umpende nae atakuweka."
+          },
+          {
+            "number": 7,
+            "text": "Hekima ni kitu cha kwanza, hivyo pata hekima. Na kwa mapito yako yote jipatie uelewa."
+          },
+          {
+            "number": 8,
+            "text": "Muinue naye atakukuza. Atakupatia heshima ukimkumbatia."
+          },
+          {
+            "number": 9,
+            "text": "Ataweka kilemba cha neema kichwani pako, taji ya utukufu atakuletea."
+          },
+          {
+            "number": 10,
+            "text": "Sikiliza, mwanangu, na upokee misemo yangu, na miaka ya maisha yako itakua mingi."
+          },
+          {
+            "number": 11,
+            "text": "Nimekufundisha katika njia ya hekima, nimekuongoza katika mapito sahihi."
+          },
+          {
+            "number": 12,
+            "text": "Utembeapo, hatua zako hazitakwamishwa, ukimbiapo hutojikwaa."
+          },
+          {
+            "number": 13,
+            "text": "Yakamate maelekezo kwa uimara, usiyaache. Yahifadhi kwa maana ni uzima wako."
+          },
+          {
+            "number": 14,
+            "text": "Usiyaendee mapito ya wabaya, na usitembee katika njia ya uovu."
+          },
+          {
+            "number": 15,
+            "text": "Iepuke, usiende katika hiyo, geuka mbali nayo ukaende zako."
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana hawalali isipokua wamefanya uovu, na huondolewa usingizi mpaka wamwangushe mtu."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana hao hula mkate wa ubaya, na hunywa divai ya ghasia."
+          },
+          {
+            "number": 18,
+            "text": "Bali njia ya watendao haki ni kama jua linalong’ara, ambalo hung’ara kwa uangavu hata mchana mkamilifu."
+          },
+          {
+            "number": 19,
+            "text": "Njia ya wabaya ni kama giza, hawajui ni kitu gani kinafanya wajikwae."
+          },
+          {
+            "number": 20,
+            "text": "Mwangu, weka umakini kwenye maneno yangu, tega sikio kwa misemo yangu."
+          },
+          {
+            "number": 21,
+            "text": "Usiruhusu yaondoke machoni pako, Yahifadhi Katikati ya moyo wako."
+          },
+          {
+            "number": 22,
+            "text": "Kwa maana ni uzima kwa wale wayapatao, na nyama mwilini mwao mwote."
+          },
+          {
+            "number": 23,
+            "text": "Linda moyo wako kwa bidii yote, maana ndiko zitokazo chemchemi za uzima."
+          },
+          {
+            "number": 24,
+            "text": "Kinywa cha udanganyifu ukitenge nawe, na midomo ya ukaidi uiweke mbali nawe."
+          },
+          {
+            "number": 25,
+            "text": "Macho yako yatazame mbele, na kope zako zitazame mbele yako."
+          },
+          {
+            "number": 26,
+            "text": "Tafakari pito la mguu wako, na uimarishe njia zako zote."
+          },
+          {
+            "number": 27,
+            "text": "Usigeukie kuume wala kushoto, ondoa mguu wako uovuni."
+          }
+        ],
+        "5": [
+          {
+            "number": 1,
+            "text": "Mwanangu, weka umakini kwenye hekima, Sikiliza kwa makini uelewa wangu."
+          },
+          {
+            "number": 2,
+            "text": "Upate kuhifadhi busara, na midomo yako iyalinde maarifa."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana midomo ya mwanamke asiyekua na maadili hudondoza asali, na kinywa chake ni laini kuliko mafuta."
+          },
+          {
+            "number": 4,
+            "text": "Lakini mwisho wake ni mchungu kuliko pakanga, ni mkali kuliko upanga wenye makali pande mbili."
+          },
+          {
+            "number": 5,
+            "text": "Miguu yake inateremkia mauti, na hatua zake zashikamana na kuzimu."
+          },
+          {
+            "number": 6,
+            "text": "Usije ukatafakari pito la maisha yake, njia zake hubadilika badilika, huzifahamu."
+          },
+          {
+            "number": 7,
+            "text": "Basi wanangu, nisikilizeni sasa, na msiachane na maneno ya kinywa changu."
+          },
+          {
+            "number": 8,
+            "text": "Iondoe njia yako mbali nae, wala usiukaribie mlango wa nyumba yake."
+          },
+          {
+            "number": 9,
+            "text": "Usije ukawapa wengine heshima yako, na wakatili miaka yako."
+          },
+          {
+            "number": 10,
+            "text": "Usije ukawapa wageni utajiri wako, na kazi zako zikawa katika nyumba ya mgeni."
+          },
+          {
+            "number": 11,
+            "text": "Na mwishowe ukaomboleza, pale nyama yako na mwili wako vitakapoliwa."
+          },
+          {
+            "number": 12,
+            "text": "Na kusema, jinsi nilivyochukia maelekezo, na moyo wangu ukadharau kurekebishwa."
+          },
+          {
+            "number": 13,
+            "text": "Sikuitii sauti ya waalimu wangu, wala sikutega sikio langu kwa hao walionielekeza."
+          },
+          {
+            "number": 14,
+            "text": "Nilikua ukingoni mwa uharibifu wote, Katikati ya mkutano na kusanyiko."
+          },
+          {
+            "number": 15,
+            "text": "Unywe maji ya birika lako mwenyewe, na maji yatiririkayo katika kisima chako mwenyewe."
+          },
+          {
+            "number": 16,
+            "text": "Je, chemchemi zako zitawanyike mbali, na mifereji ya maji kwenye mitaa?"
+          },
+          {
+            "number": 17,
+            "text": "Yawe yako mwenyewe peke yako, wala si ya wageni pamoja nawe."
+          },
+          {
+            "number": 18,
+            "text": "Chemchemi yako ibarikiwe, na ufurahi na mke wa ujana wako."
+          },
+          {
+            "number": 19,
+            "text": "Kama paa mwenye upendo na kulungu jike mwenye neema, maziwa yake yakuridhishe siku zote, uvutiwe sana na upendo wake wakati wote."
+          },
+          {
+            "number": 20,
+            "text": "Mwanangu, kwanini utekwe na mwanamke asiyekua na maadili, na kukumbatia kifua chake?"
+          },
+          {
+            "number": 21,
+            "text": "Kwa maana njia za mwanadamu zi mbele ya macho ya BWANA, na huitafakari mienendo yake yote."
+          },
+          {
+            "number": 22,
+            "text": "Mtu m’baya hunaswa na maovu yake mwenyewe, na hushikwa kwa kamba za dhambi yake."
+          },
+          {
+            "number": 23,
+            "text": "Huyo atakufa kwa ukosefu wa maelekezo, nae atapotea kwa ukuu wa upumbavu wake."
+          }
+        ],
+        "6": [
+          {
+            "number": 1,
+            "text": "Mwanangu, kama umekua mdhamini wa rafiki yako, ikiwa wewe na mgeni mmepeana mikono."
+          },
+          {
+            "number": 2,
+            "text": "Basi umetegwa kwa maneno ya kinywa chako, umekamatwa kwa maneno ya kinywa chako."
+          },
+          {
+            "number": 3,
+            "text": "Kwahiyo, Fanya hivi mwanangu, na ukajiokoe, kwa maana umejitia mkononi mwa rafiki yako, nenda ukajinyenyekeze, na kumsihi rafiki yako."
+          },
+          {
+            "number": 4,
+            "text": "Usiache macho yako kupata usingizi, wala kope za macho yako kusinzia."
+          },
+          {
+            "number": 5,
+            "text": "Ujiokoe kama paa na mkono wa mwindaji, kama ndege katika mkono wa mtegaji."
+          },
+          {
+            "number": 6,
+            "text": "Ewe mvivu, mwendee chungu, zitafakari njia zake upate hekima."
+          },
+          {
+            "number": 7,
+            "text": "Ambaye hana nahodha, msimamizi au mtawala."
+          },
+          {
+            "number": 8,
+            "text": "Hujipatia mahitaji wakati wa jua, na kukusanya chakula msimu wa mavuno."
+          },
+          {
+            "number": 9,
+            "text": "Mpaka lini ewe usinziaye, Ee mvivu? Lini utaamka toka kulala?"
+          },
+          {
+            "number": 10,
+            "text": "Kulala kidogo, usingizi kidogo, kukunja mikono kidogo ulale."
+          },
+          {
+            "number": 11,
+            "text": "Hivyo umaskini wako huja kama mnyang’anyi, na uhitaji wako kama mtu mwenye silaha."
+          },
+          {
+            "number": 12,
+            "text": "Mtu asiyefaa kitu, mtu m’baya, hutembea na kinywa cha ukaidi."
+          },
+          {
+            "number": 13,
+            "text": "Hukonyeza kwa macho, huchanganya miguu yake, huashiria kwa vidole."
+          },
+          {
+            "number": 14,
+            "text": "Ukaidi moyoni mwake, hutunga maovu daima, hupanda mbegu za magomvi."
+          },
+          {
+            "number": 15,
+            "text": "Basi maafa yake yatampata kwa ghafula, ghafula atavunjika bila ya kupata dawa."
+          },
+          {
+            "number": 16,
+            "text": "Vitu hivi saba BWANA huvichukia, naam, viko saba vilivyo chukizo kwake."
+          },
+          {
+            "number": 17,
+            "text": "Mtazamo wenye kiburi, ulimi wa uongo, mikono imwagayo damu isiyokua na hatia,"
+          },
+          {
+            "number": 18,
+            "text": "Moyo ubunio mabaya, miguu iliyo myepesi kukimbilia maovuni,"
+          },
+          {
+            "number": 19,
+            "text": "Shahidi wa uongo asemaye uongo, naye apandaye mbegu za ugomvi kati ya ndugu."
+          },
+          {
+            "number": 20,
+            "text": "Mwanangu, shika amri za baba yako, wala usiiache sheria ya mama yako."
+          },
+          {
+            "number": 21,
+            "text": "Yafunge hayo katika moyo wako daima, jivike hayo shingoni mwako."
+          },
+          {
+            "number": 22,
+            "text": "Uendapo yatakuongoza, ulalapo yatakuhifadhi, na uamkapo yatazungumza nawe."
+          },
+          {
+            "number": 23,
+            "text": "Kwa maana amri hizo ni taa, na sheria hiyo ni nuru."
+          },
+          {
+            "number": 24,
+            "text": "Yakulinde dhidi ya mwanamke mwovu, dhidi ya ulimi wake wenye kubembeleza kwa ushawishi."
+          },
+          {
+            "number": 25,
+            "text": "Usiutamane uzuri wake moyoni mwako, wala usivutiwe na kope za macho yake."
+          },
+          {
+            "number": 26,
+            "text": "Kwa maana kwa kahaba mtu hutiwa katika hali ya kuhitaji kipande cha mkate, na kahaba humwinda mtu anase nafsi yake ya thamani."
+          },
+          {
+            "number": 27,
+            "text": "Je! Mtu aweza kujiwekea moto kifuani mwake na nguo zake zisiungue?"
+          },
+          {
+            "number": 28,
+            "text": "Je! Mtu aweza kutembea kwenye makaa ya mawe na nyayo zake zisiungue?"
+          },
+          {
+            "number": 29,
+            "text": "Ndivyo alivyo aingiaye kwa mke wa Jirani yake, kila amgusaye atakua na hatia."
+          },
+          {
+            "number": 30,
+            "text": "Watu humdharau mwizi, akiiba kujishibisha, iwapo aona njaa."
+          },
+          {
+            "number": 31,
+            "text": "Lakini akipatikana, atalipa mara saba, ataweza kutoa mali yote ya nyumba yake."
+          },
+          {
+            "number": 32,
+            "text": "Mtu aziniye na mwanamke hana uelewa, afanyaye hivyo huingamiza nafsi yake."
+          },
+          {
+            "number": 33,
+            "text": "Atapata jeraha na kuvunjiwa heshima, na aibu yake haitafutika."
+          },
+          {
+            "number": 34,
+            "text": "Kwa maana wivu ni ghadhabu ya mume, wala hatahurumia siku ya kujilipizia kisasi."
+          },
+          {
+            "number": 35,
+            "text": "Hata kubali malipo ya fidia, wala hatatulizwa ujapomlipa vitu vingi."
+          }
+        ],
+        "7": [
+          {
+            "number": 1,
+            "text": "Mwanangu, yashike maneno yangu, na zifanye amri zangu kua hazina ndani yako."
+          },
+          {
+            "number": 2,
+            "text": "Shika amri zangu ukaishi, na sheria yangu kama mboni ya jicho lako."
+          },
+          {
+            "number": 3,
+            "text": "Zifunge katika vidole vyako, ziandike juu ya kibao cha moyo wako."
+          },
+          {
+            "number": 4,
+            "text": "Mwambie hekima, wewe ni dada yangu, mwite uelewa jamaa yako mwanamke."
+          },
+          {
+            "number": 5,
+            "text": "Ili wapate kukulinda dhidi ya mwanamake asiyekua na maadili, akubembelezae kwa maneno yake."
+          },
+          {
+            "number": 6,
+            "text": "Maana katika dirisha la nyumba yangu, nalitizama katika fremu za dirisha."
+          },
+          {
+            "number": 7,
+            "text": "Nikamwona miongoni mwa maamuma, nikamtambua miongoni mwa vijana, kijana asiye na uelewa."
+          },
+          {
+            "number": 8,
+            "text": "Akipita katika mitaa karibu na pembe ya huyo mwanamke, akaishika njia iendayo nyumbani kwake."
+          },
+          {
+            "number": 9,
+            "text": "Wakati wa machweo, wakati wa jioni, katika Weusi wa giza la usiku."
+          },
+          {
+            "number": 10,
+            "text": "Na tazama, mwanamke akamkuta, ana mavazi ya kikahaba, mjanja moyoni."
+          },
+          {
+            "number": 11,
+            "text": "Ana kelele na msumbufu, miguu yake haikai nyumbani mwake."
+          },
+          {
+            "number": 12,
+            "text": "Mara yu nje, mara yu mtaani, akijificha akisubiri kila kona."
+          },
+          {
+            "number": 13,
+            "text": "Basi akamshika na kum’busu, akamwambia kwa uso usiokua na haya."
+          },
+          {
+            "number": 14,
+            "text": "Nina matoleo ya amani, leo nimeziondoa nadhiri zangu."
+          },
+          {
+            "number": 15,
+            "text": "Ndio maana nimekuja kukulaki, nikutafute uso wako kwa bidii, nami nimekuona."
+          },
+          {
+            "number": 16,
+            "text": "Nimetandika kitambaa changu kwa mapambo, matandiko yenye rangi, ya kimisri ya kitani."
+          },
+          {
+            "number": 17,
+            "text": "Nimetia kitanda changu manukato, kwa manemane, na udi na mdalasini."
+          },
+          {
+            "number": 18,
+            "text": "Haya, na tushibe upendo hata asubuhi, tujifurahishe nafsi zetu kwa upendo."
+          },
+          {
+            "number": 19,
+            "text": "Kwa maana mume wangu hayumo nyumbani, amekwenda safari ya mbali."
+          },
+          {
+            "number": 20,
+            "text": "Amechukua mfuko wa fedha mkononi, naye atarudi nyumbani siku iliyopangwa."
+          },
+          {
+            "number": 21,
+            "text": "Kwa maneno yake ya ushawishi, akamfanya akubali, kwa ubembelezaji wa midomo yake akamshawishi."
+          },
+          {
+            "number": 22,
+            "text": "Mara hiyo akafuatana naye, kama vile ng’ombe aendavyo machinjioni, au kama mpumbavu anayekwenda kuadhibiwa kwa kufungwa kwenye mti wa adhabu."
+          },
+          {
+            "number": 23,
+            "text": "Hata mshale umchome maini, kama ndege aendaye haraka mtegoni, hakujua kua inamgharimu maisha yake."
+          },
+          {
+            "number": 24,
+            "text": "Basi, wanangu nisikilizeni sasa, weka umakini kwa maneno ya kinywa changu."
+          },
+          {
+            "number": 25,
+            "text": "Moyo wako usizielekee njia zake, usipotee katika mapito yake."
+          },
+          {
+            "number": 26,
+            "text": "Kwa maana ameangusha wengi waliojeruhiwa, na wote waliouawa naye ni wanaume wenye nguvu."
+          },
+          {
+            "number": 27,
+            "text": "Nyumba yake ni njia ya Kwenda kuzimu, hushuka mpaka vyumba vya mauti."
+          }
+        ],
+        "8": [
+          {
+            "number": 1,
+            "text": "Je, hekima hali? na uelewa hapazi sauti yake?"
+          },
+          {
+            "number": 2,
+            "text": "Husimama vileleni mwa sehemu zilizoinuka, kando ya njia sehemu za kupata."
+          },
+          {
+            "number": 3,
+            "text": "Hulia katika malango, katika maingilio ya mji, penye kuyaingilia malango."
+          },
+          {
+            "number": 4,
+            "text": "Enyi watu, ninawaita, na sauti yangu ni kwa wanadamu."
+          },
+          {
+            "number": 5,
+            "text": "Enyi maamuma, eleweni hekima, enyi wajinga, muwe na moyo wa uelewa."
+          },
+          {
+            "number": 6,
+            "text": "Sikieni, kwa maana nitasema yaliyo bora, na kufumbua kwa midomo yangu kutanena mambo yaliyo sahihi."
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana kinywa changu kitasema kweli, na ubaya ni chukizo kwa midomo yangu."
+          },
+          {
+            "number": 8,
+            "text": "Maneno yote ya kinywa changu yapo katika usahihi, hayana ukaidi wala hayajapotoka."
+          },
+          {
+            "number": 9,
+            "text": "Yote yapo wazi kwa mwenye kuelewa, na ni sahihi kwa hao wenye maarifa."
+          },
+          {
+            "number": 10,
+            "text": "Pokea maelekezo yangu, wala si fedha, na maarifa kuliko dhahabu teule."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana hekima ni bora kuliko yakuti, wala vyote vinavyotamanika haviwezi kulinganishwa nayo."
+          },
+          {
+            "number": 12,
+            "text": "Mimi hekima, hukaa na busara, ninavumbua maarifa kwa busara."
+          },
+          {
+            "number": 13,
+            "text": "Kumhofu BWANA ni kuchukia uovu; kiburi, na majivuno, na njia ovu, na kinywa cha ukaidi, nina vichukia."
+          },
+          {
+            "number": 14,
+            "text": "Shauri ni langu, na hekima timamu, mimi ni uelewa, nina nguvu."
+          },
+          {
+            "number": 15,
+            "text": "Kwa mimi wafalme hutawala, na wakuu wana amuru haki."
+          },
+          {
+            "number": 16,
+            "text": "Kwa mimi wakuu hutawala, watu mashuhuri, hata waamuzi wote wa dunia."
+          },
+          {
+            "number": 17,
+            "text": "Nawapenda wale wanipendao, wanitafutao mapema watanipata."
+          },
+          {
+            "number": 18,
+            "text": "Utajiri na heshima viko kwangu, naam, utajiri wa kudumu na usahihi."
+          },
+          {
+            "number": 19,
+            "text": "Tunda langu ni bora kuliko dhahabu, naam, dhahabu safi, na pato langu kuliko fedha teule."
+          },
+          {
+            "number": 20,
+            "text": "Ninaongoza katika njia za usahihi, katikati ya mapito ya hukumu."
+          },
+          {
+            "number": 21,
+            "text": "Ili niwarithishe mali wale wanipendao, tena nipate kuzijaza hazina zao."
+          },
+          {
+            "number": 22,
+            "text": "BWANA alikuwa nami katika mwanzo wa njia yake, kabla ya kazi zake za kale."
+          },
+          {
+            "number": 23,
+            "text": "Niliwekwa tangu milele, tangu mwanzo, kabla dunia haijakuwapo."
+          },
+          {
+            "number": 24,
+            "text": "Wakati visipo kuwapo vilindi, nalizaliwa, wakati zisipokuwapo chemchemi zilizojaa maji."
+          },
+          {
+            "number": 25,
+            "text": "Kabla milima haijawekwa, kabla ya vilima nalizaliwa."
+          },
+          {
+            "number": 26,
+            "text": "Alipokua hajaioumba dunia, wala viwanja, wala sehemu za juu za mavumbi ya dunia."
+          },
+          {
+            "number": 27,
+            "text": "Alipoziandaa mbingu, nalikuweko, alipoweka dira juu ya uso wa vilindi."
+          },
+          {
+            "number": 28,
+            "text": "Alipo yaweka mawingu juu, alipoimarisha chemchemi za kwenye kina."
+          },
+          {
+            "number": 29,
+            "text": "Alipoipa Bahari amri, kwamba maji yake yasiasi amri yake, alipoiweka misingi ya dunia."
+          },
+          {
+            "number": 30,
+            "text": "Ndipo nilikuwa pamoja naye, kama aliyeletwa pamoja naye, nikawa furaha yake kila siku, nikifurahi daima mbele zake."
+          },
+          {
+            "number": 31,
+            "text": "Nikifurahi katika sehemu ya dunia yake inayokalika, na furaha yangu ilikua pamoja na wanadamu."
+          },
+          {
+            "number": 32,
+            "text": "Basi sasa nisikilizeni wanangu, kwa maana, wamebarikiwa hao wazishikao njia zangu."
+          },
+          {
+            "number": 33,
+            "text": "Sikieni maelekezo, mkapate hekima, wala msiyakatae."
+          },
+          {
+            "number": 34,
+            "text": "Amebarikiwa mtu yule anisikilizaye, akisubiri siku zote malangoni pangu, akingoja penye vizingiti vya milango yangu."
+          },
+          {
+            "number": 35,
+            "text": "Maana anipataye mimi, hupata uzima, naye Atapata kibali kwa BWANA."
+          },
+          {
+            "number": 36,
+            "text": "Lakini yeye anitendaye dhambi huidhuru nafsi yake mwenyewe, wote wanichukiao hupanda mauti."
+          }
+        ],
+        "9": [
+          {
+            "number": 1,
+            "text": "Hekima ameijenga nyumba yake, amezichonga nguzo zake saba."
+          },
+          {
+            "number": 2,
+            "text": "Amechinja nyama zake, amechanganya divai yake, ameiandalia meza yake pia."
+          },
+          {
+            "number": 3,
+            "text": "Amewatuma wajakazi wake, analia mahali pa juu pa mji."
+          },
+          {
+            "number": 4,
+            "text": "Yeye aliye maamuma, na ageukie hapa, anamwambia yule anayetaka uelewa."
+          },
+          {
+            "number": 5,
+            "text": "Njoo, ule mkate wangu, na Unywe divai yangu niliyoichanganya."
+          },
+          {
+            "number": 6,
+            "text": "Acheni ujinga na mkaishi, mkaende katika njia ya uelewa."
+          },
+          {
+            "number": 7,
+            "text": "Amkaripiaye mwenye dharau Hujipatia aibu, naye amkemeaye mtu m’baya Hujipatia doa."
+          },
+          {
+            "number": 8,
+            "text": "Usimkaripie mwenye dharau, asije akakuchukia, mkemee mwenye hekima, naye atakupenda."
+          },
+          {
+            "number": 9,
+            "text": "Mwelekeze mwenye hekima, naye atazidi kua na hekima, mfundishe mtenda haki, naye atazidi kujifunza."
+          },
+          {
+            "number": 10,
+            "text": "Kumhofu BWANA ni mwanzo wa hekima, na kumjua mtakatifu ni uelewa."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana, kwa mimi siku zako zitazidishwa, na miaka ya maisha yako itaongezwa."
+          },
+          {
+            "number": 12,
+            "text": "Kama una hekima una hekima kwa nafsi yako, kama una dharau utaichukua peke yako."
+          },
+          {
+            "number": 13,
+            "text": "Mwanamke mjinga hupiga kelele, ni maamuma, na hajui kitu."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana hukaa mlangoni pa nyumba yake, kwenye kiti sehemu za mji zilizoinuka."
+          },
+          {
+            "number": 15,
+            "text": "Apate kuwaita wapitao waendao katika njia zao."
+          },
+          {
+            "number": 16,
+            "text": "Yeye aliye maamuma, na ageukie hapa, anamwambia yule anayetaka uelewa."
+          },
+          {
+            "number": 17,
+            "text": "Maji yaliyoibwa ni matamu, na mkate uliwao kwa siri wapendeza."
+          },
+          {
+            "number": 18,
+            "text": "Lakini huyo hajui ya kua wafu wamo humo, na wageni wake wapo chini kuzimuni."
+          }
+        ],
+        "10": [
+          {
+            "number": 1,
+            "text": "Mithali za Suleimani. Mwana mwenye hekima humfurahisha babaye, bali mwana mjinga ni mzigo kwa mamaye."
+          },
+          {
+            "number": 2,
+            "text": "Hazina na ubaya hazifaidii kitu, bali usahihi huokoa na mauti."
+          },
+          {
+            "number": 3,
+            "text": "BWANA hataiacha nafsi ya mtu aliyesahihi ife kwa njaa, Lakini huitupilia mbali mali ya waovu."
+          },
+          {
+            "number": 4,
+            "text": "Yeye ajishugulishaye kwa mkono mlegevu huwa maskini, bali mkono wenye bidii hutajirisha."
+          },
+          {
+            "number": 5,
+            "text": "Akusanyaye wakati wa hari ni mwana mwenye hekima, bali alalaye wakati wa mavuno ni mwana mwenye kuaibisha."
+          },
+          {
+            "number": 6,
+            "text": "Baraka i katika kichwa cha atendaye haki, laini vurugu hufunika kinywa cha mtu m’baya."
+          },
+          {
+            "number": 7,
+            "text": "Kumbukumbu ya atendaye haki imebarikiwa, lakini jina la wabaya litaoza."
+          },
+          {
+            "number": 8,
+            "text": "Aliye na hekima moyoni mwake atapokea amri, lakini mjinga mwenye maneno mengi ataanguka."
+          },
+          {
+            "number": 9,
+            "text": "Atembeaye kwa unyofu hutembea kwa hakika, lakini aendaye katika njia za ukaidi atajulikana."
+          },
+          {
+            "number": 10,
+            "text": "Akonyezaye kwa jicho huleta masikitiko, lakini mjinga mwenye maneno mengi ataanguka."
+          },
+          {
+            "number": 11,
+            "text": "Kinywa cha mtu aliyesahihi ni kisima cha uzima, laini vurugu hufunika kinywa cha mtu m’baya."
+          },
+          {
+            "number": 12,
+            "text": "Chuki huchochea ugomvi, bali upendo hufunika dhambi zote."
+          },
+          {
+            "number": 13,
+            "text": "Hekima hupatikana midomoni mwa mwenye uelewa, bali fimbo hufaa mgogoni mwake asiye na uelewa."
+          },
+          {
+            "number": 14,
+            "text": "Wenye hekima hujiwekea maarifa, Lakini kinywa cha wapumbavu kiko karibu na uharibifu."
+          },
+          {
+            "number": 15,
+            "text": "Mali ya mtu tajiri ni mji wake wenye nguvu, uharibifu wa maskini ni umaskini wao."
+          },
+          {
+            "number": 16,
+            "text": "Kazi ya mtu aliye sahihi huelekea uzima, tunda la wabaya huelekea dhambi."
+          },
+          {
+            "number": 17,
+            "text": "Ashikaye maelekezo yu katika njia ya uzima, lakini akataaye maonyo hupotea."
+          },
+          {
+            "number": 18,
+            "text": "Yeye afichaye chuki kwa midomo ya uongo, naye atamkaye kashfa ni mjinga."
+          },
+          {
+            "number": 19,
+            "text": "Katika wingi wa maneno dhambi haikosekani, lakini azuiaye midomo yake ni mwenye hekima."
+          },
+          {
+            "number": 20,
+            "text": "Ulimi wa atendaye haki ni kama fedha teule, moyo wa mtu m’baya una thamani ndogo."
+          },
+          {
+            "number": 21,
+            "text": "Midomo ya aliyesahihi hulisha wengi, lakini wajinga hufa kwa kukosa hekima."
+          },
+          {
+            "number": 22,
+            "text": "Baraka ya BWANA hutajirisha, wala haongezi huzuni pamoja nayo."
+          },
+          {
+            "number": 23,
+            "text": "Kwa wajinga ni kama mchezo kufanya ufisadi, bali mtu mwenye uelewa ana hekima."
+          },
+          {
+            "number": 24,
+            "text": "Hofu ya mwovu itamjia, lakini walio sahihi watapewa matamanio yao."
+          },
+          {
+            "number": 25,
+            "text": "Kama kimbunga kipitavyo, ndivyo mwovu hutoweka, asiwepo tena."
+          },
+          {
+            "number": 26,
+            "text": "Kama siki menoni, na kama moshi machoni, ndivyo alivyo mtu mvivu kwa wale wamtumao."
+          },
+          {
+            "number": 27,
+            "text": "Kumhofu BWANA kwa refusha siku, lakini miaka ya wabaya itafupishwa."
+          },
+          {
+            "number": 28,
+            "text": "Matumaini ya walio sahihi yatakua furaha, lakini matarajio ya wabaya yatapotea."
+          },
+          {
+            "number": 29,
+            "text": "Njia ya BWANA ni nguvu kwa walio wanyoofu, lakini uharibifu utawapata watenda maovu."
+          },
+          {
+            "number": 30,
+            "text": "Waliosahihi hawataondolewa kamwe, ila wabaya hawatakaa duniani."
+          },
+          {
+            "number": 31,
+            "text": "Kinywa cha atendaye haki hutoa hekima, lakini ulimi wa ukaidi utakatwa."
+          },
+          {
+            "number": 32,
+            "text": "Midomo ya aliyesahihi huyajua yakubaliwayo, lakini kinywa cha m’baya hunena ukaidi."
+          }
+        ],
+        "11": [
+          {
+            "number": 1,
+            "text": "Mizani ya udanganyifu ni chukizo kwa BWANA, lakini kipimo kilicho sawa humpendeza."
+          },
+          {
+            "number": 2,
+            "text": "Kijapo kiburi, ndipo ijapo aibu, lakini hekima hukaa na wanyenyekevu."
+          },
+          {
+            "number": 3,
+            "text": "Uadilifu wa wanyoofu utawaongoza, lakini ukaidi wa wakosaji utawaangamiza."
+          },
+          {
+            "number": 4,
+            "text": "Mali hazifaidii kitu siku ya ghadhabu, bali usahihi huokoa na mauti."
+          },
+          {
+            "number": 5,
+            "text": "Usahihi ya mtu mkamilifu utamuongoza katika njia yake, lakini m’baya ataanguka kwa ubaya wake."
+          },
+          {
+            "number": 6,
+            "text": "Usahihi wa wanyoofu utawaokoa, lakini wakosaji watanaswa katika uovu wao wenyewe."
+          },
+          {
+            "number": 7,
+            "text": "Mtu m’baya atakapokufa, taraja lake hupotea, na Matumaini ya wasiotenda haki hupotea."
+          },
+          {
+            "number": 8,
+            "text": "Aliye sahihi huokolewa kutoka katika taabu, na mwovu huingia badala yake."
+          },
+          {
+            "number": 9,
+            "text": "Mnafiki humwangamiza Jirani yake kwa kinywa chake, laikini wenye haki wataokolewa kwa maarifa."
+          },
+          {
+            "number": 10,
+            "text": "Walio sahihi wasitawipo mji hufurahi, na wabaya waangamiapo kunakua na kelele."
+          },
+          {
+            "number": 11,
+            "text": "Mji hutukuzwa kwa kubarikiwa kwa wanyoofu, bali hupinduliwa kwa vinywa vya wabaya."
+          },
+          {
+            "number": 12,
+            "text": "Asiye na hekima humdharau Jirani yake, lakini mtu mwenye ufahamu hunyamaza."
+          },
+          {
+            "number": 13,
+            "text": "Mchongezi hufichua siri, lakini aliye na roho ya uaminifu huficha jambo hilo."
+          },
+          {
+            "number": 14,
+            "text": "Pasipo shauri watu huanguka, lakini katika wingi wa washauri kuna usalama."
+          },
+          {
+            "number": 15,
+            "text": "Yeye anayemdhamini mgeni atapata maumivu kwa ajili yake; lakini anayechukia udhamini yuko salama."
+          },
+          {
+            "number": 16,
+            "text": "Mwanamke mwenye neema hudumisha heshima; na wanaume wenye nguvu hudumisha utajiri."
+          },
+          {
+            "number": 17,
+            "text": "Mwenye rehema huitendea mema nafsi yake, lakini mwenye ukatili hujiletea mateso mwenyewe."
+          },
+          {
+            "number": 18,
+            "text": "Mwovu hutenda kazi ya udanganyifu, Lakini yeye apandaye usahihi atapata thawabu ya hakika."
+          },
+          {
+            "number": 19,
+            "text": "Kama usahihi uelekeavyo uzimani, ndivyo yeye afuataye uovu afuatavyo mauti yake mwenyewe."
+          },
+          {
+            "number": 20,
+            "text": "Hao wenye mioyo ya ukaidi ni chukizo kwa BWANA, lakini walio wanyofu katika njia zao humpendeza."
+          },
+          {
+            "number": 21,
+            "text": "Hata kama mikono itaungana, mwovu hataachwa bila adhabu, lakini uzao wa aliye sahihi utaokolewa."
+          },
+          {
+            "number": 22,
+            "text": "Kama pete ya dhahabu katika pua ya nguruwe, ndivyo alivyo mwanamke mzuri asiye na busara."
+          },
+          {
+            "number": 23,
+            "text": "Matamamio ya aliyesahihi ni mema tu, lakini matarajio ya mtu m’baya ni ghadhabu."
+          },
+          {
+            "number": 24,
+            "text": "Yuko atoaye kwa ukarimu, naye huzidi kuongezeka, Naye yuko azuiaye zaidi ya ipasavyo lakini hupelekea umaskini."
+          },
+          {
+            "number": 25,
+            "text": "Nafsi ya mkarimu itanawirishwa, naye awatiaye wengine maji atatiwa maji naye pia."
+          },
+          {
+            "number": 26,
+            "text": "Yeye azuiaye nafaka, watu watamlaani, lakini baraka zitakuwa juu ya kichwa cha yeye aiuzaye."
+          },
+          {
+            "number": 27,
+            "text": "Yeye aitafutaye mema kwa bidii hupata kibali, lakini yeye autafutaye ufisadi, huo utamjia."
+          },
+          {
+            "number": 28,
+            "text": "Yeye anayeitumainia mali yake ataanguka, lakini aliye sahihi atastawi kama tawi."
+          },
+          {
+            "number": 29,
+            "text": "Yeye aileteaye taabu nyumba yake ataurithi upepo, na mpumbavu atakuwa mtumishi wa mwenye moyo wa hekima."
+          },
+          {
+            "number": 30,
+            "text": "Matunda ya aliye sahihi ni mti wa uzima, Naye ashindaye nafsi ana hekima."
+          },
+          {
+            "number": 31,
+            "text": "Tazama, aliye sahihi atalipwa duniani, sembuse mwovu na mwenye dhambi."
+          }
+        ],
+        "12": [
+          {
+            "number": 1,
+            "text": "Apendaye maelekezo hupenda maarifa, lakini yeye auchukiaye maonyo ni mjinga."
+          },
+          {
+            "number": 2,
+            "text": "Mtu mwema hupata kipali kwa BWANA, lakini mtu mwenye hila mbaya atamhukumu."
+          },
+          {
+            "number": 3,
+            "text": "Mtu hataimarishwa kwa uovu, lakini mzizi wa aliye sahihi hautaondolewa."
+          },
+          {
+            "number": 4,
+            "text": "Mwanamke mwenye maadili mema ni taji kwa mume wake, Lakini yeye afanyaye aibu ni kama kuoza katika mifupa yake mwanamume."
+          },
+          {
+            "number": 5,
+            "text": "Mawazo ya aliye sahihi ni sahihi, lakini mashauri ya mwovu ni udanganyifu."
+          },
+          {
+            "number": 6,
+            "text": "Maneno ya watu wabaya ni ya kudanganya yakivizia damu, lakini kinywa cha wanyoofu kitawaokoa."
+          },
+          {
+            "number": 7,
+            "text": "Wabaya hupinduliwa, nao hawapo tena, lakini nyumba ya aliye sahihi itasimama."
+          },
+          {
+            "number": 8,
+            "text": "Mtu atapongezwa kulingana na hekima yake, Lakini yeye aliye na moyo wa ukaidi atadharauliwa."
+          },
+          {
+            "number": 9,
+            "text": "Yeye anayedharauliwa, naye ana mtumishi, ni afadhali kuliko yeye anayejiheshimisha, lakini hana chakula."
+          },
+          {
+            "number": 10,
+            "text": "Aliye sahihi hujali uhai wa mnyama wake, Lakini hata huruma za mwovu ni za kikatili."
+          },
+          {
+            "number": 11,
+            "text": "Yeye ailimaye ardhi yake atashiba kwa chakula, Lakini yeye awafuataye watu wasiofaa hana uelewa."
+          },
+          {
+            "number": 12,
+            "text": "M’baya hutamani mtego wa watu waovu, lakini mzizi wa aliye sahihi huzaa matunda."
+          },
+          {
+            "number": 13,
+            "text": "Mtu mbaya hunaswa na kosa la midomo yake, lakini aliye sahihi atatoka katika taabu."
+          },
+          {
+            "number": 14,
+            "text": "Mtu atashibishwa na mema kwa matunda ya kinywa chake, na malipo ya kazi za mikono yake atapewa."
+          },
+          {
+            "number": 15,
+            "text": "Njia ya mjinga huonekana kuwa sahihi machoni pake mwenyewe, lakini yeye asikilizaye mashauri ana hekima."
+          },
+          {
+            "number": 16,
+            "text": "Ghadhabu ya mjinga hujulikana mara moja, lakini mtu mwenye busara huficha aibu."
+          },
+          {
+            "number": 17,
+            "text": "Yeye asemaye kweli huonyesha usahihi, lakini shahidi wa uongo huonyesha udanganyifu."
+          },
+          {
+            "number": 18,
+            "text": "Yuko asemaye kama kuchoma kwa upanga, bali ulimi wa mwenye hekima ni afya."
+          },
+          {
+            "number": 19,
+            "text": "Mdomo wa kweli utaimarishwa milele, lakini ulimi wa uongo hudumu kwa muda mfupi."
+          },
+          {
+            "number": 20,
+            "text": "Udanganyifu umo mioyoni mwa wale wanaopanga maovu, Lakini kwa washauri wa amani kuna furaha."
+          },
+          {
+            "number": 21,
+            "text": "Hakuna uovu utakaompata atendaye haki, lakini mtu m’baya atajazwa na ufisadi."
+          },
+          {
+            "number": 22,
+            "text": "Midomo ya uongo ni chukizo kwa BWANA, lakini watendao kwa uaminifu ndio furaha yake."
+          },
+          {
+            "number": 23,
+            "text": "Mtu mwenye busara huficha maarifa, lakini moyo wa wajinga hutangaza ujinga."
+          },
+          {
+            "number": 24,
+            "text": "Mkono wa mwenye bidii utatawala, lakini mvivu atakuwa chini ya kodi."
+          },
+          {
+            "number": 25,
+            "text": "Uzito wa moyo humwinamisha mtu, lakini neno jema huufurahisha."
+          },
+          {
+            "number": 26,
+            "text": "Aliye sahihi ni bora kuliko jirani yake, lakini njia ya watu wabaya huwapotosha."
+          },
+          {
+            "number": 27,
+            "text": "Mtu mvivu hachomi alichokipata katika uwindaji, lakini mali ya mtu mwenye bidii ni ya thamani."
+          },
+          {
+            "number": 28,
+            "text": "Katika njia ya usahihi mna uzima, na katika mapito yake hakuna mauti."
+          }
+        ],
+        "13": [
+          {
+            "number": 1,
+            "text": "Mwana mwenye hekima husikiliza maelekezo ya babaye, bali mwenye dharau hasikii kukemewa."
+          },
+          {
+            "number": 2,
+            "text": "Mtu atakula mema kwa matunda ya kinywa chake, lakini nafsi ya wakosaji itakula vurugu."
+          },
+          {
+            "number": 3,
+            "text": "Yeye ahifadhaye kinywa chake huhifadhi uhai wake, lakini yeye afumbuaye midomo yake sana atapata uharibifu."
+          },
+          {
+            "number": 4,
+            "text": "Nafsi ya mvivu hutamani, lakini haina kitu, Lakini nafsi ya mwenye bidii itanawirishwa."
+          },
+          {
+            "number": 5,
+            "text": "Mtu aliye sahihi huchukia uongo, lakini mtu mbaya ni mwenye kuchukiza, naye huja kwenye aibu."
+          },
+          {
+            "number": 6,
+            "text": "Usahihi humhifadhi aliye mnyoofu katika njia, lakini uovu humwangusha mdhambi."
+          },
+          {
+            "number": 7,
+            "text": "Yuko anayejifanya tajiri, ilhali hana kitu, yuko anayejifanya maskini, ilhali ana mali nyingi."
+          },
+          {
+            "number": 8,
+            "text": "Fidia ya uhai wa mtu ni mali yake, lakini maskini hasikii kukemewa."
+          },
+          {
+            "number": 9,
+            "text": "Nuru ya aliye sahihi hufurahi, lakini taa ya mtu mbaya itazimwa."
+          },
+          {
+            "number": 10,
+            "text": "Ni kwa kiburi tu ndipo ubishi hutokea, lakini kwa wale wanaokubali mashauri kuna hekima."
+          },
+          {
+            "number": 11,
+            "text": "Mali iliyopatikana kwa ubatili itapungua, lakini yeye akusanyaye kwa kazi ataongezeka."
+          },
+          {
+            "number": 12,
+            "text": "Tumaini lililoahirishwa huuumiza moyo, Lakini tamanio linapotimia, huwa mti wa uzima."
+          },
+          {
+            "number": 13,
+            "text": "Yeyote anayedharau neno ataangamizwa, lakini yeye aliye na hofu ya amri atalipwa."
+          },
+          {
+            "number": 14,
+            "text": "Sheria ya mwenye hekima ni chemchemi ya uzima, Ili kujiepusha na mitego ya mauti."
+          },
+          {
+            "number": 15,
+            "text": "Uelewa mzuri huleta kibali, lakini njia ya wakosaji ni ngumu."
+          },
+          {
+            "number": 16,
+            "text": "Kila mtu mwenye busara hushughulika kwa maarifa, lakini mjinga huweka wazi ujinga wake."
+          },
+          {
+            "number": 17,
+            "text": "Mjumbe mbaya huangukia katika ufisadi, Lakini balozi mwaminifu ni afya."
+          },
+          {
+            "number": 18,
+            "text": "Umaskini na aibu vitampata yeye akataaye maelekezo, lakini yeye ayazingatiaye maonyo ataheshimiwa."
+          },
+          {
+            "number": 19,
+            "text": "Tamanio lililotimia ni tamu kwa nafsi, lakini kwa wajinga ni chukizo kuacha uovu."
+          },
+          {
+            "number": 20,
+            "text": "Yeye atembeaye pamoja na wenye hekima atakuwa na hekima, lakini mshirika wa wajinga ataangamizwa."
+          },
+          {
+            "number": 21,
+            "text": "Uovu huwafuata wenye dhambi, Lakini aliye sahihi atalipwa mema."
+          },
+          {
+            "number": 22,
+            "text": "Mtu mwema huwaachia wajukuu zake urithi, Na mali ya mwenye dhambi imewekwa akiba kwa ajili ya mtenda haki."
+          },
+          {
+            "number": 23,
+            "text": "Kuna chakula kingi katika kilimo cha maskini, lakini yuko aangamizwaye kwa kukosa hukumu ya haki."
+          },
+          {
+            "number": 24,
+            "text": "Yeye asiyeitumia fimbo yake humchukia mwanawe, Lakini yeye ampendaye humrudi mapema."
+          },
+          {
+            "number": 25,
+            "text": "Aliye sahihi hula mpaka nafsi yake ishibe, lakini tumbo la mtu mbaya litahitaji."
+          }
+        ],
+        "14": [
+          {
+            "number": 1,
+            "text": "Kila mwanamke mwenye hekima hujenga nyumba yake, lakini mjinga huibomoa kwa mikono yake."
+          },
+          {
+            "number": 2,
+            "text": "Yeye atembeaye katika unyoofu wake ana umhofu BWANA, Lakini yeye aliye na ukaidi katika njia zake humdharau."
+          },
+          {
+            "number": 3,
+            "text": "Katika kinywa cha wajinga mna fimbo ya kiburi, lakini midomo ya wenye hekima itawahifadhi."
+          },
+          {
+            "number": 4,
+            "text": "Mahali ambapo hakuna ng'ombe, zizi hubaki safi, lakini ongezeko jingi hupatikana kwa nguvu za ng'ombe."
+          },
+          {
+            "number": 5,
+            "text": "Shahidi mwaminifu hatasema uongo, lakini shahidi wa uongo atasema uongo."
+          },
+          {
+            "number": 6,
+            "text": "Mwenye dharau hutafuta hekima, lakini haipati, lakini maarifa ni rahisi kwa yeye aliye na uelewa."
+          },
+          {
+            "number": 7,
+            "text": "Ondoka mbele ya mjinga, Unapoona kwamba midomo yake haina maarifa."
+          },
+          {
+            "number": 8,
+            "text": "Hekima ya mtu mwenye busara ni kuielewa njia yake, lakini ujinga wa wajinga ni udanganyifu."
+          },
+          {
+            "number": 9,
+            "text": "Wajinga huidharau dhambi; lakini miongoni mwa walio sahihi kuna kibali."
+          },
+          {
+            "number": 10,
+            "text": "Moyo hujua uchungu wake mwenyewe; wala mgeni hashiriki furaha yake."
+          },
+          {
+            "number": 11,
+            "text": "Nyumba ya mtu mbaya itapinduliwa, lakini hema la wanyoofu litastawi."
+          },
+          {
+            "number": 12,
+            "text": "Kuna njia ionekanayo kuwa sahihi kwa mtu, lakini mwisho wake ni njia za mauti."
+          },
+          {
+            "number": 13,
+            "text": "Hata katika kicheko, moyo huwa na huzuni, na mwisho wa furaha hiyo ni huzuni."
+          },
+          {
+            "number": 14,
+            "text": "Mwenye kurudi nyuma moyoni atajazwa na njia zake mwenyewe, na mtu mwema ataridhika kutokana na nafsi yake mwenyewe."
+          },
+          {
+            "number": 15,
+            "text": "Maamuma huamini kila neno; lakini mtu mwenye busara huangalia vizuri njia yake."
+          },
+          {
+            "number": 16,
+            "text": "Mwenye hekima ana hofu, na hujiepusha na uovu, lakini mjinga hugadhabika, naye hujiamini."
+          },
+          {
+            "number": 17,
+            "text": "Yeye akasirikaye upesi hushughulika kwa ujinga, na mtu mwenye hila mbaya huchukiwa."
+          },
+          {
+            "number": 18,
+            "text": "Maamuma hurithi ujinga, Lakini wenye busara huvikwa taji la maarifa."
+          },
+          {
+            "number": 19,
+            "text": "Watu wabaya huinama mbele ya watu wema, na watu wabaya huinama kwenye malango ya walio sahihi."
+          },
+          {
+            "number": 20,
+            "text": "Maskini huchukiwa hata na jirani yake mwenyewe, lakini tajiri ana marafiki wengi."
+          },
+          {
+            "number": 21,
+            "text": "Yeye amdharauye jirani yake hutenda dhambi, Lakini yeye awahurumiaye maskini, ana heri."
+          },
+          {
+            "number": 22,
+            "text": "Je, wale wanaopanga maovu hawapotei, lakini rehema na kweli zitakuwa kwa wale wanaopanga mema."
+          },
+          {
+            "number": 23,
+            "text": "Katika kila kazi kuna faida, lakini maneno ya midomo hupelekea umaskini tu."
+          },
+          {
+            "number": 24,
+            "text": "Taji ya wenye hekima ni mali yao, lakini ujinga wa wajinga ni upumbavu."
+          },
+          {
+            "number": 25,
+            "text": "Shahidi wa kweli huponya nafsi, lakini shahidi mdanganyifu huongea uongo."
+          },
+          {
+            "number": 26,
+            "text": "Katika kumhofu BWANA kuna tumaini imara, na watoto wake watakuwa na mahali pa kukimbilia."
+          },
+          {
+            "number": 27,
+            "text": "Kumhofu BWANA ni chemchemi ya uzima, ili kujiepusha na mitego ya mauti."
+          },
+          {
+            "number": 28,
+            "text": "Heshima ya mfalme ni wingi wa watu wake, lakini katika upungufu wa watu mna kuangamia kwa mkuu."
+          },
+          {
+            "number": 29,
+            "text": "Yeye asiye mwepesi wa hasira ana uelewa mkuu, lakini yeye aliye mwepesi wa roho huinua upumbavu."
+          },
+          {
+            "number": 30,
+            "text": "Moyo timamu ni uzima wa mwili, lakini wivu ni kuoza kwa mifupa."
+          },
+          {
+            "number": 31,
+            "text": "Yeye amkandamizaye maskini humwaibisha muumba wake."
+          },
+          {
+            "number": 32,
+            "text": "Mtu m’baya huondoshwa katika ubaya wake, lakini aliye sahihi ana tumaini katika mauti yake."
+          },
+          {
+            "number": 33,
+            "text": "Hekima hukaa katika moyo wa yeye aliye na uelewa, lakini kile kilicho kati ya wajinga huwekwa wazi."
+          },
+          {
+            "number": 34,
+            "text": "Usahihi huinua taifa, lakini dhambi ni aibu kwa watu wowote."
+          },
+          {
+            "number": 35,
+            "text": "Kibali cha mfalme huwa juu ya mtumishi mwenye hekima, lakini hasira yake huwa juu ya yeye aletaye aibu."
+          }
+        ],
+        "15": [
+          {
+            "number": 1,
+            "text": "Jibu la upole hugeuza hasira, lakini maneno makali huchochea hasira."
+          },
+          {
+            "number": 2,
+            "text": "Ulimi wa mwenye hekima hutumia maarifa kwa usahihi, lakini kinywa cha wajinga humwaga ujinga."
+          },
+          {
+            "number": 3,
+            "text": "Macho ya BWANA yako kila mahali, Yakiwaangalia watu wabaya na watu wema."
+          },
+          {
+            "number": 4,
+            "text": "Ulimi ufaao ni mti wa uzima, lakini ukaidi ni kuvunjika kwa roho."
+          },
+          {
+            "number": 5,
+            "text": "Mjinga huyadharau maelekezo ya baba yake, lakini yeye ayazingatiaye maonyo ni mwenye busara."
+          },
+          {
+            "number": 6,
+            "text": "Katika nyumba ya aliye sahihi kuna hazina nyingi, lakini katika mapato ya mtu mbaya kuna taabu."
+          },
+          {
+            "number": 7,
+            "text": "Midomo ya wenye hekima hueneza maarifa, lakini moyo wa wajinga haufanyi hivyo."
+          },
+          {
+            "number": 8,
+            "text": "Sadaka ya mtu mbaya ni chukizo kwa BWANA, lakini maombi ya wanyoofu ni furaha yake."
+          },
+          {
+            "number": 9,
+            "text": "Njia ya mtu m’baya ni chukizo kwa BWANA, lakini humpenda yeye afuataye usahihi."
+          },
+          {
+            "number": 10,
+            "text": "Kusahihishwa ni jambo chungu kwa yeye aiacheye njia, naye anayechukia maonyo atakufa."
+          },
+          {
+            "number": 11,
+            "text": "Kuzimu na uharibifu viko mbele za BWANA, basi si zaidi sana mioyo ya wanadamu?"
+          },
+          {
+            "number": 12,
+            "text": "Mwenye dharau hampendi yeye amwonyaye, wala hataenda kwa wenye hekima."
+          },
+          {
+            "number": 13,
+            "text": "Moyo wenye furaha huleta uso wenye bashasha, lakini kwa huzuni ya moyo, roho huvunjika."
+          },
+          {
+            "number": 14,
+            "text": "Moyo wa yeye aliye na uelewa hutafuta maarifa, lakini kinywa cha wajinga hulisha upumbavu."
+          },
+          {
+            "number": 15,
+            "text": "Siku zote za mwenye mateso ni za uovu, lakini yeye aliye na moyo wenye furaha ana karamu endelevu."
+          },
+          {
+            "number": 16,
+            "text": "Afadhali kidogo pamoja na kumhofu BWANA kuliko hazina nyingi pamoja na taabu."
+          },
+          {
+            "number": 17,
+            "text": "Afadhali chakula cha mboga penye upendo, kuliko ng'ombe aliyenoneshwa pamoja na chuki."
+          },
+          {
+            "number": 18,
+            "text": "Mtu mwenye hasira huchochea ugomvi, lakini yeye asiye mwepesi wa hasira hutuliza ugomvi."
+          },
+          {
+            "number": 19,
+            "text": "Njia ya mtu mvivu ni kama ua wa miiba, lakini njia ya aliye sahihi hufanywa kuwa nyofu."
+          },
+          {
+            "number": 20,
+            "text": "Mwana mwenye hekima humfurahisha baba yake, lakini mjinga humdharau mama yake."
+          },
+          {
+            "number": 21,
+            "text": "Upumbavu ni furaha kwa yeye asiye na hekima, lakini mtu mwenye uelewa hutembea kwa unyoofu."
+          },
+          {
+            "number": 22,
+            "text": "Bila mashauri, makusudi hushindwa, lakini katika wingi wa washauri huimarishwa."
+          },
+          {
+            "number": 23,
+            "text": "Mtu hupata furaha kwa jibu la kinywa chake, na neno lisemwalo kwa wakati wake, ni jema kiasi gani."
+          },
+          {
+            "number": 24,
+            "text": "Njia ya uzima iko juu kwa mwenye hekima, Ili ajiepushe na kuzimu iliyo chini."
+          },
+          {
+            "number": 25,
+            "text": "Bwana ataiangamiza nyumba ya wenye kiburi, lakini ataimarisha mipaka ya mjane."
+          },
+          {
+            "number": 26,
+            "text": "Mawazo ya mtu mbaya ni chukizo kwa BWANA, lakini maneno ya walio safi ni maneno ya kupendeza."
+          },
+          {
+            "number": 27,
+            "text": "Yeye mwenye tamaa ya faida huiletea taabu nyumba yake mwenyewe, lakini yeye anayechukia zawadi ataishi."
+          },
+          {
+            "number": 28,
+            "text": "Moyo wa aliye sahihi hutafakari kabla ya kujibu, lakini kinywa cha mtu mbaya humwaga maovu."
+          },
+          {
+            "number": 29,
+            "text": "BWANA yuko mbali na mtu m’baya, lakini husikia maombi ya aliye sahihi."
+          },
+          {
+            "number": 30,
+            "text": "Nuru ya macho huufurahisha moyo, na habari njema hunawirisha mifupa."
+          },
+          {
+            "number": 31,
+            "text": "Sikio lisikialo maonyo ya uzima hukaa pamoja na wenye hekima."
+          },
+          {
+            "number": 32,
+            "text": "Yeye akataaye maelekezo huidharau nafsi yake mwenyewe, lakini yeye asikiaye maonyo hupata uelewa."
+          },
+          {
+            "number": 33,
+            "text": "Kumhofu BWANA ni maelekezo ya hekima, na kabla ya heshima huja unyenyekevu."
+          }
+        ],
+        "16": [
+          {
+            "number": 1,
+            "text": "Maandalio ya moyo yako ndani ya mwanadamu, na jibu la ulimi hutoka kwa BWANA."
+          },
+          {
+            "number": 2,
+            "text": "Njia zote za mtu ni safi machoni pake mwenyewe, lakini BWANA huzipima roho."
+          },
+          {
+            "number": 3,
+            "text": "Mkabidhi Bwana kazi zako, na mawazo yako yataimarishwa."
+          },
+          {
+            "number": 4,
+            "text": "Bwana amefanya vitu vyote kwa ajili yake mwenyewe, naam, hata mtu mbaya kwa ajili ya siku ya uovu."
+          },
+          {
+            "number": 5,
+            "text": "Kila mwenye kiburi moyoni ni chukizo kwa BWANA, hata mikono ikiungana, hataachwa bila adhabu."
+          },
+          {
+            "number": 6,
+            "text": "Kwa rehema na kweli, uovu husafishwa, na kwa hofu ya BWANA watu hujiepusha na uovu."
+          },
+          {
+            "number": 7,
+            "text": "Njia za mtu zinapompendeza BWANA, huwafanya hata adui zake wawe na amani naye."
+          },
+          {
+            "number": 8,
+            "text": "Afadhali kidogo pamoja na usahihi kuliko mapato mengi yasiyo sahihi."
+          },
+          {
+            "number": 9,
+            "text": "Moyo wa mtu hupanga njia yake, lakini Bwana huongoza hatua zake."
+          },
+          {
+            "number": 10,
+            "text": "Mfalme hunena kwa hekima ya ki Mungu, kamwe hapaswi kutoa hukumu isiyo ya haki."
+          },
+          {
+            "number": 11,
+            "text": "Vipimo vya haki na mizani ya haki ni vya BWANA, vipimo vyote vilivyomo kwenye mfuko ni kazi yake."
+          },
+          {
+            "number": 12,
+            "text": "Ni chukizo kwa wafalme kutenda ubaya, kwa maana kiti cha enzi huimarishwa kwa usahihi."
+          },
+          {
+            "number": 13,
+            "text": "Midomo ya usahihi ni furaha ya wafalme, nao humpenda yeye asemaye yaliyo sahihi."
+          },
+          {
+            "number": 14,
+            "text": "Hasira ya mfalme ni kama wajumbe wa kifo, lakini mwenye hekima huituliza."
+          },
+          {
+            "number": 15,
+            "text": "Katika nuru ya uso wa mfalme mna uzima, na kibali chake ni kama wingu la mvua za mwisho."
+          },
+          {
+            "number": 16,
+            "text": "Ni afadhali kiasi gani kupata hekima kuliko dhahabu! na ni afadhali kuchagua kupata uelewa kuliko kupata fedha."
+          },
+          {
+            "number": 17,
+            "text": "Njia kuu ya wanyoofu ni kujiepusha na uovu, yeye ahifadhaye njia yake huihifadhi nafsi yake."
+          },
+          {
+            "number": 18,
+            "text": "Kiburi hutangulia uharibifu, na roho ya majivuno hutangulia kuanguka."
+          },
+          {
+            "number": 19,
+            "text": "Afadhali kuwa na roho ya unyenyekevu pamoja na wanyenyekevu, kuliko kugawana nyara pamoja na wenye kiburi."
+          },
+          {
+            "number": 20,
+            "text": "Yeye ashughulikiaye jambo kwa hekima atapata mema, Na yeyote anayemtumaini Bwana, ana heri."
+          },
+          {
+            "number": 21,
+            "text": "Mwenye hekima moyoni ataitwa mwenye busara, utamu wa midomo huongeza kujifunza."
+          },
+          {
+            "number": 22,
+            "text": "Uelewa ni chemichemi ya uzima kwa mwenye nao, lakini maelekezo ya wajinga ni upumbavu."
+          },
+          {
+            "number": 23,
+            "text": "Moyo wa mwenye hekima hufundisha kinywa chake, na huongeza kujifunza katika midomo yake."
+          },
+          {
+            "number": 24,
+            "text": "Maneno ya kupendeza ni kama sega la asali, ni matamu kwa nafsi, na uponyaji kwa mifupa."
+          },
+          {
+            "number": 25,
+            "text": "Kuna njia ionekanayo kuwa sahihi kwa mtu, lakini mwisho wake ni njia za mauti."
+          },
+          {
+            "number": 26,
+            "text": "Yeye afanyaye kazi, hujifanyia kazi mwenyewe, kwa maana kinywa chake humlazimisha kufanya hivyo."
+          },
+          {
+            "number": 27,
+            "text": "Mtu asiye wa Mungu huchimbua maovu, na katika midomo yake kuna kama moto uwakao."
+          },
+          {
+            "number": 28,
+            "text": "Mtu mwenye ukaidi hupanda ugomvi, na mnong'onezi huwatenganisha marafiki wa karibu."
+          },
+          {
+            "number": 29,
+            "text": "Mtu mwenye vurugu humshawishi jirani yake, na humwongoza katika njia isiyo njema."
+          },
+          {
+            "number": 30,
+            "text": "Hufumba macho yake ili kupanga mambo ya ukaidi, kwa kusogeza midomo yake, hutekeleza uovu."
+          },
+          {
+            "number": 31,
+            "text": "Kichwa chenye mvi ni taji la utukufu, kama kitapatikana katika njia ya usahihi."
+          },
+          {
+            "number": 32,
+            "text": "Yeye asiye mwepesi wa hasira ni bora kuliko shujaa, na yeye anayeitawala roho yake ni bora kuliko yeye autwaaye mji."
+          },
+          {
+            "number": 33,
+            "text": "Kura hutupwa mapajani, lakini uamuzi wake wote hutoka kwa Bwana."
+          }
+        ],
+        "17": [
+          {
+            "number": 1,
+            "text": "Afadhali tonge kavu cha chakula pamoja na utulivu, kuliko nyumba iliyojaa karamu pamoja na ugomvi."
+          },
+          {
+            "number": 2,
+            "text": "Mtumishi mwenye hekima atatawala mwana aletaye aibu, naye atapata sehemu ya urithi pamoja na ndugu."
+          },
+          {
+            "number": 3,
+            "text": "Chungu cha kusafishia ni kwa ajili ya fedha, na tanuru ni kwa ajili ya dhahabu."
+          },
+          {
+            "number": 4,
+            "text": "Mtenda ubaya husikiliza midomo ya uongo, na mwongo husikiliza ulimi wa uovu."
+          },
+          {
+            "number": 5,
+            "text": "Yeyote anayemdhihaki maskini humwaibisha muumba wake, naye afurahiae maafa hataachwa bila adhabu."
+          },
+          {
+            "number": 6,
+            "text": "Wajukuu ni taji la wazee, na utukufu wa watoto ni baba zao."
+          },
+          {
+            "number": 7,
+            "text": "Maneno bora hayampasi mjinga, sembuse midomo ya uongo kwa mkuu."
+          },
+          {
+            "number": 8,
+            "text": "Kipawa ni kama jiwe la thamani machoni pa yeye aliye nayo, popote igeukapo, hustawi."
+          },
+          {
+            "number": 9,
+            "text": "Yeye afunikaye kosa hutafuta upendo, lakini yeye arudiaye jambo huwatenganisha marafiki wa karibu."
+          },
+          {
+            "number": 10,
+            "text": "Onyo humwingia mwenye hekima kuliko mapigo mia yanavyomwingia mjinga."
+          },
+          {
+            "number": 11,
+            "text": "Mtu mbaya hutafuta uasi tu, kwa hiyo mjumbe mkatili atatumwa dhidi yake."
+          },
+          {
+            "number": 12,
+            "text": "Afadhali mtu akutane na dubu aliyenyang'anywa watoto wake, kuliko kukutana na mjinga katika upumbavu wake."
+          },
+          {
+            "number": 13,
+            "text": "Yeyote alipaye uovu badala ya mema, uovu hautaondoka katika nyumba yake."
+          },
+          {
+            "number": 14,
+            "text": "Mwanzo wa ugomvi ni kama kuachia maji yatiririke, kwa hiyo, acha ugomvi kabla haujawa mkubwa."
+          },
+          {
+            "number": 15,
+            "text": "Yeye amhesabiaye mtu mbaya kuwa ametenda haki, na yeye anayemhukumu mtenda haki, wote wawili ni chukizo kwa Bwana."
+          },
+          {
+            "number": 16,
+            "text": "Kwa nini mjinga ana fedha za kupata hekima, ilhali hana moyo wa kuipata."
+          },
+          {
+            "number": 17,
+            "text": "Rafiki hupenda wakati wote, na ndugu huzaliwa kwa ajili ya wakati wa taabu."
+          },
+          {
+            "number": 18,
+            "text": "Mtu asiye na uelewa hupeana mikono, na kuwa mdhamini mbele ya rafiki yake."
+          },
+          {
+            "number": 19,
+            "text": "Yeye apendaye ugomvi hupenda makosa, na yeye ainuaye lango lake hutafuta uharibifu."
+          },
+          {
+            "number": 20,
+            "text": "Yeye aliye na moyo wa ukaidi hapati mema, na yeye aliye na ulimi wa ukaidi huangukia ufisadi."
+          },
+          {
+            "number": 21,
+            "text": "Yeye azaaye mjinga huzaa kwa huzuni yake, na baba wa mjinga hana furaha."
+          },
+          {
+            "number": 22,
+            "text": "Moyo wenye furaha hufanya mema kama dawa, lakini roho iliyovunjika huikausha mifupa."
+          },
+          {
+            "number": 23,
+            "text": "Mtu mbaya hutoa rushwa kutoka kifuani mwake ili kupotosha njia za hukumu."
+          },
+          {
+            "number": 24,
+            "text": "Hekima iko mbele ya yeye aliye na uelewa, lakini macho ya mjinga huwa mpaka miisho ya dunia."
+          },
+          {
+            "number": 25,
+            "text": "Mwana mjinga ni huzuni kwa baba yake, na uchungu kwa yeye aliyemzaa."
+          },
+          {
+            "number": 26,
+            "text": "Pia kumwadhibu mtenda haki si jambo jema, wala kuwapiga wakuu kwa sababu ya usawa."
+          },
+          {
+            "number": 27,
+            "text": "Yeye aliye na maarifa husema maneno machache, na mtu mwenye uelewa ana roho bora."
+          },
+          {
+            "number": 28,
+            "text": "Hata mjinga, anyamazapo, huhesabiwa kuwa mwenye hekima, na yeye afungaye midomo yake huhesabiwa kuwa mtu mwenye uelewa."
+          }
+        ],
+        "18": [
+          {
+            "number": 1,
+            "text": "Kwa sababu ya shauku, mtu hujitenga; hutafuta na kujishughulisha na kila aina ya hekima."
+          },
+          {
+            "number": 2,
+            "text": "Mjinga hafurahii uelewa, bali hupenda moyo wake ujifunue."
+          },
+          {
+            "number": 3,
+            "text": "Mtu mbaya ajapo, dharau pia huja, na pamoja na fedheha huja aibu."
+          },
+          {
+            "number": 4,
+            "text": "Maneno ya kinywa cha mtu ni kama maji ya vilindi, na chemchemi ya hekima ni kama kijito kibubujikacho."
+          },
+          {
+            "number": 5,
+            "text": "Si jambo jema Kumpokea mtu m’baya, Ili kumwangusha aliye sahihi katika hukumu."
+          },
+          {
+            "number": 6,
+            "text": "Midomo ya mjinga huingia katika mabishano, na kinywa chake huita mapigo."
+          },
+          {
+            "number": 7,
+            "text": "Kinywa cha mjinga ndicho uharibifu wake, na midomo yake ni mtego wa nafsi yake."
+          },
+          {
+            "number": 8,
+            "text": "Maneno ya mchongezi ni kama majeraha, nayo hushuka mpaka ndani kabisa ya tumbo."
+          },
+          {
+            "number": 9,
+            "text": "Mtu aliye mvivu katika kazi yake ni ndugu wa mtu mpotevu mkubwa."
+          },
+          {
+            "number": 10,
+            "text": "Jina la BWANA ni mnara wenye nguvu, aliye sahihi hulikimbilia, naye huwa salama."
+          },
+          {
+            "number": 11,
+            "text": "Utajiri wa tajiri ni mji wake wenye nguvu, Na ni kama ukuta mrefu katika mawazo yake mwenyewe."
+          },
+          {
+            "number": 12,
+            "text": "Kabla ya uharibifu moyo wa mtu hujivuna, na kabla ya heshima huja unyenyekevu."
+          },
+          {
+            "number": 13,
+            "text": "Yeye anayejibu jambo kabla hajalisikia, ni upumbavu na aibu kwake."
+          },
+          {
+            "number": 14,
+            "text": "Roho ya mtu itamtegemeza katika udhaifu wake, lakini roho iliyojeruhiwa, ni nani awezaye kuivumilia."
+          },
+          {
+            "number": 15,
+            "text": "Moyo wa mwenye busara hupata maarifa, na sikio la mwenye hekima hutafuta maarifa."
+          },
+          {
+            "number": 16,
+            "text": "kipawa cha mtu humfungulia njia, na humleta mbele ya watu wakuu."
+          },
+          {
+            "number": 17,
+            "text": "Ajiteteaye kwanza huonekana kuwa mtenda haki, lakini jirani yake huja na kumchunguza."
+          },
+          {
+            "number": 18,
+            "text": "Kura hukomesha mabishano, na huamua kati ya wenye nguvu."
+          },
+          {
+            "number": 19,
+            "text": "Ndugu aliyekwazika ni mgumu kuliko mji wenye nguvu, na mabishano yao ni kama mapingo ya ngome."
+          },
+          {
+            "number": 20,
+            "text": "Tumbo la mtu litashibishwa kwa matunda ya kinywa chake, na kwa ongezeko la midomo yake atajazwa."
+          },
+          {
+            "number": 21,
+            "text": "Mauti na uzima viko katika uwezo wa ulimi, na wale wanaoupenda watakula matunda yake."
+          },
+          {
+            "number": 22,
+            "text": "Yeyote ampataye mke hupata kitu chema, naye hupata kibali kutoka kwa BWANA."
+          },
+          {
+            "number": 23,
+            "text": "Maskini husihi kwa unyenyekevu; lakini tajiri hujibu kwa ukali."
+          },
+          {
+            "number": 24,
+            "text": "Mtu anayetaka kuwa na marafiki lazima ajionyeshe kuwa rafiki, na yuko rafiki awaye karibu kuliko ndugu."
+          }
+        ],
+        "19": [
+          {
+            "number": 1,
+            "text": "Afadhali maskini aendaye katika uadilifu wake, kuliko yeye aliye na ukaidi katika midomo yake, naye ni mjinga."
+          },
+          {
+            "number": 2,
+            "text": "Pia, kwamba roho iwe bila maarifa, si jambo jema, na yeye aharakishaye miguu yake hutenda dhambi."
+          },
+          {
+            "number": 3,
+            "text": "Upumbavu wa mtu hupotosha njia yake, na moyo wake humnung'unikia BWANA."
+          },
+          {
+            "number": 4,
+            "text": "Mali huleta marafiki wengi, lakini maskini hutengwa na jirani yake."
+          },
+          {
+            "number": 5,
+            "text": "Shahidi wa uongo hataachwa bila adhabu, na yeye asemaye uongo hataokoka."
+          },
+          {
+            "number": 6,
+            "text": "Wengi wataisihi kibali cha mkuu, na kila mtu ni rafiki wa yule atoaye zawadi."
+          },
+          {
+            "number": 7,
+            "text": "Ndugu zote wa maskini humchukia, je, si zaidi sana rafiki zake huenda mbali naye? huwasihi kwa maneno, lakini hawapo kwa ajili yake."
+          },
+          {
+            "number": 8,
+            "text": "Yeye apataye hekima huipenda nafsi yake, Ashikaye uelewa atapata mema."
+          },
+          {
+            "number": 9,
+            "text": "Shahidi wa uongo hataachwa bila adhabu, na yeye asemaye uongo ataangamia."
+          },
+          {
+            "number": 10,
+            "text": "Starehe haimpasi mjinga, basi sembuse mtumishi kuwa na mamlaka juu ya wakuu."
+          },
+          {
+            "number": 11,
+            "text": "Busara ya mtu humfanya achelewe kukasirika, na ni utukufu wake kupuuza kosa."
+          },
+          {
+            "number": 12,
+            "text": "Hasira ya mfalme ni kama kunguruma kwa simba, lakini kibali chake ni kama umande juu ya nyasi."
+          },
+          {
+            "number": 13,
+            "text": "Mwana mjinga ni maafa kwa baba yake, na ugomvi wa mke ni kama matone yanayodondoka daima."
+          },
+          {
+            "number": 14,
+            "text": "Nyumba na utajiri ni urithi utokao kwa baba, lakini mke mwenye busara hutoka kwa BWANA."
+          },
+          {
+            "number": 15,
+            "text": "Uvivu humtia mtu katika usingizi mzito, na nafsi ya mvivu itapata njaa."
+          },
+          {
+            "number": 16,
+            "text": "Yeye ashikaye amri huihifadhi nafsi yake, lakini yeye adharauye njia zake atakufa."
+          },
+          {
+            "number": 17,
+            "text": "Yeye amhurumiaye maskini humkopesha BWANA, na kile alichotoa, BWANA atamlipa tena."
+          },
+          {
+            "number": 18,
+            "text": "Mrekebishe mwanao maadamu bado kuna tumaini, wala nafsi yako isilegee kwa sababu ya kilio chake."
+          },
+          {
+            "number": 19,
+            "text": "Mtu mwenye hasira nyingi atapata adhabu, kwa maana ukimwokoa, itakulazimu kumwokoa tena."
+          },
+          {
+            "number": 20,
+            "text": "Sikiliza ushauri, na upokee maelekezo, ili upate kuwa mwenye hekima katika mwisho wako."
+          },
+          {
+            "number": 21,
+            "text": "Kuna mipango mingi moyoni mwa mtu, hata hivyo, kusudi la Bwana ndilo litakalosimama."
+          },
+          {
+            "number": 22,
+            "text": "Jambo linalomfanya mtu atamanike ni wema wake, na maskini ni bora kuliko mwongo."
+          },
+          {
+            "number": 23,
+            "text": "Kumhofu BWANA huleta uzima, na yeye aliye nayo ataishi akiwa ameridhika; hatatembelewa na uovu."
+          },
+          {
+            "number": 24,
+            "text": "Mtu mvivu huficha mkono wake kifuani mwake, wala hata haurudishi kinywani mwake."
+          },
+          {
+            "number": 25,
+            "text": "Mpige Mwenye dharau, naye maamuma atajifunza kuwa mwangalifu, na umkemee mwenye uelewa, naye atatambua maarifa."
+          },
+          {
+            "number": 26,
+            "text": "Yeye amporae baba yake, na kumfukuza mama yake, ni mwana aletaye aibu na fedheha."
+          },
+          {
+            "number": 27,
+            "text": "Acha kusikiliza maelekezo, mwanangu, na utapotoka kutoka katika maneno ya maarifa."
+          },
+          {
+            "number": 28,
+            "text": "Shahidi mpotovu hudharau haki, na kinywa cha mtu mbaya humeza uovu."
+          },
+          {
+            "number": 29,
+            "text": "Adhabu zimeandaliwa kwa ajili ya wadharau, na mapigo kwa migongo ya wajinga."
+          }
+        ],
+        "20": [
+          {
+            "number": 1,
+            "text": "Divai ni mdharau, na kileo ni mkorofi, na yeyote anayedanganywa navyo hana hekima."
+          },
+          {
+            "number": 2,
+            "text": "Hofu ya mfalme ni kama kunguruma kwa simba, yeyote anayemchochea hasira hutenda dhambi dhidi ya nafsi yake."
+          },
+          {
+            "number": 3,
+            "text": "Ni heshima kwa mtu kuacha ugomvi, lakini kila mjinga hujiingiza katika ugomvi."
+          },
+          {
+            "number": 4,
+            "text": "Mvivu hatalima kwa sababu ya baridi, Kwa hiyo ataomba wakati wa mavuno, lakini hatapata kitu."
+          },
+          {
+            "number": 5,
+            "text": "Shauri lililo moyoni mwa mtu ni kama maji ya kina kirefu, lakini mtu mwenye uelewa atachota kutoka humo."
+          },
+          {
+            "number": 6,
+            "text": "Watu wengi kila mmoja hutangaza wema wake mwenyewe, lakini ni nani awezaye kumpata mtu mwaminifu?"
+          },
+          {
+            "number": 7,
+            "text": "Mtenda haki hutembea katika uadilifu wake, watoto wake hubarikiwa baada yake."
+          },
+          {
+            "number": 8,
+            "text": "Mfalme aketiye katika kiti cha enzi cha hukumu, hutawanya uovu wote kwa macho yake."
+          },
+          {
+            "number": 9,
+            "text": "Ni nani awezaye kusema, ‘Nimeufanya moyo wangu kuwa safi nimetakaswa kutoka katika dhambi yangu’?"
+          },
+          {
+            "number": 10,
+            "text": "Uzani wa aina mbili, na vipimo vya aina mbili, vyote viwili ni chukizo kwa BWANA."
+          },
+          {
+            "number": 11,
+            "text": "Hata mtoto hujulikana kwa matendo yake, ikiwa matendo yake ni safi, na ikiwa ni sahihi."
+          },
+          {
+            "number": 12,
+            "text": "Sikio lisikialo, na jicho lionalo, BWANA ndiye aliyefanya vyote viwili."
+          },
+          {
+            "number": 13,
+            "text": "Usipende kulala, usije ukawa maskini, fungua macho yako, nawe utashibishwa kwa mkate."
+          },
+          {
+            "number": 14,
+            "text": "Si kitu, si kitu,' asema mnunuzi, lakini akiisha kwenda zake, ndipo hujisifu."
+          },
+          {
+            "number": 15,
+            "text": "Kuna dhahabu, na wingi wa yakuti, lakini midomo yenye maarifa ni kito cha thamani."
+          },
+          {
+            "number": 16,
+            "text": "Chukua vazi lake aliyedhamini deni mgeni, na uchukue rehani kwake kwa ajili ya mwanamke mgeni."
+          },
+          {
+            "number": 17,
+            "text": "Mkate wa udanganyifu ni mtamu kwa mtu, lakini mwishowe kinywa chake kitajaa kokoto."
+          },
+          {
+            "number": 18,
+            "text": "Kila mpango huimarishwa kwa ushauri, na kwa mashauri ya busara pigana vita."
+          },
+          {
+            "number": 19,
+            "text": "Anayezunguka akieneza maneno hufunua siri, kwa hiyo usichangamane na mtu anayebembeleza kwa midomo yake."
+          },
+          {
+            "number": 20,
+            "text": "Yeyote anayemlaani baba yake au mama yake, taa yake itazimwa katika giza nene."
+          },
+          {
+            "number": 21,
+            "text": "Urithi unaweza kupatikana kwa haraka mwanzoni, lakini mwisho wake hautakuwa na baraka."
+          },
+          {
+            "number": 22,
+            "text": "Usiseme, 'nitalipa uovu, bali mngojee BWANA, naye atakuokoa."
+          },
+          {
+            "number": 23,
+            "text": "Vipimo vya uzani vya aina mbili ni chukizo kwa BWANA, na mizani ya udanganyifu si nzuri."
+          },
+          {
+            "number": 24,
+            "text": "Mwenendo wa mwanadamu unaongozwa na BWANA, basi mwanadamu anawezaje kuielewa njia yake mwenyewe?"
+          },
+          {
+            "number": 25,
+            "text": "Ni mtego kwa mtu anayekimeza kilichowekwa wakfu, na baada ya kuweka nadhiri ndipo aanze kufikiria."
+          },
+          {
+            "number": 26,
+            "text": "Mfalme mwenye hekima huwatawanya watu wabaya, na hupitisha gurudumu juu yao."
+          },
+          {
+            "number": 27,
+            "text": "Roho ya mwanadamu ni taa ya BWANA, ikichunguza vyumba vyote vya ndani vya tumbo."
+          },
+          {
+            "number": 28,
+            "text": "Rehema na kweli humlinda mfalme, na kiti chake cha enzi huimarishwa kwa rehema."
+          },
+          {
+            "number": 29,
+            "text": "Utukufu wa vijana ni nguvu zao, na uzuri wa wazee ni mvi."
+          },
+          {
+            "number": 30,
+            "text": "Michubuko ya jeraha husafisha ubaya, vivyo hivyo mapigo hufikia vyumba vya ndani vya tumbo."
+          }
+        ],
+        "21": [
+          {
+            "number": 1,
+            "text": "Mbele za BWANA, moyo wa mfalme ni kama mfereji wa maji wa kumwagilia mashamba; huuelekeza kokote apendako."
+          },
+          {
+            "number": 2,
+            "text": "Watu hudhani kwamba kila watendalo ni sahihi, lakini BWANA huzipima sababu za kila jambo walitendalo."
+          },
+          {
+            "number": 3,
+            "text": "Kutenda usahihi na hukumu ya haki ni jambo linalokubalika zaidi kwa BWANA kuliko dhabihu."
+          },
+          {
+            "number": 4,
+            "text": "Macho ya kiburi, na moyo wa majivuno, na kazi ya mtu mbaya, ni dhambi."
+          },
+          {
+            "number": 5,
+            "text": "Mawazo ya mwenye bidii huleta wingi tu; bali kila mwenye haraka huishia katika uhitaji."
+          },
+          {
+            "number": 6,
+            "text": "Hazina zipatikanazo kwa ulimi wa uongo ni kama ukungu unaopeperushwa huku na huku; ni za wale wanaotafuta mauti."
+          },
+          {
+            "number": 7,
+            "text": "Unyang'anyi wa watu wabaya utawaharibu, kwa sababu wanakataa kutenda hukumu ya haki."
+          },
+          {
+            "number": 8,
+            "text": "Njia ya mtu mwenye hatia imepotoka na imejaa hila; bali aliye safi, matendo yake ni sahihi."
+          },
+          {
+            "number": 9,
+            "text": "Ni afadhali kukaa katika pembe ya paa la nyumba kuliko kuishi na mwanamke mgomvi katika nyumba pana."
+          },
+          {
+            "number": 10,
+            "text": "Nafsi ya mtu mbaya hutamani uovu; jirani yake hapati kibali machoni pake."
+          },
+          {
+            "number": 11,
+            "text": "Mdharau anapoadhibiwa, maamuma hupata hekima; na mwenye hekima anapofundishwa, hupokea maarifa."
+          },
+          {
+            "number": 12,
+            "text": "Aliye sahihi huichunguza kwa hekima nyumba ya mtu mbaya; lakini Mungu huwaangusha watu wabaya kwa sababu ya ubaya wao."
+          },
+          {
+            "number": 13,
+            "text": "Yeyote azibaye masikio yake asisikie kilio cha maskini, yeye naye atalia, lakini hatasikiwa."
+          },
+          {
+            "number": 14,
+            "text": "Hongo itolewayo kwa siri hutuliza hasira; na rushwa ifichwayo kifuani hutuliza ghadhabu kali."
+          },
+          {
+            "number": 15,
+            "text": "Ni furaha kwa mtenda haki kutenda hukumu ya haki; bali uharibifu utawapata watenda uovu."
+          },
+          {
+            "number": 16,
+            "text": "Mtu apoteaye kutoka katika njia ya uelewa atakaa katika kusanyiko la wafu."
+          },
+          {
+            "number": 17,
+            "text": "Mwenye kupenda anasa atakuwa maskini; mwenye kupenda divai na mafuta hatakuwa tajiri."
+          },
+          {
+            "number": 18,
+            "text": "Mtu mbaya atakuwa fidia kwa ajili ya aliye sahihi, na mkosaji kwa ajili ya mnyofu."
+          },
+          {
+            "number": 19,
+            "text": "Ni afadhali kukaa jangwani kuliko kuishi na mwanamke mgomvi na mwenye hasira."
+          },
+          {
+            "number": 20,
+            "text": "Kuna hazina ya kutamanika na mafuta katika makao ya mwenye hekima; bali mjinga huvitumia vyote."
+          },
+          {
+            "number": 21,
+            "text": "Yeye afuataye usahihi na rehema hupata uzima, usahihi, na heshima."
+          },
+          {
+            "number": 22,
+            "text": "Mwenye hekima hupanda mji wa mashujaa, na kuuangusha ulinzi walio tumaini."
+          },
+          {
+            "number": 23,
+            "text": "Yeyote ahifadhaye kinywa chake na ulimi wake huihifadhi nafsi yake na taabu."
+          },
+          {
+            "number": 24,
+            "text": "Jina lake ni mdharau mwenye kiburi na majivuno, ambaye hushughulika na hasira ya kiburi."
+          },
+          {
+            "number": 25,
+            "text": "Tamaa ya mvivu humwua, kwa maana mikono yake hukataa kufanya kazi."
+          },
+          {
+            "number": 26,
+            "text": "Hutamani kwa tamaa siku nzima; bali aliye sahihi hutoa wala hanyimi."
+          },
+          {
+            "number": 27,
+            "text": "Sadaka ya mtu mbaya ni chukizo; sembuse anapoileta kwa nia mbaya."
+          },
+          {
+            "number": 28,
+            "text": "Shahidi wa uongo ataangamia; bali mtu asikiaye atasema kwa uthabiti."
+          },
+          {
+            "number": 29,
+            "text": "Mtu m’baya huufanya uso wake kuwa mgumu; bali mnyofu huinyoosha njia yake."
+          },
+          {
+            "number": 30,
+            "text": "Hakuna hekima, wala uelewa, wala shauri linaloweza kusimama dhidi ya BWANA."
+          },
+          {
+            "number": 31,
+            "text": "Farasi huandaliwa kwa ajili ya siku ya vita; lakini ushindi hutoka kwa BWANA."
+          }
+        ],
+        "22": [
+          {
+            "number": 1,
+            "text": "Jina jema lafaa kuchaguliwa kuliko utajiri mwingi, na kibali kuliko fedha na dhahabu."
+          },
+          {
+            "number": 2,
+            "text": "Tajiri na maskini hukutana pamoja; BWANA ndiye Muumba wao wote."
+          },
+          {
+            "number": 3,
+            "text": "Mtu mwenye busara huona uovu mapema na kujificha; bali maamuma huendelea mbele na kuadhibiwa."
+          },
+          {
+            "number": 4,
+            "text": "Kwa unyenyekevu na hofu ya BWANA huja utajiri, heshima, na uzima."
+          },
+          {
+            "number": 5,
+            "text": "Miiba na mitego viko katika njia ya mwenye ukaidi; yeye aihifadhaye nafsi yake atakuwa mbali navyo."
+          },
+          {
+            "number": 6,
+            "text": "Mlee mtoto katika njia impasayo kwenda; hata atakapokuwa mzee hataiacha."
+          },
+          {
+            "number": 7,
+            "text": "Tajiri humtawala maskini, na akopaye ni mtumishi wa akopeshaye."
+          },
+          {
+            "number": 8,
+            "text": "Apandaye uovu atavuna ubatili; na fimbo ya hasira yake itavunjika."
+          },
+          {
+            "number": 9,
+            "text": "Yeye aliye na jicho la ukarimu atabarikiwa, kwa maana humpa maskini sehemu ya mkate wake."
+          },
+          {
+            "number": 10,
+            "text": "Mfukuze mdharau, na ugomvi utaondoka; naam, mabishano na fedheha vitakoma."
+          },
+          {
+            "number": 11,
+            "text": "Yeye aipendaye usafi wa moyo, na ambaye maneno yake yana neema, mfalme atakuwa rafiki yake."
+          },
+          {
+            "number": 12,
+            "text": "Macho ya BWANA huyahifadhi maarifa, lakini huyapindua maneno ya mkosaji."
+          },
+          {
+            "number": 13,
+            "text": "Mvivu husema, ‘Kuna simba nje; nitauawa katikati ya mtaa."
+          },
+          {
+            "number": 14,
+            "text": "Kinywa cha mwanamke mgeni ni shimo refu; yeye ambaye BWANA amemkasirikia ataangukia humo."
+          },
+          {
+            "number": 15,
+            "text": "Upumbavu umefungamana na moyo wa mtoto; lakini fimbo ya maonyo itaondoa mbali nao."
+          },
+          {
+            "number": 16,
+            "text": "Yeye amkandamizaye maskini ili kuongeza utajiri wake, na yeye ampaye tajiri, hakika atafikia uhitaji."
+          },
+          {
+            "number": 17,
+            "text": "Tega sikio lako, uyasikie maneno ya wenye hekima, na uelekeze moyo wako kwenye maarifa yangu."
+          },
+          {
+            "number": 18,
+            "text": "Maana ni jambo la kupendeza ukilihifadhi ndani yako; yatakuwa tayari daima kwenye midomo yako."
+          },
+          {
+            "number": 19,
+            "text": "Ili tumaini lako liwe kwa BWANA, nimekujulisha mambo haya leo, naam, kwako wewe."
+          },
+          {
+            "number": 20,
+            "text": "Je, sikukuandikia mambo bora kabisa kuhusu mashauri na maarifa?"
+          },
+          {
+            "number": 21,
+            "text": "Ili nikujulishe hakika ya maneno ya kweli, upate kuwajibu kwa maneno ya kweli wale wanaokutuma."
+          },
+          {
+            "number": 22,
+            "text": "Usimnyang'anye maskini kwa sababu ni maskini, wala usimkandamize mwenye dhiki langoni."
+          },
+          {
+            "number": 23,
+            "text": "Maana BWANA atalitetea shauri lao, naye atawanyang'anya uhai wao wale waliowanyang'anya wao."
+          },
+          {
+            "number": 24,
+            "text": "Usifanye urafiki na mtu mwenye hasira, wala usiende pamoja na mtu mwenye ghadhabu."
+          },
+          {
+            "number": 25,
+            "text": "Usije ukajifunza njia zake, na kujitegea mtego nafsi yako."
+          },
+          {
+            "number": 26,
+            "text": "Usiwe miongoni mwa wale wanaopeana mikono kwa ahadi, wala wanaodhamini madeni ya wengine."
+          },
+          {
+            "number": 27,
+            "text": "Ikiwa huna cha kulipa, kwa nini akuchukulie hata kitanda chako kutoka chini yako?"
+          },
+          {
+            "number": 28,
+            "text": "Usiondoe alama za mipaka ya kale ambazo baba zako waliweka."
+          },
+          {
+            "number": 29,
+            "text": "Je, wamwona mtu mwenye bidii katika kazi yake? Atasimama mbele ya wafalme; hatasimama mbele ya watu wa hali ya chini."
+          }
+        ],
+        "23": [
+          {
+            "number": 1,
+            "text": "Uketipo kula pamoja na mtawala, angalia kwa makini kilicho mbele yako."
+          },
+          {
+            "number": 2,
+            "text": "Na ujitie kisu kooni, ikiwa wewe ni mtu mlafi."
+          },
+          {
+            "number": 3,
+            "text": "Usivitamani vyakula vyake vitamu, maana ni chakula cha udanganyifu."
+          },
+          {
+            "number": 4,
+            "text": "Usijisumbue ili upate kuwa tajiri; acha kutegemea hekima yako mwenyewe."
+          },
+          {
+            "number": 5,
+            "text": "Je, utayaelekeza macho yako kwenye kitu kisichodumu? Maana utajiri hakika hujipatia mabawa; huruka kama tai kuelekea mbinguni."
+          },
+          {
+            "number": 6,
+            "text": "Usile mkate wa mtu mwenye jicho ovu, wala usivitamani vyakula vyake vitamu."
+          },
+          {
+            "number": 7,
+            "text": "Maana jinsi afikirivyo moyoni mwake, ndivyo alivyo. Huku akikuambia, ‘Kula na unywe,’ moyo wake hauko pamoja nawe."
+          },
+          {
+            "number": 8,
+            "text": "Kipande cha chakula ulichokila utakitema, na utayapoteza maneno yako matamu."
+          },
+          {
+            "number": 9,
+            "text": "Usiseme mbele ya masikio ya mjinga, maana ataidharau hekima ya maneno yako."
+          },
+          {
+            "number": 10,
+            "text": "Usiondoe alama za mipaka ya kale, wala usiingie katika mashamba ya yatima."
+          },
+          {
+            "number": 11,
+            "text": "Maana mkombozi wao ni mwenye nguvu; ataitetea shauri lao dhidi yako."
+          },
+          {
+            "number": 12,
+            "text": "Uuelekeze moyo wako kwenye maelekezo, na masikio yako kwenye maneno ya maarifa."
+          },
+          {
+            "number": 13,
+            "text": "Usimnyime mtoto maonyo; maana ukimpiga kwa fimbo, hatakufa."
+          },
+          {
+            "number": 14,
+            "text": "Utampiga kwa fimbo, na utaikomboa nafsi yake kutoka kuzimu."
+          },
+          {
+            "number": 15,
+            "text": "Mwanangu, ikiwa moyo wako una hekima, moyo wangu utafurahi, naam, wangu pia."
+          },
+          {
+            "number": 16,
+            "text": "Naam, moyo wangu wa ndani utafurahi, midomo yako itakaposema mambo yaliyo sahihi."
+          },
+          {
+            "number": 17,
+            "text": "Moyo wako usiwaonee wivu wenye dhambi; bali uwe katika hofu ya BWANA siku nzima."
+          },
+          {
+            "number": 18,
+            "text": "Maana hakika kuna mwisho mwema; na tumaini lako halitakatiliwa mbali."
+          },
+          {
+            "number": 19,
+            "text": "Sikiliza, mwanangu, uwe na hekima, na uongoze moyo wako katika njia iliyo sahihi."
+          },
+          {
+            "number": 20,
+            "text": "Usiwe miongoni mwa walevi wa divai, wala miongoni mwa walafi wa nyama."
+          },
+          {
+            "number": 21,
+            "text": "Maana mlevi na mlafi watafikia umaskini; na usingizi mwingi utamvika mtu matambara."
+          },
+          {
+            "number": 22,
+            "text": "Msikilize baba yako aliyekuzaa, wala usimdharau mama yako atakapokuwa mzee."
+          },
+          {
+            "number": 23,
+            "text": "Nunua kweli, wala usiiuze; vivyo hivyo nunua hekima, maelekezo, na uelewa."
+          },
+          {
+            "number": 24,
+            "text": "Baba wa aliye sahihi atafurahi sana; na yeye azaaye mtoto mwenye hekima atapata furaha kupitia kwake."
+          },
+          {
+            "number": 25,
+            "text": "Baba yako na mama yako watafurahi, naye aliyekuzaa atashangilia."
+          },
+          {
+            "number": 26,
+            "text": "Mwanangu, nipe moyo wako, na macho yako yazishike njia zangu."
+          },
+          {
+            "number": 27,
+            "text": "Maana kahaba ni shimo refu, na mwanamke mgeni ni shimo jembamba."
+          },
+          {
+            "number": 28,
+            "text": "Yeye huvizia kama mnyang'anyi, na huongeza waasi miongoni mwa watu."
+          },
+          {
+            "number": 29,
+            "text": "Ni nani aliye na ole? Ni nani aliye na huzuni? Ni nani aliye na mabishano? Ni nani aliye na maneno yasiyo na maana? Ni nani aliye na majeraha bila sababu? Ni nani aliye na macho mekundu?"
+          },
+          {
+            "number": 30,
+            "text": "Ni wale wanaokaa muda mrefu wakinywa divai; wale wanaoenda kutafuta divai iliyochanganywa."
+          },
+          {
+            "number": 31,
+            "text": "Usiitazame divai inapokuwa nyekundu, inapong'aa ndani ya kikombe, na kushuka kwa ulaini."
+          },
+          {
+            "number": 32,
+            "text": "Mwisho wake huuma kama nyoka, na huchoma kama fira."
+          },
+          {
+            "number": 33,
+            "text": "Macho yako yatawaona wanawake wageni, na moyo wako utasema mambo ya ukaidi."
+          },
+          {
+            "number": 34,
+            "text": "Naam, utakuwa kama mtu aliyelala katikati ya bahari, au kama mtu aliyelala juu ya ncha ya mlingoti wa meli."
+          },
+          {
+            "number": 35,
+            "text": "Wamenipiga,' utasema, 'lakini sikuumia; wamenichapa, lakini sikuhisi. Nitaamka lini? Nitaitafuta tena."
+          }
+        ],
+        "24": [
+          {
+            "number": 1,
+            "text": "Usiwahusudu watu wabaya, wala usitamani kuwa pamoja nao."
+          },
+          {
+            "number": 2,
+            "text": "Maana mioyo yao hutafakari uharibifu, na midomo yao hunena ufisadi."
+          },
+          {
+            "number": 3,
+            "text": "Kwa hekima nyumba hujengwa, na kwa uelewa huimarishwa."
+          },
+          {
+            "number": 4,
+            "text": "Na kwa maarifa vyumba vyake hujazwa hazina zote za thamani na za kupendeza."
+          },
+          {
+            "number": 5,
+            "text": "Mtu mwenye hekima ana nguvu; naam, mtu mwenye maarifa huongeza nguvu zake."
+          },
+          {
+            "number": 6,
+            "text": "Maana kwa mashauri ya hekima utaendesha vita vyako, na katika wingi wa washauri kuna usalama."
+          },
+          {
+            "number": 7,
+            "text": "Hekima ni gharama sana kwa mjinga, hafumbui kinywa chake langoni."
+          },
+          {
+            "number": 8,
+            "text": "Yeye anayepanga kufanya ubaya ataitwa mtu wa ufisadi.\""
+          },
+          {
+            "number": 9,
+            "text": "Mawazo ya upumbavu ni dhambi; na mdharau ni chukizo kwa watu.\""
+          },
+          {
+            "number": 10,
+            "text": "Ukizimia siku ya taabu, nguvu zako ni chache"
+          },
+          {
+            "number": 11,
+            "text": "Endapo ukiwaokoa wale wanaopelekwa kwenye kifo, na uwazuie wale wanaoyumbayumba kuelekea kuchinjwa."
+          },
+          {
+            "number": 12,
+            "text": "Ukisema, 'Tazama, hatukujua jambo hili,' je, yeye aipimaye mioyo hatazingatia? Na yeye ailindaye nafsi yako hajui? Je, hatamlipa kila mtu kulingana na matendo yake?"
+          },
+          {
+            "number": 13,
+            "text": "Mwanangu, kula asali kwa maana ni nzuri; na sega la asali ni tamu kwa ladha yako."
+          },
+          {
+            "number": 14,
+            "text": "Ndivyo maarifa ya hekima yatakavyokuwa kwa nafsi yako; ukiyapata, kutakuwa na thawabu, na tumaini lako halitakatiliwa mbali."
+          },
+          {
+            "number": 15,
+            "text": "Wewe mtu mbaya, usivizie makao ya aliye sahihi; usiharibu mahali pake pa kupumzika."
+          },
+          {
+            "number": 16,
+            "text": "Maana mtenda haki huanguka mara saba, lakini huinuka tena; bali watu wabaya huanguka katika ubaya."
+          },
+          {
+            "number": 17,
+            "text": "Usifurahi adui yako aangukapo, wala moyo wako usishangilie ajikwazapo."
+          },
+          {
+            "number": 18,
+            "text": "Asije BWANA akaona jambo hilo, likamchukiza, akaugeuza ghadhabu yake kutoka kwake."
+          },
+          {
+            "number": 19,
+            "text": "Usijitaabishe kwa sababu ya watu wabaya, wala Usiwahusudu watu wabaya."
+          },
+          {
+            "number": 20,
+            "text": "Maana mtu m’baya hatakuwa na tuzo; taa ya watu wabaya itazimwa."
+          },
+          {
+            "number": 21,
+            "text": "Mwanangu, mhofu BWANA na mfalme; wala usijiunge na wale wenye kubadilika."
+          },
+          {
+            "number": 22,
+            "text": "Maana maangamizi yao yatatokea ghafla; na ni nani ajuaye uharibifu utakaowapata wote wawili?"
+          },
+          {
+            "number": 23,
+            "text": "Haya pia ni maneno ya wenye hekima. Si jambo jema kupendelea watu katika hukumu."
+          },
+          {
+            "number": 24,
+            "text": "Yeye amwambiaye mtu mbaya, 'Wewe ni mwenye usahihi,' watu watamlaani, na mataifa yatamchukia."
+          },
+          {
+            "number": 25,
+            "text": "Lakini wale wanaomkemea watapata furaha, na baraka njema itawajia."
+          },
+          {
+            "number": 26,
+            "text": "Kila mtu atambusu midomo yake yeye atoaye jibu lililo sahihi."
+          },
+          {
+            "number": 27,
+            "text": "Andaa kazi yako nje, na uiweke tayari shambani; kisha baadaye ujenge nyumba yako."
+          },
+          {
+            "number": 28,
+            "text": "Usiwe shahidi dhidi ya jirani yako bila sababu, wala usidanganye kwa midomo yako."
+          },
+          {
+            "number": 29,
+            "text": "Usiseme, 'Nitamtendea kama alivyonitendea; nitamlipa mtu huyo kulingana na matendo yake."
+          },
+          {
+            "number": 30,
+            "text": "Nilipita karibu na shamba la mvivu, na karibu na shamba la mizabibu la mtu asiye na uelewa."
+          },
+          {
+            "number": 31,
+            "text": "Na tazama, lote lilikuwa limeota miiba; magugu yalikuwa yamefunika uso wake, na ukuta wake wa mawe ulikuwa umebomoka."
+          },
+          {
+            "number": 32,
+            "text": "Ndipo nilipoona na kulitafakari vizuri; nilitazama, nikapokea maelekezo."
+          },
+          {
+            "number": 33,
+            "text": "Kulala kidogo, kusinzia kidogo, kukunja mikono kidogo ili ulale."
+          },
+          {
+            "number": 34,
+            "text": "Ndivyo umaskini wako utakavyokuja kama msafiri, na uhitaji wako kama mtu mwenye silaha."
+          }
+        ],
+        "25": [
+          {
+            "number": 1,
+            "text": "Hizi pia ni mithali za Sulemani, ambazo watu wa Hezekia, mfalme wa Yuda, walinakili."
+          },
+          {
+            "number": 2,
+            "text": "Ni utukufu wa Mungu kuficha jambo; lakini ni heshima ya wafalme kulichunguza jambo."
+          },
+          {
+            "number": 3,
+            "text": "Mbingu kwa kimo chake, na dunia kwa kina chake, vivyo hivyo moyo wa wafalme hauchunguziki."
+          },
+          {
+            "number": 4,
+            "text": "Ondoa takataka katika fedha, nayo itatoa chombo kinachofaa kwa fundi."
+          },
+          {
+            "number": 5,
+            "text": "Mwondoe mtu mbaya mbele ya mfalme, na kiti chake cha enzi kitaimarishwa katika usahihi."
+          },
+          {
+            "number": 6,
+            "text": "Usijikweze mbele ya mfalme, wala usisimame mahali pa watu wakuu.\""
+          },
+          {
+            "number": 7,
+            "text": "Maana ni afadhali uambiwe, 'Panda huku juu,' kuliko kushushwa chini mbele ya mkuu ambaye macho yako yamemwona.\""
+          },
+          {
+            "number": 8,
+            "text": "Usikimbilie kuanzisha ugomvi, usije ukashindwa kujua la kufanya mwisho wake, jirani yako atakapokuaibisha.\""
+          },
+          {
+            "number": 9,
+            "text": "Shughulikia shauri lako na jirani yako mwenyewe, wala usifichue siri ya mtu mwingine.\""
+          },
+          {
+            "number": 10,
+            "text": "Asije yule atakayesikia akakuaibisha, na sifa yako mbaya isiondoke kamwe."
+          },
+          {
+            "number": 11,
+            "text": "Neno lisemwalo kwa wakati unaofaa ni kama tufaha za dhahabu katika vyombo vya fedha."
+          },
+          {
+            "number": 12,
+            "text": "Kama hereni ya dhahabu na pambo la dhahabu safi, ndivyo alivyo mkemeaji mwenye hekima kwa sikio linalotii."
+          },
+          {
+            "number": 13,
+            "text": "Kama ubaridi wa theluji wakati wa mavuno, ndivyo alivyo mjumbe mwaminifu kwa wale waliomtuma; maana huiburudisha nafsi ya mabwana wake."
+          },
+          {
+            "number": 14,
+            "text": "Yeye anayejisifu kwa kipawa uongo ni kama mawingu na upepo usioleta mvua."
+          },
+          {
+            "number": 15,
+            "text": "Kwa uvumilivu wa muda mrefu, mkuu hushawishika; na ulimi mpole huvunja hata mfupa."
+          },
+          {
+            "number": 16,
+            "text": "Je, umepata asali? Kula kiasi kinachokutosha, usije ukashiba nayo ukaitapika."
+          },
+          {
+            "number": 17,
+            "text": "Usiende mara kwa mara nyumbani kwa jirani yako, asije akakuchoka na kukuchukia."
+          },
+          {
+            "number": 18,
+            "text": "Mtu anayetoa ushahidi wa uongo dhidi ya jirani yake ni kama nyundo, upanga, na mshale mkali."
+          },
+          {
+            "number": 19,
+            "text": "Kumtegemea mtu asiye mwaminifu wakati wa taabu ni kama jino lililovunjika na mguu ulioteguka."
+          },
+          {
+            "number": 20,
+            "text": "Kama mtu avuaye vazi wakati wa baridi, na kama siki juu ya magadi, ndivyo alivyo yeye aimbaye nyimbo kwa mtu mwenye moyo mzito."
+          },
+          {
+            "number": 21,
+            "text": "Adui yako akiwa na njaa, mpe mkate ale; na akiwa na kiu, mpe maji anywe."
+          },
+          {
+            "number": 22,
+            "text": "Maana utakusanya makaa ya moto juu ya kichwa chake, na BWANA atakulipa."
+          },
+          {
+            "number": 23,
+            "text": "Upepo wa kaskazini huondoa mvua; vivyo hivyo uso wenye hasira huunyamazisha ulimi wa uchongezi."
+          },
+          {
+            "number": 24,
+            "text": "Ni afadhali kukaa kwenye kona ya paa la nyumba kuliko kukaa na mwanamke mgomvi katika nyumba kubwa."
+          },
+          {
+            "number": 25,
+            "text": "Kama maji baridi kwa nafsi yenye kiu, ndivyo zilivyo habari njema zitokazo nchi ya mbali."
+          },
+          {
+            "number": 26,
+            "text": "Aliye sahihi akisalimu amri mbele ya mtu mbaya ni kama chemchemi iliyotiwa matope na kisima kilichoharibika."
+          },
+          {
+            "number": 27,
+            "text": "Si jambo jema kula asali nyingi; vivyo hivyo kujitafutia utukufu wako mwenyewe si utukufu."
+          },
+          {
+            "number": 28,
+            "text": "Mtu asiyeweza kuitawala roho yake ni kama mji uliobomolewa na usio na kuta."
+          }
+        ],
+        "26": [
+          {
+            "number": 1,
+            "text": "Kama theluji wakati wa kiangazi, na kama mvua wakati wa mavuno, ndivyo heshima isivyomfaa mjinga."
+          },
+          {
+            "number": 2,
+            "text": "Kama ndege arukavyo huku na huku, na kama mbayuwayu arukavyo angani, ndivyo laana isiyo na sababu haitampata mtu."
+          },
+          {
+            "number": 3,
+            "text": "Mjeledi ni kwa farasi, hatamu ni kwa punda, na fimbo ni kwa mgongo wa mjinga."
+          },
+          {
+            "number": 4,
+            "text": "Usimjibu mjinga kulingana na upumbavu wake, usije ukawa kama yeye."
+          },
+          {
+            "number": 5,
+            "text": "Mjibu mjinga kulingana na upumbavu wake, asije akajiona kuwa ana hekima machoni pake mwenyewe."
+          },
+          {
+            "number": 6,
+            "text": "Yeye anayemtuma mjinga kupeleka ujumbe ni kama anayejikata miguu yake mwenyewe na kunywa madhara."
+          },
+          {
+            "number": 7,
+            "text": "Miguu ya kilema hulegea; hivyo ndivyo mithali huwa katika kinywa cha wajinga."
+          },
+          {
+            "number": 8,
+            "text": "Kama afungaye jiwe kwenye kombeo, ndivyo alivyo yeye ampataye mjinga heshima."
+          },
+          {
+            "number": 9,
+            "text": "Kama mwiba uingiao mkononi mwa mlevi, ndivyo ilivyo mithali katika vinywa vya wajinga."
+          },
+          {
+            "number": 10,
+            "text": "Mungu Mkuu aliyeumba vitu vyote humlipa mjinga, na pia huwalipa wakosaji."
+          },
+          {
+            "number": 11,
+            "text": "Kama mbwa arudiavyo kwenye matapishi yake, ndivyo mjinga arudiavyo kwenye upumbavu wake."
+          },
+          {
+            "number": 12,
+            "text": "Je, wamwona mtu anayejiona kuwa ana hekima? Kuna matumaini zaidi kwa mjinga kuliko kwake."
+          },
+          {
+            "number": 13,
+            "text": "Mvivu husema, Kuna simba njiani; simba yuko mitaani."
+          },
+          {
+            "number": 14,
+            "text": "Kama mlango ugeukavyo kwenye bawaba zake, ndivyo mvivu ageukavyo kitandani mwake."
+          },
+          {
+            "number": 15,
+            "text": "Mvivu hutia mkono wake kifuani, lakini huona uvivu kuurudisha mdomoni mwake."
+          },
+          {
+            "number": 16,
+            "text": "Mvivu hujiona kuwa ana hekima kuliko watu saba wanaoweza kutoa jibu lenye busara."
+          },
+          {
+            "number": 17,
+            "text": "Yeye apitaye njia na kujiingiza katika ugomvi usiomuhusu ni kama mtu amshikaye mbwa kwa masikio."
+          },
+          {
+            "number": 18,
+            "text": "Kama mwendawazimu arushaye vimoto, mishale, na mauti."
+          },
+          {
+            "number": 19,
+            "text": "Ndivyo alivyo mtu amdanganyaye jirani yake, kisha aseme, ‘Je, sikuwa nafanya mzaha tu?’."
+          },
+          {
+            "number": 20,
+            "text": "Mahali ambapo hakuna kuni, moto huzimika; vivyo hivyo, mahali ambapo hakuna mchongezi, ugomvi hukoma."
+          },
+          {
+            "number": 21,
+            "text": "Kama makaa yanavyochochea makaa yanayowaka, na kuni zinavyochochea moto, ndivyo mtu mgomvi anavyochochea ugomvi."
+          },
+          {
+            "number": 22,
+            "text": "Maneno ya mchongezi ni kama vidonda; huingia mpaka ndani kabisa ya tumbo."
+          },
+          {
+            "number": 23,
+            "text": "Midomo yenye maneno ya moto na moyo mbaya ni kama kipande cha chungu kilichofunikwa kwa takataka za fedha."
+          },
+          {
+            "number": 24,
+            "text": "Yeye achukiaye hujificha kwa maneno ya midomo yake, lakini huweka udanganyifu moyoni mwake."
+          },
+          {
+            "number": 25,
+            "text": "Anenapo kwa upole, usimwamini; maana ndani ya moyo wake mna machukizo saba."
+          },
+          {
+            "number": 26,
+            "text": "Ingawa chuki yake imefichwa kwa udanganyifu, ubaya wake utafunuliwa mbele ya mkutano wote."
+          },
+          {
+            "number": 27,
+            "text": "Yeyote achimbaye shimo ataangukia ndani yake; na yeye aviringishaye jiwe, litamrudia."
+          },
+          {
+            "number": 28,
+            "text": "Ulimi wa uongo huwachukia wale uliowaumiza; na kinywa cha kujipendekeza huleta uharibifu."
+          }
+        ],
+        "27": [
+          {
+            "number": 1,
+            "text": "Usijisifu kuhusu kesho, maana hujui siku italeta nini."
+          },
+          {
+            "number": 2,
+            "text": "Mtu mwingine akusifu, wala si kinywa chako mwenyewe; mgeni akusifu, wala si midomo yako mwenyewe."
+          },
+          {
+            "number": 3,
+            "text": "Jiwe ni zito, na mchanga una uzito; lakini hasira ya mjinga ni nzito kuliko vyote viwili."
+          },
+          {
+            "number": 4,
+            "text": "Ghadhabu ni kali, na hasira ni yenye kuharibu; lakini ni nani awezaye kusimama mbele ya wivu?"
+          },
+          {
+            "number": 5,
+            "text": "Karipio la wazi ni bora kuliko upendo uliofichwa."
+          },
+          {
+            "number": 6,
+            "text": "Vidonda vitolewavyo na rafiki ni vya uaminifu; lakini mabusu ya adui ni ya udanganyifu."
+          },
+          {
+            "number": 7,
+            "text": "Mtu aliyeshiba hudharau hata sega la asali; lakini kwa mtu mwenye njaa, kila kitu kichungu ni kitamu."
+          },
+          {
+            "number": 8,
+            "text": "Kama ndege apoteaye kutoka kwenye kiota chake, ndivyo alivyo mtu aondokaye mahali pake."
+          },
+          {
+            "number": 9,
+            "text": "Marashi na manukato huufurahisha moyo; vivyo hivyo ushauri wa dhati kutoka kwa rafiki huufurahisha moyo."
+          },
+          {
+            "number": 10,
+            "text": "Usimwache rafiki yako wala rafiki wa baba yako; wala usiende nyumbani kwa ndugu yako siku ya taabu yako. Maana jirani aliye karibu ni bora kuliko ndugu aliye mbali."
+          },
+          {
+            "number": 11,
+            "text": "Mwanangu, uwe na hekima na uufurahishe moyo wangu, ili nipate kumjibu yeye anayenilaumu."
+          },
+          {
+            "number": 12,
+            "text": "Mtu mwenye busara huona mabaya mapema na kujificha; lakini maamuma huendelea mbele na huadhibiwa."
+          },
+          {
+            "number": 13,
+            "text": "Chukua vazi la mtu aliyedhamini deni la mgeni; na uchukue dhamana kwake kwa ajili ya mwanamke asiye wake."
+          },
+          {
+            "number": 14,
+            "text": "Yeye ambarikiaye rafiki yake kwa sauti kubwa asubuhi na mapema, jambo hilo litahesabiwa kwake kuwa laana."
+          },
+          {
+            "number": 15,
+            "text": "Matone yanayoendelea kunyesha siku ya mvua nyingi na mwanamke mgomvi vinafanana."
+          },
+          {
+            "number": 16,
+            "text": "Yeye anayetaka kumzuia ni kama anayejizuia upepo, au anayeshika marashi kwa mkono wake wa kuume hayatafichika."
+          },
+          {
+            "number": 17,
+            "text": "Chuma hunoa chuma; vivyo hivyo mtu humnoa rafiki yake."
+          },
+          {
+            "number": 18,
+            "text": "Yeye aitunzaye mtini atakula matunda yake; vivyo hivyo yeye amhudumiaye bwana wake ataheshimishwa."
+          },
+          {
+            "number": 19,
+            "text": "Kama uso unavyoonekana kwenye maji, ndivyo moyo wa mtu unavyojidhihirisha kwa mtu mwingine."
+          },
+          {
+            "number": 20,
+            "text": "Kuzimu na uharibifu havijai kamwe; vivyo hivyo macho ya mwanadamu hayasikii kutosheka."
+          },
+          {
+            "number": 21,
+            "text": "Kama chungu cha kusafishia fedha, na tanuru kwa dhahabu, ndivyo mtu anavyojaribiwa kwa sifa anazopewa."
+          },
+          {
+            "number": 22,
+            "text": "Hata ukimponda mjinga ndani ya kinu pamoja na nafaka kwa mchi, ujinga wake hautaondoka kwake."
+          },
+          {
+            "number": 23,
+            "text": "Jitahidi kujua hali ya makundi yako ya kondoo, na uyatunze vizuri makundi yako ya mifugo."
+          },
+          {
+            "number": 24,
+            "text": "Maana utajiri si wa milele; je, taji hudumu kwa kila kizazi?"
+          },
+          {
+            "number": 25,
+            "text": "Nyasi hukatwa, majani mabichi hujitokeza, na mimea ya milimani hukusanywa."
+          },
+          {
+            "number": 26,
+            "text": "Wanakondoo watakupa mavazi, na mbuzi watakuwa bei ya kununulia shamba."
+          },
+          {
+            "number": 27,
+            "text": "Nao utakuwa na maziwa ya mbuzi ya kutosha kwa chakula chako, kwa chakula cha watu wa nyumbani mwako, na kwa riziki ya vijakazi vyako."
+          }
+        ],
+        "28": [
+          {
+            "number": 1,
+            "text": "Watu wabaya hukimbia ingawa hakuna anayewafukuza; lakini aliye sahihi ana ujasiri kama simba."
+          },
+          {
+            "number": 2,
+            "text": "Kwa sababu ya makosa ya nchi, watawala wake huwa wengi; lakini kwa mtu mwenye uelewa na maarifa, utulivu wa nchi hudumu."
+          },
+          {
+            "number": 3,
+            "text": "Maskini anayewakandamiza maskini wenzake ni kama mvua kubwa inayofagia na kuacha hakuna chakula."
+          },
+          {
+            "number": 4,
+            "text": "Wale wanaoiacha sheria huwasifu watu wabaya; lakini wale wanaoihifadhi sheria hushindana nao."
+          },
+          {
+            "number": 5,
+            "text": "Watu wabaya hawaelewi hukumu; lakini wale wanaomtafuta BWANA huelewa mambo yote."
+          },
+          {
+            "number": 6,
+            "text": "Ni afadhali maskini anayetembea katika unyoofu wake kuliko tajiri mwenye njia za ukaidi."
+          },
+          {
+            "number": 7,
+            "text": "Yeye anayeshika sheria ni mwana mwenye hekima; lakini anayefuatana na watu waharibifu humwaibisha baba yake."
+          },
+          {
+            "number": 8,
+            "text": "Yeye aongezaye mali yake kwa riba na faida isiyo ya haki, huiweka kwa ajili ya yule atakayewahurumia maskini."
+          },
+          {
+            "number": 9,
+            "text": "Yeye ageuzaye sikio lake asisikie sheria, hata sala yake ni chukizo."
+          },
+          {
+            "number": 10,
+            "text": "Yeyote ampotoshaye aliye sahihi aende katika njia ya uovu, yeye mwenyewe ataangukia katika shimo lake; lakini walio wanyofu watamiliki mema."
+          },
+          {
+            "number": 11,
+            "text": "Tajiri hujiona kuwa ana hekima; lakini maskini mwenye uelewa humtambua jinsi alivyo."
+          },
+          {
+            "number": 12,
+            "text": "Waliyo sahihi wanaposhangilia, kuna utukufu mwingi; lakini watu wabaya wanapoinuka, watu hujificha."
+          },
+          {
+            "number": 13,
+            "text": "Yeye afichaye dhambi zake hatafanikiwa; lakini yeye azikiriye na kuziacha atapata rehema."
+          },
+          {
+            "number": 14,
+            "text": "Heri mtu anayekuwa na hofu daima; lakini yeye afanyaye moyo wake kuwa mgumu ataangukia katika ufisadi."
+          },
+          {
+            "number": 15,
+            "text": "Kama simba angurumaye na dubu atangatangaye, ndivyo alivyo mtawala mbaya juu ya watu maskini."
+          },
+          {
+            "number": 16,
+            "text": "Mtawala asiye na uelewa huwa mkandamizaji mkubwa; lakini yeye achukiaye kutamani ataongeza siku zake."
+          },
+          {
+            "number": 17,
+            "text": "Mtu aliye na hatia ya kumwaga damu ya mtu mwingine atakimbilia shimoni; mtu yeyote asimzuie."
+          },
+          {
+            "number": 18,
+            "text": "Yeye anayetembea kwa unyofu ataokolewa; lakini yeye mwenye njia za ukaidi ataanguka mara moja."
+          },
+          {
+            "number": 19,
+            "text": "Yeye ailimaye ardhi yake atakuwa na chakula kingi; lakini yeye afuataye mambo ya bure atakuwa na umaskini wa kutosha."
+          },
+          {
+            "number": 20,
+            "text": "Mtu mwaminifu atajaa baraka; lakini yeye anayeharakisha kuwa tajiri hataepuka hatia."
+          },
+          {
+            "number": 21,
+            "text": "Kupendelea watu si jambo jema; maana kwa kipande cha mkate tu mtu atatenda kosa."
+          },
+          {
+            "number": 22,
+            "text": "Yeye anayeharakisha kuwa tajiri ana jicho baya, wala hatambui kwamba umaskini utamjia."
+          },
+          {
+            "number": 23,
+            "text": "Yeye anayemkemea mtu baadaye atapata kibali zaidi kuliko yeye anayejipendekeza kwa ulimi."
+          },
+          {
+            "number": 24,
+            "text": "Yeyote amwibiaye baba yake au mama yake, kisha aseme, ‘Hili si kosa,’ huyo ni mshirika wa mharibifu."
+          },
+          {
+            "number": 25,
+            "text": "Yeye mwenye moyo wa kiburi huchochea ugomvi; lakini yeye anayemtumaini BWANA atastawi."
+          },
+          {
+            "number": 26,
+            "text": "Yeye anayeutumainia moyo wake mwenyewe ni mjinga; lakini yeyote anayetembea kwa hekima ataokolewa."
+          },
+          {
+            "number": 27,
+            "text": "Yeye awapaye maskini hatapungukiwa; lakini yeye afumbaye macho yake atapata laana nyingi."
+          },
+          {
+            "number": 28,
+            "text": "Watu wabaya wanapoinuka, watu hujificha; lakini wanapoangamia, walio sahihi huongezeka."
+          }
+        ],
+        "29": [
+          {
+            "number": 1,
+            "text": "Yeye anayekemewa mara nyingi lakini akaifanya shingo yake kuwa ngumu, ataangamizwa ghafula, wala hatakuwa na tiba."
+          },
+          {
+            "number": 2,
+            "text": "Walio sahihi wanapokuwa katika mamlaka, watu hufurahi; lakini watu wabaya wanapotawala, watu huomboleza."
+          },
+          {
+            "number": 3,
+            "text": "Yeyote aipendaye hekima humfurahisha baba yake; lakini yeye anayefuatana na makahaba hutapanya mali yake."
+          },
+          {
+            "number": 4,
+            "text": "Mfalme kwa hukumu huiimarisha nchi; lakini yeye apokeaye hongo huiangusha."
+          },
+          {
+            "number": 5,
+            "text": "Mtu anayejipendekeza kwa jirani yake hutega wavu kwa ajili ya miguu yake."
+          },
+          {
+            "number": 6,
+            "text": "Katika kosa la mtu wa uovu mna mtego; lakini aliye sahihi huimba na kufurahi."
+          },
+          {
+            "number": 7,
+            "text": "Aliye sahihi hujali haki ya maskini; lakini mtu mbaya hajishughulishi kuijua."
+          },
+          {
+            "number": 8,
+            "text": "Wadharau huutia mji katika mtego; lakini watu wenye hekima hugeuza hasira."
+          },
+          {
+            "number": 9,
+            "text": "Mtu mwenye hekima akibishana na mjinga, awe huyo mjinga anakasirika au anacheka, hakuna utulivu."
+          },
+          {
+            "number": 10,
+            "text": "Watu wenye kiu ya damu humchukia mtu mnyofu; lakini watenda haki humtafuta."
+          },
+          {
+            "number": 11,
+            "text": "Mjinga hutoa yote yaliyo moyoni mwake; lakini mtu mwenye hekima huyahifadhi mpaka wakati unaofaa."
+          },
+          {
+            "number": 12,
+            "text": "Mtawala akisikiliza uongo, watumishi wake wote huwa watu wabaya."
+          },
+          {
+            "number": 13,
+            "text": "Maskini na mdanganyifu hukutana pamoja; BWANA huwapa wote wawili nuru ya macho."
+          },
+          {
+            "number": 14,
+            "text": "Mfalme anayewahukumu maskini kwa uaminifu, kiti chake cha enzi kitaimarishwa milele."
+          },
+          {
+            "number": 15,
+            "text": "Fimbo na karipio huleta hekima; lakini mtoto aliyeachwa ajitawale mwenyewe humletea mama yake aibu."
+          },
+          {
+            "number": 16,
+            "text": "Watu wabaya wanapoongezeka, makosa huongezeka; lakini walio sahihi wataona kuanguka kwao."
+          },
+          {
+            "number": 17,
+            "text": "Mrekebishe mwanao, naye atakupa pumziko; naam, ataufurahisha nafsi wako."
+          },
+          {
+            "number": 18,
+            "text": "Mahali ambapo hakuna maono, watu hupotea; lakini yeye anayeshika sheria, heri yeye."
+          },
+          {
+            "number": 19,
+            "text": "Mtumishi hatasahihishwa kwa maneno tu; maana ingawa anaelewa, hataitikia."
+          },
+          {
+            "number": 20,
+            "text": "Je, wamwona mtu anayeharakia kusema? Kuna matumaini zaidi kwa mjinga kuliko kwake."
+          },
+          {
+            "number": 21,
+            "text": "Yeye anayemlea mtumishi wake tangu utoto wake, mwishowe atakuwa kama mwanawe."
+          },
+          {
+            "number": 22,
+            "text": "Mtu mwenye hasira huchochea ugomvi, na mtu mwenye ghadhabu nyingi huzidi katika makosa."
+          },
+          {
+            "number": 23,
+            "text": "Kiburi cha mtu kitamshusha chini; lakini heshima itamwinua mtu mnyenyekevu katika roho."
+          },
+          {
+            "number": 24,
+            "text": "Yeyote aliye mshirika wa mwizi huichukia nafsi yake mwenyewe; husikia maneno machafu, lakini hukaa kimya."
+          },
+          {
+            "number": 25,
+            "text": "Hofu ya mwanadamu huleta mtego; lakini yeyote anayemtumaini BWANA atakuwa salama."
+          },
+          {
+            "number": 26,
+            "text": "Wengi hutafuta kibali cha mtawala; lakini hukumu ya kila mtu hutoka kwa BWANA."
+          },
+          {
+            "number": 27,
+            "text": "Mtu asiye tenda haki ni chukizo kwa mtenda haki; na yeye aliye mnyofu katika njia yake ni chukizo kwa watu wabaya."
+          }
+        ],
+        "30": [
+          {
+            "number": 1,
+            "text": "Haya ni maneno ya Aguri mwana wa Yake, unabii wake. Mtu huyo aliwaambia Ithieli, naam, Ithieli na Ukali."
+          },
+          {
+            "number": 2,
+            "text": "Hakika mimi ni mjinga kuliko watu wote, wala sina uelewa wa mwanadamu."
+          },
+          {
+            "number": 3,
+            "text": "Sikujifunza hekima, wala sina maarifa ya Mtakatifu."
+          },
+          {
+            "number": 4,
+            "text": "Ni nani aliyepanda mbinguni au akashuka? Ni nani aliyekusanya upepo mikononi mwake? Ni nani aliyefunga maji ndani ya vazi? Ni nani aliyeweka mipaka yote ya dunia? Jina lake ni nani, na jina la mwana wake ni nani, ikiwa unalijua?"
+          },
+          {
+            "number": 5,
+            "text": "Kila neno la Mungu ni safi; yeye ni ngao kwa wale wanaomtumaini."
+          },
+          {
+            "number": 6,
+            "text": "Usiongeze chochote kwenye maneno yake, asije akakukemea nawe ukaonekana kuwa mwongo."
+          },
+          {
+            "number": 7,
+            "text": "Mambo mawili nimekuomba; usininyime kabla sijafa."
+          },
+          {
+            "number": 8,
+            "text": "Uondoe mbali nami ubatili na uongo; usinipe umaskini wala utajiri; unilishe chakula kinachonitosha."
+          },
+          {
+            "number": 9,
+            "text": "Nisije nikashiba nikakukana na kusema, ‘BWANA ni nani?’ Au nisije nikawa maskini nikaiba na kulitumia vibaya jina la Mungu wangu."
+          },
+          {
+            "number": 10,
+            "text": "Usimsingizie mtumishi kwa bwana wake, asije akakulaani nawe ukapatikana na hatia."
+          },
+          {
+            "number": 11,
+            "text": "Kuna kizazi kinachomlaani baba yake, wala hakimbariki mama yake."
+          },
+          {
+            "number": 12,
+            "text": "Kuna kizazi kinachojiona kuwa ni safi machoni pake, lakini hakijaoshwa uchafu wake."
+          },
+          {
+            "number": 13,
+            "text": "Kuna kizazi tazama jinsi macho yao yalivyo na kiburi, na kope zao zimeinuliwa juu!"
+          },
+          {
+            "number": 14,
+            "text": "Kuna kizazi ambacho meno yao ni kama panga, na taya zao ni kama visu, ili kuwameza maskini kutoka duniani, na wahitaji kutoka miongoni mwa watu."
+          },
+          {
+            "number": 15,
+            "text": "Ruba ana mabinti wawili wanaolia, ‘Nipe, nipe.’ Kuna mambo matatu yasiyoshiba; naam, manne ambayo hayasemi, ‘Yatosha’."
+          },
+          {
+            "number": 16,
+            "text": "Kuzimu, tumbo tasa, ardhi isiyoshiba maji, na moto ambao hausemi, ‘Yatosha.’"
+          },
+          {
+            "number": 17,
+            "text": "Jicho linalomdhihaki baba yake na kudharau kumtii mama yake, kunguru wa bondeni wataling'oa, na vifaranga vya tai watalila."
+          },
+          {
+            "number": 18,
+            "text": "Kuna mambo matatu yanayonishangaza mno; naam, manne nisiyoyaelewa."
+          },
+          {
+            "number": 19,
+            "text": "Njia ya tai angani; njia ya nyoka juu ya mwamba; njia ya meli katikati ya bahari; na njia ya mwanamume pamoja na msichana wa kazi."
+          },
+          {
+            "number": 20,
+            "text": "Ndivyo ilivyo njia ya mwanamke mzinzi; hula, kisha hufuta kinywa chake na kusema, ‘Sijafanya ubaya wowote’."
+          },
+          {
+            "number": 21,
+            "text": "Kwa mambo matatu dunia hunyamazishwa; naam, kwa manne haiwezi kuyavumilia."
+          },
+          {
+            "number": 22,
+            "text": "Mtumishi anapotawala; na mjinga anapokuwa ameshiba chakula;"
+          },
+          {
+            "number": 23,
+            "text": "Mwanamke anayechukiwa anapoolewa; na kijakazi anaporithi nafasi ya bibi yake."
+          },
+          {
+            "number": 24,
+            "text": "Kuna vitu vinne vilivyo vidogo duniani, lakini vina hekima nyingi sana."
+          },
+          {
+            "number": 25,
+            "text": "Siafu ni viumbe wasio na nguvu, lakini huandaa chakula chao wakati wa kiangazi."
+          },
+          {
+            "number": 26,
+            "text": "Pimbi ni viumbe dhaifu, lakini hujenga makazi yao kwenye miamba."
+          },
+          {
+            "number": 27,
+            "text": "Nzige hawana mfalme, lakini wote hutoka wakiwa katika makundi yaliyopangwa."
+          },
+          {
+            "number": 28,
+            "text": "Buibui/Mjusi hushika kwa miguu yake, naye hupatikana katika majumba ya wafalme."
+          },
+          {
+            "number": 29,
+            "text": "Kuna vitu vitatu vinavyotembea kwa ustadi; naam, vinne vinavyopendeza katika mwendo wao."
+          },
+          {
+            "number": 30,
+            "text": "Simba, aliye hodari kuliko wanyama wote, ambaye hamwogopi yeyote."
+          },
+          {
+            "number": 31,
+            "text": "Mbwa mwembamba mwenye kasi; beberu pia; na mfalme ambaye hakuna awezaye kumpinga."
+          },
+          {
+            "number": 32,
+            "text": "Ikiwa umetenda kwa upumbavu kwa kujikweza, au ikiwa umepanga uovu, weka mkono wako juu ya kinywa chako."
+          },
+          {
+            "number": 33,
+            "text": "Hakika kukoroga maziwa hutoa siagi, na kukamua pua hutoa damu; vivyo hivyo kuchochea hasira huleta ugomvi."
+          }
+        ],
+        "31": [
+          {
+            "number": 1,
+            "text": "Haya ni maneno ya Mfalme Lemuel, unabii ambao mama yake alimfundisha."
+          },
+          {
+            "number": 2,
+            "text": "Ni nini, mwanangu? Ni nini, mwana wa tumbo langu? Ni nini, mwana wa nadhiri zangu?"
+          },
+          {
+            "number": 3,
+            "text": "Usiwape wanawake nguvu zako, wala usifuate njia zinazowaangamiza wafalme."
+          },
+          {
+            "number": 4,
+            "text": "Si vema kwa wafalme, ee Lemuel, si vema kwa wafalme kunywa divai, wala kwa wakuu kunywa kinywaji kikali."
+          },
+          {
+            "number": 5,
+            "text": "Wasije wakanywa wakaisahau sheria, na kupotosha hukumu ya wote wanaoonewa."
+          },
+          {
+            "number": 6,
+            "text": "Mpe kinywaji kikali aliye tayari kuangamia, na divai wale wenye mioyo mizito."
+          },
+          {
+            "number": 7,
+            "text": "Akunywe, asahau umaskini wake, wala asikumbuke tena taabu yake."
+          },
+          {
+            "number": 8,
+            "text": "Fungua kinywa chako kwa ajili ya wasiojiweza kusema, na utetee haki ya wote waliowekwa katika hatari ya kuangamia."
+          },
+          {
+            "number": 9,
+            "text": "Fungua kinywa chako, hukumu kwa usahihi, na utetee haki ya maskini na wahitaji."
+          },
+          {
+            "number": 10,
+            "text": "Ni nani awezaye kupata mwanamke mwenye tabia njema? Maana thamani yake ni kubwa kuliko akiki."
+          },
+          {
+            "number": 11,
+            "text": "Moyo wa mume wake humtumaini kwa usalama, wala hatakosa kupata mapato."
+          },
+          {
+            "number": 12,
+            "text": "Atamtendea mema wala si uovu siku zote za maisha yake."
+          },
+          {
+            "number": 13,
+            "text": "Hutafuta sufu na kitani, na hufanya kazi kwa mikono yake kwa hiari."
+          },
+          {
+            "number": 14,
+            "text": "Yeye ni kama meli za wafanyabiashara; huleta chakula chake kutoka mbali."
+          },
+          {
+            "number": 15,
+            "text": "Huamka kabla hakujapambazuka, na huwapa chakula watu wa nyumbani mwake, na sehemu yao vijakazi wake."
+          },
+          {
+            "number": 16,
+            "text": "Huifikiria shamba na kulinunua; kwa matunda ya kazi ya mikono yake hupanda shamba la mizabibu."
+          },
+          {
+            "number": 17,
+            "text": "Hujifunga nguvu kiunoni mwake, na huiimarisha mikono yake."
+          },
+          {
+            "number": 18,
+            "text": "Huona kwamba biashara yake inaleta faida; taa yake haizimiki usiku."
+          },
+          {
+            "number": 19,
+            "text": "Hutia mikono yake kwenye kifaa cha kusokotea, na vidole vyake huishika nyuzi za kusokotea."
+          },
+          {
+            "number": 20,
+            "text": "Huwanyooshea maskini mkono wake; naam, huwafikia wahitaji kwa mikono yake."
+          },
+          {
+            "number": 21,
+            "text": "Haihofii nyumba yake wakati wa theluji, maana watu wote wa nyumbani mwake wamevaa mavazi ya rangi nyekundu."
+          },
+          {
+            "number": 22,
+            "text": "Hujitengenezea mazulia; mavazi yake ni ya kitani safi na ya rangi ya zambarau."
+          },
+          {
+            "number": 23,
+            "text": "Mume wake anajulikana malangoni, aketipo pamoja na wazee wa nchi."
+          },
+          {
+            "number": 24,
+            "text": "Hutengeneza nguo za kitani safi na kuziuza; pia huwapelekea wafanyabiashara mikanda."
+          },
+          {
+            "number": 25,
+            "text": "Nguvu na heshima ni mavazi yake; naye atafurahia siku zijazo."
+          },
+          {
+            "number": 26,
+            "text": "Hufungua kinywa chake kwa hekima, na katika ulimi wake mna sheria ya wema."
+          },
+          {
+            "number": 27,
+            "text": "Huangalia kwa makini shughuli za watu wa nyumbani mwake, wala hali mkate wa uvivu."
+          },
+          {
+            "number": 28,
+            "text": "Watoto wake huinuka na kumwita m’barikiwa; mume wake pia humsifu."
+          },
+          {
+            "number": 29,
+            "text": "Wanawake wengi wametenda mema, lakini wewe umewapita wote."
+          },
+          {
+            "number": 30,
+            "text": "Kibali ni cha udanganyifu, na uzuri ni ubatili; lakini mwanamke anayemhofu BWANA ndiye atakayesifiwa."
+          },
+          {
+            "number": 31,
+            "text": "Mpeni matunda ya kazi ya mikono yake, na kazi zake zimsifu malangoni."
           }
         ]
       }
