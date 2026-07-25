@@ -6,6 +6,7 @@ import '/screens/verse_reading_screen.dart';
 import '/services/bible_service.dart';
 import '/services/reading_progress_service.dart';
 import '../../screens/dictionary_screen.dart';
+import '../../screens/about_screen.dart';
 import 'bible_search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -215,6 +216,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 const SizedBox(height: 14),
                 _buildDictionaryCard(),
+                const SizedBox(height: 14),
+                _buildAboutCard(),
               ],
             ),
           ),
@@ -569,6 +572,71 @@ class _HomeScreenState extends State<HomeScreen> {
                     SizedBox(height: 4),
                     Text(
                       'Tafuta watu, maeneo, vitu na maana za maneno.',
+                      style: TextStyle(
+                        color: secondaryBrown,
+                        fontSize: 13,
+                        height: 1.35,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Icon(Icons.arrow_forward_ios_rounded, color: gold, size: 18),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildAboutCard() {
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const AboutScreen()),
+          );
+        },
+        borderRadius: BorderRadius.circular(20),
+        child: Ink(
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
+          decoration: BoxDecoration(
+            color: cardColor,
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: gold.withValues(alpha: 0.30)),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.04),
+                blurRadius: 10,
+                offset: const Offset(0, 4),
+              ),
+            ],
+          ),
+          child: const Row(
+            children: [
+              CircleAvatar(
+                radius: 25,
+                backgroundColor: lightGold,
+                child: Icon(Icons.info_outline_rounded, color: gold, size: 28),
+              ),
+              SizedBox(width: 15),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Kuhusu',
+                      style: TextStyle(
+                        color: primaryBrown,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 4),
+                    Text(
+                      'Fahamu zaidi kuhusu programu hii.',
                       style: TextStyle(
                         color: secondaryBrown,
                         fontSize: 13,
