@@ -182,7 +182,8 @@ class _AboutScreenState extends State<AboutScreen> {
           ),
           SizedBox(height: 14),
           SelectableText(
-            'Weka barua pepe yako hapa',
+            'michaelnyahende8@gmail.com\n'
+            '+255784392668',
             style: TextStyle(
               color: primaryBrown,
               fontSize: 15,
