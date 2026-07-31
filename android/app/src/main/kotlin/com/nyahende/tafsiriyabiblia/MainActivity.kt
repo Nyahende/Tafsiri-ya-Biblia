@@ -1,4 +1,4 @@
-package com.nyahende.tafsiri_ya_biblia
+package com.nyahende.tafsiriyabiblia
 
 import io.flutter.embedding.android.FlutterActivity
 
