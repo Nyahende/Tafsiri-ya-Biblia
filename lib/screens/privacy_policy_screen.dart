@@ -45,7 +45,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 title: 'Ukusanyaji wa Taarifa',
                 children: const [
                   Text(
-                    'Programu ya Tafsiri ya Biblia haikusanyi, kuhifadhi wala '
+                    'Programu ya Jifunze Biblia haikusanyi, kuhifadhi wala '
                     'kutuma taarifa zozote binafsi za mtumiaji.',
                     style: _bodyStyle,
                   ),
@@ -102,7 +102,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 title: 'Matumizi ya Intaneti',
                 children: const [
                   Text(
-                    'Toleo la sasa la Tafsiri ya Biblia halihitaji intaneti ili '
+                    'Toleo la sasa la Jifunze Biblia halihitaji intaneti ili '
                     'kutumia huduma zake kuu.',
                     style: _bodyStyle,
                   ),
@@ -121,7 +121,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 title: 'Kushirikisha Taarifa',
                 children: const [
                   Text(
-                    'Programu ya Tafsiri ya Biblia haishirikishi taarifa za '
+                    'Programu ya Jifunze Biblia haishirikishi taarifa za '
                     'watumiaji na mtu yeyote au taasisi yoyote.',
                     style: _bodyStyle,
                   ),
@@ -179,7 +179,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 children: const [
                   Text(
                     'Kwa maswali, maoni au mapendekezo kuhusu sera hii au programu '
-                    'ya Tafsiri ya Biblia, unaweza kuwasiliana na:',
+                    'ya Jifunze Biblia, unaweza kuwasiliana na:',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 14),
@@ -218,7 +218,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 8),
                     Text(
-                      '© 2026 Tafsiri ya Biblia. Haki zote zimehifadhiwa.',
+                      '© 2026 Jifunze Biblia. Haki zote zimehifadhiwa.',
                       textAlign: TextAlign.center,
                       style: TextStyle(color: secondaryBrown, fontSize: 13),
                     ),
@@ -250,7 +250,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
           ),
           SizedBox(height: 16),
           Text(
-            'Sera ya Faragha ya Tafsiri ya Biblia',
+            'Sera ya Faragha ya Jifunze Biblia',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: primaryBrown,
@@ -284,10 +284,10 @@ class PrivacyPolicyScreen extends StatelessWidget {
         border: Border.all(color: primaryBrown.withValues(alpha: 0.08)),
       ),
       child: const Text(
-        'Karibu kwenye Tafsiri ya Biblia.\n\n'
+        'Karibu kwenye Jifunze Biblia.\n\n'
         'Tunathamini faragha yako na tumejitolea kuhakikisha kuwa '
         'taarifa zako zinalindwa. Sera hii inaeleza jinsi programu ya '
-        'Tafsiri ya Biblia inavyoshughulikia taarifa za watumiaji.',
+        'Jifunze Biblia inavyoshughulikia taarifa za watumiaji.',
         style: _bodyStyle,
       ),
     );

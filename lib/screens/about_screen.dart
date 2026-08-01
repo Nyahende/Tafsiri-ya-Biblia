@@ -81,7 +81,7 @@ class _AboutScreenState extends State<AboutScreen> {
               const SizedBox(height: 22),
               const Center(
                 child: Text(
-                  '© 2026 Tafsiri ya Biblia',
+                  '© 2026 Jifunze Biblia',
                   style: TextStyle(
                     color: secondaryBrown,
                     fontSize: 13,
@@ -114,7 +114,7 @@ class _AboutScreenState extends State<AboutScreen> {
           ),
           SizedBox(height: 16),
           Text(
-            'Tafsiri ya Biblia',
+            'Jifunze Biblia',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: primaryBrown,
@@ -142,9 +142,9 @@ class _AboutScreenState extends State<AboutScreen> {
       icon: Icons.info_outline_rounded,
       title: 'Kuhusu Programu',
       child: const Text(
-        'Tafsiri ya Biblia ni programu ya Kiswahili iliyoundwa '
+        'Jifunze Biblia ni programu ya Kiswahili iliyoundwa '
         'kumsaidia msomaji kusoma, kuelewa na kutafakari Neno la Mungu '
-        'kwa urahisi. Programu ina tafsiri ya Biblia, kamusi ya maneno '
+        'kwa urahisi. Programu ina Jifunze Biblia, kamusi ya maneno '
         'ya kibiblia, utafutaji wa maandiko, alamisho na uwezo wa '
         'kushiriki aya na wengine.',
         style: TextStyle(color: secondaryBrown, fontSize: 16, height: 1.65),
@@ -159,7 +159,7 @@ class _AboutScreenState extends State<AboutScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _buildDetailRow(label: 'Jina', value: 'Tafsiri ya Biblia'),
+          _buildDetailRow(label: 'Jina', value: 'Jifunze Biblia'),
           _buildDetailRow(label: 'Toleo', value: '$_version ($_buildNumber)'),
           _buildDetailRow(label: 'Lugha', value: 'Kiswahili'),
           _buildDetailRow(label: 'Aina', value: 'Vitabu na Marejeo'),

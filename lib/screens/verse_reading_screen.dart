@@ -308,7 +308,7 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     final String shareText =
         '${verse.text}\n\n'
         '$reference\n\n'
-        'Tafsiri ya Biblia';
+        'Jifunze Biblia';
 
     try {
       await SharePlus.instance.share(

@@ -160,7 +160,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     duration: const Duration(milliseconds: 650),
                     curve: Curves.easeOut,
                     child: const Text(
-                      'Tafsiri ya Biblia',
+                      'Jifunze Biblia',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: deepBrown,

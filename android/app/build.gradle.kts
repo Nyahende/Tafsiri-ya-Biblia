@@ -17,8 +17,8 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.nyahende.tafsiriyabiblia"
-    compileSdk = flutter.compileSdkVersion
+    namespace = "com.nyahende.jifunzebiblia"
+    compileSdk = 36
     ndkVersion = "27.0.12077973"
 
     compileOptions {
@@ -32,10 +32,10 @@ android {
 
     defaultConfig {
         // This application ID must be made unique before uploading to Google Play.
-        applicationId = "com.nyahende.tafsiriyabiblia"
+        applicationId = "com.nyahende.jifunzebiblia"
 
         minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        targetSdk = 36
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }

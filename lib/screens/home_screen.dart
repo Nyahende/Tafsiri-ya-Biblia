@@ -246,7 +246,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
         const Expanded(
           child: Text(
-            'Tafsiri ya Biblia',
+            'Jifunze Biblia',
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
