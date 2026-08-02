@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'chapters_screen.dart';
+import 'verse_reading_screen.dart';
 
 class BooksScreen extends StatefulWidget {
   const BooksScreen({super.key});
@@ -93,17 +94,26 @@ class _BooksScreenState extends State<BooksScreen> {
     BibleBook(name: 'Ufunuo wa Yohana', chapters: 22),
   ];
 
+  List<BibleBook> get _allBooks {
+    return [..._oldTestamentBooks, ..._newTestamentBooks];
+  }
+
   List<BibleBook> get _filteredBooks {
-    final selectedBooks = _showOldTestament
+    final List<BibleBook> selectedBooks = _showOldTestament
         ? _oldTestamentBooks
         : _newTestamentBooks;
 
-    if (_searchText.trim().isEmpty) {
+    final String query = _searchText.trim();
+
+    if (query.isEmpty) {
       return selectedBooks;
     }
 
-    return selectedBooks.where((book) {
-      return book.name.toLowerCase().contains(_searchText.trim().toLowerCase());
+    final ParsedBibleReference? reference = _parseBibleReference(query);
+    final String bookSearchText = reference?.bookName.trim() ?? query;
+
+    return _allBooks.where((BibleBook book) {
+      return book.name.toLowerCase().contains(bookSearchText.toLowerCase());
     }).toList();
   }
 
@@ -114,13 +124,90 @@ class _BooksScreenState extends State<BooksScreen> {
   }
 
   void _openBook(BibleBook book) {
+    final String query = _searchText.trim();
+    final ParsedBibleReference? reference = _parseBibleReference(query);
+
+    final bool hasExactBookReference =
+        reference != null &&
+        reference.bookName.toLowerCase() == book.name.toLowerCase();
+
+    if (!hasExactBookReference || reference.chapterNumber == null) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (_) =>
+              ChaptersScreen(bookName: book.name, chapterCount: book.chapters),
+        ),
+      );
+      return;
+    }
+
+    final int chapterNumber = reference.chapterNumber!;
+
+    if (chapterNumber < 1 || chapterNumber > book.chapters) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('${book.name} haina sura ya $chapterNumber.')),
+      );
+      return;
+    }
+
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) =>
-            ChaptersScreen(bookName: book.name, chapterCount: book.chapters),
+        builder: (_) => VerseReadingScreen(
+          bookName: book.name,
+          chapterNumber: chapterNumber,
+          chapterCount: book.chapters,
+          initialVerseNumber: reference.verseNumber ?? 1,
+        ),
       ),
     );
+  }
+
+  ParsedBibleReference? _parseBibleReference(String input) {
+    final String cleanedInput = input.trim().replaceAll(RegExp(r'\s+'), ' ');
+
+    if (cleanedInput.isEmpty) {
+      return null;
+    }
+
+    final RegExp referencePattern = RegExp(
+      r'^(.+?)(?:\s+(\d+)(?:\s*:\s*(\d+))?)?$',
+      caseSensitive: false,
+    );
+
+    final RegExpMatch? match = referencePattern.firstMatch(cleanedInput);
+
+    if (match == null) {
+      return null;
+    }
+
+    final String bookName = match.group(1)?.trim() ?? '';
+
+    if (bookName.isEmpty) {
+      return null;
+    }
+
+    return ParsedBibleReference(
+      bookName: bookName,
+      chapterNumber: int.tryParse(match.group(2) ?? ''),
+      verseNumber: int.tryParse(match.group(3) ?? ''),
+    );
+  }
+
+  void _submitSearch(String value) {
+    final ParsedBibleReference? reference = _parseBibleReference(value);
+
+    if (reference == null) {
+      return;
+    }
+
+    for (final BibleBook book in _allBooks) {
+      if (book.name.toLowerCase() == reference.bookName.toLowerCase()) {
+        _openBook(book);
+        return;
+      }
+    }
   }
 
   @override
@@ -201,13 +288,15 @@ class _BooksScreenState extends State<BooksScreen> {
 
           TextField(
             controller: _searchController,
+            textInputAction: TextInputAction.search,
+            onSubmitted: _submitSearch,
             onChanged: (value) {
               setState(() {
                 _searchText = value;
               });
             },
             decoration: InputDecoration(
-              hintText: 'Tafuta kitabu...',
+              hintText: 'Mfano: Mithali 31:2',
               hintStyle: const TextStyle(color: secondaryBrown),
               prefixIcon: const Icon(Icons.search_rounded, color: gold),
               suffixIcon: _searchText.isNotEmpty
@@ -432,4 +521,16 @@ class BibleBook {
 
   final String name;
   final int chapters;
+}
+
+class ParsedBibleReference {
+  const ParsedBibleReference({
+    required this.bookName,
+    this.chapterNumber,
+    this.verseNumber,
+  });
+
+  final String bookName;
+  final int? chapterNumber;
+  final int? verseNumber;
 }
