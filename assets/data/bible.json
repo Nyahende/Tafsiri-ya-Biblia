@@ -750,7 +750,7 @@
           },
           {
             "number": 7,
-            "text": "Nikamwona miongoni mwa maamuma, nikamtambua miongoni mwa vijana, kijana asiye na uelewa."
+            "text": "Nikamwona miongoni mwa maamuma, nikamtambua miongoni, a young asiyekua na uelewa."
           },
           {
             "number": 8,
@@ -1416,7 +1416,7 @@
           },
           {
             "number": 27,
-            "text": "Mtu mvivu hachomi alichokipata katika uwindaji, lakini mali ya mtu mwenye bidii ni ya thamani."
+            "text": "Mtu mvivu hachomi alichokipata katika uwindaji, but the substance of a diligent man is precious."
           },
           {
             "number": 28,
@@ -3731,6 +3731,1036 @@
           {
             "number": 31,
             "text": "Mpeni matunda ya kazi ya mikono yake, na kazi zake zimsifu malangoni."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mhubiri",
+      "name": "Mhubiri",
+      "englishName": "Ecclesiastes",
+      "testament": "Agano la Kale",
+      "bookNumber": 21,
+      "chapterCount": 12,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Maneno ya Mhubiri, mwana wa Daudi, mfalme katika Yerusalemu."
+          },
+          {
+            "number": 2,
+            "text": "Ubatili wa ubatili, asema Mhubiri; ubatili wa ubatili, yote ni ubatili."
+          },
+          {
+            "number": 3,
+            "text": "Mtu hupata faida gani kutokana na kazi yake yote anayoifanya chini ya jua?"
+          },
+          {
+            "number": 4,
+            "text": "Kizazi kimoja hupita, na kizazi kingine huja; lakini dunia hudumu milele."
+          },
+          {
+            "number": 5,
+            "text": "Jua huchomoza, na jua huchwa, kisha huharakia kurudi mahali lilipochomozea."
+          },
+          {
+            "number": 6,
+            "text": "Upepo huenda upande wa kusini, kisha huzunguka kuelekea kaskazini; huzunguka daima, na hurudi tena katika mizunguko yake."
+          },
+          {
+            "number": 7,
+            "text": "Mito yote hutiririka kuingia baharini, lakini bahari haijai; mahali mito inakotoka, huko hurudi tena."
+          },
+          {
+            "number": 8,
+            "text": "Vitu vyote vimejaa taabu; mwanadamu hawezi kueleza kitu. Jicho halishibi kwa kuona, wala sikio halikinai kwa kusikia."
+          },
+          {
+            "number": 9,
+            "text": "Kilichokuwapo ndicho kitakachokuwapo; na kilichofanywa ndicho kitakachofanywa; wala hakuna jambo jipya chini ya jua."
+          },
+          {
+            "number": 10,
+            "text": "Je, kuna jambo ambalo mtu anaweza kusema, ‘Tazama, hili ni jipya’? Tayari lilikuwapo tangu zamani, kabla yetu."
+          },
+          {
+            "number": 11,
+            "text": "Hakuna kumbukumbu ya mambo ya zamani; wala mambo yatakayokuja hayatakuwa na kumbukumbu miongoni mwa watakaokuja baadaye."
+          },
+          {
+            "number": 12,
+            "text": "Mimi Mhubiri nilikuwa mfalme juu ya Israeli huko Yerusalemu."
+          },
+          {
+            "number": 13,
+            "text": "Nikatia moyo wangu kutafuta na kuchunguza kwa hekima kuhusu mambo yote yanayofanyika chini ya mbingu. Huu mzigo mzito ambao Mungu amewapa wanadamu wajishughulishe nao."
+          },
+          {
+            "number": 14,
+            "text": "Nimeyaona matendo yote yanayofanyika chini ya jua; na tazama, yote ni ubatili mtupu na kujitaabisha bure katika roho."
+          },
+          {
+            "number": 15,
+            "text": "Kilichopinda hakiwezi kunyooshwa, na kile kinachokosekana hakiwezi kuhesabiwa."
+          },
+          {
+            "number": 16,
+            "text": "Nilizungumza moyoni mwangu nikisema, Tazama, nimepata ukuu, na nimeongeza hekima kuliko wote waliokuwa kabla yangu huko Yerusalemu; naam, moyo wangu umepata uzoefu mwingi wa hekima na maarifa."
+          },
+          {
+            "number": 17,
+            "text": "Nikatia moyo wangu kuijua hekima, na kuujua wazimu na upumbavu; nikatambua kwamba hili pia ni kujitaabisha bure katika roho."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana katika hekima nyingi mna huzuni nyingi; na yeye aongezaye maarifa huongeza huzuni."
+          }
+        ],
+        "2": [
+          {
+            "number": 1,
+            "text": "Nilisema moyoni mwangu, ‘Haya basi, nitakujaribu kwa furaha; kwa hiyo, furahia anasa.’ Lakini tazama, hili pia ni ubatili mtupu."
+          },
+          {
+            "number": 2,
+            "text": "Nilisema kuhusu kicheko, ‘Ni wazimu’; na kuhusu furaha, ‘Yafaa nini?’"
+          },
+          {
+            "number": 3,
+            "text": "Nilikusudia moyoni mwangu kujiburudisha kwa divai, huku moyo wangu ukiendelea kuongozwa na hekima; na kuushika upumbavu, mpaka nione ni jambo gani lililo jema kwa wanadamu kufanya chini ya mbingu siku zote za maisha yao."
+          },
+          {
+            "number": 4,
+            "text": "Nilifanya kazi kubwa; nilijijengea nyumba; nilijipandia mashamba ya mizabibu."
+          },
+          {
+            "number": 5,
+            "text": "Nilijitengenezea bustani na mashamba ya matunda, nikapanda ndani yake miti ya kila aina ya matunda."
+          },
+          {
+            "number": 6,
+            "text": "Nilijitengenezea mabwawa ya maji, ili kuyatumia kumwagilia msitu uliokuwa ukikuza miti."
+          },
+          {
+            "number": 7,
+            "text": "Nilijipatia watumwa wa kiume na wa kike, nami nilikuwa na watumwa waliozaliwa nyumbani mwangu. Pia nilikuwa na mali nyingi za ng'ombe na kondoo kuliko wote waliokuwa kabla yangu huko Yerusalemu."
+          },
+          {
+            "number": 8,
+            "text": "Pia nilijikusanyia fedha na dhahabu, na hazina za wafalme na za majimbo. Nilijipatia waimbaji wa kiume na waimbaji wa kike, pamoja na vitu vinavyowafurahisha wanadamu, yaani vyombo vya muziki vya kila aina."
+          },
+          {
+            "number": 9,
+            "text": "Hivyo nikawa mkuu, nikazidi kuwa mkubwa kuliko wote waliokuwa kabla yangu huko Yerusalemu; na hekima yangu iliendelea kuwa pamoja nami."
+          },
+          {
+            "number": 10,
+            "text": "Wala sikuyanyima macho yangu chochote yalicho kitamani; wala sikuuzuia moyo wangu usifurahie jambo lolote. Kwa maana moyo wangu ulifurahia kazi yangu yote, na hiyo ndiyo ilikuwa sehemu yangu kutokana na taabu yangu yote."
+          },
+          {
+            "number": 11,
+            "text": "Kisha nikaziangalia kazi zote ambazo mikono yangu ilikuwa imefanya, na taabu yote niliyokuwa nimejitahidi kuifanya; na tazama, yote yalikuwa ubatili mtupu na kujitaabisha bure katika nafsi, wala hapakuwa na faida chini ya jua."
+          },
+          {
+            "number": 12,
+            "text": "Kisha nikageuka kuitazama hekima, na wazimu, na upumbavu. Kwa maana mtu atakayekuja baada ya mfalme ataweza kufanya nini? Atafanya tu yale ambayo tayari yamekwisha kufanywa."
+          },
+          {
+            "number": 13,
+            "text": "Ndipo nilipoona kwamba hekima ina faida kuliko upumbavu, kama vile nuru ilivyo bora kuliko giza."
+          },
+          {
+            "number": 14,
+            "text": "Mtu mwenye hekima ana macho yake kichwani mwake, lakini mjinga hutembea gizani; hata hivyo nikatambua pia kwamba jambo lilelile huwapata wote."
+          },
+          {
+            "number": 15,
+            "text": "Ndipo nikasema moyoni mwangu, ‘Kama jambo lile lile linalompata mjinga linanipata na mimi pia, basi nimefaidika nini kwa kuwa na hekima zaidi?’ Kisha nikasema moyoni mwangu kwamba hili pia ni ubatili mtupu."
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana hakuna kumbukumbu ya milele kwa mtu mwenye hekima kuliko kwa mjinga; kwa kuwa katika siku zijazo yote yatasahaulika. Na mtu mwenye hekima hufaje? Kama mjinga."
+          },
+          {
+            "number": 17,
+            "text": "Kwa hiyo niliuchukia maisha; kwa maana kazi inayofanyika chini ya jua ilikuwa ya kuhuzunisha kwangu. Kwa kuwa yote ni ubatili mtupu na kujitaabisha bure katika nafsi."
+          },
+          {
+            "number": 18,
+            "text": "Naam, niliichukia taabu yangu yote niliyokuwa nimeitaabikia chini ya jua, kwa sababu itanibidi niimwachie mtu atakayekuja baada yangu."
+          },
+          {
+            "number": 19,
+            "text": "Naye ni nani ajuaye kama atakuwa mtu mwenye hekima au mjinga? Hata hivyo atatawala juu ya taabu yangu yote niliyoiitaabikia, na ambayo ndani yake nilijionyesha kuwa na hekima chini ya jua. Hili pia ni ubatili mtupu."
+          },
+          {
+            "number": 20,
+            "text": "Kwa hiyo nikaanza kuufanya moyo wangu ukate tamaa kuhusu taabu yote niliyoiitaabikia chini ya jua."
+          },
+          {
+            "number": 21,
+            "text": "Kwa maana kuna mtu ambaye taabu yake imefanywa kwa hekima, kwa maarifa, na kwa usawa; lakini atalazimika kumwachia sehemu yake mtu ambaye hakuitaabikia hayo. Hili pia ni ubatili na uovu mkubwa."
+          },
+          {
+            "number": 22,
+            "text": "Kwa maana mwanadamu hupata nini kutokana na taabu yake yote, na kutokana na kujitaabisha kwa moyo wake, ambako ameitaabikia chini ya jua?"
+          },
+          {
+            "number": 23,
+            "text": "Kwa maana siku zake zote zimejaa huzuni, na taabu yake imejaa majonzi; naam, hata usiku moyo wake haupati pumziko. Hili pia ni ubatili."
+          },
+          {
+            "number": 24,
+            "text": "Hakuna jambo lililo bora kwa mwanadamu kuliko kula na kunywa, na kuifanya nafsi yake ifurahie mema kutokana na taabu yake. Hili pia niliona kwamba linatoka katika mkono wa Mungu."
+          },
+          {
+            "number": 25,
+            "text": "Kwa maana ni nani awezaye kula, au ni nani awezaye kufurahia hayo, kuliko mimi?"
+          },
+          {
+            "number": 26,
+            "text": "Kwa maana Mungu humpa mtu aliye mwema machoni pake hekima, maarifa, na furaha; lakini mwenye dhambi humpa taabu ya kukusanya na kurundika, ili ampe yule aliye mwema mbele za Mungu. Hili pia ni ubatili na kujitaabisha bure katika nafsi."
+          }
+        ],
+        "3": [
+          {
+            "number": 1,
+            "text": "Kwa kila jambo kuna majira yake, na wakati kwa kila kusudi chini ya mbingu."
+          },
+          {
+            "number": 2,
+            "text": "Wakati wa kuzaliwa, na wakati wa kufa; wakati wa kupanda, na wakati wa kung'oa kilichopandwa."
+          },
+          {
+            "number": 3,
+            "text": "Wakati wa kuua, na wakati wa kuponya; wakati wa kubomoa, na wakati wa kujenga."
+          },
+          {
+            "number": 4,
+            "text": "Wakati wa kulia, na wakati wa kucheka; wakati wa kuomboleza, na wakati wa kucheza."
+          },
+          {
+            "number": 5,
+            "text": "Wakati wa kutupa mawe, na wakati wa kukusanya mawe; wakati wa kukumbatia, na wakati wa kujizuia kukumbatia."
+          },
+          {
+            "number": 6,
+            "text": "Wakati wa kupata, na wakati wa kupoteza; wakati wa kuhifadhi, na wakati wa kutupa."
+          },
+          {
+            "number": 7,
+            "text": "Wakati wa kurarua, na wakati wa kushona; wakati wa kunyamaza, na wakati wa kusema."
+          },
+          {
+            "number": 8,
+            "text": "Wakati wa kupenda, na wakati wa kuchukia; wakati wa vita, na wakati wa amani."
+          },
+          {
+            "number": 9,
+            "text": "Mfanyakazi hupata faida gani kutokana na jambo analolitaabikia?"
+          },
+          {
+            "number": 10,
+            "text": "Nimeiona taabu ambayo Mungu amewapa wanadamu wajishughulishe nayo."
+          },
+          {
+            "number": 11,
+            "text": "Amefanya kila jambo kuwa zuri katika wakati wake. Pia ameweka milele katika mioyo yao, lakini hakuna mtu awezaye kugundua kazi ambayo Mungu ameifanya tangu mwanzo mpaka mwisho."
+          },
+          {
+            "number": 12,
+            "text": "Najua kwamba hakuna jambo lililo bora kwao kuliko kufurahi na kufanya mema katika maisha yao."
+          },
+          {
+            "number": 13,
+            "text": "Na pia kwamba kila mtu ale na anywe, na afurahie mema yanayotokana na taabu yake yote; hii ni zawadi ya Mungu."
+          },
+          {
+            "number": 14,
+            "text": "Najua kwamba kila jambo analolifanya Mungu litadumu milele. Hakuna kitu kinachoweza kuongezwa kwake, wala hakuna kinachoweza kupunguzwa kutoka kwake; na Mungu hufanya hivyo ili watu wamhofu."
+          },
+          {
+            "number": 15,
+            "text": "Kilichokuwapo ndicho kilichopo sasa; na kitakachokuwapo tayari kimekwishakuwapo; na Mungu hulirejesha tena lile lililopita."
+          },
+          {
+            "number": 16,
+            "text": "Zaidi ya hayo, niliona chini ya jua mahali pa hukumu, kwamba ubaya ulikuwapo huko; na mahali pa usahihi, kwamba uovu ulikuwapo huko."
+          },
+          {
+            "number": 17,
+            "text": "Nikajiambia moyoni mwangu, Mungu atamhukumu aliye sahihi na mtu mbaya; kwa maana kuna wakati kwa kila kusudi na kwa kila tendo."
+          },
+          {
+            "number": 18,
+            "text": "Nikajiambia moyoni mwangu kuhusu hali ya wanadamu, kwamba Mungu anawajaribu ili awaonyeshe walivyo, na wapate kuona kwamba wao wenyewe ni kama wanyama."
+          },
+          {
+            "number": 19,
+            "text": "Kwa maana lile linalowapata wanadamu, ndilo pia linalowapata wanyama. Jambo lilelile huwapata wote: kama huyu anavyokufa, ndivyo na yule anavyokufa. Naam, wote wana pumzi ileile; kwa hiyo mwanadamu hana ubora juu ya mnyama, kwa maana yote ni ubatili."
+          },
+          {
+            "number": 20,
+            "text": "Wote huenda mahali pamoja. Wote wametokana na mavumbi, na wote hurudi mavumbini tena."
+          },
+          {
+            "number": 21,
+            "text": "Ni nani ajuaye kama roho ya mwanadamu hupaa juu, na roho ya mnyama hushuka chini kwenda ardhini?"
+          },
+          {
+            "number": 22,
+            "text": "Kwa hiyo nimeona kwamba hakuna jambo lililo bora kuliko mtu kufurahia kazi zake mwenyewe, kwa maana hiyo ndiyo sehemu yake. Kwa maana ni nani atakayemrudisha ili aone yatakayokuwa baada yake?"
+          }
+        ],
+        "4": [
+          {
+            "number": 1,
+            "text": "Kisha nikarudi, nikayaona ukandamizaji wote unaofanyika chini ya jua. Nikaona machozi ya waliokandamizwa, wala hawakuwa na mfariji; na upande wa waliowakandamiza kulikuwa na nguvu, lakini wao hawakuwa na mfariji."
+          },
+          {
+            "number": 2,
+            "text": "Kwa hiyo nikawasifu waliokufa, ambao tayari wamekufa, kuwa wenye heri kuliko walio hai ambao bado wanaishi."
+          },
+          {
+            "number": 3,
+            "text": "Naam, zaidi ya hao wote nikamwita heri yeye asiyekuwako bado, ambaye hakuyaona mabaya yanayotendeka chini ya jua."
+          },
+          {
+            "number": 4,
+            "text": "Tena nikaona taabu yote, na kila kazi iliyo sahihi, kwamba kwa ajili ya hayo mtu huonewa wivu na jirani yake. Hili pia ni ubatili na kujitaabisha bure katika nafsi."
+          },
+          {
+            "number": 5,
+            "text": "Mjinga hukunja mikono yake pamoja, na hula nyama yake mwenyewe."
+          },
+          {
+            "number": 6,
+            "text": "Afadhali konzi moja pamoja na utulivu, kuliko konzi mbili zilizojaa taabu na kujitaabisha bure katika nafsi."
+          },
+          {
+            "number": 7,
+            "text": "Kisha nikarudi tena, nikaona ubatili chini ya jua."
+          },
+          {
+            "number": 8,
+            "text": "Yupo mtu aliye peke yake, wala hana wa pili; hana mtoto wala ndugu. Hata hivyo, kazi yake yote haina mwisho; wala jicho lake halishibi mali. Wala hasemi, ‘Ninajitaabisha kwa ajili ya nani, na kuinyima nafsi yangu mema?’ Hili pia ni ubatili; naam, ni taabu kubwa."
+          },
+          {
+            "number": 9,
+            "text": "Wawili ni bora kuliko mmoja, kwa maana wanapata thawabu nzuri kutokana na taabu yao."
+          },
+          {
+            "number": 10,
+            "text": "Kwa maana wakianguka, mmoja atamwinua mwenzake. Lakini ole wake aliye peke yake aangukapo, kwa maana hana mwingine wa kumwinua."
+          },
+          {
+            "number": 11,
+            "text": "Tena, wawili wakilala pamoja, hupata joto; lakini mtu mmoja atawezaje kupata joto akiwa peke yake?"
+          },
+          {
+            "number": 12,
+            "text": "Na kama mtu mmoja akimshinda mmoja, wawili watasimama dhidi yake; wala kamba ya nyuzi tatu haikatiki upesi."
+          },
+          {
+            "number": 13,
+            "text": "Afadhali mtoto maskini mwenye hekima kuliko mfalme mzee na mjinga, ambaye hakubali tena kuonywa."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana kutoka gerezani hutoka ili atawale; ilhali yule aliyezaliwa katika ufalme wake huja kuwa maskini."
+          },
+          {
+            "number": 15,
+            "text": "Niliwaona wote walio hai, wanaotembea chini ya jua, pamoja na yule kijana wa pili atakayesimama mahali pake."
+          },
+          {
+            "number": 16,
+            "text": "Hakukuwa na mwisho wa watu wote, yaani, wa wote waliokuwa kabla yao. Lakini wale watakaokuja baadaye hawatamfurahia. Hakika hili pia ni ubatili na kujitaabisha bure katika nafsi."
+          }
+        ],
+        "5": [
+          {
+            "number": 1,
+            "text": "Linda mguu wako uendapo katika nyumba ya Mungu, na uwe tayari zaidi kusikiliza kuliko kutoa sadaka ya wajinga; kwa maana hawajui kwamba wanafanya uovu."
+          },
+          {
+            "number": 2,
+            "text": "Usiwe mwepesi wa kusema kwa kinywa chako, wala moyo wako usiwe na haraka kutamka neno lolote mbele za Mungu; kwa maana Mungu yuko mbinguni, nawe uko duniani. Kwa hiyo, maneno yako na yawe machache."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana ndoto huja kwa sababu ya shughuli nyingi; na sauti ya mjinga hujulikana kwa wingi wa maneno."
+          },
+          {
+            "number": 4,
+            "text": "Uwekapo nadhiri kwa Mungu, usikawie kuitimiza; kwa maana yeye hawapendelei wajinga. Lipa ulichonadhiri."
+          },
+          {
+            "number": 5,
+            "text": "Ni afadhali usiweke nadhiri, kuliko kuweka nadhiri usiyoitimiza."
+          },
+          {
+            "number": 6,
+            "text": "Usikiache kinywa chako kikaufanya mwili wako kutenda dhambi; wala usiseme mbele ya malaika kwamba ilikuwa kosa. Kwa nini Mungu aghadhabike kwa sababu ya maneno yako, na kuiharibu kazi ya mikono yako?"
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana katika wingi wa ndoto na maneno mengi kuna pia ubatili mwingi; lakini mhofu Mungu."
+          },
+          {
+            "number": 8,
+            "text": "Ukiona ukandamizaji wa maskini, na kupotoshwa kwa hukumu na usahihi katika jimbo, usistaajabie jambo hilo; kwa maana aliye juu kuliko aliye juu anaangalia, na yuko alio juu kuliko wao."
+          },
+          {
+            "number": 9,
+            "text": "Zaidi ya hayo, faida ya ardhi ni kwa ajili ya wote; hata mfalme mwenyewe hutegemezwa na shamba."
+          },
+          {
+            "number": 10,
+            "text": "Yeye aipendaye fedha hatashibishwa na fedha; wala apendaye wingi hatashibishwa na ongezeko; hili pia ni ubatili."
+          },
+          {
+            "number": 11,
+            "text": "Mali zinapoongezeka, huongezeka pia wale wanaozila; na kuna faida gani kwa wenye mali hizo, isipokuwa kutazama kwa macho yao?"
+          },
+          {
+            "number": 12,
+            "text": "Usingizi wa mfanyakazi ni mtamu, ikiwa anakula kidogo au kingi; lakini wingi wa mali za tajiri haumruhusu kulala."
+          },
+          {
+            "number": 13,
+            "text": "Kuna uovu mkubwa ambao nimeuona chini ya jua, yaani, mali zilizohifadhiwa na wenye mali hizo kwa madhara yao wenyewe."
+          },
+          {
+            "number": 14,
+            "text": "Lakini mali hizo hupotea kwa taabu mbaya; naye huzaa mwana, wala hakuna kitu mkononi mwake."
+          },
+          {
+            "number": 15,
+            "text": "Kama alivyotoka tumboni mwa mama yake akiwa uchi, ndivyo atakavyorudi kwenda kama alivyokuja; wala hatachukua chochote kutokana na taabu yake, ambacho aweza kukichukua mkononi mwake."
+          },
+          {
+            "number": 16,
+            "text": "Na hili pia ni uovu mkubwa, kwamba kwa kila jambo kama alivyokuja, ndivyo atakavyoondoka; naye ana faida gani, yeye aliyejitaabisha kwa ajili ya upepo?"
+          },
+          {
+            "number": 17,
+            "text": "Siku zake zote pia hula gizani, naye ana huzuni nyingi, hasira, na ugonjwa wake."
+          },
+          {
+            "number": 18,
+            "text": "Tazama, hili ndilo nililoona: ni jema na la kupendeza kwa mtu kula na kunywa, na kufurahia mema ya taabu yake yote anayojitaabikia chini ya jua siku zote za maisha yake ambazo Mungu amempa; kwa maana hiyo ndiyo sehemu yake."
+          },
+          {
+            "number": 19,
+            "text": "Pia kila mtu ambaye Mungu amempa mali na utajiri, na amempa uwezo wa kula kutokana nayo, na kuipokea sehemu yake, na kufurahia taabu yake; hii ni zawadi ya Mungu."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana hatakumbuka sana siku za maisha yake; kwa sababu Mungu humjibu kwa furaha ya moyo wake."
+          }
+        ],
+        "6": [
+          {
+            "number": 1,
+            "text": "Kuna uovu ambao nimeuona chini ya jua, nao ni wa kawaida miongoni mwa wanadamu."
+          },
+          {
+            "number": 2,
+            "text": "Mtu ambaye Mungu amempa utajiri, mali, na heshima, kiasi kwamba nafsi yake haikosi chochote kati ya yote ayatamaniyo, lakini Mungu hampi uwezo wa kufurahia vitu hivyo; badala yake, mgeni ndiye anayevifurahia. Hili ni ubatili, tena ni ugonjwa m’baya."
+          },
+          {
+            "number": 3,
+            "text": "Mtu akizaa watoto mia, akaishi miaka mingi, hata siku za miaka yake zikawa nyingi, lakini nafsi yake isishibishwe na mema, tena asipate hata maziko; nasema kwamba mtoto aliyezaliwa kabla ya wakati ni heri kuliko yeye."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana huyo huja katika ubatili, na huondoka gizani; na jina lake hufunikwa na giza."
+          },
+          {
+            "number": 5,
+            "text": "Zaidi ya hayo, yeye hakuona jua wala hakujua chochote; huyu ana pumziko zaidi kuliko yule."
+          },
+          {
+            "number": 6,
+            "text": "Naam, hata akiishi miaka elfu mbili, lakini asione mema, je, wote hawaendi mahali pamoja?"
+          },
+          {
+            "number": 7,
+            "text": "Taabu yote ya mwanadamu ni kwa ajili ya kinywa chake, lakini hamu yake haishibishwi."
+          },
+          {
+            "number": 8,
+            "text": "Kwa maana mwenye hekima ana nini zaidi kuliko mjinga? Maskini ana nini, yeye ajuaye jinsi ya kutembea mbele ya walio hai?"
+          },
+          {
+            "number": 9,
+            "text": "Afadhali kuona kwa macho kuliko kutangatanga kwa tamaa; hili pia ni ubatili na kujitaabisha bure katika nafsi."
+          },
+          {
+            "number": 10,
+            "text": "Kile kilichokuwapo tayari kimekwisha kuitwa jina lake, na inajulikana kwamba ni mwanadamu; wala hawezi kushindana na yeye aliye na nguvu kuliko yeye."
+          },
+          {
+            "number": 11,
+            "text": "Kwa kuwa yapo mambo mengi yanayoongeza ubatili, mwanadamu ana faida gani?"
+          },
+          {
+            "number": 12,
+            "text": "Kwa maana ni nani ajuaye lililo jema kwa mwanadamu katika maisha haya, siku zote za maisha yake ya ubatili, anayoyapitisha kama kivuli? Kwa maana ni nani awezaye kumwambia mwanadamu litakalokuwa baada yake chini ya jua?"
+          }
+        ],
+        "7": [
+          {
+            "number": 1,
+            "text": "Jina jema ni bora kuliko marhamu ya thamani; na siku ya kufa ni bora kuliko siku ya kuzaliwa."
+          },
+          {
+            "number": 2,
+            "text": "Ni afadhali kwenda katika nyumba ya maombolezo kuliko kwenda katika nyumba ya karamu; kwa maana huo ndio mwisho wa wanadamu wote, naye aliye hai atalitia hilo moyoni mwake."
+          },
+          {
+            "number": 3,
+            "text": "Huzuni ni bora kuliko kicheko; kwa maana kwa huzuni ya uso moyo hufanywa kuwa bora."
+          },
+          {
+            "number": 4,
+            "text": "Moyo wa mwenye hekima uko katika nyumba ya maombolezo; lakini moyo wa wajinga uko katika nyumba ya furaha."
+          },
+          {
+            "number": 5,
+            "text": "Ni afadhali kusikia karipio la mwenye hekima kuliko mtu kusikia wimbo wa wajinga."
+          },
+          {
+            "number": 6,
+            "text": "Kwa maana kama mlio wa miiba chini ya sufuria, ndivyo kilivyo kicheko cha mjinga; hili pia ni ubatili."
+          },
+          {
+            "number": 7,
+            "text": "Hakika ukandamizaji humfanya hata mwenye hekima kuwa mwendawazimu; na rushwa huharibu moyo."
+          },
+          {
+            "number": 8,
+            "text": "Mwisho wa jambo ni bora kuliko mwanzo wake; na mwenye uvumilivu katika roho ni bora kuliko mwenye kiburi katika roho."
+          },
+          {
+            "number": 9,
+            "text": "Usiwe mwepesi katika roho yako kukasirika; kwa maana hasira hukaa kifuani mwa wajinga."
+          },
+          {
+            "number": 10,
+            "text": "Usiseme, ‘Kwa nini siku za zamani zilikuwa bora kuliko hizi?’ Kwa maana huulizi jambo hili kwa hekima."
+          },
+          {
+            "number": 11,
+            "text": "Hekima ni njema mfano wa urithi; nayo huwaletea faida wale wanaoliona jua."
+          },
+          {
+            "number": 12,
+            "text": "Kwa maana hekima ni ulinzi, na fedha ni ulinzi; lakini ubora wa maarifa ni huu, kwamba hekima huwapa uzima wale walio nayo."
+          },
+          {
+            "number": 13,
+            "text": "Tafakari kazi ya Mungu; kwa maana ni nani awezaye kukinyosha kile alichokipindisha?"
+          },
+          {
+            "number": 14,
+            "text": "Katika siku ya ustawi furahi; lakini katika siku ya taabu tafakari. Mungu ameziweka zote mbili pamoja, moja ikikabiliana na nyingine, ili mwanadamu asije akagundua jambo lolote litakalokuwa baada yake."
+          },
+          {
+            "number": 15,
+            "text": "Mambo haya yote nimeyaona katika siku za ubatili wangu: yuko mtenda haki anayepotea katika usahihi wake, na yuko mtu m’baya anayeongeza siku zake katika ubaya wake."
+          },
+          {
+            "number": 16,
+            "text": "Usiwe mwenye usahihi kupita kiasi, wala usijifanye kuwa mwenye hekima kupita kiasi; kwa nini ujiharibu mwenyewe?"
+          },
+          {
+            "number": 17,
+            "text": "Usiwe mbaya kupita kiasi, wala usiwe mjinga; kwa nini ufe kabla ya wakati wako?"
+          },
+          {
+            "number": 18,
+            "text": "Ni vema ushikamane na hili; naam, wala usiondoe mkono wako kutoka kwa lile; kwa maana yeye aliye mhofu Mungu atatoka salama katika hayo yote."
+          },
+          {
+            "number": 19,
+            "text": "Hekima humtia nguvu mwenye hekima kuliko watu kumi wenye nguvu waliomo mjini."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana hakuna mtenda haki duniani atendaye mema, wala asiyetenda dhambi."
+          },
+          {
+            "number": 21,
+            "text": "Pia usiyatie maanani maneno yote yanayosemwa, usije ukamsikia mtumishi wako akikulaani."
+          },
+          {
+            "number": 22,
+            "text": "Kwa maana mara nyingi moyo wako mwenyewe wajua kwamba hata wewe pia umewalaani wengine."
+          },
+          {
+            "number": 23,
+            "text": "Haya yote nimeyajaribu kwa hekima. Nikasema, ‘Nitakuwa mwenye hekima’; lakini ilikuwa mbali nami."
+          },
+          {
+            "number": 24,
+            "text": "Kilicho mbali, na kilicho kina kirefu mno, ni nani awezaye kukigundua?"
+          },
+          {
+            "number": 25,
+            "text": "Niliuelekeza moyo wangu kujua, na kuchunguza, na kuitafuta hekima na sababu ya mambo; pia kujua ubaya wa upumbavu, yaani, upumbavu na wazimu."
+          },
+          {
+            "number": 26,
+            "text": "Nami nimeona kwamba mwanamke ambaye moyo wake ni mitego na nyavu, na mikono yake ni kama pingu, ni mchungu kuliko mauti. Yeye ampendezaye Mungu atamponyoka; lakini mwenye dhambi atanaswa naye."
+          },
+          {
+            "number": 27,
+            "text": "Tazama, hili nimeliona, asema Mhubiri, nikihesabu jambo moja baada ya jingine, ili nipate hitimisho lake."
+          },
+          {
+            "number": 28,
+            "text": "Ambalo nafsi yangu bado inalilitafuta, lakini sikulipata: mtu mmoja miongoni mwa elfu nimempata; lakini mwanamke mmoja miongoni mwa hao wote sikumpata."
+          },
+          {
+            "number": 29,
+            "text": "Tazama, hili pekee nimeliona: kwamba Mungu alimfanya mwanadamu kuwa mnyofu; lakini wao wametafuta njia nyingi zao wenyewe."
+          }
+        ],
+        "8": [
+          {
+            "number": 1,
+            "text": "Ni nani aliye kama mwenye hekima? Naye ni nani ajuaye tafsiri ya jambo? Hekima ya mtu huifanya uso wake kung'aa, na ukali wa uso wake hubadilishwa."
+          },
+          {
+            "number": 2,
+            "text": "Nakushauri uishike amri ya mfalme, na ufanye hivyo kwa sababu ya kiapo mbele za Mungu."
+          },
+          {
+            "number": 3,
+            "text": "Usiwe mwepesi kuondoka mbele zake; wala usisimame katika jambo ovu, kwa maana yeye hufanya lolote limpendezalo."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana ambapo neno la mfalme lipo, hapo kuna nguvu; naye ni nani awezaye kumwambia, ‘Unafanya nini?’"
+          },
+          {
+            "number": 5,
+            "text": "Yeyote aishikaye amri hataona jambo ovu; na moyo wa mwenye hekima hujua wakati na hukumu."
+          },
+          {
+            "number": 6,
+            "text": "Kwa maana kwa kila kusudi kuna wakati na hukumu; kwa hiyo taabu ya mwanadamu ni kubwa juu yake."
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana hajui litakalokuwa; kwa maana ni nani awezaye kumwambia litakuwa lini?"
+          },
+          {
+            "number": 8,
+            "text": "Hakuna mtu aliye na nguvu juu ya roho kuizuia roho; wala hana nguvu katika siku ya mauti. Wala hakuna kuachiliwa katika vita hiyo; wala ubaya hautawaokoa wale waliojitoa kwake."
+          },
+          {
+            "number": 9,
+            "text": "Haya yote nimeyaona, nami nimeuelekeza moyo wangu kwa kila kazi ifanywayo chini ya jua. Kuna wakati ambapo mtu mmoja humtawala mwingine kwa madhara yake mwenyewe."
+          },
+          {
+            "number": 10,
+            "text": "Kisha nikawaona watu wabaya wakizikwa, waliokuwa wamekuja na kuondoka mahali patakatifu; nao wakasahaulika katika mji ambamo walikuwa wamefanya mambo hayo. Hili pia ni ubatili."
+          },
+          {
+            "number": 11,
+            "text": "Kwa sababu hukumu dhidi ya tendo baya haitekelezwi upesi, ndiyo maana mioyo ya wanadamu imejaa kabisa nia ya kutenda uovu."
+          },
+          {
+            "number": 12,
+            "text": "Ijapokuwa mwenye dhambi akitenda uovu mara mia, na siku zake zikaongezwa, hata hivyo hakika najua ya kwamba itakuwa vema kwa wale wamhofuo Mungu, wale wenye hofu mbele zake."
+          },
+          {
+            "number": 13,
+            "text": "Lakini haitakuwa vema kwa mtu mbaya, wala hatazirefusha siku zake, zilizo kama kivuli; kwa sababu hamu hofu Mungu mbele zake."
+          },
+          {
+            "number": 14,
+            "text": "Kuna ubatili unaotendeka juu ya dunia: kwamba wapo watenda haki wanaopatwa na yale yanayostahili kazi za watu wabaya; tena wapo watu wabaya wanaopatwa na yale yanayostahili kazi za watenda haki. Nikasema kwamba hili pia ni ubatili."
+          },
+          {
+            "number": 15,
+            "text": "Ndipo nikaisifu furaha, kwa sababu mwanadamu hana jambo lililo bora chini ya jua kuliko kula, na kunywa, na kufurahi; kwa maana hilo ndilo litakalobaki pamoja naye kutokana na taabu yake siku zote za maisha yake, ambazo Mungu humpa chini ya jua."
+          },
+          {
+            "number": 16,
+            "text": "Nilipoelekeza moyo wangu kuijua hekima, na kuiona shughuli inayofanyika juu ya dunia—kwa maana wapo ambao mchana wala usiku hawaoni usingizi kwa macho yao."
+          },
+          {
+            "number": 17,
+            "text": "Ndipo nikaiona kazi yote wa Mungu, ya kwamba mwanadamu hawezi kuigundua kazi inayofanyika chini ya jua. Kwa maana ijapokuwa mwanadamu akijitaabisha kuitafuta, hataweza kuigundua; naam, zaidi ya hayo, ijapokuwa mwenye hekima akidhani kwamba ataijua, hataweza kuigundua."
+          }
+        ],
+        "9": [
+          {
+            "number": 1,
+            "text": "Kwa maana haya yote niliyatia moyoni mwangu ili kuyafafanua yote haya: kwamba aliye sahihi, na wenye hekima, na kazi zao, vimo mkononi mwa Mungu. Hakuna mtu ajuaye kama ni upendo au chuki kwa yote yaliyo mbele yao."
+          },
+          {
+            "number": 2,
+            "text": "Mambo yote huwapata wote sawasawa: kuna tukio moja kwa aliye sahihi na kwa mtu m’baya; kwa mwema na kwa msafi, na kwa asiye msafi; kwa yeye atoaye sadaka na kwa yeye asiyetoa sadaka. Kama alivyo mwema, ndivyo alivyo mwenye dhambi; na yeye aapaye, ni kama yeye aiogopaye kiapo."
+          },
+          {
+            "number": 3,
+            "text": "Hili ni uovu miongoni mwa mambo yote yanayofanyika chini ya jua, kwamba kuna tukio moja kwa wote. Naam, pia mioyo ya wanadamu imejaa uovu, na wazimu umo mioyoni mwao wakati wa maisha yao; na baada ya hayo huenda kwa wafu."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana kwa yeye aliyeunganishwa na wote walio hai kuna tumaini; kwa maana mbwa aliye hai ni bora kuliko simba aliyekufa."
+          },
+          {
+            "number": 5,
+            "text": "Kwa maana walio hai wanajua kwamba watakufa; lakini wafu hawajui jambo lolote, wala hawana tena thawabu yoyote, kwa maana kumbukumbu lao limesahaulika."
+          },
+          {
+            "number": 6,
+            "text": "Pia upendo wao, na chuki yao, na wivu wao, sasa vimepotea; wala hawana tena sehemu milele katika jambo lolote linalofanyika chini ya jua."
+          },
+          {
+            "number": 7,
+            "text": "Nenda njia yako, ule mkate wako kwa furaha, na unywe divai yako kwa moyo wa shangwe; kwa maana Mungu sasa amezikubali kazi zako."
+          },
+          {
+            "number": 8,
+            "text": "Mavazi yako na yawe meupe sikuzote; wala kichwa chako kisikose mafuta."
+          },
+          {
+            "number": 9,
+            "text": "Ishi kwa furaha pamoja na mke umpendaye siku zote za maisha ya ubatili wako, ambayo amekupa chini ya jua, siku zote za ubatili wako; kwa maana hiyo ndiyo sehemu yako katika maisha haya, na katika taabu yako unayoitaabikia chini ya jua."
+          },
+          {
+            "number": 10,
+            "text": "Lolote mkono wako uonalo kufanya, lifanye kwa nguvu zako zote; kwa maana hakuna kazi, wala shauri, wala maarifa, wala hekima, kaburini, uendako."
+          },
+          {
+            "number": 11,
+            "text": "Nikarejea, nikaona chini ya jua, kwamba mashindano si ya wenye kasi, wala vita si vya wenye nguvu, wala mkate si wa wenye hekima, wala utajiri si wa wenye uelewa, wala kibali si cha watu wenye ustadi; bali wakati na nafasi huwapata wote."
+          },
+          {
+            "number": 12,
+            "text": "Kwa maana mwanadamu pia hajui wakati wake; kama samaki wanavyonaswa katika wavu m’baya, na kama ndege wanavyonaswa katika mtego, ndivyo wanadamu hunaswa katika wakati m’baya, unapowajia ghafula."
+          },
+          {
+            "number": 13,
+            "text": "Hekima hii pia nimeiona chini ya jua, nayo ikaonekana kuwa kuu kwangu:"
+          },
+          {
+            "number": 14,
+            "text": "Palikuwa na mji mdogo, na watu wachache ndani yake; naye mfalme mkuu akaja dhidi yake, akauzingira, na akajenga ngome kubwa dhidi yake."
+          },
+          {
+            "number": 15,
+            "text": "Basi akapatikana ndani yake mtu maskini mwenye hekima, naye kwa hekima yake akauokoa mji huo; lakini hakuna mtu aliyemkumbuka yule mtu maskini."
+          },
+          {
+            "number": 16,
+            "text": "Ndipo nikasema, Hekima ni bora kuliko nguvu; hata hivyo hekima ya mtu maskini hudharauliwa, na maneno yake hayasikilizwi."
+          },
+          {
+            "number": 17,
+            "text": "Maneno ya wenye hekima husikilizwa kwa utulivu kuliko kilio cha yeye atawalaye miongoni mwa wajinga."
+          },
+          {
+            "number": 18,
+            "text": "Hekima ni bora kuliko silaha za vita; lakini mwenye dhambi mmoja huharibu mema mengi."
+          }
+        ],
+        "10": [
+          {
+            "number": 1,
+            "text": "Nzi waliokufa huisababisha marhamu ya mtengenezaji wa marhamu kutoa harufu mbaya; vivyo hivyo upumbavu kidogo humzidi uzito mtu aliye na sifa ya hekima na heshima."
+          },
+          {
+            "number": 2,
+            "text": "Moyo wa mtu mwenye hekima uko upande wake wa kuume; lakini moyo wa mjinga uko upande wake wa kushoto."
+          },
+          {
+            "number": 3,
+            "text": "Naam, pia mjinga anapotembea njiani, hukosa hekima, naye humwambia kila mtu kwamba yeye ni mjinga."
+          },
+          {
+            "number": 4,
+            "text": "Ikiwa roho ya mtawala itainuka dhidi yako, usiondoke mahali pako; kwa maana utulivu hutuliza makosa makubwa."
+          },
+          {
+            "number": 5,
+            "text": "Kuna ovu nililoliona chini ya jua, kama kosa litokalo kwa mtawala."
+          },
+          {
+            "number": 6,
+            "text": "Upumbavu huwekwa katika cheo cha juu, na matajiri huketi mahali pa chini."
+          },
+          {
+            "number": 7,
+            "text": "Nimewaona watumishi juu ya farasi, na wakuu wakitembea juu ya dunia kama watumishi."
+          },
+          {
+            "number": 8,
+            "text": "Yeye achimbaye shimo ataangukia ndani yake; na yeyote avunjaye ukuta, nyoka atamuuma."
+          },
+          {
+            "number": 9,
+            "text": "Yeyote ahamishaye mawe ataumizwa nayo; na yeye apasuaye kuni atakuwa katika hatari kwa sababu yake."
+          },
+          {
+            "number": 10,
+            "text": "Ikiwa chuma kimepungua makali, naye hakinoi ukingo wake, basi atapaswa kutumia nguvu zaidi; lakini hekima ina faida kwa kuongoza."
+          },
+          {
+            "number": 11,
+            "text": "Hakika nyoka atang'ata bila kuroga; na m’mbeya hana afadhali."
+          },
+          {
+            "number": 12,
+            "text": "Maneno ya kinywa cha mtu mwenye hekima yana neema; lakini midomo ya mjinga itammeza yeye mwenyewe."
+          },
+          {
+            "number": 13,
+            "text": "Mwanzo wa maneno ya kinywa chake ni upumbavu; na mwisho wa mazungumzo yake ni wazimu wa ufisadi."
+          },
+          {
+            "number": 14,
+            "text": "Mjinga pia amejaa maneno; mwanadamu hawezi kujua yatakayokuwa; na yatakayokuwa baada yake, ni nani awezaye kumwambia?"
+          },
+          {
+            "number": 15,
+            "text": "Taabu ya wajinga huwachosha kila mmoja wao, kwa sababu hajui jinsi ya kwenda mjini."
+          },
+          {
+            "number": 16,
+            "text": "Ole wako, ee nchi, mfalme wako akiwa mtoto, na wakuu wako wakila asubuhi!"
+          },
+          {
+            "number": 17,
+            "text": "Heri yako, ee nchi, mfalme wako akiwa mwana wa watu wa heshima, na wakuu wako wakila kwa wakati unaofaa, kwa ajili ya nguvu, wala si kwa ajili ya ulevi."
+          },
+          {
+            "number": 18,
+            "text": "Kwa uvivu mwingi jengo huharibika; na kwa kulegea kwa mikono nyumba huvuja."
+          },
+          {
+            "number": 19,
+            "text": "Karamu huandaliwa kwa ajili ya kicheko, na divai hufurahisha moyo; lakini fedha hujibu mambo yote."
+          },
+          {
+            "number": 20,
+            "text": "Usimlaani mfalme, hata katika mawazo yako; wala usimlaani tajiri katika chumba chako cha kulala; kwa maana ndege wa angani atauchukua ule ujumbe, na mwenye mabawa ataufunua huo jambo."
+          }
+        ],
+        "11": [
+          {
+            "number": 1,
+            "text": "Tupa mkate wako juu ya maji; kwa maana baada ya siku nyingi utaupata tena."
+          },
+          {
+            "number": 2,
+            "text": "Gawanya sehemu saba, naam, hata nane; kwa maana hujui ni ovu gani litakalokuwa juu ya dunia."
+          },
+          {
+            "number": 3,
+            "text": "Ikiwa mawingu yamejaa mvua, huimwaga juu ya dunia; na ikiwa mti utaanguka kuelekea kusini, au kuelekea kaskazini, mahali ule mti utakapoanguka, hapo ndipo utakapokuwa."
+          },
+          {
+            "number": 4,
+            "text": "Yeye autazamaye upepo hatapanda; na yeye ayatazamaye mawingu hatavuna."
+          },
+          {
+            "number": 5,
+            "text": "Kama usivyoijua njia ya roho, wala jinsi mifupa ikuavyo katika mfuko wa uzazi wa mwanamke mwenye mimba, vivyo hivyo huzijui kazi za Mungu, afanyaye yote."
+          },
+          {
+            "number": 6,
+            "text": "Asubuhi panda mbegu yako, na jioni usiuondoe mkono wako; kwa maana hujui ni ipi itakayofanikiwa, ikiwa ni hii au ile, au kama zote mbili zitakuwa nzuri sawasawa."
+          },
+          {
+            "number": 7,
+            "text": "Hakika nuru ni tamu, na ni jambo la kupendeza kwa macho kulitazama jua."
+          },
+          {
+            "number": 8,
+            "text": "Lakini ikiwa mtu ataishi miaka mingi, na afurahi katika hiyo yote; hata hivyo na azikumbuke siku za giza, kwa maana zitakuwa nyingi. Yote yajayo ni ubatili."
+          },
+          {
+            "number": 9,
+            "text": "Furahi, ee kijana, katika ujana wako; na moyo wako na ukufurahishe katika siku za ujana wako, nawe uende katika njia za moyo wako, na katika yale macho yako yaonayo; lakini ujue kwamba kwa ajili ya mambo haya yote Mungu atakuleta hukumuni."
+          },
+          {
+            "number": 10,
+            "text": "Kwa hiyo ondoa huzuni moyoni mwako, na uondoe ovu katika mwili wako; kwa maana utoto na ujana ni ubatili."
+          }
+        ],
+        "12": [
+          {
+            "number": 1,
+            "text": "Mkumbuke sasa Muumba wako katika siku za ujana wako, kabla siku za ovu hazijaja, wala miaka haijakaribia ambayo utasema, ‘Sina furaha ndani yake."
+          },
+          {
+            "number": 2,
+            "text": "Wakati jua, wala nuru, wala mwezi, wala nyota hazijatiwa giza, wala mawingu hayajarudi baada ya mvua."
+          },
+          {
+            "number": 3,
+            "text": "Katika siku ambayo walinzi wa nyumba watatetemeka, na watu wenye nguvu watainama, na wasagaji wataacha kusaga kwa sababu wamekuwa wachache, na wale watazamiao madirishani watatiwa giza."
+          },
+          {
+            "number": 4,
+            "text": "Na milango itafungwa mitaani, wakati sauti ya kusaga itakapokuwa ya chini; naye ataamka kwa sauti ya ndege, na binti wote wa muziki watashushwa chini."
+          },
+          {
+            "number": 5,
+            "text": "Pia watakapoiogopa sehemu iliyo juu, na hofu zitakuwa njiani, na mlozi utachanua, na panzi atakuwa mzigo, na tamaa itapotea; kwa maana mwanadamu anakwenda kwenye nyumba yake ya milele, na waombolezaji huzunguka mitaani."
+          },
+          {
+            "number": 6,
+            "text": "Kabla kamba ya fedha haijalegezwa, au bakuli la dhahabu halijavunjwa, au mtungi haujavunjika kwenye chemchemi, au gurudumu halijavunjika kwenye kisima."
+          },
+          {
+            "number": 7,
+            "text": "Ndipo mavumbi yatarudi duniani kama yalivyokuwa; na roho itamrudia Mungu aliyeitoa."
+          },
+          {
+            "number": 8,
+            "text": "'Ubatili mtupu,' asema Mhubiri, 'yote ni ubatili’."
+          },
+          {
+            "number": 9,
+            "text": "Na zaidi ya hayo, kwa sababu Mhubiri alikuwa mwenye hekima, aliendelea kuwafundisha watu maarifa; naam, alitilia maanani, akachunguza, na akapanga kwa utaratibu methali nyingi."
+          },
+          {
+            "number": 10,
+            "text": "Mhubiri alitafuta kupata maneno yanayokubalika; na yaliyoandikwa yalikuwa ya unyofu, yaani maneno ya kweli."
+          },
+          {
+            "number": 11,
+            "text": "Maneno ya wenye hekima ni kama michokoo, na kama misumari iliyogongomewa imara na mabwana wa makusanyiko, ambayo yametolewa na mchungaji mmoja."
+          },
+          {
+            "number": 12,
+            "text": "Na zaidi ya hayo, mwanangu, onya kwa haya; kufanya vitabu vingi hakuna mwisho, na kujifunza sana ni uchovu wa mwili."
+          },
+          {
+            "number": 13,
+            "text": "Na tusikie hitimisho la jambo lote: Mhofu Mungu, na uzihifadhi amri zake; kwa maana hili ndilo jukumu lote la mwanadamu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "yuda",
+      "name": "Yuda",
+      "englishName": "Jude",
+      "testament": "Agano Jipya",
+      "bookNumber": 65,
+      "chapterCount": 1,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Yuda, mtumishi wa Yesu Kristo, na ndugu yake Yakobo, kwa wale waliotakaswa na Mungu Baba, waliohifadhiwa katika Yesu Kristo, na walioitwa:"
+          },
+          {
+            "number": 2,
+            "text": "Rehema, na amani, na upendo, na vizidishwe kwenu."
+          },
+          {
+            "number": 3,
+            "text": "Wapenzi, nilipokuwa nikijitahidi sana kuwaandikia kuhusu wokovu wetu wa pamoja, ilionekana kuwa lazima niwaandikie na kuwahimiza kwamba mpiganie kwa bidii imani ile iliyokabidhiwa watakatifu mara moja tu."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana wamejipenyeza watu fulani pasipo kutambuliwa, ambao tangu zamani waliandikiwa hukumu hii: watu wasiomcha Mungu, wanaogeuza neema ya Mungu wetu kuwa anasa, na kumkana Bwana Mungu wa pekee, na Bwana wetu Yesu Kristo."
+          },
+          {
+            "number": 5,
+            "text": "Kwa hiyo nataka kuwakumbusha, ingawa mlijua mambo haya, kwamba Bwana, baada ya kuwaokoa watu kutoka nchi ya Misri, baadaye aliwaangamiza wale ambao hawakuamini."
+          },
+          {
+            "number": 6,
+            "text": "Na malaika ambao hawakubaki katika nafasi yao ya kwanza, bali waliiacha makao yao wenyewe, amewaweka katika minyororo ya milele chini ya giza kwa ajili ya hukumu ya siku ile kuu."
+          },
+          {
+            "number": 7,
+            "text": "Vivyo hivyo Sodoma na Gomora, na miji iliyokuwa kandokando yake, ambayo kwa namna iyo hiyo ilijitoa kwa uasherati na kufuata mwili wa kigeni, imewekwa kuwa mfano, ikipata adhabu ya moto wa milele."
+          },
+          {
+            "number": 8,
+            "text": "Vivyo hivyo watu hawa waotaji ndoto chafu huutia mwili unajisi, hudharau mamlaka, na kuyanenea vibaya yaliyo matukufu."
+          },
+          {
+            "number": 9,
+            "text": "Lakini Mikaeli, malaika mkuu, alipokuwa akishindana na Ibilisi na kubishana naye kuhusu mwili wa Musa, hakuthubutu kumletea mashtaka ya matukano, bali alisema, 'Bwana akukemee."
+          },
+          {
+            "number": 10,
+            "text": "Lakini hawa huyanenea mabaya mambo wasiyoyajua; na yale wanayoyafahamu kwa asili, kama wanyama wasio na akili, katika hayo hujiharibu wenyewe."
+          },
+          {
+            "number": 11,
+            "text": "Ole wao! Kwa maana wameifuata njia ya Kaini, na kwa ajili ya ujira wamejikabidhi kwa tamaa katika upotevu wa Balaamu, na wameangamia katika uasi wa Kora."
+          },
+          {
+            "number": 12,
+            "text": "Hawa ni madoa katika karamu zenu za upendo, wanapokula pamoja nanyi bila hofu, wakijilisha wenyewe. Ni mawingu yasiyo na maji, yachukuliwayo na pepo; ni miti iliyonyauka matunda yake, isiyo na matunda, imekufa mara mbili, imeng'olewa pamoja na mizizi."
+          },
+          {
+            "number": 13,
+            "text": "Ni mawimbi makali ya bahari, yakitoa povu la aibu yao wenyewe; ni nyota zinazotangatanga, ambazo zimewekewa weusi wa giza milele."
+          },
+          {
+            "number": 14,
+            "text": "Naye Henoko pia, wa saba tangu Adamu, alitabiri juu yao, akisema, 'Tazama, Bwana anakuja pamoja na makumi elfu ya watakatifu wake."
+          },
+          {
+            "number": 15,
+            "text": "Ili awahukumu wote, na kuwathibitishia hatia wote wasio wa ki Mungu kwa sababu ya matendo yao yote yasio ya Mungu waliyoyatenda, na kwa sababu ya maneno yao yote makali ambayo wenye dhambi wasio wa ki Mungu waliyoyasema dhidi yake."
+          },
+          {
+            "number": 16,
+            "text": "Hawa ni wanung'unikaji, walalamikaji, wanaoenenda kufuata tamaa zao wenyewe; na vinywa vyao hunena maneno ya majivuno makubwa, wakiwasifu watu kwa ajili ya faida."
+          },
+          {
+            "number": 17,
+            "text": "Lakini ninyi, wapenzi, yakumbukeni maneno yaliyosemwa tangu zamani na mitume wa Bwana wetu Yesu Kristo."
+          },
+          {
+            "number": 18,
+            "text": "Kwamba waliwaambia, ‘Katika nyakati za mwisho kutakuwa na wenye kudhihaki, watakaoenenda kufuata tamaa zao zisizo za ki Mungu."
+          },
+          {
+            "number": 19,
+            "text": "Hawa ndio wanaojitenga, ni watu wa asili ya mwili, wasio na Roho."
+          },
+          {
+            "number": 20,
+            "text": "Lakini ninyi, wapenzi, mkijijenga juu ya imani yenu iliyo takatifu sana, mkiomba katika Roho Mtakatifu,"
+          },
+          {
+            "number": 21,
+            "text": "Jihifadhini katika upendo wa Mungu, mkingojea rehema ya Bwana wetu Yesu Kristo iletayo uzima wa milele."
+          },
+          {
+            "number": 22,
+            "text": "Na wengine wahurumieni, walio na shaka."
+          },
+          {
+            "number": 23,
+            "text": "Na wengine waokoeni kwa hofu, mkiwanyakua kutoka motoni; huku mkichukia hata vazi lililotiwa unajisi na mwili."
+          },
+          {
+            "number": 24,
+            "text": "Na kwake yeye awezaye kuwahifadhi msianguke, na kuwasimamisha bila hatia mbele za utukufu wake kwa furaha kuu."
+          },
+          {
+            "number": 25,
+            "text": "Kwa Mungu wa pekee mwenye hekima, Mwokozi wetu, na kuwe na utukufu, na ukuu, na mamlaka, na nguvu, tangu sasa na hata milele. Amina"
           }
         ]
       }
