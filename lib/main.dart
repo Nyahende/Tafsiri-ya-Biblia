@@ -12,7 +12,7 @@ class TafsiriYaBibliaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Tafsiri ya Biblia',
+      title: 'Jifunze Biblia',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: ThemeData(

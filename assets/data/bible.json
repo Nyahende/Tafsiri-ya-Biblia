@@ -4764,6 +4764,460 @@
           }
         ]
       }
+    },
+    {
+      "id": "ruthu",
+      "name": "Ruthu",
+      "englishName": "Ruth",
+      "testament": "Agano la Kale",
+      "bookNumber": 8,
+      "chapterCount": 4,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Ikawa katika siku ambazo waamuzi walitawala, kulikuwa na njaa katika nchi. Na mtu mmoja kutoka Bethlehemu ya Yuda akaenda kukaa kwa muda katika nchi ya Moabu, yeye pamoja na mke wake na wanawe wawili."
+          },
+          {
+            "number": 2,
+            "text": "Na jina la mtu huyo lilikuwa Elimeleki, na jina la mke wake Naomi, na majina ya wanawe wawili yalikuwa Mahloni na Kilioni, Waefratha wa Bethlehemu ya Yuda. Wakafika katika nchi ya Moabu, wakaendelea kukaa huko."
+          },
+          {
+            "number": 3,
+            "text": "Kisha Elimeleki, mume wa Naomi, akafa; naye akabaki pamoja na wanawe wawili."
+          },
+          {
+            "number": 4,
+            "text": "Nao wakajitwalia wake kutoka wanawake wa Moabu; jina la mmoja lilikuwa Orpa, na jina la mwingine lilikuwa Ruthu. Nao wakakaa huko yapata miaka kumi."
+          },
+          {
+            "number": 5,
+            "text": "Nao pia Mahloni na Kilioni wakafa wote wawili; yule mwanamke akabaki bila wanawe wawili na bila mume wake."
+          },
+          {
+            "number": 6,
+            "text": "Ndipo akaondoka pamoja na wakwe zake ili arudi kutoka nchi ya Moabu; kwa maana alikuwa amesikia akiwa katika nchi ya Moabu kwamba BWANA amewatembelea watu wake kwa kuwapa mkate."
+          },
+          {
+            "number": 7,
+            "text": "Kwa hiyo akaondoka mahali alipokuwa, pamoja na wakwe zake wawili; nao wakaendelea njiani wakirudi kuelekea nchi ya Yuda."
+          },
+          {
+            "number": 8,
+            "text": "Na Naomi akawaambia wakwe zake wawili, ‘Nendeni, mrudi kila mmoja nyumbani kwa mama yake. BWANA awatendee kwa fadhili, kama ninyi mlivyowatendea waliokufa na mimi."
+          },
+          {
+            "number": 9,
+            "text": "BWANA awajalie mpate pumziko, kila mmoja katika nyumba ya mume wake.” Kisha akawabusu; nao wakapaza sauti zao, wakalia."
+          },
+          {
+            "number": 10,
+            "text": "Nao wakamwambia, ‘La hasha, hakika tutarudi pamoja nawe kwa watu wako.’"
+          },
+          {
+            "number": 11,
+            "text": "Na Naomi akasema, ‘Rudini, binti zangu. Kwa nini mnataka kwenda pamoja nami? Je, bado nina wana katika mfuko wangu wa uzazi, ili wawe waume zenu?’"
+          },
+          {
+            "number": 12,
+            "text": "Rudini, binti zangu, nendeni njia yenu; kwa maana nimezeeka mno hata siwezi kuwa na mume. Hata kama ningesema, ‘Bado nina tumaini,’ naam, hata kama ningepata mume usiku wa leo, na pia nikazaa wana,"
+          },
+          {
+            "number": 13,
+            "text": "Je, mngewasubiri mpaka wakue? Je, mngejizuia kuolewa kwa ajili yao? La, binti zangu; kwa maana inanihuzunisha sana kwa ajili yenu kwamba mkono wa BWANA umenitoka dhidi yangu."
+          },
+          {
+            "number": 14,
+            "text": "Nao wakapaza sauti zao, wakalia tena. Orpa akambusu mkwe wake; lakini Ruthu akashikamana naye."
+          },
+          {
+            "number": 15,
+            "text": "Naye akasema, ‘Tazama, shemeji yako amerudi kwa watu wake na kwa miungu yake; nawe urudi umfuate shemeji yako.’"
+          },
+          {
+            "number": 16,
+            "text": "Lakini Ruthu akasema, ‘Usinisihi nikuache, wala nirudi nisikufuate; kwa maana uendako nitakwenda, na ukaapo nitakaa. Watu wako watakuwa watu wangu, na Mungu wako atakuwa Mungu wangu."
+          },
+          {
+            "number": 17,
+            "text": "Utakapokufa nitakufa, na huko ndiko nitakapozikwa. BWANA anitendee hivyo, na kuzidi, ikiwa kitu chochote isipokuwa kifo kitatutenganisha mimi na wewe."
+          },
+          {
+            "number": 18,
+            "text": "Na Naomi alipoona kwamba Ruthu alikuwa ameazimia kabisa kwenda pamoja naye, akaacha kusema naye."
+          },
+          {
+            "number": 19,
+            "text": "Basi wakaendelea wote wawili mpaka wakafika Bethlehemu. Ikawa walipofika Bethlehemu, mji wote ukaguswa kwa habari yao; nao wakasema, ‘Je, huyu ni Naomi?’"
+          },
+          {
+            "number": 20,
+            "text": "Naye akawaambia, ‘Msiite Naomi; niiteni Mara, kwa maana Mwenyezi amenitendea kwa uchungu mwingi."
+          },
+          {
+            "number": 21,
+            "text": "Niliondoka nikiwa nimejaa, lakini BWANA amenirudisha nikiwa mtupu. Kwa nini basi mnaniita Naomi, hali BWANA amenishuhudia dhidi yangu, na Mwenyezi amenitesa?"
+          },
+          {
+            "number": 22,
+            "text": "Basi Naomi akarudi, na Ruthu Mmoabu, mkwe wake, pamoja naye, waliokuwa wakirudi kutoka nchi ya Moabu. Nao wakafika Bethlehemu mwanzoni mwa mavuno ya shayiri."
+          }
+        ],
+        "2": [
+          {
+            "number": 1,
+            "text": "Na Naomi alikuwa na jamaa wa mume wake, mtu mwenye uwezo na mali, wa jamaa ya Elimeleki; na jina lake lilikuwa Boazi."
+          },
+          {
+            "number": 2,
+            "text": "Naye Ruthu Mmoabu akamwambia Naomi, ‘Niruhusu sasa niende shambani, nikakusanye masazo ya masuke nyuma ya yule ambaye nitapata kibali machoni pake.’ Naye akamwambia, ‘Nenda, binti yangu.’"
+          },
+          {
+            "number": 3,
+            "text": "Basi akaenda, akafika, akakusanya masazo ya masuke shambani nyuma ya wavunaji; na ikawa kwamba akaangukia sehemu ya shamba lililokuwa la Boazi, aliyekuwa wa jamaa ya Elimeleki."
+          },
+          {
+            "number": 4,
+            "text": "Na tazama, Boazi akaja kutoka Bethlehemu, akawaambia wavunaji, ‘BWANA awe pamoja nanyi.’ Nao wakamjibu, ‘BWANA akubariki.’"
+          },
+          {
+            "number": 5,
+            "text": "Kisha Boazi akamwambia mtumishi wake aliyekuwa msimamizi wa wavunaji, ‘Huyu msichana ni wa nani?"
+          },
+          {
+            "number": 6,
+            "text": "Yule mtumishi aliyekuwa msimamizi wa wavunaji akajibu, akasema, ‘Huyu ni yule msichana Mmoabu aliyerudi pamoja na Naomi kutoka nchi ya Moabu."
+          },
+          {
+            "number": 7,
+            "text": "Naye alisema, ‘Tafadhali niruhusuni nikusanye masazo ya masuke nyuma ya wavunaji, katikati ya miganda.’ Basi akaja, naye ameendelea tangu asubuhi mpaka sasa; amepumzika kwa muda mfupi tu nyumbani."
+          },
+          {
+            "number": 8,
+            "text": "Kisha Boazi akamwambia Ruthu, ‘Je, husikii, binti yangu? Usiende kukusanya masazo ya masuke katika shamba lingine, wala usiondoke hapa; bali kaa karibu na vijakazi wangu.’"
+          },
+          {
+            "number": 9,
+            "text": "Macho yako na yaangalie shamba wanalovuna, nawe uende nyuma yao. Je, sikuwaamuru vijana wasikuguse? Na utakapokuwa na kiu, nenda kwenye vyombo, ukanywe maji yale ambayo vijana wameyateka."
+          },
+          {
+            "number": 10,
+            "text": "Ndipo akaanguka kifudifudi, akainama mpaka chini, akamwambia, ‘Kwa nini nimepata kibali machoni pako hata unijali mimi, hali mimi ni mgeni?’"
+          },
+          {
+            "number": 11,
+            "text": "Boazi akajibu, akamwambia, ‘Nimeelezwa kikamilifu yote uliyomtendea mkwe wako tangu kifo cha mume wako, na jinsi ulivyowaacha baba yako na mama yako, na nchi yako ya kuzaliwa, ukaja kwa watu ambao hukuwa umewajua hapo awali.’"
+          },
+          {
+            "number": 12,
+            "text": "BWANA ailipe kazi yako, na upewe thawabu kamili kutoka kwa BWANA, Mungu wa Israeli, ambaye chini ya mabawa yake umekuja kutafuta kimbilio."
+          },
+          {
+            "number": 13,
+            "text": "Ndipo akasema, ‘Bwana wangu, na nipate kibali machoni pako; kwa maana umenifariji, na umesema kwa upole na mtumishi wako wa kike, ingawa mimi sistahili kuwa kama mmoja wa vijakazi wako.’"
+          },
+          {
+            "number": 14,
+            "text": "Boazi akamwambia wakati wa kula, ‘Njoo hapa, ule mkate, na uchovye kipande chako katika siki.’ Naye akaketi kando ya wavunaji; Boazi akampa nafaka iliyooka, naye akala akashiba, na kubakiza."
+          },
+          {
+            "number": 15,
+            "text": "Naye alipoinuka ili akusanye masazo ya masuke, Boazi akawaamuru vijana wake, akisema, ‘MwachenI akusanye hata katikati ya miganda, wala msimwaibishe.’"
+          },
+          {
+            "number": 16,
+            "text": "Pia mwachieni kwa makusudi baadhi ya mafungu ya masuke, myaache ili ayakusanye, wala msimkemee."
+          },
+          {
+            "number": 17,
+            "text": "Basi akakusanya masazo ya masuke shambani mpaka jioni; kisha akayapura aliyokuwa ameyakusanya, yakawa yapata efa moja ya shayiri."
+          },
+          {
+            "number": 18,
+            "text": "Naye akavichukua, akaingia mjini; na mkwe wake akaona yale aliyokuwa ameyakusanya. Kisha akatoa na kumpa yale aliyokuwa ameyabakiza baada ya kushiba."
+          },
+          {
+            "number": 19,
+            "text": "Mkwe wake akamwambia, ‘Leo umekusanya masazo ya masuke wapi? Umefanya kazi wapi? Na abarikiwe yule aliyekujali.’ Naye akamweleza mkwe wake yule aliyefanya naye kazi, akasema, ‘Jina la mtu ambaye nimefanya naye kazi leo ni Boazi.’"
+          },
+          {
+            "number": 20,
+            "text": "Na Naomi akamwambia mkwe wake, ‘Abarikiwe na BWANA, ambaye hakuacha kuonyesha fadhili zake kwa walio hai na kwa waliokufa.’ Kisha Naomi akamwambia, ‘Mtu huyo ni wa mbari yetu, mmoja wa jamaa yetu."
+          },
+          {
+            "number": 21,
+            "text": "Ruthu Mmoabu akasema, ‘Pia aliniambia, “Utakaa karibu na vijana wangu mpaka watakapomaliza mavuno yangu yote.”’"
+          },
+          {
+            "number": 22,
+            "text": "Na Naomi akamwambia Ruthu, mkwe wake, ‘Ni vema, binti yangu, uende pamoja na vijakazi wake, ili usikutane na madhara katika shamba lingine.’"
+          },
+          {
+            "number": 23,
+            "text": "Basi akakaa karibu na vijakazi wa Boazi, akikusanya masazo ya masuke mpaka mwisho wa mavuno ya shayiri na ya ngano; naye akaendelea kukaa pamoja na mkwe wake."
+          }
+        ],
+        "3": [
+          {
+            "number": 1,
+            "text": "Kisha Naomi, mkwe wake, akamwambia, ‘Binti yangu, je, nisikutafutie pumziko ili upate mema?"
+          },
+          {
+            "number": 2,
+            "text": "Na sasa, je, Boazi si jamaa yetu, ambaye ulikuwa pamoja na vijakazi wake? Tazama, usiku wa leo anapepea shayiri kwenye uwanja wa kupuria."
+          },
+          {
+            "number": 3,
+            "text": "Basi oga, ujipake mafuta, uvae mavazi yako, ushuke kwenye uwanja wa kupuria; lakini usijitambulishe kwa mtu huyo mpaka atakapomaliza kula na kunywa."
+          },
+          {
+            "number": 4,
+            "text": "Itakuwa, atakapolala, utatambua mahali atakapolala; ndipo utaingia, uifunue miguu yake, ulale hapo; naye atakuambia utakavyopaswa kufanya."
+          },
+          {
+            "number": 5,
+            "text": "Naye akamwambia, ‘Yote unayoniambia nitafanya.’"
+          },
+          {
+            "number": 6,
+            "text": "Basi akashuka kwenye uwanja wa kupuria, akafanya sawasawa na yote aliyokuwa ameagizwa na mkwe wake."
+          },
+          {
+            "number": 7,
+            "text": "Boazi alipokwisha kula na kunywa, na moyo wake ukafurahi, akaenda kulala mwisho wa lundo la nafaka. Naye Ruthu akaja polepole, akaifunua miguu yake, akalala hapo."
+          },
+          {
+            "number": 8,
+            "text": "Ikawa usiku wa manane, yule mtu akashtuka na kujigeuza; na tazama, mwanamke alikuwa amelala miguuni pake."
+          },
+          {
+            "number": 9,
+            "text": "Naye akasema, ‘Wewe ni nani?’ Akajibu, ‘Mimi ni Ruthu, mtumishi wako wa kike. Basi nitandazie vazi lako juu ya mtumishi wako, kwa maana wewe ni jamaa aliye karibu.’"
+          },
+          {
+            "number": 10,
+            "text": "Naye akasema, ‘Ubarikiwe na BWANA, binti yangu. Umeonyesha fadhili kubwa zaidi mwishoni kuliko hapo mwanzo, kwa kuwa hukuandamana na vijana, wawe maskini au matajiri.’"
+          },
+          {
+            "number": 11,
+            "text": "Na sasa, binti yangu, usiogope. Nitakufanyia yote unayosema, kwa maana mji wote wa watu wangu wanajua kwamba wewe ni mwanamke mwema."
+          },
+          {
+            "number": 12,
+            "text": "Na sasa ni kweli kwamba mimi ni jamaa niliye karibu; lakini yuko jamaa mwingine aliye karibu zaidi kuliko mimi."
+          },
+          {
+            "number": 13,
+            "text": "Kaa hapa usiku huu; na itakuwa asubuhi, ikiwa yeye atataka kutimiza wajibu wa jamaa aliye karibu kwako, ni vema, na afanye hivyo. Lakini ikiwa hatataka kutimiza wajibu huo kwako, basi mimi nitautimiza, kama BWANA aishivyo. Lala mpaka asubuhi."
+          },
+          {
+            "number": 14,
+            "text": "Basi akalala miguuni pake mpaka asubuhi; akaondoka kabla watu hawajajuana. Naye akasema, ‘Isijulikane kwamba mwanamke alikuja kwenye uwanja wa kupuria.’"
+          },
+          {
+            "number": 15,
+            "text": "Kisha akasema, ‘Lete shali uliovaa na ushike.’ Naye alipoushika, akampimia vipimo sita vya shayiri na kuvitwika juu yake; naye akaenda mjini."
+          },
+          {
+            "number": 16,
+            "text": "Alipomfikia mkwe wake, akamwuliza, ‘Umekuwaje, binti yangu?’ Naye akamweleza yote aliyokuwa ametendewa na yule mtu."
+          },
+          {
+            "number": 17,
+            "text": "kasema, ‘Hivi vipimo sita vya shayiri amenipa; kwa maana aliniambia, “Usimrudie mkwe wako mikono mitupu.”’"
+          },
+          {
+            "number": 18,
+            "text": "Ndipo Naomi akasema, ‘Kaa kimya, binti yangu, mpaka ujue jambo hili litakavyokuwa; kwa maana yule mtu hatatulia mpaka atakapomaliza jambo hili leo.’"
+          }
+        ],
+        "4": [
+          {
+            "number": 1,
+            "text": "Kisha Boazi akaenda juu mpaka langoni mwa mji, akaketi huko. Na tazama, yule jamaa ambaye Boazi alikuwa amemtaja akapita. Boazi akamwambia, ‘Wewe, ee rafiki yangu, geuka uje uketi hapa.’ Naye akageuka, akaketi."
+          },
+          {
+            "number": 2,
+            "text": "Kisha akatwaa watu kumi miongoni mwa wazee wa mji, akasema, ‘Ketini hapa.’ Nao wakaketi."
+          },
+          {
+            "number": 3,
+            "text": "Kisha akamwambia yule jamaa, ‘Naomi, aliyerudi kutoka nchi ya Moabu, anauza kipande cha shamba kilichokuwa cha ndugu yetu Elimeleki."
+          },
+          {
+            "number": 4,
+            "text": "Nami nikaona ni vema kukujulisha, nikisema, ‘Kinunue mbele ya wakaaji na mbele ya wazee wa watu wangu. Kama unataka kukikomboa, kikomboe; lakini kama hutaki kukikomboa, basi niambie, ili nijue; kwa maana hakuna mwingine mwenye haki ya kukikomboa isipokuwa wewe, nami nifuata baada yako.’ Naye akasema, ‘Nitakikomboa.’"
+          },
+          {
+            "number": 5,
+            "text": "Kisha Boazi akasema, ‘Siku utakaponunua shamba kutoka mkononi mwa Naomi, utalazimika pia kumchukua Ruthu Mmoabu, mke wa marehemu, ili kuliinua jina la marehemu juu ya urithi wake.’"
+          },
+          {
+            "number": 6,
+            "text": "Yule jamaa akasema, ‘Siwezi kujikomboea huo urithi, nisije nikaharibu urithi wangu mwenyewe. Chukua wewe haki yangu ya ukombozi, kwa maana mimi siwezi kuukomboa."
+          },
+          {
+            "number": 7,
+            "text": "Na huu ndio uliokuwa utaratibu wa zamani katika Israeli kuhusu ukombozi na kubadilishana mali, ili kuthibitisha jambo lolote: mtu alivua kiatu chake na kumpa jirani yake; na hiyo ilikuwa ushahidi katika Israeli."
+          },
+          {
+            "number": 8,
+            "text": "Kwa hiyo yule jamaa akamwambia Boazi, ‘Jinunulie mwenyewe.’ Basi akavua kiatu chake."
+          },
+          {
+            "number": 9,
+            "text": "Boazi akawaambia wazee na watu wote, ‘Ninyi ni mashahidi leo kwamba nimenunua kutoka mkononi mwa Naomi yote yaliyokuwa ya Elimeleki, na yote yaliyokuwa ya Kilioni na Mahloni.’"
+          },
+          {
+            "number": 10,
+            "text": "Zaidi ya hayo, nimemtwaa Ruthu Mmoabu, mke wa Mahloni, awe mke wangu, ili kuliinua jina la marehemu juu ya urithi wake, kusudi jina la marehemu lisikatiliwe mbali miongoni mwa ndugu zake wala katika lango la mji wake. Ninyi ni mashahidi leo."
+          },
+          {
+            "number": 11,
+            "text": "Nao watu wote waliokuwa langoni, pamoja na wazee, wakasema, ‘Sisi ni mashahidi. BWANA amfanye mwanamke huyu anayekuja nyumbani mwako awe kama Raheli na Lea, ambao wawili walijenga nyumba ya Israeli. Na wewe ufanikiwe katika Efratha, na ujipatie jina maarufu katika Bethlehemu.’"
+          },
+          {
+            "number": 12,
+            "text": "Na nyumba yako na iwe kama nyumba ya Peresi, ambaye Tamari alimzalia Yuda, kwa uzao ambao BWANA atakupa kupitia mwanamke huyu kijana."
+          },
+          {
+            "number": 13,
+            "text": "Basi Boazi akamtwaa Ruthu, naye akawa mke wake. Akaingia kwake, na BWANA akampa mimba, naye akazaa mwana."
+          },
+          {
+            "number": 14,
+            "text": "Nao wanawake wakamwambia Naomi, ‘Abarikiwe BWANA, ambaye hakukuacha leo bila jamaa aliye karibu; na jina lake na liwe maarufu katika Israeli.’"
+          },
+          {
+            "number": 15,
+            "text": "Naye atakuwa kwako mwenye kurejesha uhai wako na mwenye kukutunza katika uzee wako; kwa maana mkwe wako anayekupenda, ambaye ni bora kwako kuliko wana saba, amemzaa."
+          },
+          {
+            "number": 16,
+            "text": "Na Naomi akamchukua yule mtoto, akamweka kifuani mwake, akawa mlezi wake."
+          },
+          {
+            "number": 17,
+            "text": "Nao wanawake jirani zake wakampa jina, wakisema, ‘Naomi amezaliwa mwana.’ Wakamwita jina lake Obedi. Huyu ndiye baba yake Yese, baba yake Daudi."
+          },
+          {
+            "number": 18,
+            "text": "Basi hivi ndivyo vizazi vya Peresi: Peresi alimzaa Hesroni."
+          },
+          {
+            "number": 19,
+            "text": "Hesroni akamzaa Ramu, na Ramu akamzaa Aminadabu."
+          },
+          {
+            "number": 20,
+            "text": "Aminadabu akamzaa Nashoni, na Nashoni akamzaa Salimoni."
+          },
+          {
+            "number": 21,
+            "text": "Salimoni akamzaa Boazi, na Boazi akamzaa Obedi."
+          },
+          {
+            "number": 22,
+            "text": "Obedi akamzaa Yese, na Yese akamzaa Daudi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "obadiah",
+      "name": "Obadia",
+      "englishName": "Obadiah",
+      "testament": "Agano la Kale",
+      "bookNumber": 31,
+      "chapterCount": 1,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Maono ya Obadia. Bwana MUNGU asema hivi kuhusu Edomu: Tumesikia habari kutoka kwa BWANA, na mjumbe ametumwa kati ya mataifa, akisema, ‘Inukeni, na tuinuke tupigane naye vitani.’"
+          },
+          {
+            "number": 2,
+            "text": "Tazama, nimekufanya kuwa mdogo miongoni mwa mataifa; umedharauliwa sana."
+          },
+          {
+            "number": 3,
+            "text": "Majivuno ya moyo wako yamekudanganya, wewe ukaaye katika mipasuko ya miamba, ambaye makao yako juu; unayesema moyoni mwako, ‘Ni nani atakayenishusha chini?’"
+          },
+          {
+            "number": 4,
+            "text": "Hata kama utajiinua juu kama tai, na hata kama utaweka kiota chako kati ya nyota, kutoka huko nitakushusha chini, asema BWANA."
+          },
+          {
+            "number": 5,
+            "text": "Kama wezi wangekuja kwako, au wanyang'anyi usiku, (jinsi ulivyokatiliwa mbali!) je, wasingeiba mpaka watosheke? Kama wavunaji wa zabibu wangekuja kwako, je, wasingeacha zabibu chache zilizobaki?"
+          },
+          {
+            "number": 6,
+            "text": "Jinsi mali za Esau zilivyopekuliwa! Jinsi hazina zake zilizofichwa zilivyotafutwa na kufunuliwa!"
+          },
+          {
+            "number": 7,
+            "text": "Watu wote uliokuwa nao katika agano wamekusindikiza mpaka mpakani. Watu waliokuwa na amani nawe wamekudanganya na kukushinda; wale waliokula mkate wako wamekuwekea mtego chini yako. Hakuna uelewa ndani yake."
+          },
+          {
+            "number": 8,
+            "text": "Je, siku hiyo, asema BWANA, sitawaangamiza wenye hekima kutoka Edomu, na uelewa kutoka mlima wa Esau?"
+          },
+          {
+            "number": 9,
+            "text": "Na mashujaa wako, ee Temani, watatiwa hofu, ili kila mtu wa mlima wa Esau akatiliwe mbali kwa kuchinjwa."
+          },
+          {
+            "number": 10,
+            "text": "Kwa sababu ya vurugu ulizomtendea ndugu yako Yakobo, aibu itakufunika, nawe utakatiliwa mbali milele."
+          },
+          {
+            "number": 11,
+            "text": "Siku ile uliposimama upande wa pili, siku ambayo wageni walichukua jeshi lake mateka, na watu wa mataifa wakaingia katika malango yake na kupiga kura juu ya Yerusalemu, hata wewe ulikuwa kama mmoja wao."
+          },
+          {
+            "number": 12,
+            "text": "Lakini hukupaswa kuitazama siku ya ndugu yako, siku ya mashtaka yake; wala hukupaswa kuwafurahia wana wa Yuda siku ya maangamizi yao; wala hukupaswa kunena kwa majivuno siku ya dhiki."
+          },
+          {
+            "number": 13,
+            "text": "Hukupaswa kuingia katika lango la watu wangu siku ya msiba wao; naam, hukupaswa kutazama mateso yao siku ya msiba wao, wala kuweka mikono yako juu ya mali zao siku ya msiba wao."
+          },
+          {
+            "number": 14,
+            "text": "Wala hukupaswa kusimama penye njia panda ili kuwakatilia mbali wale waliokuwa wakitoroka; wala hukupaswa kuwatia mikononi mwa adui wale waliosalia siku ya dhiki."
+          },
+          {
+            "number": 15,
+            "text": "Kwa maana siku ya BWANA iko karibu juu ya mataifa yote. Kama ulivyotenda, ndivyo utakavyotendewa; malipo yako yatakurudia juu ya kichwa chako mwenyewe."
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana kama mlivyokunywa juu ya mlima wangu mtakatifu, ndivyo mataifa yote yatakavyokunywa daima; naam, watakunywa, watameza, nao watakuwa kana kwamba hawakuwapo kamwe."
+          },
+          {
+            "number": 17,
+            "text": "Lakini juu ya Mlima Sayuni kutakuwa na ukombozi, na kutakuwa na utakatifu; na nyumba ya Yakobo itamiliki tena milki zake."
+          },
+          {
+            "number": 18,
+            "text": "Nyumba ya Yakobo itakuwa moto, na nyumba ya Yosefu itakuwa mwali wa moto, lakini nyumba ya Esau itakuwa kama mabua makavu. Nao watawashwa juu yao na kuwateketeza; wala hatabaki yeyote wa nyumba ya Esau, kwa maana BWANA amenena."
+          },
+          {
+            "number": 19,
+            "text": "Nao watu wa Negebu watamiliki mlima wa Esau; na watu wa nchi tambarare watamiliki nchi ya Wafilisti. Pia watamiliki mashamba ya Efraimu na mashamba ya Samaria; na Benyamini atamiliki Gileadi."
+          },
+          {
+            "number": 20,
+            "text": "Na mateka wa jeshi hili la wana wa Israeli watamiliki nchi ya Wakanaani mpaka Sarefathi; na mateka wa Yerusalemu walioko Sefaradi watamiliki miji ya Negebu."
+          },
+          {
+            "number": 21,
+            "text": "Nao waokozi watapanda juu ya Mlima Sayuni ili kuuhukumu mlima wa Esau; na ufalme utakuwa wa BWANA."
+          }
+        ]
+      }
     }
   ]
 }
