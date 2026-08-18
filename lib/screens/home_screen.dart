@@ -8,6 +8,7 @@ import '/services/reading_progress_service.dart';
 import '../../screens/dictionary_screen.dart';
 import '../../screens/about_screen.dart';
 import 'bible_search_screen.dart';
+import 'tenzi_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -203,9 +204,16 @@ class _HomeScreenState extends State<HomeScreen> {
                       onTap: () => _showComingSoon('Sikiliza Biblia'),
                     ),
                     FeatureCard(
-                      icon: Icons.record_voice_over_rounded,
-                      title: 'Mafundisho',
-                      onTap: () => _showComingSoon('Mafundisho'),
+                      icon: Icons.library_music_rounded,
+                      title: 'Tenzi za Rohoni',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const TenziScreen(),
+                          ),
+                        );
+                      },
                     ),
                     FeatureCard(
                       icon: Icons.ondemand_video_rounded,

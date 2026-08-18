@@ -1,0 +1,813 @@
+{
+  "version": "1.1",
+  "language": "sw",
+  "name": "Tenzi za Rohoni",
+  "totalHymns": 161,
+  "hymns": [
+    {
+      "number": 1,
+      "title": "MWOKOZI UMEOKOA",
+      "lyrics": "1. Mwokozi umeokoa, \nNimekuwa wako Wewe.\nDamu imenisafisha;\nSifa kwa Mwana Kondoo! \nUtukufu, Aleluya!\nSifa kwa Mwana Kondoo! \nDamu imenisafisha, \nUtukufu kwa Yesu! \n2. Nilijitahidi sana \nIla sikupata raha; \nBali kwa kumtegemea \nNilipata baraka. \n3. Daima namwegemea \nDamu ikifanya kazi, \nNikioga kwa chemchemi,\nItokayo Mwokozi. \n\n4. Sasa nimewekwa wakfu;\nNitaishi kwako Wewe:\nFahari nashuhudia\nwokovu wa bure.\n5. Nasimama kwake Yesu,\nAmeponya roho yangu;\nAmeniondoa dhambi,\nAnifanye mzima.\n\n6. Nilikuwa kifungoni,\nNiliteswa na dhambi,\nNilifungwa minyororo\nYesu akanifungua.\n\n7. Sifa, ameninunua!\nSifa, nguvu za wokovu!\nSia, Bwana huhifadhi!\n\nSifa zake milele."
+    },
+    {
+      "number": 2,
+      "title": "TWAMSIFU MUNGU",
+      "lyrics": "1.  Twamsifu Mungu kwa maana wa pendo,\nAliyetufia na kupaa juu.\nAleluya usifiwe, Aleluya, Amen.\nAleluya, usifiwe, utubariki.\n2.Twamsifu Mungu kwa Roho Mtukufu,\nAmetufunulia Mwokozi wetu.\nAleluya! Usifiwe; Aleluya! Amen.\nAleluya! Usifiwe, utubariki.\n\n3. Twamsifu mwana aliyetufia,\nAliyetwaa dhambi akazifuta.\nAleluya! Usifiwe; Aleluya! Amen.\nAleluya! Usifiwe, utubariki.\n\n4. Twamsifu Mungu wa neema yote,\nAmetukomboa akatuongoza.\nAleluya! Usifiwe; Aleluya! Amen.\nAleluya! Usifiwe, utubariki.\n\n5. Tuamshe tena, tujaze na pendo,\nNa moyoni uwashe moto wa Roho.\nAleluya! Usifiwe; Aleluya! Amen.\nAleluya! Usifiwe, utubariki.\nNa moyoni uwashe moto wa Roho"
+    },
+    {
+      "number": 3,
+      "title": "HATA NDIMI ELFU",
+      "lyrics": "1. Hata ndimi elfu elfu,\nHazitoshi kweli\nBwana Yesu Kumsifu,\nKwa zake fadhili.\n2. Yes, jina liwezalo,\nKumfukuza hofu,\nLanifurahisha hilo,\nLanipa wokovu.\n3. Jina hilo ni uzima,\nNi afya; amani; Laleta habari njema;\nTwalipia deni.\n4. Yesu huvunja mapingu ya dhambi moyoni;\nMsamaha, tena nguvu, Twapata rohoni.\n5. Kwa sauti yake vile wafu hufufuka,\nWakafurahi milele,\nPasipo mashtaka.\n6. Ewe Yesu wangu Bwana,\nUwezo nipewe,\nKuhubiri kote sana,\nWote wakujue."
+    },
+    {
+      "number": 4,
+      "title": "JINA LA YESU, SALAMU",
+      "lyrics": "1. Jina la Yesu, salamu! Lisujudieni,\nNanyi mbinguni, hukumu na enzi mpeni.\n2. Enzi na apewe kwetu, Watetea dini;\nMkuzeni Bwana wenu, na enzi mpeni.\n3. Enyi mbegu ya rehema, nanyi msifuni;\n Mmeponywa kwa neema, na enzi mpeni.\n4. Wenye dhambi kumbukeni ya msalabani,\nKwa furaha msifuni, na enzi mpeni.\n5. Kila mtu duniani msujudieni,\nKote-kote msifuni, na enzi mpeni.\n6. Sisi na wao pamoja,\nTu mumo sifani,\nMilele sifa ni moja,\nNi enzi mpeni."
+    },
+    {
+      "number": 5,
+      "title": "JINA LAKE YESU TAMU",
+      "lyrics": "1. Jina lake Yesu tamu tukilisikia,\nHutupoza, tena hamu hutuondolea.\n2. Roho iliyoumia kwalo hutibika,\nChakula, njaani pia, Raha tukichoka.\n3. Jina hili ni msingi, Ngao, ngome, mwamba,\nKwa hili napata wingi, kwangu ni akiba.\n4. Yesu, mchunga, rafiki, mwalimu, kuhani,\nMwanzo, mwisho, njia, haki, uzima kifoni.\n5. Moyo wangu hauwezi kukusifu kweli,\nIla sifa zangu hizi Bwana zikubali.\n6. Na utakaponiita, kuja kwako Bwana,\nHuko kwako sitaacha kukusifu sana."
+    },
+    {
+      "number": 6,
+      "title": "BABA, MWANA, ROHO",
+      "lyrics": "1. Baba, mwana, Roho, Mungu mwenye enzi,\nKila tukiamka tunakuabudu,\nBaba, mwana, Roho, Mungu wa mapenzi,\nEwe utatu tunakusifu.\n2. Baba, Mwana, Roho, wakuaminio,\nWanakutolea shukrani zao,\nWakusujudia malaika nao,\nWewe u mwanzo nawe u mwisho.\n3. Baba, Mwana, Roho sisi tu gizani,\nUtukufu wako hauoni kosa,\nU mtakatifu nawe u mapenzi,\nU peke yako, mwenzio huna.\n4. Baba, Mwana, Roho, Mungu mwenye enzi,\nUlivyoviumba vyote vyakusifu,\nBaba, Mwana, Roho, Mungu wa mapenzi,\nEwe utatu tunakusifu."
+    },
+    {
+      "number": 7,
+      "title": "NI TABIBU WA KARIBU",
+      "lyrics": "1. Ni tabibu wa karibu, tabibu wa ajabu;\nNa rehema za daima; ni dawa yake njema.\nImbeni malaika, sifa za Yesu Bwana;\nPweke limetukuka, Jina lake Yesu.\n2. Hatufai kuwa hai, wala hatutumai,\nIla yeye kweli ndiye atupandishaye.\n3. Dhambi pia na hatia ametuchukulia,\nTwendeni na amani hata kwake mbinguni.\n4. Huliona tamu jina la Yesu Kristo Bwana,\nYuna sifa, mwenye kufa asishindwe na kufa.\n5. Kila mume asimame, sifa zake zivume,\nWanawake na washike kusifu jina lake.\n6. Na vijana wote tena wampendao sana,\nWaje kwake, wawe wake kwa Utumishi wake."
+    },
+    {
+      "number": 8,
+      "title": "TAJI MVIKENI",
+      "lyrics": "1. Taji mvikeni, taji nyingi tena.\nKondoo mwake kitini, Bwana wa ma bwana,\nNami tamsifu, alikufa kwangu,\nNi mfalme matukufu, mkuu wa mbingu.\n2. Taji mvikeni, mwana wa bikira,\nAnazovaa kichwani aliteka nyara,\nShiloh wa manabii, Mchunga wa watu,\nShina na tanzu vya Yese, wa Bethlehemu.\n3. Taji mvikeni, Bwana wa mapenzi,\nJeraha zake ni shani, \nNa vito vya enzi mbinguni hakuna hata malaika awezaye kuziona,\nPasipo kushangaa."
+    },
+    {
+      "number": 9,
+      "title": "YESU KWETU NI RAFIKI",
+      "lyrics": "1. Yesu kwetu ni rafiki, huambiwa huja pia,\nTukiomba kwa babaye, maombi husikia,\nLakini twajikosesha, Twajitweka vibaya,\nTwamba tulimwomba Mungu dua angesikia.\n2. Una dhiki na maonjo? Una mashtaka pia,\nHaifai kufa moyo, dua atasikia,\nHakuna mwingine mwema, wa kutuhurumia,\nAtujua tu dhaifu, maombi asikia.\n3. Je, hunayo hata nguvu, huwezi kuendelea,\nUjapodharauliwa, ujaporushwa pia.\nWatu wangekudharau, wapendao dunia,\nHukwambata mikononi, Dua atasikia."
+    },
+    {
+      "number": 10,
+      "title": "USINIPITE MWOKOZI",
+      "lyrics": "1. Usinipite Mwokozi, unisikie,\nUnapozuru wengine, usinipite,\nYesu, Yesu, unisikie;\nUnapozuru wengine, usinipite.\n2. Kiti chako cha rehema nakitazama,\nMagoti napiga pale nisamehewe.\n3. Sina ya kutegemea ila wewe tu,\nUso wako uwe kwangu nakuabudu,\n4. U mfariji peke yako, sina mbinguni,\nWala duniani pote, Bwana mwingine."
+    },
+    {
+      "number": 11,
+      "title": "NINA HAJA NAWE",
+      "lyrics": "1. Nina haja nawe, kila saa;\nHawezi mwingine kunifaa,\nYesu nakuhitaji, vivyo kila saa,\nNiwezeshe mwokozi, nakujia.\n2. Nina haja nawe, kaa nami,\nNa maonjo haya hayaumi.\n3. Nina haja nawe, kila hali,\nMaisha ni bure, uli mbali.\n4. Nina haja nawe, nifundishe,\nNa ahadi zako zifikishe.\n5. Nina haja nawe, mweza yote,\nNi wako kabisa, siku zote."
+    },
+    {
+      "number": 12,
+      "title": "EWE ROHO WA MBINGUNI",
+      "lyrics": "1. Ewe Roho wa mbinguni uje kwetu sasa,\nUfanye makazi yako Ndani ya kanisa.\n2. Ndiwe mwangu umulike, tupate jikana,\nMengi kwetu yapunguka, Tujalize Bwana.\n3. Ndiwe moto, teketeza taka zetu zote,\nMioyo na iwe sadaka ya Mwokozi, yote.\n4. Ndiwe umande, na kwako tutaburudika,\nNchi kavu itakua ni yenye baraka.\n5. Roho wa mbinguni uwe nasi hapa chini,\nMwili uufananishe na kichwa mbinguni."
+    },
+    {
+      "number": 13,
+      "title": "TAFUTA DAIMA UTAKATIFU",
+      "lyrics": "1. Tafuta daima utakatifu; Fanya urafiki na wakristo tu.\nNena siku zote na Bwana wako;\nBaraka uombe kwa kila jambo.\n2. Tafuta daima utakatifu;\nUwe peke yako ukimwabudu;\nUkimwangalia Mwokozi wako;\nUtabadilishwa kama alivyo.\n3. Tafuta daima utakatifu; Kiongozi wako awe Yesu tu,\nKatika furaha au huzuni, Dumu kumfuata Yesu Mwokozi.\n4. Tafuta daima utakatifu,\nUmtawaze Roho moyoni mwako, akikuongoza katika haki,\nHufanywa tayari kwa kazi yake."
+    },
+    {
+      "number": 14,
+      "title": "YESU KWA IMANI",
+      "lyrics": "1. Yesu kwa imani, ninakutumaini peke yako.\nNisikie sasa, na kunitakasa.\nNi wako kabisa, tangu leo.\n2. Nipe nguvu pia za kuisaidia moyo wangu,\nUlikufa wewe, wokovu nipewe,\nNakupenda wewe, Bwana wangu.\n3. Hapa nazunguka katika mashaka, na matata,\nPalipo na giza utaniongoza,\nHivi nitaweza kufuata.\n4. Takuwa mzima nivushe salama mautini,\nSina hofu kamwe, ukiwapo nami.\nNami nikwandame siku zote."
+    },
+    {
+      "number": 15,
+      "title": "CHA KUTUMAINI SINA",
+      "lyrics": "1. Cha kutumaini sina, ila damu yake Bwana,\nSina wema wa kutosha, Dhambi zangu kuziosha.\n\nKwake Yesu nasimama, ndiye mwamba ni salama,\nNdiye mwamba ni salama.\n2. Njia yangu iwe ndefu, Yeye hunipa wokovu;\nMawimbi yakinipiga, nguvu zake ndiyo nanga.\n3. Damu yake na sadaka, nategemea daima,\nYote chini yakiisha, Mwokozi atanitosha.\n4. Nikiitwa hukumuni, Rohoni nina amani,\nNikivikwa haki yake, sina hofu mbele zake."
+    },
+    {
+      "number": 16,
+      "title": "KUMTEGEMEA MWOKOZI",
+      "lyrics": "1. Kumtegemea Mwokozi, kwangu tamu kabisa,\nKukubali neno lake, nina raha moyoni.\n\nYesu, yesu namwamini, nimemwona thabiti,\nYesu, yesu, yu thamani, ahadi zake kweli.\n\n2. Kumtegemea Mwokozi, kwangu tamu kabisa.\nKuamini damu yake, nimeoshwa kamili.\n3. Kumtegemea Mwokozi, kwangu tamu kabisa,\nKwake daima napata, uzima na amani.\n4. Nafurahi kwa sababu nimekutegemea;"
+    },
+    {
+      "number": 17,
+      "title": "NAMWANDAMA BWANA",
+      "lyrics": "1. Namwandama Bwana kwa alilonena,\nNjia yangu huning’azia;\nNikimridhisha atanidumisha\nTaamini nitii pia.\n\nAmini utii, njia pweke ni hii\nYa furaha kwa Yesu; amini ukatii\n\n2. Giza sina kwangu wala hata wingu\nYeye mara huviondoa\nWoga, wasiwasi, sononeka, basi;\nHuamini nitii pia.\n\n3. Masumbuko yote, sikitiko lote;\nKwa mapenzi hunilipia;\nBaa, dhara, dhiki, vivyo hubariki,\nTaamini nitii pia.\n4. Mimi sitajua raha sawasawa\nIla yote Yesu kumpa;\nNapata fadhili na radhi kamili\nTaamini nitii pia.\n\n5. Nitamfurahia na kumtumaini,\nMajumbani na njia-njia;\nAgizo natenda, nikitumwa hwenda,\nHuamini nitii pia."
+    },
+    {
+      "number": 18,
+      "title": "AKIFA YESU NIKAFE NAYE",
+      "lyrics": ";\n\n1. Akifa Yesu nikafa naye\nUzima upya huishi naye\nHumtazama mpaka aje.\nNyakati zote ni wake yeye\nNyakati zote nimo pendoni\nNyakati zote ni uzimani\nHumtazama hata atokee,\nNyakati zote mimi ni wake. \n2.Vita sipigi visivyo haki,\nNa Bwana wangu hapinganiki\nBeramu yake haitwaliki:\nNapo po pote hila sitaki\n3. Sina mashaka, akawa mbali:\nMizigo yote aihimili;\nAnanituliza Imanweli,\nNyakati zote mimi husali.\n\n4. Sina huzuni na mimi sidhii;\nSimwagi chozi, wala siguni,\nSikuti afa, ila Kitini,\nDaima hunifikiri mimi.\n\n5. Kila unyonge huusikia;\nKila ugonjwa kwake hupoa,\nYesu ni mwenye kuniokoa,\nNyakati zote hunijalia."
+    },
+    {
+      "number": 19,
+      "title": "NDIYO DHAMANA, YESU WANGU",
+      "lyrics": "1. Ndiyo dhamana, Yesu wangu;\nHunipa furaha za Mbingu;\nMrithi wa wokovu wake\nNimezawa kwa Roho yake\n\nHabari njema, raha yangu\nYesu ndiye Mwokozi  wangu\nHabari njema, raha yangu\nYesu ndiye Mwokozi wangu\n\n2. Kumsalimu moyo wangu,\nMara namwona raha yangu\nAniletea malaika,\nWananilinda, taokoka.\n\n3. Sina kinyume; nashukuru,\nMchana kutwa huja kwangu\nUsiku kucha kuna nuru;\nMwokozi wangu; ndimi huru\n4. Hali na mali, anitwaa!\nMara namwona anifaa\nNami nangoja kwa sut\nAkiniita, nije mara."
+    },
+    {
+      "number": 20,
+      "title": "NINAYE RAFIKI NAYE",
+      "lyrics": "1. Ninaye Rafiki naye\nAlinipenda mbele; \nKwa kamba za pendo zake ;\nNimefungwa milele; ;\nAukaza moyo wangu,\nUache mageule,\nMimi wake, Yeye wangu;\nNdimi naye milele,\n\n2. Ninaye Rafiki ndiye, Aliyenifilia;\nAlimwaga damu yake\nKwa watu wote pia;\nSina kitu mimi tena,\nNikiwa navyo tele;\nPia vyote ni amana\nNdimi wake milele.\n\n3. Ninaye Rafiki naye\nUwezo amepewa;\nAtanilinda mwenyewe,\nJuu tachukuliwa;\nNikitazama Mbinguni\nHupata nguvu tele;\nSasa natumika chini,\nKisha juu milele.\n4. Ninaye Rafiki naye ”\nAnao moyo mwema;\nNi Mwalimu, Kiongozi, Mlinzi wa daima;\nNi nani wa kunitenga\nNa Mpenzi wa mbele?\nKwake nimetia nanga,\nNdimi wake milele."
+    },
+    {
+      "number": 21,
+      "title": "ROHO YANGU HIMA",
+      "lyrics": "1. Roho yangu hima, na taa yako\nKaiwashe vyema, hapa si pako\nNguvu zote pia za duniani\nHazitakudhuru kuiamini.\nYesu yuko mbele, Yesu yu nyuma\nYesu vivyo kando, walindwa vyema.\n2. Adui Shetani, na nguvu zake\nBwana ameshinda kwa kifo chake\nWewe nguvu huna, huna kabisa\nNdiwe mpungufu, Mnyonge hasa\n3. Toka na mapema, mbele ya wote\nOmba, bisha sana, maisha yote\nVita vikaliko, macho ukae,\nJivike silaha, nawe sishindwe.\n4. Bwana Yesu ndiye kwako Mchungaji,\nNeno lake Bwana ndilo upanga\nMbingu zitakwisha, na nchi pia\nNeno lake Bwana laendelea."
+    },
+    {
+      "number": 22,
+      "title": "KALE NILITEMBEA",
+      "lyrics": "1. Kale nilitembea, Nikilemewa dhambi,\nNilikosa Msaada, Kuniponya mateso. \n\nUsifiwe Msalaba, Lisifiwe kaburi! \nLinalozidi yote, asifiwe Mwokozi! \n\n2. Hata nilipofika, Mahali pa Msalaba, \nPalinifaa sana, Sitasahau kamwe. \n\n3. Hicho ndicho chanzo, \nCha kufurahi kwangu.\nHapo ndipo mzigo, uliponituliwa.\n\n4. Panapo Msalaba, Kinatolewa cheti,\nCha kuingia Mbinguni, Kisicho cha kanisa.\n\n5. Yule bwana mjinga, Likwenda bila cheti,\nKitumai kwingia, Kama walio nacho\n\n6. Lipofika langoni, Akaulizwa cheti\nCha kumwonyesha Bwana,\nAkakutwa hanacho.\n7. Lituhuzunishalo, Ni ninyi msio nacho,\nKuwa kama mjinga, Kwa siku ya arusi! \n8. Ubavuni mwa Yesu, Mlitokea damu,\nChemchemi ya uzima, Itakasayo roho.\n9. Jitahidi wingie, Damuni mwa Mwokozi,\nUtafutiwa dhambi, Toka rohoni mwako."
+    },
+    {
+      "number": 23,
+      "title": "NI SALAMA ROHONI MWANGU",
+      "lyrics": "1. Nionapo amani kama shwari\nAma nionapo shida;\nKwa mambo yote umenijulisha\nNi salama rohoni mwangu\nSalama rohoni, Ni salama rohoni\n\n2. Ingawa Shetani atanitesa\nNitajipa moyo kwani\nKristo ameona unyonge wangu\nAmekufa kwa roho yangu\n\n3. Dhambi zangu zote, wala si nusu\nZimewekwa Msalabani\nWala sichukui laana yake,\nNi salama rohoni mwangu\n\n4. Ee Bwana himiza siku ya kuja\nPanda itakapolia;\nUtakaposhuka sitaogopa\nNi salama rohoni mwangu"
+    },
+    {
+      "number": 24,
+      "title": "MWOKOZI MOYONI MWANGU",
+      "lyrics": "1. Tangu siku hiyo aliponijia\nAkae moyoni mwangu,\nSina giza tena, ila mwanga pia\nKwa Yesu Mwokozi wangu,\nAmani moyoni mwangu\nKwa Yesu, Mwokozi wangu;\nSina shaka kamwe,\nKwa sababu Yeye\nYu nami moyoni mwangu \n2. Sina haja tena ya kutangatanga.\nNdiye Kiongozi wangu.\nDhambi zangu zote zimeondolewa\nNa Yesu, Mwanawe Mungu;\n3. Matumaini yangu ni ya hakika,\nKatika Mwokozi wangu.\nHofu zangu na hamu zimeondoka\nKwa kuwa ninaye Yesu.\n4. Siogopi tena nikiitwa kufa,\nYu nami daima, Yesu\nMlango wa Mbinguni ni Yesu pia\n“Tapita humo kwa damu.”\n5. Nitaketi na Yeye huko milele\nNisifu Mwokozi wangu.\nNina raha moyoni majira yote\nKwa Yesu, Mwanawe Mungu."
+    },
+    {
+      "number": 25,
+      "title": "NIMEKOMBOLEWA NA YESU",
+      "lyrics": "1. Nimekombolewa na Yesu\nAliyenirehemia; Kwa bei ya mauti yake\nNimekuwa mtoto wake.\nKombolewa! Nakombolewa na damu;\nKombolewa! Mimi mwana wake kweli.\n\n2. Kukombolewa nafurahi,\nKupita lugha kutamka;\nKulionyesha pendo lake,\nNimekuwa mtoto wake.\n\n3. Nitamwona uzuri wake,\nMfalme wangu wa ajabu;\nNa sasa najifurahisha\nKatika neema yake.\n4. Najua taji imewekwa\nMbinguni tayari kwangu;\nMuda kitambo atakuja\nIli alipo, niwepo."
+    },
+    {
+      "number": 26,
+      "title": "YESU UNIPENDAYE",
+      "lyrics": "1. Yesu unipendaye, Kwako nakimbilia,\nNi Wewe utoshaye, Mwovu akinijia;\nYafiche ubavuni, Mwako maisha yangu;\nNifikishe Mbinguni, Wokoe moyo wangu.\n\n2. Ngome nyingine sina; Nategemea kwako.\nUsinitupe Bwana, Nipe neema yako,\nNinakuamania, Mwenye kuniwezesha;\nShari wanikingia, Vitani wanitosha.\n3. Nakutaka Mpaji, Vyote napata kwako;\nNiwapo muhitaji, Utanijazi vyako;\nNao waangukao, Wanyonge wape nguvu;\nPoza wauguao, Uongoze vipofu.\n4. Bwana umeniosha, Moyo kwa damu yako; \nNeema ya kutosha, Yapatikana kwako; \nKwako Bwana naona, Kisima cha uzima;\nMwangu moyoni Bwana, Bubujika daima."
+    },
+    {
+      "number": 27,
+      "title": "MUNGU NI PENDO",
+      "lyrics": "1. Mungu ni pendo, apenda watu\nMungu ni pendo, anipenda.\nSikilizeni furaha yangu\nMungu ni pendo, apenda watu.\n2. Nalipotea katika dhambi\nNikawa mtumwa wa Shetani.\n3. Akaja Yesu kunikomboa,\nYeye kanipa kuwa huru.\n4. Sababu hii namtumiki\nNamsifu Yeye siku zote"
+    },
+    {
+      "number": 28,
+      "title": "ANIPENDA NI KWELI",
+      "lyrics": "1. Anipenda ni kweli;\nMungu anena hili;\nSisi wake watoto;\nKutulinda si zito.\n\nYesu anipenda, Yesu anipenda.\nKweli anipenda, Mungu amesema.\n\n2. Kwa kupenda akafa, Niokoke na kufa;\n Atazisafi taka, Sana ataniweka.\n3, Anipenda kabisa; Niuguapo sasa\nAnitunza Mbinguni, Niliyelala chini.\n\n4. Kunipenda haachi, Tu sote hapa chini\nBaada ya mashtaka, Kwake tanipeleka."
+    },
+    {
+      "number": 29,
+      "title": "BABA YETU ALIYE MBINGUNI",
+      "lyrics": "1. Baba yetu aliye Mbinguni\nAmenifurahisha yakini\nKuniambia mwake chuoni\nYa kuwa nami Yesu pendoni.\n\nAnipenda Mwokozi Yesu,\nAnipenda, anipenda,\nAnipenda Mwokozi Yesu\nAnipenda mimi.\n\n2. Nimuachapo kutanga mbali\nYeye yu vivyo, hupenda kweli,\nHunirejeza kwake moyoni\nKweli yu nami Yesu pendoni\n\n3. Anipenda! Nami nampenda\nKwa wokovu alionitenda\nAkanifia Msalabani\nKwa kuwa nami Yesu pendoni.\n\n4. Haya kujua yanipa raha;\nKumuamini kuna furaha;\nHumfukuza mara Shetani\nKwona yu nami Yesu pendoni.\n\n5. Sifa ni nyingi asifiwazo,\nMoja ni sana katika hizo,\nWala siachi, hata Mbinguni\nKwimba, “Yu nami Yesu pendo”"
+    },
+    {
+      "number": 30,
+      "title": "NILIKUA KONDOO ALIYEPOTEA",
+      "lyrics": "1. Nilikuwa kondoo aliyepotea,\nSikupenda zizi kamwe, ila kutembea\nNilikuwa mwana asiyesikia,\nSikupenda Baba yangu wala kutulia.\n2. Na Mchunga Mwema alinitafuta:\nBaba kwa mapenzi ndiye aliyenivuta;\nKaribu ya kufa kwa kiu na kwa njaa,\nWaliniona mnyonge, waliniokoa.\n3. Yesu ni Mchunga, mwenziwe hapana,\nAliosha taka zangu, dhambi nyingi sana.\nKwa vidonda vyangu alitia dawa,\nNdiye aliyenipata, na kwake nalindwa.\n4. Nilikuwa kondoo aliyepotea\nSasa nampenda Baba, na Mchunga pia;\nKwanza nilitanga na kukosa sana,\nHivi nyumbani mwa Baba sipotei tena"
+    },
+    {
+      "number": 31,
+      "title": "MSINGI IMARA",
+      "lyrics": "1. Msingi imara, enyi wa kweli.\nUmekwisha pigwa kwa neno\nAongeze lipi? Mnayo pia\nKwa Yesu mliomkimbilia.\n2. Wambiwapo vuka maji ya giza\nMito ya mashaka taipunguza,\nTakuwapo nawe, nikuwezeshe,\nIpate kufaa, isikutishe\n3. Utakapopishwa ndani ya moto:\nNguvu nitakupa, upate upato;\nHuteketezwi, ila taka zako\nNa zitasalia dhahabu zako,\n4. Hata zije mvi, walio wangu\nHawaoni kwisha mapenzi yangu\nNazo zitakapowenea, ndipo\nMabegani mwangu niwatwekapo.\n5. Na mtu aliyenitegemea\nKamwe kwa adui sitamtia\nNguvu za Jehanam zijapotisha\nMtu wangu kamwe sitamuacha"
+    },
+    {
+      "number": 32,
+      "title": "YESU AWAKUBALI WAKOSA",
+      "lyrics": "1. Yesu awakubali, Wakosa, wahalifu,\nWambieni wa mbali, Habari ya wokovu.\nTangazeni kwa bidii, “Akubali wakosa!”\nLiwe neno dhahiri,“Akubali wakosa!”\n2. Awakubali Bwana, Neno lake amini,\nWatu kila aina, Waje kwake tengoni.\n\n3. Mimi ni safi moyo, Na mbele ya sheria,\nAliyesafi roho, Kwake ilitimia.\n\n4. Akubali wakosa; Nami anikubali;\nAlivyonitakasa, Mbinguni niwasili."
+    },
+    {
+      "number": 33,
+      "title": "DHAMBI IKIKUELEMEA",
+      "lyrics": "1. Dhambi ikikulemea, Kwa Bwana rehema; \nHivi sasa tegemea, Neno la salama. \nTegemea, tegemea, \nakwita sasa. \nNi Mwokozi, ni Mwokozi; amini sasa. \n2. Yesu amemwaga damu, Ya nyingi baraka; \nNawe sasa oga mumu, Zioshwamo taka.\n\n3. Ni njia Yeye hakika, Hwongoza rahani;\nUsikawe kumshika, Uwe barakani.\n\n4. Karibu nawe wingie, Mwetu safarini,\nTwende tukamwamkie, Milele Mbinguni."
+    },
+    {
+      "number": 34,
+      "title": "NJONI! NJONI WENYE DHAMBI",
+      "lyrics": "1. Njoni! Njoni! Wenye dhambi,\nNjoni msikawie,Yesu anawangojea,\nNdiye awapendaye, Ajuaye awezaye Kuwaponya ni yeye.\n2. Ewe muhitaji uje; Anakukaribisha\nImani, kweli, na toba, Neema ya kutosha.\nJua sana, kwake Bwana Bure utayapata.\n3. Njoni mliolemewa na dhambi ya Adamu,\nMkingoja kujiponya, mtapotea mumu;\nSi wa haki, ni wakosa, waoshwao kwa damu.\n4. Ikamtokea dhiki, Mle Gethisemani;\nKisha alipoangikwa akalia mtini,\n“Imekwisha”, alitosha dhabihu ya thamani.\n5. Kristo aliye mbinguni, Hutuombea huko;\nBasi mtumai yeye; Kamwe mwingine hako Yesu.\nPweke, Yesu pweke, Ndiye Mwokozi wako.\n6. Wamsifu-sifu sana Mbinguni malaika;\nWachanganya nyimbo zao, Na waliookoka;\nAleluya wataimba, waliooshwa taka."
+    },
+    {
+      "number": 35,
+      "title": "TWENDE KWAKE",
+      "lyrics": "1. Twende kwake, twende kwake, kwake Yesu sasa,\nSasa twende kwake, kwake Yesu sasa\n\n2. Akwokoe, akwokoe, Bwana Yesu sasa.\nSasa akwokoe, akwokoe, Bwana Yesu sasa.\n\n3. Msadiki, msadiki, Bwana Yesu sasa.\nSasa msadiki, Bwana Yesu sasa.\n\n4. Anaweza, anaweza, Bwana Yesu sasa.\nSasa anaweza, Bwana Yesu sasa.\n\n5. Anapenda, anapenda, Bwana Yesu sasa.\nSasa anapenda, Bwana Yesu sasa.\n\n6. Njoo hima, njoo hima, kwake Yesu sasa.\nSasa njoo hima, Kwake Yesu sasa."
+    },
+    {
+      "number": 36,
+      "title": "ANISIKIAYE ALIYE YOTE",
+      "lyrics": "1. Anisikiaye, aliye yote;\nSasa litangae, wajue wote,\nDuniani kote neno wapate,\nAtakaye na aje!\n          Ni “Atakaye”, ni “Atakaye”,\n          Pwani hata bara, na litangae;\n          Ni Baba Mpenzi alinganaye atakaye na aje.\n\n2. Anijiliaye, Yesu asema;\nAsikawe, aje hima mapema;\nNdimi njia, kweli, ndimi uzima;\nAtakaye na aje!c\n3. Atakaye aje, ndiyo ahadi;\nAtakaye hiyo, haitarudi!\nAtakaye lake, ni la abadi!\nAtakaye na aje."
+    },
+    {
+      "number": 37,
+      "title": "WAITWA, MWOVU, NA BWANA",
+      "lyrics": "1. Waitwa, mwovu, na Bwana;\nUmwendee hima sana, \nUsafiwe dhambi zako, \nHumwoni ni Mwema wako? \n\nUnaitwa! Itika tu! \nUmwendee Bwana Yesu! \nSifiche makosa yako, \nUungame dhambi zako! \nKristo tu umuamini, Ndiyo njia ya  Mbinguni. \n2. Alilipa damu yake\nIli kukukweza kwake;\nAlikufa yeye Bwana\nMimi nawe tuwe wema.\n\n3. Ukifanywa kuwa mwema\nMwishoni utasimama, Utaingia rahani\nNa wapenzi wa zamani.\n\n4. Ni mwanga tu, nchi ile;\nUovu hauko kule,\nKwamba wataka ufike\nSharti huku uosheke."
+    },
+    {
+      "number": 38,
+      "title": "TWENDE KWA YESU",
+      "lyrics": "1. Twende kwa Yesu mimi nawe,\nNjia atwonya tuijue Imo Chuoni; \nna Mwenyewe, Hapa asema, Njoo!\nNa furaha tutaio, Mioyo ikitakata\nKwako, Mwokozi, kuonana\nNa milele kukaa.\n2. “Wana na waje”, atwambia,\nFurahini mkisikia; Ndiye mfalme wetu\nNa tumtii, Njoo.\n3. Wangojeani? Leo yupo\nSikiza sana asemapo\nHuruma zake zikwitapo\nEwe kijana, Njoo."
+    },
+    {
+      "number": 39,
+      "title": "MWENYE DHAMBI HUNA RAHA",
+      "lyrics": "1. Mwenye dhambi huna raha,\nSikiza nakusihi, Utapata msamaha\nKwake Yesu Mwokozi!\nNjoo hima, njoo hima, Naye atafurahi.\n2. Yesu anakwita sana\nNaye yuko Mbinguni;\nna Hofu ya kifo hapana\nKwake ukiamini.\nNjoo hima, njoo hima,\nUtapata amani.\n3. Hatakwita siku zote; Ni ya sasa nafasi.\nLete na uchafu wote, Kukawa haipasi.\nNjoo hima, njoo hima, Ni wokovu halisi.\n4. Uzima uko kwa Bwana, Twae uzima hasa!\nBure utapatikana, wokovu twae sasa\nNjoo hima, njoo hima, Twae utakatifu."
+    },
+    {
+      "number": 40,
+      "title": "NASIKIA KUITWA",
+      "lyrics": "1.Nasikia kwitwa na sauti yako,\nNikasafiwe kwa damu ya kwangikwa kwako.\n\nNimesogea mtini pako,\nUnisafi kwa damu, ya kwangikwa kwako\n\n2. Ni Mnyonge kwelu, Umenipa nguvu,\nUlivyonisafi taka, Ni utimilivu.\n\n3. Yesu hunijuvya; Mapenzi, imani;\nTumai, amani, radhi,\nHapa na mbinguni.\n\n4. Huipa imara, kazi yake, ndani;\nHuongezeka neema, ashindwe Shetani.\n\n5. Huishuhudia myoyo ya imani,\nYa kuzipata ahadi, wakimuamini.\n\n6. Napata wokovu, wema na neema;\nKwako Bwana nina nguvu na haki daima."
+    },
+    {
+      "number": 41,
+      "title": "YESU ALINIITA NJOO",
+      "lyrics": "1. Yesu aliniita, “Njoo,\nRaha iko kwangu, kichwa chako ukilaze\nKifuani mwangu”, nilikwenda kwake mara, sana nilichoka;\nNikapata kwake raha, na furaha tena.\n2. Yesu aliniita, “Njoo,Kwangu kuna maji,\nMaji ya uzima, bure, unywe uwe hai”\nNilikwenda kwake mara na maji nikanywa;\nNaishi kwake, na kiu kamwe sina tena.\n3. Yesu aliniita, “Njoo, Dunia ni giza,\nUkinitazama nuru, Takung’arizia”\nNilikwenda kwake mara yeye jua langu,\nNi kila wakati mwanga safarini mwangu."
+    },
+    {
+      "number": 42,
+      "title": "KIVULINI MWA YESU",
+      "lyrics": "1. Kivulini mwa Yesu, Kuna Kituo:\nKituo mbali na hamu kituo kilicho tamu.\n\nKivulini mwa Yesu kuna kituo;\nKivulini mwa Yesu kuna kituo;\nRaha tu, mle; amani tupu,  Furaha tele; Kivulini mwa Yesu.\n\n2. Kivulini mwa Yesu nina amani,\nIliyopita fahamu, tena itakayodumu.\n\n3. Kivulini mwa Yesu nina furaha,\nFuraha yenye fahari, na kueneza habari."
+    },
+    {
+      "number": 43,
+      "title": "YESU AKWITA",
+      "lyrics": "1. Yesu akwita, chanena Chuo:\nUje leo, uje leo; Kwani kusita? \nAkwita njoo; unatanga upeo.\n\nHwita leo, hwita leo.\nYesu akwita kwa pole akwita leo.\n2. Waliochoka, wapumzike, \nHwitwa leo, hwitwaleo: \nWenye mizigo, wakamtweke, \nWapate mapumuo. \n\n3. Anakungoja, uliye yote,\nUje leo, uje leo;\nUliyekosa usijifiche:\nWoshwe, uvikwe nguo.\n\n4. Yesu asihi wakawiao,\nWaje leo, waje leo.\nWatafurahi waaminio;\nUsije kwani? Njoo."
+    },
+    {
+      "number": 44,
+      "title": "KUKAWA NA GIZA DUNIA YOTE",
+      "lyrics": "1. Kukawa na giza dunia yote\nNi Mwanga wa ulimwengu\nIkaisha ulipokuja yote,\nNi Mwanga wa ulimwengu.\nJua, Yesu hana mwenziwe!\nNalipofuka kama wewe;\nNakwombea umwone nawe,\nNi Mwanga wa ulimwengu.\n2. Hatuna giza tudumuo mwake,\nNi Mwanga wa ulimwengu;\nTumwandamiapo nyayoni mwake\nNi Mwanga wa ulimwengu.\n3. Enyi wa gizani wenye kutanga!\nNi Mwanga wa ulimwengu,\nKaulekeeni, mpate lenga;\nNi Mwanga wa ulimwengu.\n4. Tutamwona Mwokozi juu ya mbingu\nNi Mwanga wa ulimwengu:\nNi Nuru za mbingu Kondoo wa Mungu\nNi Mwanga wa ulimwengu"
+    },
+    {
+      "number": 45,
+      "title": "MTAZAME HUYO! ALIYEANGIKWA JUU",
+      "lyrics": "1. Mtazame Huyo! Aliyeangikwa juu\nHivi sasa upate ishi.\nMwenye — dhambi dhaifu,\nWala usifanye tashwishi.\nTazama! Tazama! ”\nMtazame huyo aliyeangikwa juu\nHivi sasa upate ishi.\n2. Kama Mwana Kondoo, hakuondoka dhambi.\nNa makosa yako maovu!\nKama deni zetu zote hakulipa\nMbona imemwagika damu?\n3. Si kutubu na sala ikomboayo\nIla damu ndiyo salama;\nNa aliyeimwaga aweza sasa,\nDhambi zako kukufutia.\n4. Usiwe na shaka, Mungu amesema,\nHakuna alilolisaza; Hapo alipokuja alitimiza\nKazi zote alizoanza.\n \n5. Basi twae uzima kwa kufurahi.\nUpokee kwa Bwana, sasa\nUjijue hakika kwake kuishi\nYesu aishiye kabisa."
+    },
+    {
+      "number": 46,
+      "title": "TWAE WANGU UZIMA",
+      "lyrics": "1. Twae wangu uzima,\n    Sadaka ya daima; \n    Twae saa na siku,  Zikutukuze huku. \n\n2. Twae mikono nayo.\n     Ifanye upendavyo,\n     Twae yangu miguu\n     Kwa wongozi wako tu.\n\n3. Twae sauti yangu,\n    Niimbe kwa Mungu tu;\n    Itwae na midomo, \n     ijae neno lako. \n\n4. Twae dhahabu pia,\nNa yote ya dunia;\nTwae yangu hekima,\nUpendavyo tumia.\n\n5. Nia itwae, Mungu,\nHaitakuwa yangu;\nTwae moyo; ni wako,\nUwe makazi yako.\n\n6. Twae mapenzi yangu,\nSifa za moyo wangu;\nTwae kabisa nafsi\nNiwe wako halisi."
+    },
+    {
+      "number": 47,
+      "title": "NI WAKO WEWE",
+      "lyrics": "1. Ni wako Wewe, nimekujua,\n   Na umeniambia; Lakini Bwana, nataka kwako.\n   Nizidi kusongea. \n\nBwana vuta, vuta, nije nisongee,\nSana, kwako Mtini, Bwana vuta, vuta.\nnije nisongee, Pa damu ya thamani.\n\n2. Niweke sasa nikatumike,\nKwa nguvu za neema;\nUyapendayo nami nipende\nNizidi kukwandama.\n\n3. Nina furaha tele kila saa\nNizungumzayo kwako,\nNikuombapo nami napata, Kujua nia yako.\n4. Mapenzi yako, hayapimiki,\nIla ng'ambo ya liko.\nAnasa pia sitazijua,\nBila kufika kwako."
+    },
+    {
+      "number": 48,
+      "title": "NAWEKA DHAMBI ZANGU",
+      "lyrics": "1. Naweka dhambi zangu, Juu yake Bwana\nKuziondoa, kwangu, Hulemea sana;\nNa uaili wangu, Ameuondoa;\nDawa yangu ni damu, Kwa hiyo napoa.\n2. Na uhitaji wangu, Nitamjuvisha,\nKwa upungufu wangu, Yeye anatosha;\nMajonzi yangu yote, Na mizigo yangu,\nAtachukua vyote, Yesu Bwana wangu.\n\n3. Na roho yangu nayo, Imechoka sana;\nNamletea hiyo, Ilindwe na Bwana;\nNi jema jina lake, Nalo lapendeza,\nImanweli na kwake, Tutalitukuza.\n4. Natamani daima, Niwe kama Bwana,\nMpole, tena mwema, Wa mapenzi sana;\nZaidi natamani, Kwenda kwake juu,\nNikaone mbinguni, Enzi yake kuu."
+    },
+    {
+      "number": 49,
+      "title": "NITWAE HIVI NLIVYO",
+      "lyrics": "1. Nitwae hivi nilivyo, Umemwaga damu yako,\nNawe ulivyoniita, Bwana Yesu, naja, naja.\n2. Hivi nilivyo; si langu, Kujiosha roho yangu;\nNisamehe dhambi zangu, Bwana Yesu, naja, naja.\n3. Hivi nilivyo; sioni Kamwe furaha moyoni;\nDaima ni mashakani, Bwana Yesu, naja, naja.\n4. Hivi nilivyo kipofu, Maskini na mpungufu;\nWewe u mtimilifu; Bwana Yesu, naja, naja,\n\n5. Nawe hivi utanitwaa; Nisithubutu kukawa,\nNa wewe hutanikataa, Bwana Yesu, naja, naja.\n6. Hivi nilivyo; mapenzi; Yamenipa njia wazi; \nHali na mali sisazi, Bwana Yesu naja, naja."
+    },
+    {
+      "number": 50,
+      "title": "YESU NAKUPENDA U MALI YANGU",
+      "lyrics": "1. Yesu nakupenda, U mali yangu,\nAnasa za dhambi sitaki kwangu\nNa Mwokozi aliyeniokoa \nSasa nakupenda, kuzidi pia.\n\n2. Moyo umejaa mapenzi tele,\nKwa vile ulivyonipenda mbele,\nUhai wako ukanitolea,\nSasa nakupenda, kuzidi pia.\n\n3. Ulipoangikwa Msalabani\nTusamehewe tulio dhambini;\nTaji ya miiba uliyoivaa\nSasa nakupenda, kuzidi pia.\n\n4. Niwapo hai, niwapo maiti,\nKupendana nawe kamwe siachi;\nHari za kifo zikinienea,\nSasa nakupenda, kuzidi pia;\n\n5. Mawanda mazuri na masikani\nNiyatazamapo huko mbinguni\nTasema na taji nitakayovaa\nSasa nakupenda, kuzidi pia."
+    },
+    {
+      "number": 51,
+      "title": "MUNGU TWATOA SHUKRANI",
+      "lyrics": "1.Mungu twatoa shukrani,\nKwa kutulinda usikuni,\nNa kutuangalia mchana,\nKutuongoza kila mara."
+    },
+    {
+      "number": 52,
+      "title": "YOTE NAMTOLEA YESU",
+      "lyrics": "1.Yote namtolea Yesu, Nampa moyo wote,\nNitampenda siku zote,\nNamwandama kila saa.\n\nYote kwa Yesu, Yote kwa Yesu,\nYote kwako, Ee Mwokozi, Natoa sasa.\n\n2. Yote namtolea Yesu,\nNainamia pake; Nimeacha na anasa,\nKwako Yesu nipokee.\n\n3.Yote namtolea Yesu, Nifanye niwe wako;\nNipe Roho yako, Bwana, Anilinde daima.\n\n4.Yote namtolea Yesu, Nami naona sasa.\nFuraha ya ukombozi; Nasifu jina lake."
+    },
+    {
+      "number": 53,
+      "title": "WEWE UMECHOKA SANA",
+      "lyrics": "1.Wewe umechoka sana? Wataka raha?\nKwake Yesu utapata furaha.\n\n2. Alama anazo yeye? Sasa makovu\nYa mikoni, na miguu, na mbavu.\n\n3.Nacho kimevikwa tahi,\nKichwa cha huba?\nAlivikwa taji kweli miiba.\n\n4.Huku nikimfuata nipate nini?\nMaonjo nje na ndani Amani.\n\n5.Kwamba namwandama Bwana,\nMwisho ni nini? NI furaha na salama mbinguni."
+    },
+    {
+      "number": 54,
+      "title": "YESU NATAKA KUTAKASWA SANA",
+      "lyrics": "1.Yesu nataka kutakaswa sana, nataka moyo uwe enzi yako.\nUkiangushe kilichoinuka, unioshe sasa niwe mweupe.\n\nMweupe tu, ndiyo mweupe,\nUkiniosha nitakuwa safi\n\n2.Bwana Yesu, unitazame sasa, Unifanye niwe dhabihu hai;\nNajitoa kwako, na moyo wote;\nUnioshe sasa niwe mweupe.\n\n3.Bwana Kwahiyo nakuomba sana,\nNakungojea miguuni pako, \nNaomba unioshe damuni tu,\nUnioshe sasa niwe mweupe.\n\n4.Bwana ninadumu kukungojea,\nNiumbie moyo safi, Ee Mungu,\nWanaokujia hutupi kamwe,\nUnioshe sasa niwe mweupe."
+    },
+    {
+      "number": 55,
+      "title": "NIPE MOYO WENYE SIFA",
+      "lyrics": "1. Nipe moyo wenye sifa, Sio wa utumwa;\nMoyo ulionyunyizwa, Damu ya thamani.\n2. Moyo msikizi, moyo wa kunyenyekea,\nMoyo utawaliwao na Mwokozi pia.\n3. Wenye kutubu, mnyonge, Sadiki, amini;\nKamwe, kamwe asitengwe Akaaye ndani.\n4. Mpya, mwema na mawazo, Mwingi wa mapenzi\nNawe uwe kielelezo, Moyo wa Mwokozi.\n5. Ni uule moyo wako; Moyo wa huruma\nYesu, natamani kwako, Kukujua vyema.\n6. Na ya midomo matunda, Yako, nipe nami;\nAmani isiyokoma, Iwe yangu mimi.\n7, Nitie yako tabia, Inishukie juu;\nJina lako nipe pia, Ndilo la pendo tu.\n8. Ni wa Baba utukufu; Mwana atukuke;\nNa Roho Mtakatifu, U Utatu pweke."
+    },
+    {
+      "number": 56,
+      "title": "NI SIKU KUU SIKU ILE",
+      "lyrics": "1. Ni siku kuu siku ile, Ya kumkiri Mwokozi!\nMoyo umejaa tele, Kunyamaza hauwezi.\nSiku kuu! Siku kuu! Ya kuoshwa dhambi\nzangu kuu! Hukesha na kuomba tu,\nAnaniongoza miguu. Siku kuu, siku kuu!\nYa kuoshwa dhambi, zangu kuu.\n\n2. Tumekwisha kupatana, Mimi wake, Yeye wangu,\nNa sasa nitamwandama, Nikiri neno la Mungu.\n3. Moyo tulia kwa Bwana, Kiini cha raha yako, \nHuna njia mbili tena; Yesu ndiye njia yako. \n\n4. Nadhiri yangu ya mbele, Nitaiweka daima,\nHata ije siku ile, Ya kwonana kwa salama."
+    },
+    {
+      "number": 57,
+      "title": "NAENDEA MSALABA",
+      "lyrics": "1. Naendea Msalaba, Ni mnyonge na mpofu, \nYapitayo naacha, Nipone Msalabani. \n\nNakutumaini tu, Ewe Mwana wa Mungu; \nNainamia kwako; Niponye, Mponya Ni wangu.\n\n2. Nakulilia sana, Nalemewa na dhambi;\nPole Yesu asema; “Nitazifuta zote”.\n\n3. Natoa vyote kwako, Nafasi nazo nguvu,\nRoho yangu na mwili, Viwe vyako milele.\n\n4. Kwa damu yake sasa, Nimegeuka roho,\nNikaziacha tamaa, Nimfuate Yesu tu.\n\n5. Yesu yuaja tena! Nimepevuka kwake,\nKila chembe kamili; Msifuni Yeye Mponya!"
+    },
+    {
+      "number": 58,
+      "title": "MWAMBA WENYE IMARA",
+      "lyrics": "1. Mwamba wenye imara, Kwako nitajificha! Siti\nMaji hayo na damu, Yaliyotoka humu, \nHunisafi na dhambi, Hunifanya mshindi. \n\n2. Kwa kazi zote pia, Sitimizi sheria.\nNijapofanya bidii,nNikilia na kudhii,\nHayaishi makosa; Ndiwe wa kuokoa.\n\n3. Sina cha mkononi, Naja Msalabani;\nNili tupu, nivike; Ni mnyonge, nishike;\nNili mchafu naja, Nioshe nisijafa.\n\n4. Nikungojapo chini, Nakwenda kaburini;\nNipaapo Mbinguni, Na kukwona enzini:\nRoho yangu na iwe, Rahani mwako wewe."
+    },
+    {
+      "number": 59,
+      "title": "PELELEZA NDANI YANGU",
+      "lyrics": "1, Peleleza ndani yangu, Iwe safi nia,\nKwangu kama kwako Mungu, Idhihiri pia.\n2. Peleleza moyo wangu, Unifunulie,\nYaliyomo ndani yangu, Nami niyajue.\n3. Kwanza washa zako tambi,\nKumefunga giza; Nijue ambavyo dhambi\nNi la kuchukiza.\n\n4. Peleleza na mawazo, Ni mbegu za mambo,\nAsili ya machukizo, Maumbuo — umbo.\n5. Zidi kuyapeleleza, Katikati yangu\nHata wishe nifundisha, Udhaifu wangu.\n\\\n6. Hapo nikikwinamia, Mbele zako, Mungu,\nHakika nitakujua, U Mpenzi wangu."
+    },
+    {
+      "number": 60,
+      "title": "WAPONYENI WATU",
+      "lyrics": "1. Waponyeni watu wamo kifoni,\nWatoeni walio shimoni; Na aangukaye mumzuie\nYa Bwana Yesu wahubirini.\nWalio kifoni waokoe:\nMwokozi yuko, wahubirini\n\n2. Wajapokawia anangojea,\nAwasubiri waje tobani;\nMsiwadharau, muwaonyeni\nHuwasamehe; wakiamini.\n3. Myoyoni mwa ndani yule Shetani,\nAmeyaseta mawazo yao;\nLakini kwa Bwana huwa mazima,\nTukiwavuta kwa pole hao.\n\n4. Kawaokoeni waje njiani, Mutimize mapenzi ya Bwana\nNa kwa nguvu zake warudi kwake,\nKwa subira waonyeni sana:"
+    },
+    {
+      "number": 61,
+      "title": "TUMEIKIA MBIU",
+      "lyrics": "1. Tumesikia mbiu; Yesu, lo! Aponya \nUtangazeni kote,\nYesu, lo! Aponya. \nTiini amri hiyo; \nNchini na baharini, \nEnezeni mbiu hii; \nYesu, lo! Aponya. \n2. Imbeni na vitani: \nYesu, lo! Aponya; \nKwa nguvu ya kombozi, \nYesu, lo! Aponya. \nImbeni wenye shida, \nUnapoumwa moyo. \nNa kaburini imba: \nYesu, lo! Aponya. \n\n3. Mawimbini uenee; Yesu, lo! Aponya;\nWenye dhambi jueni; Yesu, lo! Aponya.\nVisiwa na viimbe; Vilindi itikeni,\nNa nchi shangilieni; Yesu, lo! Aponya.\n\n4. Upepo utangaze; Yesu, lo! Aponya;\nMataifa yashangaa; Yesu, lo! Aponya.\nMilimani, bondeni, Sauti isikike\nYa wimbo wa washindi, Yesu, lo! Aponya."
+    },
+    {
+      "number": 62,
+      "title": "BWANA WA MABWANA",
+      "lyrics": "1. Bwana wa mabwana, Mwenye nguvu sana\nTwakusihi. Neno la milele\nNa liende mbele, Waongoke tele\nKwa Mwokozi.\n2. Tunaowaona. Wanavyopatana\nKulipinga, Hawataliweza\nNeno, kulitweza;\nHuwaje! Kucheza Na upanga?\n3. Heri wajitunze, ili wapatane\nNa Mwokozi; Watafute sana.\nWapate kuona, Yesu kuwa Bwana Mkombozi\n4. Mungu awaita, Wasije kukuta\nPigo lake; Hakuona vyema\nWakose uzima, Awape rehema,\nWaokoke.\n\n5. Mwenye utukufu, Tunamshukuru\nYeye pweke, Nasifiwe sana,\nBaba, naye Mwana,Na wa tatu tena\nRoho yake."
+    },
+    {
+      "number": 63,
+      "title": "NDUGU WA KIROHONI",
+      "lyrics": "1. Ndugu wa kirohoni, Mliokombolewa,\nTafakarini sana, Yatupasayo.\nWapenzi wake Yesu \nTuliokombolewa,\nTujitoe kabisa\nWengi waponywe.\n2. Siku itatimia, Tutakapoulizwa\nWale wa nyumba zetu Na majirani.\n\n3. Tujitoeni, ndugu, Tukahubiri Injili.\nAtutumie Roho, Kuponya wengi.\n4. Wasiokombolewa Ili, Ni wengi vijijini \nWataokolewaje, Tukiogopa? \n\n5. Bwana alijitoa, Akapotewa mengi, \nIli atuokoe, Tusiwe waoga.\n6. Aliyetununua, Kwa kuimwaga damu,\nAngalieni sana, Msimwepuke."
+    },
+    {
+      "number": 64,
+      "title": "UJARIBIWAPO, SIFANYE DHAMBI",
+      "lyrics": "1. Ujaribiwapo, sifanye dhambi,\nBali uzishinde, kwa Yesu kutii.\nFuliza kiume ushindi tamaa;\nYesu ni Mwokozi, hukuokoa.\nUmwombapo yu papo\nAkuongeze nguvu\nAtakusaidia; Yesu atakufa.\n\n2. Wepushe waovu, matusi dharau;\nHeshima la Mungu kamwe sisahau;\nFanya uhodari, uwe mpole\nAtakuokoa hata milele.\n3. Avumiliaye hupewa taji.\nTujaposumbuka tu washindaji\nNa Mwokozi wetu hutuwezeshi\nTusiwe kushindwa kama twakesha."
+    },
+    {
+      "number": 65,
+      "title": "SAFARI",
+      "lyrics": "1. Katika safari yetu, Kwenda Mbinguni\nTusiishe siku zetu, Usingizini.\nNg’oani! Tujifungeni, Twende zetu juu!\nKristo ndiye kiongozi; Tusihofu tu.\n2. Atwekwe badala yetu; Mwenyewe Bwana;\nYesu kiongozi wetu, Atapokea.\n3. Kisimani, maji tele, Maji mazima!\nMaji hayo, ya milele Yana neema.\n4. Njiani miiba mingi, Yatuumiza;\nHofu na hatari nyingi, Sana zakaza.\n5. Kweli, njia ya Mbinguni, Ni ya mashaka;\nTuwe na Yesu njiani, Mara hufika.\nfanye dhambi, kwa Yesu kutii."
+    },
+    {
+      "number": 66,
+      "title": "PO POTE MASHAMBA YAJAA",
+      "lyrics": "1. Po pote mashamba yajaa? Tele nafaka pevu,\nPo pote yang’aa meupe, Bondeni na nyandani.\nMwenye mavuno, twasihi, Upeleke wavuni,\nWakusanye mazao, Hata kazi iishe.\n2. Wapeleke uchaoni, Waende na jotoni,\nMpaka jua lishukapo, Wakusanye ko kote.\n3. Watenda kazi wa Bwana, Mlete sasa mazao;\nNa jioni ingieni, Kwake na furaha kuu."
+    },
+    {
+      "number": 67,
+      "title": "BWANA ULIYEWAITA",
+      "lyrics": "1.Bwana uliyewaita, Watakatifu wako;\nWawe mitume, wachunga, \nWalishe kundi lako;  Wanyonge na wenye hofu,\nWakawa mashujaa, Na wapole wa kunena\nWasiwe kunyamaa. \n2. Hata leo wawataka, Watakatifu wako;\nNawe wauliza tena, Ni nani aliyeko;\nAtakaye nimtume, Afundishe vijana? \n“Ni tayari, Bwana wangu,\nNitume mimi Bwana.” \n3. Nitume na mimi, Bwana,\nKama ulivyotumwa, Habari ya msamaha,\nNa dhambi kutubiwa, Niwahubiri wakosa,\nNa waliopotea, Wokovu u wake Bwana,\nAliyewafilia.\n4, Astahiliye hapana, Kutamka habari,\nLakini Wewe waweza, Kutufanya tayari.\nNeno lako tulijue, Tupe na Roho wako,\nHayatakuwa ya bure, Haya Maneno yako."
+    },
+    {
+      "number": 68,
+      "title": "MUNGU MSAADA WETU",
+      "lyrics": "1. Mungu Msaada wetu, Tangu myaka yote,\nNdiwe Tumaini letu, La zamani zote. \n2. Kivuli cha kiti chako, Ndiyo Ngome yetu.\nWatosha mkono wako, Ni ulinzi wetu. \n3. Kwanza havijakuwako, Nchi na milima,\nNdiwe Mungu; chini yako, Twakaa salama.\n\n4. Na myaka elfu ni kama, Siku moja kwako;\nUtatulinda daima,Tu wenyeji wako.\n\n5. Binadamu huondoka, Mwisho hana kitu; \nKama ndoto hutoweka, Ndiyo hali yetu.\n\n6. Ila Wewe Mungu wetu, Ndiwe wa kudumu;\nNdiwe bora, Ngome yetu, Twakaa dawamu."
+    },
+    {
+      "number": 69,
+      "title": "TWENDENI ASKARI",
+      "lyrics": ".\n\n1. Twendeni askari, watu wa Mungu\nYesu yuko mbele, tumwandame juu.\nAmetangulia Bwana vitani,\nTwende mbele kwani ndiye amini.\n\nTwende askari watu wa Mungu;\nYesu yuko mbele, tumwandame juu.\n\n2. Jeshi la Shetani, likisikia\nJina la Mwokozi, litakimbia\nKelele za shangwe zivume nchi;\nNdugu inueni zenu sauti.\n\n3. Kweli kundi dogo, watu wa Mungu\nSisi na mababa tu moja fungu.\nHatutengwi nao, moja imani,\nTumaini moja, na moja dini.\n4. Haya mbele watu nasi njiani\nInueni myoyo, nanyi sifuni;\nHeshima na sifa ni ya Mfaln\nJuu hata chini, sana zivume."
+    },
+    {
+      "number": 70,
+      "title": "YESU ATACHUNGA",
+      "lyrics": "1. Yesu atuchunga, Mchunga wetu,\nNaye atufuta, Machozi yetu;\nMkononi mwake, Hatuna hofu, \nDaima twapata, Kwake wokovu. \n2. Yesu atuchunga, Tumemjua,\nNa sauti yake, Twaitambua; \nNaye akituonya, Ni kwa upole;\nTu kondoo zake, Hata milele. \n3. Yesu atuchunga; Aliwafia\nKondoo wakubwa, Na wana pia;\nKwamba awajua, Kondoo zake,\nHutiwa alama, Ya damu yake.\n\n4. Yesu atuchunga; Mikono yake\nImewaambata, Kondoo zake;\nHapati wadhuru, Adui yule,\nYesu awalinda, Hata milele."
+    },
+    {
+      "number": 71,
+      "title": "MTETEENI YESU",
+      "lyrics": "1. Mteteeni Yesu, Mlio askari; \nInueni beramu, Mukae tayari,\nKwenda naye vitani, Sisi hatuchoki.\nHata washindwe pia, Yeye amiliki. \n\n2. Mteteeni Yesu, Vita ni vikali;\nLeo siku ya Bwana, Atashinda kweli,\nWaume twende naye, Adui ni wengi,\nLakini kwake Bwana, Tuna nguvu nyingi.\n3. Mteteeni Yesu, Wenye ushujaa;\nNguvu zenu za mwili, Hazitatufaa;\nSilaha ya Injili, Vaeni daima,\nKesheni mkiomba, Sirudini nyuma.\n4. Mteteeni Yesu, Vita ni vikali,\nWengi wamdharau, Hawamkubali,\nIla atamiliki Tusitie shaka,\nKuwa naye vitani, Twashinda hakika."
+    },
+    {
+      "number": 72,
+      "title": "TWENDENI HARAKA",
+      "lyrics": "1. Twendeni! Haraka! Tupeleke neno\nLiwe mwanga kwa nchi zilizo giza.\nBwana alisema nendeni po pote\nKawafundisheni mataifa yote.\nPelekeni Injili kwa Jina la Yesu\nUpesi! Twendeni haraka!\n2. Twendeni! Haraka! Tupeleke neno\nLa upendo wa Mungu, kwa watu wote.\nAliyeupenda sana ulimwengu\nAkamtoa Yesu Mwana wake pekee\nKaleta wokovu, tumtangazeni\nUpesi! Twendeni haraka.\n3. Twendeni! Haraka! Tupeleke neno\nLa uzima kwa watu waliokufa\nMateka ya Shetani litafunga\nLitaponyesha na kuwapa amani\nTwendeni upesi, tukawaokoe\nUpesi! Twendeni haraka!"
+    },
+    {
+      "number": 73,
+      "title": "YESU ZAMANI BETHILEHEMU",
+      "lyrics": "1. Yesu zamani Bethilehemu, Aliyezaliwa kwa aibu,\nNdiye Mwokozi wa, Akaja kwa mimi.\nAkaja kwa mimi; akaja kwa mimi\nNdiye Mwokozi wa ulimwengu,\nAkaja kwa mimi.\n2. Yesu akafa Msalabe, \nKuniponya akalipa deni,\nNi la ajabu ya jinsi, Kunifia mimi!\nKunifia mimi! Kunifia mimi!\nNi la ajabu ya jinsi gani, Kunifia mimi.\n3. Ni Yeye Huyo tangu asili;\nNa nilipotanga-tanga mbali;\nAlikuja kwa upole, kweli Kuniita mimi.\n\n4. Yesu Kristo atarudi tena, Hilo lanifurahisha sana,\nYeye Bwana akionekana Kunijia mimi.\nKunijia mimi; Kujimia mimi;\nYeye Bwana akionekana kunijia mimi"
+    },
+    {
+      "number": 74,
+      "title": "WACHUNGA WALIPOLINDA",
+      "lyrics": "1. Wachunga walipolinda, Kucha nyama zao,\nMalaika matukufu, Alishuka kwao.\n2. Wakacha sana, wachunga,\nAkawatuliza,“Nawaletea habari\nYa kuwapendeza.”\n3. “Mji ule wa Daudi, Leo amezawa\nMwokozi, ni Kristo Bwana,\nIlivyoandikwa”.\n4. “Huyo mwana wa Mbinguni\nAtaonekana, Amelazwa kihorini\nMalazi hapana.”\n5. Alipokwisha yanena, Malaika hao\nWaliimba wimbo huu, Usio na mwisho\n6. “Enzi ni yake Mungu juu, Na nchi salama,\nKwa watu nao radhi kuu, Sasa na daima.”"
+    },
+    {
+      "number": 75,
+      "title": "WAIMBA SIKIZENI",
+      "lyrics": "1. Waimba, sikizeni,\nMalaika Mbinguni; Wimbo wa tamu sana\nWa pendo zake Bwana, “Duniani salama,\nKwa wakosa rehema.” Sisi sote na twimbe\nNao wale wajumbe; Waimba, sikizeni,\nMalaika Mbinguni.\n\n2. Ndiye Bwana wa Mbingu, Tangu milele Mungu,\nAmezaliwa mwili, Mwana wa mwanamwali;\na Ametoka enzini, Kuja ulimwenguni\nMwokozi atufie, Ili tusipotee.\nWaimba, sikizeni, Malaika Mbinguni.\n3. Mtukufu wa amani, Ametoka Mbinguni,\nJua la haki, ndiye Atumulikiaye;\nAmejivua enzi, Alivyo na mapenzi,\nAtaka kutuponya, Kutuzalisha upya,\nWaimba sikizeni, Malaika Mbinguni.\n4. Njoo upesi, Bwana, Twakutamani sana;\nKaa nasi, Mwokozi Vita hatuviwezi;\nVunja kichwa cha nyoka, Sura zako andika,\nTufanane na Wewe, Kwetu sifa upewe,\nWaimba, sikizeni, Malaika Mbinguni."
+    },
+    {
+      "number": 76,
+      "title": "NJONI KWA FURAHA , ENYI WA IMANI",
+      "lyrics": "1. Njoni na furaha, enyi wa imani,\nNjoni Bethilehemu upesi\nAmezaliwa jumbe wa Mbinguni\nNjoni tumuabudu Mwokozi\n\n2. Mungu wa waungu, mwanga wa mianga,\nAmekuwa radhi kuzaliwa;\nMungu wa kweli, wa si kiumbe\nNjoni tumuabudu, Njoni tumuabudu\nNjoni tumuabudu Mwokozi.\n3. Jeshi la Mbinguni, imbeni kwa nguvu!\nMbingu zote na zijae sifa!\nSifuni Mungu aliye mbinguni;\nNjoni tumuabudu, njoni tumuabudu,\nNjoni tumuabudu Mwokozi.\n4. Ewe Bwana Mwema, twakubarikia,\nYesu, utukufu uwe wako;\nNeno la Baba limekuwa mwili;\nNjoni tumuabudu, njoni tumuabudu,\nNjoni tumuabudu Mwokozi"
+    },
+    {
+      "number": 77,
+      "title": "MSALABANI PA MWOKOZI",
+      "lyrics": "1. Msalabani pa Mwokozi, hapo niliomba upozi;\nAkaniokoa mpenzi, mwana wa Mungu.\n\nMwana wa Mungu, Mwokozi wangu,\nAkaniokoa mpenzi, mwana wa Mungu\n\n2. Chini ya mti msumbufu, Niliomba utakatifu,\nAlinikomboa kwa damu, Mwana wa Mungu.\n\nMwana wa Mungu, Mwokozi wangu,\nAkaniokoa mpenzi, mwana wa Mungu\n\n3. Aliniokoa dhambini, ikawa kunikaa ndani;\nAliponifia mtini, Mwana wa Mungu.\n\nMwana wa Mungu, Mwokozi wangu,\nAkaniokoa mpenzi, mwana wa Mungu\n\n4.Damu ya Yesu ya thamani, Huniokoa makosani;\nHuniendesha wokovuni, Mwana wa Mungu.\n\nMwana wa Mungu, Mwokozi wangu,\nAkaniokoa mpenzi, mwana wa Mungu\n\n5.Hichi kijito cha gharama; Leo jivike kwa kuzama,\nKwake uuone uzima, Mwana wa Mungu.\n\nMwana wa Mungu, Mwokozi wangu,\nAkaniokoa mpenzi, mwana wa Mungu"
+    },
+    {
+      "number": 78,
+      "title": "SIOSHWI DHAMBI ZANGU",
+      "lyrics": "1. Sioshwi dhambi zangu, Bila damu yake Yesu.\nHapendezewi Mungu, Bila damu yake Yesu. \n\nHakuna kabisa Dawa ya makosa \nYa kututakasa, Ila damu yake Yesu. \n2. La kunisafi sina Ila damu yake Yesu.\nWala udhuru tena, Ila damu yake Yesu. \nHukumu yanitisha, Bila damu yake Yesu.\n4. Sipati tumaini, Bila damu yake Yesu.\nWema wala amani, Bila damu yake Yesu.\n5. Yashinda ulimwengu, Hiyo damu yake Yesu.\nNa kutufikisha juu, Hiyo damu yake Yesu.\n6. Twaimba: Utukufu\nUna damu yake Yesu.\nMilele twaisifu\nHiyo damu yake Yesu."
+    },
+    {
+      "number": 79,
+      "title": "MSALABA WA AIBU",
+      "lyrics": "1. Msalaba wa aibu, Ulinipa amani; \nUliniondoa kifungoni, Nilimotesekea. \n\n2. Ee, Mwokozi wangu, Yesu, \nNitamwendea nani?  Najiweka Msalabani,\nNikaoshwe damuni.\n\n3. Nakupenda Bwana Yesu, \nKwa kunipenda kwako, \nNapendezwa nikutumikie\nMaisha yangu yote.\n\n4. Usifiwe Bwana Yesu, Kwa ulivyonifia,\nAleluya, nakushukuru, Uliyenikomboa.\n\n5. Msalaba ulishinda, Nguvu zake adui,\nIli mimi nikombolewe, Niwe mwana wa Mungu."
+    },
+    {
+      "number": 80,
+      "title": "WAMWENDEA YESU KWA KUSAFIWA",
+      "lyrics": "1. Wamwendea Yesu kwa kusafiwa \nNa kuoshwa kwa damu ya kondoo?\nJe, neema yake umemwagiwa?\nUmeoshwa kwa damu ya kondoo?\nKuoshwa, kwa damu\nItutakasayo ya kondoo;\nZiwe safi nguo nyeupe mno;\nUmeoshwa kwa damu ya kondoo?\n2. Wamwandama daima mkombozi\nNa kuoshwa kwa damu ya kondoo?\nYako kwa Msulubiwa makazi\nUmeoshwa kwa damu ya kondoo?\n3. Atakapokuja Bwana-arusi \nUwe safi kwa damu ya Kondoo!\nYafae kwenda Mbinguni mavazi\nYafuliwe kwa damu ya damu ya kondoo\n4. Yatupwe yalipo na takataka\nNa uoshwe kwa damu ya kondoo.\nHuoni kijito chatiririka, Na uoshwe kwa damu ya Kondoo"
+    },
+    {
+      "number": 81,
+      "title": "CHINI YA MSALABA",
+      "lyrics": "1. Chini ya Msalaba, Nataka simama;\nNdio mwamba safarini, Wa kivuli chema;\nNi kweli kwa roho yangu, Ni tuo kamili,\nTatua mzigo wangu, Wakati wa hari.\n2. Hapa ni pema sana,, Ni ngome kamili;\nHapa yameonekana, Mapenzi ya kweli;\nKama alivyoonyeshwa, Yakobo zamani,\nMsalaba umekuwa, Ngazi ya Mbinguni.\n3. Na Yesu Msalabani, Walimkemea,\nAlikufa niokoke, Niliyepotea;\nNaona ajabu sana, Ya mambo mawili\nJinsi alivyonipenda, Nisiyestahili.\n4. Atakayeonana, Na Yesu Mbinguni,\nNjia yake aanzapo, Ni Msalabani;\nWokovu upo hapa tu, Mwingine hapana,\nKisha kuna furaha kuu, Pamoja na Bwana."
+    },
+    {
+      "number": 82,
+      "title": "SIONI HAYA KWA BWANA",
+      "lyrics": "1. Sioni haya kwa Bwana, Kwake nitang’ara!\nMti wake sitakana ; Ni neno imara!\nMsalaba ndio asili ya mema,\nNikatua mzigo hapo; Nina uzima, furaha daima,\nNjoni kafurahini papo.\n\n2. Kama kiti chake vivyo, Ni yake ahadi,\nAlivyowekewa navyo, Kamwe havirudi.\n3. Bwana wangu, tena Mungu\nNdilo lake jina! Hataacha roho yangu\nWala kunikana.\n4. Atakiri langu jina, Mbele za Babaye,\nAnipe pahali tena, Mbinguni nikae."
+    },
+    {
+      "number": 83,
+      "title": "KWA WINGI WA NYAMA",
+      "lyrics": "1. Kwa wingi wa nyama, Na sadaka pia,\nHupata wapi salama, Kwondoa hatia?\n2. Sadaka ni Yesu, Hwondoa makosa;\nDhabihu mwenye jina kuu, Atanitakasa.\n3. Kwa yangu imani, Nikuweke sasa\nMkono mwako kichwani, Kukiri makosa.\n4. Roho yakumbuka, Mambo ya Mtini,\nMzigo ulijitweka, Ndiyo yangu deni.\n\n5. Deni hutanguka, Tukimuamini;\nKwa damu tumeokoka, Twimbe furahani."
+    },
+    {
+      "number": 84,
+      "title": "NIWONAPO MTI BORA",
+      "lyrics": "1. Niwonapo Mti bora, Kristo aliponifia,\nKwangu pato ni hasara. Kiburi nakichukia.\n2. Na nisijivune, Bwana,\nIla kwa mauti yako;\nUpuzi sitaki tena,\nNi chini ya damu yako.\n\n3. Tangu kichwa hata nyayo,\nZamwagwa pendo na hamu,\nNdako pweke hamu hiyo,\nPendo zako zimetimu.\n4. Vitu vyote vya dunia\nSi sadaka ya kutosha;\nPendo zako zaniwia\nNafsi, mali, na maisha"
+    },
+    {
+      "number": 85,
+      "title": "NI MTI WA SIMANZI",
+      "lyrics": "1. Ni “Mtu wa Simanzi”, \nMwana wa Mwenye enzi,\nMwenye mengi mapenzi! \nAsifiwe Bwana Yesu! \n\n2. Akawa matesoni, \n“Mungu Mwana” yakini \nAkatoka Mbinguni: \nAsifiwe Bwana Yesu! \n\n3. Akapata dhihaka, Mzoea-mashaka\nNdiye yetu sadaka, Asifiwe Bwana Yesu! \n4. Tu wenye dhambi sana; Kwake dhambi hamna,\nNa Mungu twapatana: Asifiwe Bwana Yesu!\n5. Alikufa Mtini, Akalia dhikini,\nSasa yuko Mbinguni, Asifiwe Bwana Yesu!\n6. Punde atarejea, Yesu kutunyakua,\nNdipo tutamwimbia, Asifiwe Bwana Yesu!"
+    },
+    {
+      "number": 86,
+      "title": "DAMU IMEBUBUJIKA",
+      "lyrics": "1. Damu imebubujika, Ni ya Imanweli,\nWakioga wenye taka, Husafiwa kweli. \n\n2. Ilimpa kumshukuru, Mwivi mautini; \nNami nisiye udhuru, Yanisafi ndani.\n\n3. Kondoo wa kuuawa, Damu ina nguvu,\nWako wote kuokoa Kwa utimilivu. \n\n4. Bwana, tangu damu yako, Kunisafi kale,\nNimeimba sifa zako; Taimba milele.\n5. Nikifa tazidi kwamba, Sifa za wokovu,\nUlimi ujaponyamaa, Vumbini mwa ufu.\n6. Bwana, umenikirimu\nNisiyestahili, Kwa damu yako, \nSehemu Ya mali ya kweli.\n7. Nikubali kukwimbia,\nMbinguni milele, Mungu nitakusifia\nJina lako pweke."
+    },
+    {
+      "number": 87,
+      "title": "DENI YA DHAMBI ILIZIMIKA",
+      "lyrics": "1. Deni yangu ya dhambi, Yesu amelipa. \nKwake Msalabani, Nilipewa uzima.\nDeni ya dhambi, Msalabani \nIlimalizikia, Ni huru kabisa, \n2. Bwana Yesu asema,\n“Mwanangu dhaifu, \nUwezo na ushindi\nHupatikana kwangu.”\n3. Bwana, kweli naona, Nguvu zako pekee\nHuondoa ukoma, Niwe kipya kiumbe.\n4. Sina wema moyoni, Nidai neema,\nNakubali kabisa, Kwa damu kusafiwa.\n5. Hata huko Mbinguni, Miguuni pake,\n“Yesu alinifia,” Nitaimba milele."
+    },
+    {
+      "number": 88,
+      "title": "NDIYO DAMU YA BARAKA",
+      "lyrics": "1. Ndiyo damu ya baraka ituoshayo wakosa\nKwake Bwana twaokoka, nasi twamsifu sasa;\nNimestahili hukumu, siwezi kujitakasa;\nNioshe katika damu, takuwa safi kabisa\nSafi kabisa; safi kabisa!\nNioshe katika damu;\nTakuwa safi kabisa.\n2. Yesu alivikwa miiba, na kuangikwa mtini,\nNa maumivu si haba yaliyompata chini\nNataka kijito hicho niende kuoga sasa:\nNdicho kinitakasacho, nami ni safi kabisa:\n\nSafi kabisa; safi kabisa!\nNdicho kinitakasacho,\nNami ni safi kabisa.\n\n3. Baba, kweli nimekosa, moyo wangu ni dhaifu\nDhambi ni nyingi kabisa, nipate wokovu?\nYesu kijitoni pako naja naamini sasa;\nNioshe kwa damu yako, takuwa safi kabisa\n\nSafi kabisa; safi kabisa! Nioshe kwa damu yako, Takuwa safi kabisa."
+    },
+    {
+      "number": 89,
+      "title": "KWA KALVARI",
+      "lyrics": "1. Muda mwingi nilipotea,\nSikufahamu Msalaba,\nWala aliyenifilia, Kwa Kalvari.\nRehema bure na neema:\nSamaha nalo nilipewa,\nNdipo aliponifungua\nKwa Kalvari.\n\n2. Kwa neno lake Bwana Mungu,\nNilijiona mimi mwovu,\nNikageuka na kutubu,\nKwa Kalvari.\n\n3. Yote kwa Yesu namtolea,\nNdiye Mfalme wa pekee sasa,\nKwa furaha nitamwimbia wa kalvari\n4. Jinsi pendo lilivyo kuu,\nNeema ilishushwa toka juu,\nAlitufanyia wokovu, Kwa Kalvari."
+    },
+    {
+      "number": 90,
+      "title": "ALITESWA, ALITESWA",
+      "lyrics": "1. Aliteswa, aliteswa,\nMsalabani Yesu aliteswa,\nDhambi zangu ameziondoa,\nMahali pangu aliumizwa\n\n2. Alikufa, alikufa,\nMsalabani Yesu alikufa,\nKwa kifo chake nakombolewa\nKwa kuwa Yesu alinifia.\n\n3. “Kafufuka, “kafufuka,\nKaburini Yesu alitoka,\nNami nimewekwa huru pia\nKwa kuwa Yesu alifufuka\n4. Yuko hai, yuko hai,\nMbinguni anaishi Mwombezi,\nDaima huniombea mimi,\nKwa kuwa Yesu adumu hai.\n5. Atarudi, atarudi,\nSiku moja Yesu atarudi,\nNa tumwonapo tutafurahi\nKwa kupelekwa kwake Mbinguni.\n6. Sifa kwake, sifa kwake,\nMbinguni na huimbwa milele\nKwa furaha, masifu, na shangwe,\nTutamwimbia Yesu milele"
+    },
+    {
+      "number": 91,
+      "title": "MAPENZI YAKO YAFANYIKE",
+      "lyrics": "1. Mapenzi yako yafanyike,\nWewe Mfinyazi, nami towe\nUnifinyange upendavyo,\nMimi tayari, naja kwako.\n\n2. Mapenzi yako yafanyike,\nUnihojie dhambi zote,\nUnisafishe vya kimwili,\nNiinamapo Msalabani.\n\n3. Mapenzi yako yafanyike,\nMimi dhaifu, mimi mnyonge\nUwezo wote, kwako kweli\nSasa niponye, Ee, Mwokozi\n\n4. Mapenzi yako yafanyike,\nNatoa kwako vitu vyote,\nMaisha, mali, moyo, mwili\nVyote ni vyako, kweli, kweli\n\n5. Mapenzi yako yafanyike,\nMapenzi yangu yavunjike\nNinakubali uwe Bwana,\nNi mali yako, twaa kabisa;\n\n6. Mapenzi yako yafanyike,\nUnitawale siku zote,\nSura ya Yesu umba kwangu\nNijaze Roho nayo nguvu."
+    },
+    {
+      "number": 92,
+      "title": "NATAKA NIMJUE YESU",
+      "lyrics": "1. Nataka nimjue Yesu, Na nizidi kumfahamu,\nNijue pendo lake, Wokovu wake kamili\nZaidi, zaidi, nimfahamu Yesu,\nNijue pendo lake, na \nWokovu wake kamili\n\n2. Nataka nione Yesu,\nNa nizidi kusikia, Anenapo Kitabuni,\nKujidhihirisha kwangu.\n\n3. Nataka nifahamu, Nizidi kupambanua\nMapenzi yake, nifanye\nYale yanayompendeza.\n\n4. Nataka nikae naye,\nKwa mazungumzo zaidi,\nNizidi kuwaonyesha:\nWengine wokovu wake."
+    },
+    {
+      "number": 93,
+      "title": "BWANA AMEFUFUKA",
+      "lyrics": "1. Bwana amefufuka, Aleluya.\nTwimbe na malaika, Aleluya.\nSifa zetu na shangwe, Aleluya.\nNa zao zisitengwe, Aleluya.\n2. Ukombozi timamu, Aleluya.\nUmetimu kwa damu, Aleluya\nMshindi asifiwe, Aleluya\nYu hai kwa milele. Aleluya.\n\n3. Jiwe, lindo, muhuri, Aleluya.\nVi wapi? Na kaburi? Aleluya.\nKifo hakimuweki, Aleluya.\nAmetoka peponi, Aleluya.\n\n4. Yu hai Mtukufu; Aleluya.\nCha kifo hatuhofu! Aleluya.\nAlitufia sisi, Aleluya.\nTuwe mahuru nasi, Aleluya.\n5. Kichwa chatangulia, Tupae, nasi, pia!, Aleluya\nKwa kuwa tuna fungu, Aleluya.\nMti, kaburi, Mbingu, Aleluya.\n\n6. Ndiwe Mwokozi wetu, Aleluya\nSifa ni yako Yesu, Aleluya.\nUtukuzwe pekeo, Aleluya.\nNi Wewe Ufufuo, Aleluya"
+    },
+    {
+      "number": 94,
+      "title": "SIKU YA MBINGU KUJAWA NA SIFA",
+      "lyrics": "1. Siku ya Mbingu kujawa na sifa,\nDhambi zilizidi duniani:\nYesu akaja azaliwe mtu,\nAwe na watu ulimwenguni\n\nAlinipenda, alinifia\nAmeondoa na dhambi zangu\nAlifufuka nipewe haki\nYuaja tena Mwokozi wangu\n2. Na siku moja walikwenda naye,\nWakamkaza Msalabani;\nAliumia, aliaibishwa,\nIli atuokoe dhambini.\n3. Siku hiyo wakamlaza chini\nKaburini alipumzika;\nMatumaini yetu wenye dhambi\nNi Mwokozi, kwake twaokoka\n4. Kaburi likashindwa kumshika;\nJiwe likatoka mlangoni,\nAlifufuka kwa kushinda kwake:\nNaye yuko milele Mbinguni.\n5. Siku moja atatujia tena;\nUtukufu wake tutaona;\nAtawaleta na wapenzi wetu\nMwokozi wangu, tutaonana."
+    },
+    {
+      "number": 95,
+      "title": "HIV VITA VIMEKOMA",
+      "lyrics": "Aleluya! Aleluya!\nAleluya!\n1. Hivi vita vimekoma,\nVimeshindwa na uzima,\nNa asifiwe daima,\nBwana Yesu.\n2. Nguvu za kifo ni hizo,\nIla hazina uwezo,\nNdizo sasa avunjazo,\nBwana Yesu\n\n3. Siku tatu za huzuni,\nKisha atoka ufuni,\nAsifiwe duniani\nBwana Yesu.\n\n4. Mapingu ameyavunja,\nMbingu amezifungua,\nNasi sasa twamwimbia,\nBwana Yesu.\n\n5. Na ulivyopigwa Wewe, \nNi kwamba tufunguliwe, \nBwana Yesu."
+    },
+    {
+      "number": 96,
+      "title": "MLE KA",
+      "lyrics": "1. Mle kaburini, Yesu Mwokozi!\nAlilazwa chini, Bwana wangu!\nBwana! Amefufuka,\nKifo kimeshindwa ke\nGizani mle alitoka ct\nSasa atawala huko M\nYu hai! Yu hai!\nBwana Yesu yu hai!\n2. Aungoja huo, Yesu Mwokozi!\nMchana ujao, Bwana wangu!\n3. Walinda kaburi, Yesu mwokozi\nBure ni muhuri, Bwana wangu.\n4. Kifo kimeshindwa, Yesu mwokozi\nPingu zimevunjwa, Bwana wangu."
+    },
+    {
+      "number": 97,
+      "title": "TAZAMENI HUYO NDIYE",
+      "lyrics": "1. Tazameni Huyo ndiye,\nMwenye kushinda vita;\nHaya, tumsujudie; \nNyara anazileta; ;\nWatu wote msifuni,\nSasa yumo Kitini.\n2. Msifuni malaika, Mtukuzeni sana,\nWote waliookoka, Watamsifu Bwana;\nWatu wote msifuni, Sasa yumo Kitini.\n3. Walimfanya dhihaka, Zamani wenye shari,\nKwao waliookoka, Ni Bwana wa fahari;\nWatu wote msifuni, Sasa yumo Kitini."
+    },
+    {
+      "number": 98,
+      "title": "HUYO NDIYE! ANASHIKA",
+      "lyrics": "1. Huyo ndiye! Anashuka, Aliyetufilia,\nWengi waliookoka, Wakimfurahia,\nAleluya! Yesu aturudia.\n2. Sote tutamtazama,\nAmekaa Kitini, Nao waliomchoma,\nKumkaza Mtini, Na kilio,\nWamuone enzini.\n3. Alama za kifo chake\nHata sasa anazo\nNa waaminifu wake\nWapendezewa nazo.\nAlipata, kwetu alama hizo\n4. Wokovu utakiwao, Sasa wapatikana,\nNa watakatifu hao, Mbinguni wakutana Kumlaki,\nNdiyo siku ya Bwana.\n5. Wakusujudie wote,\nMbele ya Kiti chako.\nZako, Bwana, nguvu zote\nItwae milki yako\nNjoo Bwana,\nSisi tu watu wako."
+    },
+    {
+      "number": 99,
+      "title": "MAELFU NA MAELFU",
+      "lyrics": "1. Maelfu na maelfu, Wenye nguo bora!\nMasafu ya waongofu, Wenye na bendera!\nAmekwisha kamili, Vita vya Shetani\nFungueni lango hili,\nNjoni, ingieni! \n\n4. Nyimbo nzuri, sikizeni,\n Ni nyimbo za sifa kuu, Za Bwana Yesu Kitini\nKutawazwa, Yeye tu; Watu wote msifuni\nSasa yumo Kitini.\n\n2. Imbeni Aleluya; Zipae Mbinguni! \nPigeni sana sauti, Kwa kutumaini! \nKwa hiyo viliumbwa, Nchi hata Mbingu\nDhiki za muda zikisha, Asifiwe Yesu.\n3. Loo! Tukionana;  Pwani ya ng'amboni! \nLoo! Tukishirikana, Midomo yote pia,\nHuko itaimba, Wajane kufufukiwa\nNa kila yatima!\n4. Himiza enzi yako, Uliyetufia\nUtimize watu wako, Wakosaji pia,\nMpendwa wa taifa, Twakutumaini!\nUzifunue ishara, Urudi enzini!"
+    },
+    {
+      "number": 100,
+      "title": "TUMRUDIE BWANA",
+      "lyrics": "1. Mbona washangaa njiani?\nMbona warejea nyuma?\nWarudi tena gizani\nAlimokutoa Bwana? \n2. Ni ya bure yote haya\nUliyofunzwa ya Mungu?\nNi bure amekufia\nBwana Yesu kwa uchungu?\n\n3. Wamtia Kristo aibu\nNa maneno yake pia?\nSiku yaja ya hesabu,\nUtamjibuje Bwana?\n4. Upandayo tena hayo\nHalafu utayavuna.\nRudi kwa Bwana upesi,\nMwombe akupokee\ntena."
+    },
+    {
+      "number": 101,
+      "title": "TWONANE MILELE",
+      "lyrics": "1. Nyimbo na tuziimbe tena,\nZa alivyotupenda mbele,\nKwa damu ya thamani sana,\nMbinguni hwonana milele.\nTwonane milele, Twonane bandarini kule;\nTwonane milele, Twonane bandarini kule.\n2. Hupozwa kila aoshwaye\nKwa damu ya Kondoo yule;\nAtaishi afurahiye, Vya Yesu Mbinguni milele.\n3. Hata sasa hufurahia\nTamu yake mapenzi yake,\nJe, kwake tukifikilia,\nKutofarakana milele?\n4. Twende mbele kwa jina lake\nHata aje Mwokozi yule\nAtatukaribisha kwake,\nTutawale naye milele.\n5. Sauti zetu tuinue\nKumsifu Mwokozi yule,\nIli watu wote wajue\nWokovu u kwake milele."
+    },
+    {
+      "number": 102,
+      "title": "KAZI YANGU IKIISHA",
+      "lyrics": "1. Kazi yangu ikiisha, nami nikiokoka;\nNa kuvaa kutokuharibika,\nNitamjua Mwokozi nifikapo ng’amboni.\nAtakuwa wa kwanza kunilaki.\nNitamjua, nitamjua, nikimwona uso kwa uso;\nNitamjua, nitamjua, kwa alama za misumari.\n\n2. Furaha nitapata nikiona makao\nBwana aliyoyatuandalia;\nNitamsifu Mwokozi kwa rehema na pendo\nVilivyonipa pahali Mbinguni.\n\n3. Nao waliokufa katika Bwana Yesu;\nNitawaona tena huko juu;\nLakini nifikapo kwake huko Mbinguni,\nNataka kumwona Mwokozi kwanza.\n\n4, Milangoni mwa mji Bwana atanipisha,\nPasipo machozi wala huzuni.\nNitauimba wimbo wa milele;\nLakini, Nataka kumwonya Mwokozi kwanza.\nNataka kumwona Mwoko"
+    },
+    {
+      "number": 103,
+      "title": "KAA NAMI",
+      "lyrics": "1. Kaa nami, ni usiku tena;\nUsiniache gizani, Bwana;\nMsaada wako haukomi;\nNili peke yangu, kaa nami\n\n2. Siku zetu hazikawi kwisha,\nSioni la kunifurahisha;\nHakuna ambacho hakikomi\nUsiye na mwisho, kaa nami.\n\n3. Nina haja nawe kila saa;\nSina mwingine wa kunifaa;\nMimi nitaongozwa na nani,\nila Wewe? Bwana, kaa nami.\n\n4. Sichi neno uwapo karibu;\nNipatalo lote, si taabu;\nKifo na kaburi haviumi;\nNitashinda kwako, kaa nami.\n\n5. Nilalapo nikuone,\nGizani mote nimul\nNuru za mbinguni\nSiku zangu zote kaa nami."
+    },
+    {
+      "number": 104,
+      "title": "TWASOMA NI NJEMA SANA",
+      "lyrics": "1. Twasoma, ni njema sana\nMbinguni, kwa Bwana;\nTwasoma, dhambi, hapana,\nMbinguni, kwa Bwana;\nMalaika wema wako,\nVinanda vizuri viko,\nNa majumba tele yako,\nMbinguni kwa Bwana.\n2. Siku zote ni mchana, Ni nchi ya raha;\nWala machozi hapana, Ni nchi ya raha;\nWalioko wauona, Uso wa Mwokozi, tena\nJua jingine hapana, Ni nchi ya raha.\n3. Nyama na vitu viovu, Havimo kabisa;\nKifo nacho, na ubovu, Havimo kabisa.\nNi watakatifu wote, Wameoshwa dhambi zote;\nWasiosafiwa wote hawamo kabisa.\n4. Tuna dhambi pia sote, Mwokozi akafa;\nKwake tutaoshwa zote, Mwokozi akafa;\nKwake twapata, wokovu,\nTutawona utukufu; Mbinguni tutamsifu;\nMwokozi akafa.\n\n5. Baba, mama, ndugu zetu,\nTwendeni kwa Bwana;\nHuku chini siko kwetu,\nTwendeni kwa Bwana;\nTusishikwe na dunia,\nNa dhambi kutulemea;\nTutupe vya chini pia,\nTwendeni kwa Bwana"
+    },
+    {
+      "number": 105,
+      "title": "KUWATAFUTA",
+      "lyrics": "1. Kuwatafuta wasioweza,\nKuomba wamrejee Yesu:\nKuwaambia maneno yake\n“Njooni kwangu, Nawapenda”.\nNitakwenda, (kwenda), niwatafute\nWaongofu (wa Bwana) wageuke,\nWaingie (wote) katika zizi\nLa Mkombozi (wetu) Yesu Kristo.\n2. Kuwatafuta wasioweza,\nWaonyeshwe Mwokozi wetu,\nKuwaongoza, wapate wote\nUzima ule wa milele.\n3. Kazi hiyo nataka kufanya;\nLeo nimesikia mwito\nKuwainua waangukao\nWaletwe kwake Yesu Njia."
+    },
+    {
+      "number": 106,
+      "title": "MUNGU AWE NANYI DAIMA",
+      "lyrics": "1. Mungu awe nanyi daima,\nHata twonane ya pili,\nAwachunge kwa fadhili,\nMungu awe nanyi daima:\nHata twonane huko juu,\nHata twonane kwake kwema;\nHata twonane huko juu,\nMungu awe nanyi daima.\n2. Mungu awe nanyi daima;\nZiwafunike mbawaze,\nAwalishe, awakuze;\nMungu awe nanyi daima.\n\n3. Mungu awe nanyi daima;\nKila wakati wa shani\nAwalinde hifadhini;\nMungu awe nanyi daima.\n\n4. Mungu awe nanyi daima;\nAwabarikie sana, Awapasulie kina;\nMungu awe nanyi daima."
+    },
+    {
+      "number": 107,
+      "title": "EWE, BABA WA MBINGUNI",
+      "lyrics": "1. Ewe, Baba wa Mbinguni,\nUsikie twombalo, Hapa chini duniani,\nNa uwe radhi nalo.\nEe Mungu, bariki\nNdugu hawa wawili!\nEe Mungu, bariki\nNdugu hawa wawili!\n2. Watu hawa mbele zako,\nNa mbele ya kanisa;\nWatimize Neno lako\nWanakutana sasa. \n3. Kama Yesu na kanisa,\nNi mmoja, na hivyo,\nWatu hawa wape sasa\nWawe mmoja vivyo.\n\n4. Walinde, Bwana, daima,\nWabariki nyumbani,\nUwape nyingi salama\nHumu ulimwenguni.\n5. Wabariki, ewe Bwana,\nWatu hawa wawili,\nWape upaji wa wana,\nWafurahishwe kweli.\n6. Siku zao duniani\nZitakapopungua,\nWape kurithi Mbinguni\nMema ya kwendelea."
+    },
+    {
+      "number": 108,
+      "title": "TWENDENI SAYUNI",
+      "lyrics": "1. Mpendao Bwana, Ije raha yenu!\nImbeni nyimbo za raha,\nWa ibada yenu.\nTwenenda Sayuni, \nMji mzuri Sayuni; \nTwenenda juu Sayuni\nNimasikani ya Mungu.\n \n2. Wasiimbe wao, Wasioamini, \nWatoto wa Mungu ndio\nWaimbao chini. \n3. Twaona rohoni\nBaraka za Mungu,\nTusijafika Mbinguni\nKwenye utukufu.\n4. Tutakapomwona\nMasumbuko basi,\nHuwa maji ya uzima,\nAnasa halisi.\n5. Tupaaze sauti,\nNa fute machozi,\nTwenenda kwa Imanweli\nNaye ni Mwokozi."
+    },
+    {
+      "number": 109,
+      "title": "NITAIMBA YA YESU",
+      "lyrics": "1, Nitaimba ya Yesu, \nKwa rehema zake, \nBaraka nyingi sana \nNimepata kwake; \nNitaimba ya Yesu,\nSadaka ya Mungu, \nAliimwaga damu\nUkombozi wangu. \n2. Nitaimba ya Yesu\nHapa siku zote, \nNitakapokumbuka\nVyema vyake vyote; \nNitaimba ya Yesu\nHata mashakani,\nYeye atanilinda\nMwake ubavuni.\n3. Nitaimba ya Yesu\nNiwapo njiani;\nTakaza mwendo, hata\nNifike Mbinguni;\nNikiisha ingia\nMlangoni mle,\nYesu nitamwimbia\nMbinguni milele."
+    },
+    {
+      "number": 110,
+      "title": "MAPYA NI MAPENZI HAYO",
+      "lyrics": "1. Mapya ni mapenzi hayo,\nAsubuhi tuonayo,\n\nSaa za giza hulindwa\nKwa uzima kuamshwa.\n\n2. Kila siku, mapya pia,\nRehema, wema, na afya,\nWokofu, na msamaha,\nMawazo mema, furaha.\n\n3. Tukijitahidi leo\nNa mwendo utupasao,\nMungu atatueleza\nYatakayompendeza.\n\n4. Mambo yetu ya dunia\nMungu atayang'aria,\nMatata atageuza\nYawe kwetu ya baraka.\n5. Yaliyo madogo, haya\nya, Mungu tukimfanyia,\nYatosha: tutafaidi\nHuvuta kwake zaidi.\n6. Ewe Bwana, siku zote,\nTusaidie kwa yote:\nMwendo wetu wote vivyo,\nUwe kama tuombavyo."
+    },
+    {
+      "number": 111,
+      "title": "NENO LAKO, BWANA",
+      "lyrics": "1. Neno lako, Bwana,\nNi imara sana;\nLilo latwongoza,\nLilo latufunza,\n\n2. Adui wabaya\nWakikaribia,\nNeno lake Bwana\nNi ulinzi sana.\n\n3. Siku za dhoruba\nSoma ukiomba;\nNeno lake Bwana\nMsaada sana.\n\n4. Ukiliamini,\nHwenda na amani;\nUna na furaha;\nNeno ni silaha.\n5. Ni furaha kweli,\nNa wingi wa mali,\nNeno lake Bwana\nKwa wasiokana.\n6. Neno la rehema,\nTukali wazima;\nFaraja i papo,\nTufarikanapo.\n7. Tulijue sana\nNeno lako, Bwana,\nHapa tukipende,\nKisha kwako twende."
+    },
+    {
+      "number": 112,
+      "title": "NILIKUPA WEWE MAISHA YANGU",
+      "lyrics": "1. Nilikupa wewe\nDamu ya moyoni,\nIli wokolewe,\nWinuke ufuni:\nNimekunyimani? \nUmenipa nini? \n2. Nilikupa miaka\nYangu duniani, \nUpate inuka, \nKuishi Mbinguni: \nNimekunyimani? \nUmenipa nini? \n3. Niliacha nuru\nZa Baba, Mbinguni, \nKwingia taabu \nZa ulimwenguni: \nNimekunyimani? \nUmenipa nini? \n\n4. Niliteswa sana,\nMateso kifoni,\nUsije yaona\nHayo ya motoni:\nNimekunyimani?\nUmenipa nini?\n\n5. Nimekuletea, Huku duniani\nUpendo na afya, Zatoka Mbinguni:\nNimekunyimani? Umenipa nini?\n\n6. Nipe siku zako, Udumu mwangani;\nNa taabu yako, Wingie rahani\nNafsi, pendo, mali, Twae Imanweli."
+    },
+    {
+      "number": 113,
+      "title": "NI MFALME WA MAPENZI",
+      "lyrics": "1. Ni mfalme wa mapenzi,\nNdiye anichungaye,\nSipungukiwi, hawezi,\nKunipoteza yeye.\n2. Kando ya maji mazima\nYeye huniongoza\nKatika malisho mema\nDaima hunilaza.\n3. Mara nyingi hupotea\nKwa ukaidi wangu,\nNaye huniandamia,\nHunirudisha kwangu.\n4. Uvulini mwa mauti,\nSichi hatari kamwe,\nima Wewe Bwana huniachi,\nMwokozi wangu Wewe.\n\n5. Waniandikia meza\nNeema kwako tele.\nKwa Wewe, yote naweza,\nNa msalaba mbele.\n\n6. Kamwe hautapungua\nUule wema wako;\nMwisho, atanichukua,\nJuu, niimbe kwako."
+    },
+    {
+      "number": 114,
+      "title": "BWANA MUNGU, NASHANGAA KABISA",
+      "lyrics": "1. Bwana Mungu, nashangaa kabisa\nNikitazama kama vilivyo\nNyota, ngurumo, vitu vingi vyote\nViumbwavyo kwa uwezo wako\nRoho yangu na ikuimbie\nJinsi Wewe ulivyo Mkuu,\nRoho yangu na ikuimbie\nJinsi Wewe ulivyo Mkuu.\n\n2. Nikitembea pote duniani\nNdege huimba, nawasikia,\nMilima humpendeza macho sana\nUpepo nao nafurahia.\n3. Nikikumbuka kama wewe Mungu:\nUlivyompeleka Mwanao\nAfe azichukue dhambi zetu\nKuyatambua ni vigumu mno\n4. Yesu Mwokozi utakaporudi\nKunichukua kwenda Mbinguni\nNitashukuru na kwamba milele\nWote wajue jinsi ulivyo."
+    },
+    {
+      "number": 115,
+      "title": "KILIMA KANDO YA MJI",
+      "lyrics": "1. Kilima kando ya mji\nAlikufa Bwana;\nKuokoa wakosaji\nAkateswa sana.\n2. Kabisa hayasemeki, \nMateso dhaifu:\nAlikufa Mwenye Haki\nTupate wokovu.\n3. Alimwaga damu yake\nIli tuwe wema,\nTufae kukaa kwake\nMbinguni daima.\n\n4. Hatuna mwenye imani\nAliye na haki, Wa kutosha yetu deni,\nRafiki Yesu tu.\n\n5. Alijua peke yake\nKufungua Mbingu\nUfunguo damu yake\nKondoo wa Mungu.\n\n6. Aliyetupenda hivyo\nNasi tumpende,\nTukamtumai vivyo\nNa kazi tutende."
+    },
+    {
+      "number": 116,
+      "title": "BWANA U SEHEMU YANGU",
+      "lyrics": "1. Bwana, U sehemu yangu,\nRafiki yangu, Wewe;\nKatika safari yangu\nTatembea na Wewe; \nPamoja na Wewe,\nPamoja na Wewe,\nKatika safari yangu,\nTatembea na wewe\n2. Mali hapa sikutaka\nIli niheshimiwe,\nNa yanikute mashaka\nSawasawa na Wewe.\nPamoja na Wewe,\nPamoja na Wewe,\nHeri nikute mashaka\nSawasawa na Wewe.\n3. Niongoze safarini,\nMbele unichukue,\nMlangoni kwa mbinguni\nNiingie na wewe,\nPamoja na wewe,\nPamoja na wewe\nMlangoni mwa mbinguni,\nNiingie na wewe."
+    },
+    {
+      "number": 117,
+      "title": "TUFANI INAPOVUMA",
+      "lyrics": "1. Tufani inapovuma\nSana moyoni mwangu,\nHuona pa kujificha\nMkononi mwa Mungu.\nHunificha, hunificha\nAdui hatanipata,\nHunificha, hunificha,\nMkononi mwake.\n2. Pengine kuna taabu\nYanisongeza kwake;\nNaijua si hasira,\nNi ya mapenzi yake.\n\n3. Adui wakiniudhi\nNami nikisumbuka,\nMungu atavigeuza\nVyote viwe baraka.\n4. Niishipo duniani\nNi tufani daima,\nAnilindapo rohoni\nNitakaa salama."
+    },
+    {
+      "number": 118,
+      "title": "NI UJUMBE WA BWANA",
+      "lyrics": "1. Ni ujumbe wa Bwana, Aleluya\nWa maisha ya daima,\nAmenena mwenyewe, Aleluya\nUtaishi ukitazama.\nTazama! Ishi sasa!\nKumtazama Yesu,\nAmenena mwenye\nUtaishi ukitazama.\n2. Ni ujumbe wa wema, Aleluya\nNawe shika, rafiki yangu!\nNi habari ya raha, Aleluya!\nMwenye kuinena ni Mungu.\n3. Uzima wa daima, Aleluya\nKwake Yesu utauona.\nUkimtazama tu, Aleluya\nWokovu u pweke wa Bwana"
+    },
+    {
+      "number": 119,
+      "title": "SI DAMU YA NYAMA",
+      "lyrics": "1. Si damu ya nyama\nIliyomwagika\nIwezayo kuondoa\nDhambi za wakosa.\n2. Yeye Bwana Yesu\nSadaka ya Mungu,\nMwenye damu ya\nthamani,\nNi Mwokozi kweli.\n\n3. Kwa imani yangu,\nNamshika Yeye,\nNaziweka dhambi zangu\nJuu ya kichwa chake.\n\n4. Mzigo wa dhambi\nSichukui tena,\nAmeuchukua Yeye,\nJuu ya msalaba.\n\n5. Bwana Yesu ndiye\nMwokozi wa kweli,\nTumsifu siku zote,\nTwapata uhuru."
+    },
+    {
+      "number": 120,
+      "title": "ENYI WANADAMU",
+      "lyrics": "1. Enyi wanadamu mbona\nSana mwatanga-tanga,\nKama kondoo wanyonge,\nWasio na mchunga?\nYuko Mchunga Mmoja\nMwenye mapenzi mema;\nHaya kutaneni kwake,\nAtawachunga vyema.\n2. Mungu tunamwona kuwa\nMwenye uwezo wote;\nNa nguvu zake zapita\nMawazo yetu yote:\nNi Baba, mapenzi yake\nNi makubwa hakika;\nHatuwezi kuyajua,\nNa hayana mpaka.\n3. Rehema za Mungu nazo\nZina upana sana;\nKama huo wa bahari,\nMwisho wake hapana;\nHaki yake ina mema,\nKwa hayo twashukuru,\nKwetu uko msamaha,\nFuraha na uhuru.\n4 Mapenzi yake mapana,\na Sisi hatuna cheo\nCha kutosha, nao moyo\nUna wema upeo;\nUkombozi mwingi mno\nKatika damu yake;\nSote twapata furaha,\nKwa maumivu yake.\n5. Yesu mkaribieni\nNjoni msife myoyo;\nNjoni kwake kwa imani,\nMema yake ni hayo;\nHeri tuwe kama wana\nTushike neno lake,\nDaima atatujaza\nTele furaha yake."
+    },
+    {
+      "number": 121,
+      "title": "LIKO LANGO MOJA WAZI",
+      "lyrics": "1. Liko lango moja wazi,\nNi lango la Mbinguni;\nNa wote waingiao \nWatapata nafasi. \nLango ndiye Yesu Bwana\nWote waingie kwake,\nLango! Lango\nLa Mbinguni ni wazi.\n2. Yesu ndiye lango hili,\nHata sasa ni wazi,\na Kwa wakubwa na wadogo,\nTajiri na maskini.\n3. Hili ni lango la raha,\nNi lango la rehema;\nKila mtu apitaye,\nHana majonzi tena;\n\n4.Tukipita lango hili,\nTutatua mizigo,\nTuliochukua kwanza,\nTutavikwa uzima.\nTuliochukua kwanza,\nTutavikwa uzima.\n\n5. Hima ndugu tuingie\nLango halijafungwa,\nLikifungwa mara moja\nHalitafunguliwa."
+    },
+    {
+      "number": 122,
+      "title": "BWANA YESU",
+      "lyrics": "1. Bwana Yesu, Bwana Yesu,\nMbona unaumia? Unateseka sana\nKwa ajili ya kuomba,\nWaomba na jasho jingi likageuka damu.\n\nKumbe! Ni dhambi zangu\nZinazokuumiza.\nBwana wangu, Mungu wangu,\nMimi leo, naja kwako\nIli ni ziungame\n\n2. Bwana Yesu, Bwana Yesu,\nMbona unaumia na mizigo mizito?\nUmejitwalia wewe msalaba mabegani\nKwa ajili ya watu.\n\n3. Bwana Yesu, Bwana Yesu,\nMbona unatukanwa, wawambwa kama mwizi,\nBila tusi ukalia, Baba wangu,\nWasamehe;\nChukua roho yangu.\n\n4. Bwana Yesu, Bwana Yesu,\nMuda ulipofika, chini ikawa giza,\nMbinguni pakatulia, angani\nPakawa kimya, watu wakaogopa.\n\n5. Bwana Yesu, Bwana Yesu,\nJinsi ulivyoumwa, ukamwomba Baba,\nLeo umeshinda kifo, sasa wapaa Mbinguni,\nNaimba, Haleluya."
+    },
+    {
+      "number": 123,
+      "title": "NIMEKETI MIMI NILI KIPOFU",
+      "lyrics": "1. Nimeketi mimi nili kipofu\nGizani nangojea macho\nEwe Bwana Yesu mwenye wokovu,\nOndoa dhambi zangu nzito.\nHuruma hakuna aoneaye,\nGizani nangojea macho,\nSasa nitakase nikusihiye\nYesu, na dhambi zangu nzito.\n2. Tangu siku nyingi nimepofuka\nNatamani uso nikwone;\nEwe Bwana Yesu, mwenye baraka\nSema neno, basi, nipone.\n3. Nimeketi mimi nili na giza.\nNami ya kutumai sina;\nIli nasikia kunong'oneza,\n“Kwake Yesu kuna kupona”"
+    },
+    {
+      "number": 124,
+      "title": "MUNGU ALISEMA",
+      "lyrics": "1. Mungu ulisema, |\nGiza ilikoma;\nTwashukuru!\nTwakusihi sote,\nDuniani mote\nNa kwa watu wote\nIwe nuru.\n\n2. Yesu ulikuja,\nUlituletea\nNuru kuu;\nMacho kwa vipofu,\nMaisha kwa wafu;\nNasi twakusifu,\nTwashukuru,\n3. Roho kiongozi, \nRoho wa mapenzi \nTia nuru;\nMwovu hata sasa\nWatu huwatosa, \nTunakwomba hasa,\nIwe nuru. \n4. Mungu wa Utatu\nMwanga wao watu,\nTuwe huru:\nTwende kote-kote\nWafundishwe wote,\nDuniani mote\nIwe nuru,"
+    },
+    {
+      "number": 125,
+      "title": "ATI TWONANE MTONI",
+      "lyrics": "1. Ati twonane mtoni? \nMaji mazuri ya mbingu; \nYanatokea mwangani,\nPenye kiti cha Mungu. \nNaam, twonane mtoni! \nWatakatifu, kwenu ni mtoni! \nTutakutanika mtoni\nPenye kiti cha Mungu. \n2. Tukitembea mtoni!\nNa Yesu Mchunga wetu\nDaima tu ibadani\nUsoni pake kwetu.\n\n3. Kwang’ara sana mtoni\nCha Mwokozi ni kioo,\nMilele hatuachani\nTumsifu kwa nyimbo.\n\n4. Si mbali sana mtoni,\nKaribu tutawasili,\nMara huwa furahani\nNa amani ya kweli."
+    },
+    {
+      "number": 126,
+      "title": "NI MJI MZURI SANA",
+      "lyrics": "1. Ni mji mzuri, Mbali sana; \nWatu wanawiri, Kama jua; \nWaimba kwa tamu; Tuna mwema Hakimu:\nSifa na idumu, Kwake Bwana\n2. Ni mji mzuri, Twende sote!\nUna na fahari\nMsikawe!\nRaha tutaona,\nDhambi hapana tena;\nHatutaachana\nSiku zote.\n3. Ni mji mzuri; Macho yote\nHuko wanawiri, Kama pete;\nBaba tutamwona,\nTukifanywa tu wana;\nTumo kupendana naye sote\n\n4. Ni mji mzuri tusipotee,\nNa tuwe hodari, Tuupate,\nTufunze, tutume\nKwa taji na ufalme\nKwa taji na ufalme;\nSifa na zivume\nSiku zote."
+    },
+    {
+      "number": 127,
+      "title": "BWANA YESU ATAKUJA",
+      "lyrics": "1. Bwana Yesu atakuja, vumilia\nOmba, ukiwa na haja, vumilia\nMbinguni Mungu aliko,\nMwamini Mwokozi wako,\nNawe utafika huko, vumilia\n\n2. Ikikucheka dunia, vumilia\nMwovu atakuvizia, vumilia\nHataweza kukushinda,\nBwana Yesu atakulinda\nRoho yako, akupenda, vumilia\n\n3. Na ukiwa hatarini, vumilia\nDhiki nyingi duniani, vumilia\nVyatupasa kuyakuta, Majaribu na matata,\nNa Bwana hakutuficha; vumilia\n\n4. Adui wakikutana, Vumilia\nNa ndugu wakikukana, vumilia\nZote, zote zitakwisha,\nNguvu zote za kutisha\nMungu chini atashusha; vumilia\n5. Moyoni una majonzi, vumilia\nNdiyo bonde-ya-machozi, vumilia\nHima, tutaandamana,\nKwetu mbinguni na Bwana,\nTena hatutaachana; vumilia"
+    },
+    {
+      "number": 128,
+      "title": "MMOJA APITA WOTE",
+      "lyrics": "1. Mmoja apita wote, Atupenda;\nZaidi ya ndugu wote, Atupenda;\nRafiki wa duniani, Wote hatuwaamini;\nYesu kwa kila zamani, Atupenda.\n2. Kumjua ni uzima, Atupenda;\nJinsi ajaavyo wema, Atupenda;\nYeye ametununua, Kwa damu aliyomwaga,\nDhambini kutuokoa, Atupenda.\n3. Sasa tunaye Rafiki, Atupenda;\nHupenda kutubariki; Atupenda.\nTwapenda kumsikia,\nAtwita kukaribia, Nasi tutamwamania\nAtupenda.\n4. Husamehe dhambi zetu, Atupenda;\nHushinda adui zetu, \nAtupenda;\nAnatwonea huruma,\nHatupati ila mema,\nAnatwongoza salama\nAtupenda."
+    },
+    {
+      "number": 129,
+      "title": "KARIBU NA WEWE",
+      "lyrics": "1. Karibu na wewe,\nMungu wangu, Karibu na zaidi,\nBwana wangu, Siku zote niwe\nKaribu na wewe, Karibu zaidi\nMungu wangu.\n2. Mimi nasafiri Duniani,\nPa kupumzika Sipaoni,\nNilalapo niwe, Karibu na Wewe,\nKaribu zaidi, Mungu wangu.\n\n3. Na kwa nguvu zangu\nNikusifu; Mwamba, uwe maji\nYa wokovu; Mashakani niwe\nKaribu na Wewe; Karibu zaidi\nMungu wangu.\n4. Na nyumbani mwa juu,\nBaba yangu, Zikikoma hapa\nSiku zangu, zangu Kwa furaha niwe\nPamoja na Wewe, Karibu kabisa\nMungu wangu."
+    },
+    {
+      "number": 130,
+      "title": "NIONGOZE, BWANA MUNGU",
+      "lyrics": "1. Niongoze, Bwana Mungu;\nNi msafiri chini; Ni mnyonge, nguvu sina:\nNishike mkononi;\nU Mkate wa Mbinguni,\nNilishe siku zote.\n\n2. Kijito cha maji mema\nKitokacho mwambani,\nNguzo yako, moto, wingu\nYaongoza jangwani;\nNiokoe Mwenye nguvu;\nvu sina: Nguvu zangu na ngao.\n\n3. Nikikaribia kufa,\nSichi neno lo lote,\nWewe kifo umeshinda\nZinawe nguvu zote,\nTutaimba sifa zako,\nKwako juu milele"
+    },
+    {
+      "number": 131,
+      "title": "PIGA SANA VITA VYEMA",
+      "lyrics": "1. Piga sana vita vyema\nKwa ushujaa daima,\nYesu ndiye nguvu zako,\nYesu ndiye kweli yako.\n2. Kaza mwendo, ushindane\nAngaza macho, umwone\nYesu ndiye njia yako,\nNaye ndiye tuzo lako.\n\n3. Tupa kizito, simama,\nTazama mbele, si nyuma;\nNi yeye uzima wako,\nNaye ni kipendo chako.\n\n4. Tangamka, uamini,\nAkushika mikononi,\nHageuki, akupenda,\nKuwa naye una pia."
+    },
+    {
+      "number": 132,
+      "title": "SAUTI SIKILIZENI",
+      "lyrics": "1. Sauti sikilizeni\nZa waimbao juu\n“Aleluya, Aleluya,\nAleluya, Mkuu!”\nWako makundi-makundi\nKama nyota wang'ara,\nKwa makuti ya mitende,\nNa meupe wamevaa.\n\n2. Wazazi na manabii\nWafanyaji wa njia;\nMashahidi, waandishi,\nNao wafalme pia!\nMabikira, kina-mama,\nWajane wa kusali,\nWaimba wakikutana\n“Msifu Imanweli”.\n3. Watu toka huzunini\nWameosha na nguo,\nNi kwa damu yake Yesu,\nMaonjo, mbali nao\nWalitekwa, walikatwa,\nHata kwa misumeno,\nKwao kifo na shetani\nWalishindwa mno. \n\n4.Mungu mumo mwake\nMungu,\nNuru mumu mwa nuru,\nKwa kufungamana mwako\nTutaishi mahuru;\nTujalize, Imanweli,\nKujaa kwako Wewe\nMungu Baba, Mungu\nMwana,\nMungu Roho, tunawe."
+    },
+    {
+      "number": 133,
+      "title": "NI WAKO MUNGU",
+      "lyrics": "1. Ni wako Mungu! Ni furaha kwangu,\nNi raha kumjua Mwokozi.\nAleluya enzi ndako\nAleluya, Amin.\nAleluya, enzi ndako\nRejea Yesu.\n2. Mwana wa Mungu, Ndiye fungu langu,\nNa moyo hufurahi kwa Yesu wangu.\n3. Raha ya kweli, Ina jina hili,\nNa aliyeshika, ana Mbingu kweli.\n4. Nimeingia, Mapendano haya,\nNimepata uzima na Mbingu pia.\n5. Nilipo chini, Ni mwako kazini,\nHata nije kwako uliko mbinguni."
+    },
+    {
+      "number": 134,
+      "title": "JUU YAKE LANGU SHAKA",
+      "lyrics": "1. Juu yake langu shaka, Yesu namuwekea,\nNami sitafedheheka, Nikimtegemea.\n\nNatumai, natumai,\nNatumai kwake tu;\nNatumai, natumai,\nNatumai kwake tu.\n\n2. Juu yake dhambi zangu; Aniosha kwa damu; \nNionekane kwa Mungu, Nisiye na laumu.\n\n3. Juu yake yangu hofu; Kwake nimetulia; \nSipotei kwa upofu, Njia aning’azia. \n\n4. Juu yake raha yangu; Humuangalia tu;\nMwenye kila ulimwengu, Aniruzuku na huu.\n\n5. Juu yake, moyo wangu; Hali yangu na mali;\nMimi wake, Yeye wangu, Twapasana kamili."
+    },
+    {
+      "number": 135,
+      "title": "MAPENZI YA MILELE",
+      "lyrics": "1. Mapenzi ya milele, Ndiyo yanipendayo; \nYalinipenda mbele, Sina fahamu nayo; \nSasa amani yake, Tele rohoni mwangu, \nNi mimi kuwa wake, Na Yeye kuwa wangu, \nNi mimi kuwa wake, na yeye kuwa wangu.\n\n2. Mbingu zinang’arajuu, Na nchi nayo vivyo;\nMacho ya dunia tu, Hayajaona hivyo; \nNyuni huimba sana, Maua yana rangi, \nNi kumjua Bwana, Na pendo zake nyingi, \nNi kumjua Bwana, Na pendo zake nyingi. \n\n3. Mambo mengi maovu, Nayo yenye kutisha,\nSasa hayana nguvu, Si yenye kugutusha;\nNi mkononi mwake, Nalindwa salamani,\nNinajua ni wake, Ni wake mapenzini.\nNinajua ni wake, Ni wake mapenzini.\n\n4. Wake hata milele, Si kutengana tena;\nHunipa raha tele, Moyoni mwangu, Bwana;\nHiyo nchi na mbingu, Zitatoweka zile,\nNi wake, Yeye wangu, Milele na milele.\nNi wake, Yeye wangu, Milele na milele."
+    },
+    {
+      "number": 136,
+      "title": "MSIFUNI, YESU NDIYE MKOMBOZI",
+      "lyrics": "1. Msifuni, Yesu ndiye Mkombozi\nImbeni ya pendo zake kuu,\nSujuduni, malaika mlioko\nJina lake liwe na sifa kuu\nKama vile mchunga achungavyo\nVivyo sisi kutwa atuchunga\nMsifuni mlio wake watoto\nMsifuni aliye Mchunga\n2. Msifuni, Yesu ndiye Mkombozi;\nAkateswa tupate ongoka;\nNdiye Mwamba, Dhamana ya kuokoka;\nSujuduni kwake Muangikwa,\nYesu aliyeudhiwa na hamu\nKwa pendo za Baba yake Mungu.\nAliyefyolewa na kusulibiwa\nMsifuni ndilo letu fungu.\n3. Msifuni, Yesu ndiye Mkombozi\nShindukeni, enyi malango juu;\nBwana Yesu tangu milele Mwokozi,\nMvikeni taji, ni yake tu.\nAtakuja kuitawala nchi,\nYesu, Mwombezi wetu wa Mungu;\nMsifuni, ni Mfalme wa salama\nNdiye kweli Mwana wake Mungu."
+    },
+    {
+      "number": 137,
+      "title": "YESU MPONYA",
+      "lyrics": "1. Yesu ndiye mganga wetu \nAponya wagonjwa wote; \nMganga wetu ni Yesu, \nAponyaye hasira. \nTumsifu huyo Yesu \nTumsifu milele, \nKwani Mponya mtakata, \nMwokozi wa wanyonge. \n2. Mganga wetu ni Yesu\nHuondoa matusi; \nMganga wetu ni Yesu,\nMwenye kuponya choyo. \n\n3. Mganga wetu ni Yesu\nHuponya wivu wetu;\nYesu ndiye aponyaye\nKelele za nyumbani.\n\n4. Mganga wetu ni Yesu\nMponya wa tamaa mbaya;\nMganga wetu ni Yesu\nUasherati hufuta.\n\n5. Mganga wetu ni Yesu\nAponya kiu cha pombe,\nMganga wetu ni Yesu\nKila dhambi aponya."
+    },
+    {
+      "number": 138,
+      "title": "TUKITENDEREZA YESU",
+      "lyrics": "1. Yesu, Mulokozi wange;\nLero nze wuwo wenka; \nOmusaigwo gunazi’za,\nYesu Mwana gwendiga. \nTukutendereza, Yesu, \nYesu Mwana gwendiga;\nOmusaigwo gunazi’za;\nNkwebaza, Mulokozi. \n2. Eda nafuba bufubi\nOkufuna, emirembe; \nLero ‘maliride dala;\nOkweyabiza Yesu.\n\n3. Nababuliranga bantu\nObulokozi bwona,\nObutali bwa kitundu\nObulamba obwobuwa.\n\n4, Nategezanga ebya Yesu\nNobuvumu nesitya;\nEyanziya mu busibe\nNokuwonya eyamponya.\n\n5. Nebaza eyanunula nze;\nEyamponya wa kisa!\nYesu ankuma\nansanyusaera,\nBulijo yebazibwe."
+    },
+    {
+      "number": 139,
+      "title": "NURU YA ROHONI",
+      "lyrics": "1. Nuru ya rohoni, ni Bwana Yesu.\nNakuomba sana, niangazishe;\nukanitazame, kwa huruma tu,\n Ukanitulize\nmimi maskini. \n2. Futa dhambi zangu\nkwa damu yako.\nHasira ya Mungu\niniondoke,\nMachubuko yako,\nhata mateso,\n\nNiyawaze vema\nrohoni mwangu. \n\n3. Nakutumaini, peke yako tu,\nniwe mtumwa wako\npote nilipo, utanikubali,\nsina mashaka!\nNitakushukuru\npasipo mwisho."
+    },
+    {
+      "number": 140,
+      "title": "MAHALI NI PAZURI",
+      "lyrics": "1. Mahali ni pazuri\nndugu wanapokaa,\nwakipatana vema\nna wakipendana. \n\n2. Kama umande mzuri\nunyweshavyo shamba,\nhivyo na Mungu wetu\nabariki ndugu. \n\n3. Upendano hujenga\nboma zuri kwao,\nwakae na amani\nwaliookoka. \n\n4. Na ulimwengu wote\nwavutwa nuruni,\nhalafu kundi moja\nna Mchunga mmoja tu."
+    },
+    {
+      "number": 141,
+      "title": "PANA JOTO, LINA MAJI MAZURI",
+      "lyrics": "1. Pana jito, lina maji mazuri,\nyaenda ulimwenguni.\nLametameta nalo linang'aa\nWalijua jito hilo?\n\nNinakuita nawe njoo!\nUtafute jito hilo!\nMaji yake yapoza moyo\nnawe yateke unywe.\n\n2. Wanywao maji haya wafurahi,\nwaimba kwa shangwe kubwa.\nMakosa na shida yanaondoshwa,\nwote waoshwa na Bwana.\n\n3. Jito hilo latoa maji mengi\nmatamu yapendezayo;\nyaponya wagonjwa, yatia nguvu;\nuchafu watakasika.\n\n4. Maji ya jito hilo ni uzima:\nunaotoka kwa Yesu.\nDamu yake yenye kiasi kikuu\nimemwagwa tusafike."
+    },
+    {
+      "number": 142,
+      "title": "BABANGU KULE MBINGUNI",
+      "lyrics": "1. Babangu kule mbinguni\naliye juu pa malaika,\naangalia njia zangu\nna kunilinda maisha.\n2. Hata unywele kichwani\nhauanguki ovyo tu,\nna siri zote za moyoni\nzajulikana kwa Baba.\n\n3. Zamani nisipojua,\namekwisha kuandika\nmkononi mwake jina langu\nndio upendo wake mkuu.\n4. Ee Baba yangu, u mwema.\nnami nataka kufanya\nkama malaika wafanyavyo\nmbinguni kwako milele"
+    },
+    {
+      "number": 143,
+      "title": "NCHI NZURI YAMETAMETA",
+      "lyrics": "1. Nchi nzuri yametameta\nhuonekana kule mbali\nnaye Yesu hutuongoza:\ntukafike na sisi huko.\nSi mbali, karibu\ntutaimba na sisi huko!\n2. Kule tutawaona wengi\nwapendwao na Yesu Bwana\nTutashirikiana nao, itakuwa furaha kubwa\n\n3. Tutamwona na Bwana\nYesu Kristo Mwokozi wetu.\nTutashangilia daima;\ntuna hamu ya kwenda."
+    },
+    {
+      "number": 144,
+      "title": "MBELE NINAENDELEA",
+      "lyrics": "1. Mbele ninaendelea,\nninazidi kutembea.\nMaombi uyasikie,\nEe Bwana, unipandishe\nEe Bwana, uniinue,\nkwa imani nisimame\nNipande milima yote\nEe Bwana, unipandishe\n2. Sina tamani nikae\nmahali pa shaka, kamwe\nhapo wengi wanakaa.\nKuendelea naomba.\n\n3. Nisikae duniani,\nasumbuapo Shetani.\nNatazamia mbinguni,\nnitafika na imani.\n\n4. Nataka nipandishwe juu\nzaidi yale mawingu.\nNitaomba nifikishwe\nEe Bwana, unipandishe"
+    },
+    {
+      "number": 145,
+      "title": "NDOA YETU NZIMA",
+      "lyrics": "1. Ndoa yetu nzima, simika, Yesu!\nUsiku na mchana, uwepo kwetu.\nLeo tuna raha, Wewe watupa.\nNdoa yetu, Bwana,\nndiwe baraka! \n2. Atoka kijana,\nataka mchumba,\nSiku zinapita\nza kupimana.\nLeo twapatana\npamoja kukaa.\n3. Vyote hapa chini\nvinakaa muda,\nma vyote vinaoza,\ntena vyachakaa,\nana Pendo la dunia\nnalo huchakaa.\n4. Kaa kwetu, Bwana,\nKutukagua, pendo letu sisi\nlisichakae; hivi na tukae\nna baraka tu.\n\n5. Kana arusini, ulialikwa.\nWalivyoishiwa, ukaongeza,\nnasi shida zetu, utazishinda."
+    },
+    {
+      "number": 146,
+      "title": "NENO LA MUNGU TAKATA",
+      "lyrics": "1. Neno la Mungu takata\nlililotoka mbinguni,\nambalo moto na panga\nhaziwezi kulishinda.\nTwakushika siku zi\nmaishani na kufani.\n2. Waliotutangulia,\nwaliokutegemea,\nwamekufia mashujaa;\nnasi tulio watoto,\n3. Neno la Mungu takata,\ntukushuhudie nasi\nkwa neno tamu na tenc\nkunako wenzi au adui."
+    },
+    {
+      "number": 147,
+      "title": "TEGEMEA PAKA KUFA",
+      "lyrics": "1, Tegemea mpaka kufa,\nutapata wokovu.\nBwana Yesu ni Mwoko:\nyeye anakupenda.\nUje kwake, 'sikawie,\nyeye akuokoa.\nNjoo upesi! Njoo upesi\nFika kwa Bwana Yesu\n2. Acha mambo ya dunia\nyakuhangaishayo.\nIko mali ya uzima,\nunaitiwa hiyo.\nMali hiyo ni uzima,\nutapewa na Bwana.\n3. Wakatae, waepuke\nwanaokudanganya.\nNi wajinga, wakuponza\nwakupoteza wewe;\nila wewe ukatae\nkuondoka kwa Yesu.\n4. Ukijua jambo hilo,\nusipolifuata,\nkosa hilo kubwa sana,\nwapasiwa hukumu.\nVumilia, jizuie,\nutapata uzima.\n\n5. Bwana Yesu amekwisha\nkukutengenezea\nkitu chema kwake Mungu\nndiko unakokwenda.\nKile kitu upendacho,\nkule utakipewa."
+    },
+    {
+      "number": 148,
+      "title": "ONDOKENI! TUNAITWA",
+      "lyrics": "1. Ondokeni! tunaitwa\nna walinzi wa juu mnarani.\nYerusalemu, amka wee!\nNi usiku wa manane,\nyuaja Bwana wa arusi,\nwanawali wako wapi?\nAmkeni upesi!, Kaziwasheni taa.\nHaleluya!, Fuateni arusini\nkwenda kumpokea Bwana!\n2. Sayuni anasikia\nmoyo waruka kwa furaha\nyu macho, anaondoka.\nMponya wake anashuka\nmbinguni mwenye utukufu\naleta mwanga wa kweli; taji yake yaja.\nna Mwana wa Mungu, Hosiana!\n\nTwafuata kwenye shangwe\ntukale karamu yake.\n\n3. Waimbiwa nyimbo nzuri\nkwa misemo ya watu wote\nna ya malaika mbinguni.\nTukifika mjini kwako\nkwenye milango ya malulu,\ntutakuimbia nasi.\nFuraha kama hii\nhaijasikiwa\nduniani.\nNasi sasa tunaimba,\ntunakusifu, Ee Bwana."
+    },
+    {
+      "number": 149,
+      "title": "HAYA, UMATI WA YESU",
+      "lyrics": "1. Haya, umati wa Yesu\nulioungwa naye!\nHaya, enendeni hima\nkatika vita kubwa!\nShetani tayari\nkupigana na sisi!\n\n2. Tumfuate Yesu Kristo,\ntumwamini yeye tu,\nMwovu akituvizia,\nsisi hatuogopi.\nMajeshi ya mbingu\nni pamoja na sisi!\n\n3. Tukikesha na kuomba\nYesu anavyotaka,\ntukishika Neno lake\nna tukimtegemea\nkwa nguvu hizi tu,\ntutaweza kushinda!\n\n4. Sasa haya, wenzi wangu,\ntumfuate Yesu tu!\nSiku za maisha yetu,\ntuwe katika yeye.\nTuache dunia\nkuingia mbinguni!\n\n5. Pale Mungu atawapa\ntaji walioshinda,\nwapate urithi wao\nnyumbani mwa milele.\nHayani! Tuimbe,\ntumsifu Bwana wetu!"
+    },
+    {
+      "number": 150,
+      "title": "HAYA, EE MOYO WANGU",
+      "lyrics": "1. Haya, ee moyo wangu,\nimba kwa furaha.\nUmwimbie Muumbaji\nmbingu na dunia.\nAtukuzwaye pote,\numsifu na wewe\nkwa nguvu zako zote,\numri wako wote.\n\n2. Mungu wake Yakobo, ndiye Mungu wetu.\nUkimchagua yeye, una fungu jema,\nunacho kitu chema; umepata mali,\nmoyo utakung’aa, shida zitakwisha.\n\n3. Ni mwenye nguvu nyingi,\nhana amshindaye.\nKwa hekima aumba,\nvyote ni ajabu:\nMisitu na mabonde,\nmilima, mashamba,\nvilivyo baharini,\nwanyama porini.\n4. Ana mizungu mingi,\nkuponya wanawe.\nAnawapa riziki,\nhata siku za njaa.\nWenye chakula haba\nwanenepa miili;\nhata waliofungwa\nanawafungua.\n\n5. Mashangilio yote\nhayamtoshi yeye.\nNi mwema peke yake,\nnami ni vumbi tu!\nAnanihurumia\nkwa kuwa ni wake;\nkwa hiyo nalikuza\njina lake pote."
+    },
+    {
+      "number": 151,
+      "title": "USIKU MTAKATIFU",
+      "lyrics": "1. Usiku mtakatifu!\nWengine walala,\nwakeshao ni Yosefu tu\nna Maria waliomlinda\nYesu, mwana mzuri,\nYesu, mwana mzuri.\n2. Usiku mtakatifu!\nWachunga wapewa\nhabari nzuri na malaika\nzienezwe popote sasa:\nYesu Mponya kaja,\nYesu Mponya kaja.\n3. Usiku mtakatifu!\nSiku ya furaha\nimetuangaza Kimungu\nTumeupewa ukombozi\nKristo amefika,\nKristo amefika."
+    },
+    {
+      "number": 152,
+      "title": "ULIYESULIBISHWA",
+      "lyrics": "1. Uliyesulibishwa,\nMtakatifu Bwanangu,\nuwe ngao shidani,\nuniombee mimi.\nUliyesulibishwa,\nMtakatifu Bwanangu!\n2. Wongofu sina hata, niondolee makosa.\nMwovu akinishtaki, nasumbuka rohoni.\nWongofu sina hata, niondolee makosa.\n3. Wewe tu nipokee, nakukimbilia wee.\nHata nifanye bidii, nikatoe machozi:\nWewe tu nipokee, nakukimbilia wee.\n4 Uwe ngao shidani, niombee na mimi!\nHapa nikiumizwa, saa ya mwisho ikija:\nUwe ngao shidani, niombee na mimi!"
+    },
+    {
+      "number": 153,
+      "title": "NIMEPITA ULIMWENGUNI",
+      "lyrics": "1. Nimepita ulimwengu.\nUlimwengu ni mzuri,\nlakini natamani.\nulimwengu mwingine.\n2. Nimeona watu wengi,\nhutafuta daima;\nmaisha yao yote\nndiyo taabu na shida.\n\n3. Imebaki hali njema\nya furaha ya roho:\nHubirini pote pote\ntaabu itatulia.\n4. Msalabani pa Golgotha,\njerahani mwa Yesu\nni mahali penye raha\nkwao wote kabisa."
+    },
+    {
+      "number": 154,
+      "title": "BARIKI YOTE YAWE MEMA",
+      "lyrics": "1. Bariki yote yawe mema,\nyote yawe mbaraka.\nWatu wa nchi za dunia,\nuwajaze utukufu.\nKaa kwetu, Bwana, bariki.\nUamini, wee ee ndugu,\nkweli yake Kristo.\nJaa utukufu wa Bwana\nsiku zako zote.\nVaa Mwokozi ee\nna kweli yake. Haleluya\n\n2. Nyumba za wote zibariki\nkwa jina lako takata.\nUjaze utukufu wako\nnchi zote za dunia.\n\n3. Nyosha mkono ubariki\nwaliojiunga nawe:\nWakupokee maishani\nwatunzwe nawe milele\n\n4. Bwana, yatunze mambo yote\nyaliyo mazuri kwako.\nUwape wote wakuombao\nwafanikishe maisha."
+    },
+    {
+      "number": 155,
+      "title": "HAPANA RAFIKI KAMA YESU",
+      "lyrics": "1. Hapana rafiki kama Yesu,\nyu pekee, yu pekee.\nHapana mpozi kama\nyu pekee, yu pekee.\nYesu ajua shida zeti\naweza kutuongoza.\nHapana rafiki kama\nyu pekee, yu pekee.\n2. Yeye anaye sifa, ni Yesu,\nyu pekee, yu pekee.\nNdiye aliye mnyenyekevu\nyu pekee, yu pekee.\n3. Yesu pamoja nasi daima\nyu pekee, yu pekee.\nKwa usiku aleta salama\nyu pekee, yu pekee.\n\n4. Kulinda Yesu yu mwaminifu,\nyu pekee, yu pekee.\nAtawakubali wahalifu,\nyu pekee, yu pekee.\n\n5. Alipelekwa awe Mwokozi,\nyu pekee, yu pekee.\nAnatutayarishia enzi,\nyu pekee, yu pekee."
+    },
+    {
+      "number": 156,
+      "title": "BWANA YESU YUKO WAPI",
+      "lyrics": "1. Bwana Yesu yuko wapi,\nmpenzi wangu rafiki?\nNjia gani amekwenda?\nNitamwonaje mimi?\nRoho yangu yajutishwa\nna dhambi na huzuni.\nYesu, mpenzi wangu mwema\nnamtafuta kwa bidii.\n\n2. Ninapaza sauti yangu,\nnalia: Wapi Yesu?\nNdani mwangu sina rah\nmpaka nimwone Yesu.\nNingekuwa na mabawa,\nningeruka upesi\nmilimani, mabondeni,\nkumtafuta Bwanangu.\n3. Aondoa shida zangu,\nmaharibifu yote.\nNikiona taabu mimi,\nanituliza yeye.\nNitafanya bidii sana\nkumtafuta popote;\nsitachoka kutembea\nmchana hata usiku.\n\n4. Bwana Yesu nitokee,\nroho inakuita.\nNiondoe na maovu,\nYesu Mwokozi wangi\nUtulize hamu yangu,\nkaa kwangu daima.\nNikupende sana wewe.\nniwe wako milele."
+    },
+    {
+      "number": 157,
+      "title": "KIJITO CHA UTAKASO",
+      "lyrics": "1. Kijito cha utakaso, ni damu ya Yesu,\nBwana anao uwezo, kunipa wokovu.\nKijito cha utakaso,\nnizame kuoshwa humo\nNamsifu Bwana kwa hiyo:\nnimepata utakaso.\n\n2. Viumbe vipya naona;\ndamu ina nguvu,\nimeharibu uovu\nuliodhulumu.\n3. Naondoka kutembea\nnuruni mwa mbingu,\nna moyo safi kabisa\nkumpendeza Mungu.\n\n4. Ni neema ya ajabu\nkupakwa na damu;\nna Bwana Yesu kumjua,\nYesu wa Msalaba."
+    },
+    {
+      "number": 158,
+      "title": "ANIONGOZAPO POTE",
+      "lyrics": "1. Aniongozapo pote,\nnimwandame siku zote.\nKwa ajili yangu mimi\naliuawa Kalvari.\nNitaongozwa na Bwana\nusiku kucha na mchana:\nYesu, rafiki wa heri;\nninakumbuka Kalvari.\n\n2. Lanitosha Neno lake,\nnishikwe na mkono waki\nMapenzi yake ni heri,\nyalitimizwa Kalvari.\n\n3. Nitaendelea mbele\npamoja naye milele.\nPendo lake ni hiari,\nBwana Yesu wa Kalvari."
+    },
+    {
+      "number": 159,
+      "title": "USHIRIKA MKUU, FURAHA YANGU",
+      "lyrics": "1. Ushirika mkuu, furaha yangu,\nkumtegemea Bwana Yesu.\nNina baraka, amani pia\nkumtegemea Bwana Yesu\nRaha, raha,\nnina raha na salama\nraha, raha,\nkwa kumtegemea Yesu.\n2. Ni halisi kutembea naye\nkwa kumtegemea Yesu\nNaona nuru njiani mwangu,\nkumtegemea Bwana Yesu.\n3. Sioni shaka wala hasara\nkumtegemea Bwana Yesu.\nNina amani kwake Mwokozi\nkumtegemea Bwana Yesu."
+    },
+    {
+      "number": 160,
+      "title": "JIONI MOYO WANGU",
+      "lyrics": "1. Jioni moyo wangu\nwakutafuta, Bwana,\nna kukushukuru.\nUnikazie macho\nyenye baraka nyingi,\nung'aze mwili na roho\n\n2. Natumaini tena\nana, rehema yako Baba\n; hata usiku huu.\nFukuza majaribu\nna hila ya Shetani,\nukiwa karibu yangu.\n\n3. Unanipenda sana, \nwakaa pamoja nami, \nwanikaribisha. \nUnanifurahisha,\nkwa wema wako mwingi, \nsababu hii nakusifu. \n4. Maisha yanipita,\nUpesi ni safari ya kwenda mbinguni,\nUnifundishe Bwana, Kuelekea kwako.\nPazuri ni mbinguni tu."
+    },
+    {
+      "number": 161,
+      "title": "USIKU UINGIAPO",
+      "lyrics": "1. Usiku uingiapo,\numwaze Mungu Mkuu\naendeshaye dunia\nkwa mwendo mtulivu.\n\n2. Kwa nini wahangaika\nusiku na mchana?\nUmtwishe huzuni yako\naliyekuumba.\n\n3. Kwake haujapunguka\nuwezo na msaada.\nAtayatimiza yote\naliyoyaanza.\n\n4. Ukamwachie kutenda\natakalo kwako!\nKwa hiyo ulale raha\nna kufurahiwa."
+    }
+  ]
+}
