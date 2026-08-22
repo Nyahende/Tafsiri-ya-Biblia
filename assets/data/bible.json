@@ -7662,6 +7662,458 @@
       }
     },
     {
+      "id": "yakobo",
+      "name": "Yakobo",
+      "englishName": "James",
+      "testament": "Agano Jipya",
+      "bookNumber": 59,
+      "chapterCount": 5,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Yakobo, mtumishi wa Mungu na wa Bwana Yesu Kristo, kwa makabila kumi na mawili yaliyotawanyika: Salamu."
+          },
+          {
+            "number": 2,
+            "text": "Ndugu zangu, hesabuni kuwa ni furaha tupu mnapoangukia katika majaribu ya namna mbalimbali;"
+          },
+          {
+            "number": 3,
+            "text": "Mkijua kwamba kujaribiwa kwa imani yenu huleta saburi."
+          },
+          {
+            "number": 4,
+            "text": "Saburi na iwe na kazi kamilifu, mpate kuwa wakamilifu na watimilifu bila kupungukiwa na neno."
+          },
+          {
+            "number": 5,
+            "text": "Ikiwa yeyote miongoni mwenu amepungukiwa na hekima, na aombe kwa Mungu, ambaye huwapa watu wote kwa ukarimu wala hakemei; naye atapewa."
+          },
+          {
+            "number": 6,
+            "text": "Lakini na aombe kwa imani, bila kuwa na shaka hata kidogo. Kwa maana mwenye shaka ni kama wimbi la bahari linalosukumwa na upepo na kurushwa huku na huku."
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana mtu huyo asifikiri kwamba atapokea kitu chochote kutoka kwa Bwana."
+          },
+          {
+            "number": 8,
+            "text": "Mtu wa nia mbili husita-sita katika njia zake zote."
+          },
+          {
+            "number": 9,
+            "text": "Lakini mtu asiye na cheo na afurahi kwa kua ametukuzwa."
+          },
+          {
+            "number": 10,
+            "text": "Bali tajiri kwa kuwa ameshushwa; kwa maana kama ua la majani atatoweka."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana jua linapochomoza pamoja na joto kali, huyakausha majani, na ua lake huanguka, na uzuri wa sura yake hupotea; vivyo hivyo tajiri naye atanyauka katika shughuli zake."
+          },
+          {
+            "number": 12,
+            "text": "Amebarikiwa mtu anayestahimili jaribu; kwa maana akiisha kujaribiwa na kuthibitishwa, atapokea taji ya uzima, ambayo Bwana amewaahidi wale wampendao."
+          },
+          {
+            "number": 13,
+            "text": "Mtu anapojaribiwa asiseme, ‘Ninajaribiwa na Mungu’; kwa maana Mungu hawezi kujaribiwa na uovu, wala yeye mwenyewe hamjaribu mtu yeyote kwa uovu."
+          },
+          {
+            "number": 14,
+            "text": "Lakini kila mtu hujaribiwa anapovutwa na tamaa yake mwenyewe na kushawishiwa nayo."
+          },
+          {
+            "number": 15,
+            "text": "Kisha tamaa ikiisha kuchukua mimba, huzaa dhambi; na dhambi ikiisha kukomaa, huzaa mauti."
+          },
+          {
+            "number": 16,
+            "text": "Msidanganyike, ndugu zangu wapendwa."
+          },
+          {
+            "number": 17,
+            "text": "Kila karama njema na kila karama kamilifu hutoka juu, hushuka kutoka kwa Baba wa mianga, ambaye kwake hakuna kubadilika wala kivuli cha kugeuka."
+          },
+          {
+            "number": 18,
+            "text": "Kwa mapenzi yake mwenyewe alituzaa kwa neno la kweli, ili tuwe kama malimbuko ya viumbe vyake."
+          },
+          {
+            "number": 19,
+            "text": "Kwa hiyo, ndugu zangu wapendwa, kila mtu na awe mwepesi wa kusikia, si mwepesi wa kusema, wala si mwepesi wa kukasirika;"
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana hasira ya mwanadamu haitendi haki ya Mungu."
+          },
+          {
+            "number": 21,
+            "text": "Kwa hiyo, wekeni mbali uchafu wote na wingi wa ubaya, na kwa upole lipokeeni neno lililopandwa ndani yenu, ambalo linaweza kuziokoa roho zenu."
+          },
+          {
+            "number": 22,
+            "text": "Lakini iweni watendaji wa neno, wala si wasikiaji tu, mkijidanganya wenyewe."
+          },
+          {
+            "number": 23,
+            "text": "Kwa maana mtu akiwa msikiaji wa neno, wala si mtendaji, anafanana na mtu anayeutazama uso wake wa asili katika kioo;"
+          },
+          {
+            "number": 24,
+            "text": "Kwa maana anajitazama mwenyewe, kisha anaondoka, na mara moja anasahau jinsi alivyokuwa."
+          },
+          {
+            "number": 25,
+            "text": "Lakini yeye anayeichunguza kwa makini sheria kamilifu ya uhuru, na kudumu ndani yake, akiwa si msikiaji anayesahau, bali mtendaji wa kazi, mtu huyo atabarikiwa katika kutenda kwake."
+          },
+          {
+            "number": 26,
+            "text": "Mtu yeyote miongoni mwenu akijiona kuwa ni mtu wa dini, lakini hauzuii ulimi wake, bali anaudanganya moyo wake mwenyewe, dini ya mtu huyo ni bure."
+          },
+          {
+            "number": 27,
+            "text": "Dini iliyo safi na isiyo na unajisi mbele za Mungu Baba ni hii: kuwajali yatima na wajane katika dhiki zao, na kujilinda mwenyewe asichafuliwe na ulimwengu."
+          }
+        ],
+        "2": [
+          {
+            "number": 1,
+            "text": "Ndugu zangu, msiwe na imani katika Bwana wetu Yesu Kristo, Bwana wa utukufu, huku mkiwa na upendeleo kwa watu."
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana akiingia katika kusanyiko lenu mtu aliyevaa pete ya dhahabu na mavazi mazuri, na pia akaingia mtu maskini aliyevaa mavazi duni;"
+          },
+          {
+            "number": 3,
+            "text": "Nanyi mkamjali zaidi yule aliyevaa mavazi ya kifahari, mkamwambia, ‘Wewe keti hapa mahali pazuri’; lakini mkamwambia maskini, ‘Wewe simama pale,’ au, ‘Keti hapa chini karibu na kiti changu cha miguu’;"
+          },
+          {
+            "number": 4,
+            "text": "Je, hamjafanya ubaguzi miongoni mwenu, na kuwa waamuzi wenye mawazo mabaya?"
+          },
+          {
+            "number": 5,
+            "text": "Sikilizeni, ndugu zangu wapendwa: Je, Mungu hakuwachagua maskini wa dunia hii wawe matajiri katika imani, na warithi wa ufalme aliowaahidi wale wampendao?"
+          },
+          {
+            "number": 6,
+            "text": "Lakini ninyi mmemdharau maskini. Je, si matajiri wanaowakandamiza na kuwaburuta mbele ya mahakama?"
+          },
+          {
+            "number": 7,
+            "text": "Je, si wao wanaolikufuru jina lile jema ambalo mmeitwa kwalo?"
+          },
+          {
+            "number": 8,
+            "text": "Ikiwa mnaitimiza sheria ya kifalme sawasawa na Maandiko, ‘Mpende jirani yako kama nafsi yako,’ mnafanya vema."
+          },
+          {
+            "number": 9,
+            "text": "Lakini ikiwa mnawabagua watu kwa upendeleo, mnatenda dhambi, na sheria inawathibitisha kuwa wavunjaji wake."
+          },
+          {
+            "number": 10,
+            "text": "Kwa maana mtu yeyote atakayeishika sheria yote, lakini akakosea katika jambo moja, amekuwa na hatia ya kuivunja yote."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana yeye aliyesema, ‘Usizini,’ alisema pia, ‘Usiue.’ Basi ikiwa huzini, lakini unaua, umekuwa mvunjaji wa sheria."
+          },
+          {
+            "number": 12,
+            "text": "Basi semeni na kutenda kama watu watakaohukumiwa kwa sheria ya uhuru."
+          },
+          {
+            "number": 13,
+            "text": "Maana hukumu haina huruma kwake yeye asiyeona huruma. Huruma hujitukuza juu ya hukumu."
+          },
+          {
+            "number": 14,
+            "text": "Ndugu zangu, yafaa nini mtu akisema ana imani, lakini hana matendo? Je, imani hiyo inaweza kumwokoa?"
+          },
+          {
+            "number": 15,
+            "text": "Ikiwa ndugu mwanamume au mwanamke hana mavazi ya kutosha, na amepungukiwa na chakula cha kila siku."
+          },
+          {
+            "number": 16,
+            "text": "Na mmoja wenu akawaambia, ‘Nendeni kwa amani, mpate joto na kushiba,’ lakini msiwape vitu vinavyohitajika kwa mwili, yafaa nini?"
+          },
+          {
+            "number": 17,
+            "text": "Vivyo hivyo imani, ikiwa haina matendo, imekufa ikiwa peke yake."
+          },
+          {
+            "number": 18,
+            "text": "Naam, mtu anaweza kusema, ‘Wewe una imani, nami nina matendo.’ Nionyeshe imani yako bila matendo yako, nami nitakuonyesha imani yangu kwa matendo yangu."
+          },
+          {
+            "number": 19,
+            "text": "Unaamini kwamba Mungu ni mmoja; unafanya vema. Mashetani nao wanaamini, na kutetemeka."
+          },
+          {
+            "number": 20,
+            "text": "Lakini je, wataka kujua, ewe mtu asiye na maana, kwamba imani bila matendo imekufa?"
+          },
+          {
+            "number": 21,
+            "text": "Je, Abrahamu baba yetu hakuhesabiwa kuwa mwenye haki kwa matendo, alipomtoa Isaka mwanawe juu ya madhabahu?"
+          },
+          {
+            "number": 22,
+            "text": "Waona jinsi imani ilivyotenda kazi pamoja na matendo yake, na kwa matendo imani yake ikakamilishwa?"
+          },
+          {
+            "number": 23,
+            "text": "Na Maandiko yakatimizwa yasemayo, ‘Abrahamu alimwamini Mungu, na ikahesabiwa kwake kuwa haki’; naye akaitwa Rafiki wa Mungu."
+          },
+          {
+            "number": 24,
+            "text": "Basi mnaona kwamba kwa matendo mtu huhesabiwa kuwa mwenye haki, wala si kwa imani peke yake."
+          },
+          {
+            "number": 25,
+            "text": "Vivyo hivyo, je, Rahabu yule kahaba hakuhesabiwa kuwa mwenye haki kwa matendo, alipowapokea wale wajumbe na kuwapeleka waondoke kwa njia nyingine?"
+          },
+          {
+            "number": 26,
+            "text": "Kwa maana kama vile mwili pasipo roho umekufa, vivyo hivyo imani pasipo matendo imekufa."
+          }
+        ],
+        "3": [
+          {
+            "number": 1,
+            "text": "Ndugu zangu, msiwe wengi kuwa walimu, mkijua kwamba sisi tutapokea hukumu iliyo kubwa zaidi."
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana katika mambo mengi sisi sote hukosea. Ikiwa mtu hakosei katika maneno, huyo ni mtu mkamilifu, awezaye pia kuutawala mwili wake wote."
+          },
+          {
+            "number": 3,
+            "text": "Tazama, tunaweka lijamu katika vinywa vya farasi ili watutii, nasi tunaweza kugeuza mwili wao wote."
+          },
+          {
+            "number": 4,
+            "text": "Tazama pia merikebu; ingawa ni kubwa sana na husukumwa na pepo kali, hugeuzwa kwa usukani mdogo sana kuelekea popote anapotaka nahodha."
+          },
+          {
+            "number": 5,
+            "text": "Vivyo hivyo ulimi ni kiungo kidogo, lakini hujivunia mambo makubwa. Tazama, moto mdogo jinsi unavyoweza kuwasha kitu kikubwa!"
+          },
+          {
+            "number": 6,
+            "text": "Na ulimi ni moto, ulimwengu wa uovu; ndivyo ulimi ulivyo miongoni mwa viungo vyetu, huutia unajisi mwili wote, na kuwasha moto mzunguko mzima wa maisha; nao wenyewe huwashwa moto na jehanamu."
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana kila aina ya wanyama, na ndege, na viumbe vitambaavyo, na viumbe vya baharini, hufugwa na vimefugwa na wanadamu;"
+          },
+          {
+            "number": 8,
+            "text": "Lakini hakuna mwanadamu awezaye kuufuga ulimi; ni uovu usiotawalika, umejaa sumu ya mauti."
+          },
+          {
+            "number": 9,
+            "text": "Kwa ulimi huo tunambariki Mungu, yaani Baba; na kwa ulimi huo tunawalaani wanadamu, ambao wameumbwa kwa mfano wa Mungu."
+          },
+          {
+            "number": 10,
+            "text": "Katika kinywa kilekile hutoka baraka na laana. Ndugu zangu, mambo haya hayapaswi kuwa hivyo."
+          },
+          {
+            "number": 11,
+            "text": "Je, chemchemi inaweza kutoa katika tundu lilelile maji matamu na maji machungu?"
+          },
+          {
+            "number": 12,
+            "text": "Ndugu zangu, je, mtini unaweza kuzaa zeituni? Au mzabibu kuzaa tini? Vivyo hivyo, chemchemi haiwezi kutoa maji ya chumvi na maji safi."
+          },
+          {
+            "number": 13,
+            "text": "Ni nani aliye na hekima na mwenye uelewa miongoni mwenu? Na aonyeshe kwa mwenendo wake mwema matendo yake katika upole wa hekima."
+          },
+          {
+            "number": 14,
+            "text": "Lakini ikiwa mna wivu mchungu na ugomvi mioyoni mwenu, msijisifu, wala msiseme uongo kinyume cha kweli."
+          },
+          {
+            "number": 15,
+            "text": "Hekima hii haishuki kutoka juu, bali ni ya kidunia, ya kimwili, na ya kishetani."
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana palipo na wivu na ugomvi, ndipo palipo na machafuko na kila tendo ovu."
+          },
+          {
+            "number": 17,
+            "text": "Lakini hekima itokayo juu kwanza ni safi, kisha ni ya amani, ya upole, tayari kusikiliza na kukubali, imejaa rehema na matunda mema, haina upendeleo wala unafiki."
+          },
+          {
+            "number": 18,
+            "text": "Na tunda la haki hupandwa katika amani na wale wafanyao amani."
+          }
+        ],
+        "4": [
+          {
+            "number": 1,
+            "text": "Vita na mapigano miongoni mwenu hutoka wapi? Je, hayatoki katika tamaa zenu zinazopigana vita ndani ya viungo vyenu?"
+          },
+          {
+            "number": 2,
+            "text": "Mnatamani, lakini hampati; mnaua na kutamani kuwa navyo, lakini hamwezi kuvipata; mnapigana na kufanya vita, lakini hampati, kwa sababu hamwombi."
+          },
+          {
+            "number": 3,
+            "text": "Mnaomba, lakini hampokei, kwa sababu mnaomba vibaya, ili mvitumie kwa tamaa zenu wenyewe."
+          },
+          {
+            "number": 4,
+            "text": "Enyi wazinzi wanaume na wanawake, hamjui kwamba urafiki na ulimwengu ni uadui na Mungu? Basi yeyote anayetaka kuwa rafiki wa ulimwengu anajifanya kuwa adui wa Mungu."
+          },
+          {
+            "number": 5,
+            "text": "Je, mnadhani kwamba Maandiko yasema bure, ‘Roho akaaye ndani yetu hutamani hata kufikia husudu’?"
+          },
+          {
+            "number": 6,
+            "text": "Lakini yeye hutoa neema iliyo kubwa zaidi. Kwa hiyo yasema, ‘Mungu huwapinga wenye kiburi, lakini huwapa neema wanyenyekevu.’"
+          },
+          {
+            "number": 7,
+            "text": "Basi jitiisheni kwa Mungu. Mpingeni Ibilisi, naye atawakimbia."
+          },
+          {
+            "number": 8,
+            "text": "Mkaribieni Mungu, naye atawakaribia ninyi. Itakaseni mikono yenu, enyi wenye dhambi; na isafisheni mioyo yenu, enyi wenye nia mbili."
+          },
+          {
+            "number": 9,
+            "text": "Huzunikeni, ombolezeni, na kulia; kicheko chenu na kigeuke kuwa maombolezo, na furaha yenu kuwa huzuni."
+          },
+          {
+            "number": 10,
+            "text": "Jinyenyekezeni mbele za Bwana, naye atawainua."
+          },
+          {
+            "number": 11,
+            "text": "Ndugu, msiseme mabaya ninyi kwa ninyi. Yeye anayemsema vibaya ndugu yake na kumhukumu ndugu yake, anaisema vibaya sheria na kuihukumu sheria; lakini ukiihukumu sheria, wewe si mtendaji wa sheria, bali ni hakimu."
+          },
+          {
+            "number": 12,
+            "text": "Yuko Mtoa-sheria mmoja, ambaye anaweza kuokoa na kuangamiza; wewe ni nani hata umhukumu mwingine?"
+          },
+          {
+            "number": 13,
+            "text": "Sikilizeni sasa, ninyi msemao, ‘Leo au kesho tutaenda katika mji fulani, tutakaa huko mwaka mmoja, tutafanya biashara na kupata faida.’"
+          },
+          {
+            "number": 14,
+            "text": "Lakini hamjui yatakayotokea kesho. Kwa maana maisha yenu ni nini? Ni kama mvuke unaoonekana kwa muda mfupi, kisha hutoweka."
+          },
+          {
+            "number": 15,
+            "text": "Badala yake, imewapasa kusema, ‘Bwana akipenda, tutaishi na kufanya hili au lile.’"
+          },
+          {
+            "number": 16,
+            "text": "Lakini sasa mnajisifu katika majivuno yenu; kujisifu kote kwa namna hiyo ni uovu."
+          },
+          {
+            "number": 17,
+            "text": "Kwa hiyo, yeye ajuaye kutenda mema lakini hayatendi, kwake huyo ni dhambi."
+          }
+        ],
+        "5": [
+          {
+            "number": 1,
+            "text": "Sikilizeni sasa, enyi matajiri; lieni na kuomboleza kwa sababu ya taabu zitakazowajia."
+          },
+          {
+            "number": 2,
+            "text": "Utajiri wenu umeharibika, na mavazi yenu yameliwa na nondo."
+          },
+          {
+            "number": 3,
+            "text": "Dhahabu yenu na fedha yenu vimeliwa na kutu; na kutu yake itakuwa ushahidi dhidi yenu, nayo itakula miili yenu kama moto. Mmejiwekea hazina kwa ajili ya siku za mwisho."
+          },
+          {
+            "number": 4,
+            "text": "Tazama, ujira wa wafanyakazi waliovuna mashamba yenu, ambao mmeuzuia kwa udanganyifu, unapiga kelele; na vilio vya wale waliovuna vimefika masikioni mwa Bwana wa majeshi."
+          },
+          {
+            "number": 5,
+            "text": "Mmeishi duniani kwa anasa na kujifurahisha kupita kiasi; mmeinenepesha mioyo yenu kama katika siku ya kuchinjwa."
+          },
+          {
+            "number": 6,
+            "text": "Mmemhukumu na kumuua mwenye haki; naye hawapingi."
+          },
+          {
+            "number": 7,
+            "text": "Basi, ndugu, vumilieni mpaka kuja kwake Bwana. Tazama, mkulima hulingojea tunda la thamani la nchi, akilivumilia kwa muda mrefu mpaka apokee mvua ya kwanza na ya mwisho."
+          },
+          {
+            "number": 8,
+            "text": "Ninyi nanyi vumilieni; imarisheni mioyo yenu, kwa maana kuja kwake Bwana kumekaribia."
+          },
+          {
+            "number": 9,
+            "text": "Ndugu, msinung'unikiane ninyi kwa ninyi, msije mkahukumiwa; tazama, Hakimu amesimama mlangoni."
+          },
+          {
+            "number": 10,
+            "text": "Ndugu zangu, wachukueni manabii walionena kwa jina la Bwana kuwa mfano wa kustahimili mateso na wa saburi."
+          },
+          {
+            "number": 11,
+            "text": "Tazama, tunawahesabu kuwa wamebarikiwa wale wanaostahimili. Mmesikia juu ya saburi ya Ayubu, na mmeona mwisho ambao Bwana alimletea; kwamba Bwana ni mwingi wa huruma na rehema."
+          },
+          {
+            "number": 12,
+            "text": "Lakini zaidi ya yote, ndugu zangu, msiape; wala kwa mbingu, wala kwa dunia, wala kwa kiapo kingine chochote; bali ‘Ndiyo’ yenu iwe ndiyo, na ‘Hapana’ yenu iwe hapana, msije mkaangukia katika hukumu."
+          },
+          {
+            "number": 13,
+            "text": "Je, kuna yeyote miongoni mwenu anayeteseka? Na aombe. Je, kuna yeyote mwenye furaha? Na aimbe zaburi."
+          },
+          {
+            "number": 14,
+            "text": "Je, kuna yeyote miongoni mwenu aliye mgonjwa? Na awaite wazee wa kanisa; nao wamwombee, wakimpaka mafuta kwa jina la Bwana;"
+          },
+          {
+            "number": 15,
+            "text": "Na kuomba kwa imani kutamwokoa mgonjwa, naye Bwana atamwinua; na ikiwa ametenda dhambi, atasamehewa."
+          },
+          {
+            "number": 16,
+            "text": "Ungameni makosa yenu ninyi kwa ninyi na kuombeana, ili mpate kuponywa. Kuomba kwake mwenye haki kwafaa sana, akiomba kwa bidii."
+          },
+          {
+            "number": 17,
+            "text": "Eliya alikuwa mwanadamu mwenye hisia na udhaifu kama sisi, naye akaomba kwa bidii kwamba mvua isinyeshe; na mvua haikunyesha juu ya nchi kwa muda wa miaka mitatu na miezi sita."
+          },
+          {
+            "number": 18,
+            "text": "Kisha akaomba tena, na mbingu zikatoa mvua, nayo nchi ikazaa matunda yake."
+          },
+          {
+            "number": 19,
+            "text": "Ndugu zangu, ikiwa yeyote miongoni mwenu amepotoka kutoka katika kweli, na mtu mwingine akamrudisha;"
+          },
+          {
+            "number": 20,
+            "text": "Na ajue kwamba yeye amrudishaye mwenye dhambi kutoka katika upotovu wa njia yake ataokoa roho kutoka mautini, na atafunika wingi wa dhambi."
+          }
+        ]
+      }
+    },
+    {
       "id": "1_petro",
       "name": "1 Petro",
       "englishName": "1 Peter",
