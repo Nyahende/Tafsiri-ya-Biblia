@@ -7662,6 +7662,706 @@
       }
     },
     {
+      "id": "1_petro",
+      "name": "1 Petro",
+      "englishName": "1 Peter",
+      "testament": "Agano Jipya",
+      "bookNumber": 60,
+      "chapterCount": 5,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Petro, mtume wa Yesu Kristo, kwa wageni waliotawanyika katika Ponto, Galatia, Kapadokia, Asia na Bithinia;"
+          },
+          {
+            "number": 2,
+            "text": "Walioteuliwa kwa kadiri ya kujua tangu awali kwa Mungu Baba, kwa kutakaswa na Roho, hata kufikia utii na kunyunyiziwa damu ya Yesu Kristo: Neema na amani na zizidishwe kwenu."
+          },
+          {
+            "number": 3,
+            "text": "Ahimidiwe Mungu na Baba wa Bwana wetu Yesu Kristo, ambaye kwa rehema zake nyingi ametuzaa mara ya pili katika tumaini lililo hai kwa kufufuka kwa Yesu Kristo kutoka kwa wafu;"
+          },
+          {
+            "number": 4,
+            "text": "Ili tupokee urithi usioharibika, usio na unajisi, wala usionyauka, uliohifadhiwa mbinguni kwa ajili yenu;"
+          },
+          {
+            "number": 5,
+            "text": "Ninyi mnaolindwa kwa nguvu za Mungu kwa njia ya imani, hata mpate wokovu ulio tayari kufunuliwa wakati wa mwisho."
+          },
+          {
+            "number": 6,
+            "text": "Katika jambo hilo mnashangilia sana, ingawa sasa kwa muda mfupi, ikiwa ni lazima, mmehuzunishwa kwa majaribu ya namna mbalimbali;"
+          },
+          {
+            "number": 7,
+            "text": "Ili kujaribiwa kwa imani yenu, ambayo ni ya thamani kubwa kuliko dhahabu iharibikayo, ijapokuwa hujaribiwa kwa moto, kuonekane kuwa kwenye sifa, heshima na utukufu wakati wa kufunuliwa kwake Yesu Kristo."
+          },
+          {
+            "number": 8,
+            "text": "Ambaye, ingawa hamjamwona, mnampenda; na ingawa sasa hammwoni, lakini kwa kumwamini, mnashangilia kwa furaha isiyoweza kusemwa na iliyojaa utukufu;"
+          },
+          {
+            "number": 9,
+            "text": "Mkipokea mwisho wa imani yenu, yaani wokovu wa roho zenu."
+          },
+          {
+            "number": 10,
+            "text": "Kuhusu wokovu huo, manabii waliuliza na kuchunguza kwa bidii, wao waliotabiri kuhusu neema ambayo ingewajia ninyi."
+          },
+          {
+            "number": 11,
+            "text": "Wakichunguza ni wakati gani, au ni wakati wa namna gani, ambao Roho wa Kristo aliyekuwa ndani yao alikuwa akiashiria, aliposhuhudia tangu awali kuhusu mateso ya Kristo na utukufu ambao ungefuata."
+          },
+          {
+            "number": 12,
+            "text": "Nao walifunuliwa kwamba hawakujihudumia wenyewe, bali walituhudumia sisi katika mambo hayo, ambayo sasa yamehubiriwa kwenu na wale waliowahubiria Injili kwa Roho Mtakatifu aliyetumwa kutoka mbinguni; mambo ambayo hata malaika wanatamani kuyachunguza."
+          },
+          {
+            "number": 13,
+            "text": "Kwa hiyo, vifungeni viuno vya nia zenu, muwe na kiasi, na mtumaini kikamilifu neema mtakayoletewa wakati wa kufunuliwa kwake Yesu Kristo."
+          },
+          {
+            "number": 14,
+            "text": "Kama watoto watiifu, msijifananishe na tamaa zenu za zamani mlizokuwa nazo katika ujinga wenu;"
+          },
+          {
+            "number": 15,
+            "text": "Bali kama yeye aliyewaita alivyo mtakatifu, ninyi pia iweni watakatifu katika mwenendo wenu wote;"
+          },
+          {
+            "number": 16,
+            "text": "Kwa sababu imeandikwa, ‘Iweni watakatifu; kwa maana mimi ni mtakatifu.’"
+          },
+          {
+            "number": 17,
+            "text": "Na ikiwa mnamwita Baba yeye ambaye huhukumu kila mtu sawasawa na matendo yake, bila upendeleo, enendeni katika kipindi cha kukaa kwenu hapa kwa hofu;"
+          },
+          {
+            "number": 18,
+            "text": "Mkijua kwamba hamkukombolewa kwa vitu viharibikavyo, kama fedha na dhahabu, kutoka katika mwenendo wenu usio faa mliourithi kutoka kwa baba zenu;"
+          },
+          {
+            "number": 19,
+            "text": "Bali kwa damu ya thamani ya Kristo, kama ya mwana-kondoo asiye na dosari wala doa."
+          },
+          {
+            "number": 20,
+            "text": "Ambaye kwa kweli alichaguliwa tangu kabla ya kuwekwa msingi wa ulimwengu, lakini amedhihirishwa katika nyakati hizi za mwisho kwa ajili yenu;"
+          },
+          {
+            "number": 21,
+            "text": "Ninyi ambao kwa yeye mnamwamini Mungu, aliyemfufua kutoka kwa wafu na kumpa utukufu, ili imani yenu na tumaini lenu viwe katika Mungu."
+          },
+          {
+            "number": 22,
+            "text": "Kwa kuwa mmezitakasa roho zenu kwa kuitii kweli kupitia Roho, hata kufikia upendo wa kweli wa kindugu, pendaneni sana ninyi kwa ninyi kwa moyo safi."
+          },
+          {
+            "number": 23,
+            "text": "Kwa kuwa mmezaliwa mara ya pili, si kwa mbegu iharibikayo, bali kwa ile isiyoharibika, kwa neno la Mungu lililo hai na lidumulo milele."
+          },
+          {
+            "number": 24,
+            "text": "Kwa maana mwili wote ni kama majani, na utukufu wote wa mwanadamu ni kama ua la majani. Majani hunyauka, na ua lake huanguka;"
+          },
+          {
+            "number": 25,
+            "text": "Lakini neno la Bwana hudumu milele. Na hili ndilo neno ambalo limehubiriwa kwenu kwa njia ya Injili."
+          }
+        ],
+        "2": [
+          {
+            "number": 1,
+            "text": "Kwa hiyo, wekeni mbali ubaya wote, na udanganyifu wote, na unafiki, na wivu, na maneno yote mabaya;"
+          },
+          {
+            "number": 2,
+            "text": "Kama watoto wachanga waliozaliwa sasa, yatamanini maziwa safi ya neno, ili kwa hayo mpate kukua;"
+          },
+          {
+            "number": 3,
+            "text": "Ikiwa kweli mmeonja kwamba Bwana ni mwenye neema."
+          },
+          {
+            "number": 4,
+            "text": "Mkimjia yeye kama jiwe lililo hai, lililokataliwa kweli na wanadamu, lakini lililochaguliwa na Mungu na ni la thamani."
+          },
+          {
+            "number": 5,
+            "text": "Ninyi nanyi, kama mawe yaliyo hai, mnajengwa kuwa nyumba ya kiroho, ukuhani mtakatifu, ili kutoa sadaka za kiroho zinazokubalika kwa Mungu kwa njia ya Yesu Kristo."
+          },
+          {
+            "number": 6,
+            "text": "Kwa hiyo pia imeandikwa katika Maandiko: ‘Tazama, naweka katika Sayuni jiwe kuu la pembeni, lililochaguliwa na la thamani; naye amwaminiye hatatahayarika.’"
+          },
+          {
+            "number": 7,
+            "text": "Basi kwenu ninyi mnaoamini, yeye ni wa thamani; lakini kwa wale wasiotii, ‘Jiwe walilolikataa waashi, hilo limekuwa jiwe kuu la pembeni.’"
+          },
+          {
+            "number": 8,
+            "text": "Na, ‘Jiwe la kujikwaa na mwamba wa kuangukia’; wao hujikwaa kwa sababu hawalitii neno, jambo ambalo pia waliwekwa kulipata."
+          },
+          {
+            "number": 9,
+            "text": "Lakini ninyi ni kizazi kilichochaguliwa, ukuhani wa kifalme, taifa takatifu, watu wa milki; ili mzitangaze sifa zake yeye aliyewaita kutoka gizani kuingia katika nuru yake ya ajabu."
+          },
+          {
+            "number": 10,
+            "text": "Ninyi ambao zamani hamkuwa watu, lakini sasa ni watu wa Mungu; ambao zamani hamkupata rehema, lakini sasa mmepata rehema."
+          },
+          {
+            "number": 11,
+            "text": "Wapenzi, nawasihi kama wageni na wasafiri, jiepusheni na tamaa za mwili, ambazo hupigana vita dhidi ya roho;"
+          },
+          {
+            "number": 12,
+            "text": "Mkiwa na mwenendo mwema kati ya Mataifa; ili, ijapokuwa wanawasema kuwa watenda mabaya, kwa kuyaona matendo yenu mema wamtukuze Mungu katika siku ya kujiliwa."
+          },
+          {
+            "number": 13,
+            "text": "Jitiisheni kwa kila mamlaka ya kibinadamu kwa ajili ya Bwana; ikiwa ni kwa mfalme, kama mwenye mamlaka kuu;"
+          },
+          {
+            "number": 14,
+            "text": "Au kwa watawala, kama waliotumwa naye kuwaadhibu watenda mabaya na kuwasifu watenda mema."
+          },
+          {
+            "number": 15,
+            "text": "Kwa maana hayo ndiyo mapenzi ya Mungu, kwamba kwa kutenda mema mnyamazishe ujinga wa watu wapumbavu."
+          },
+          {
+            "number": 16,
+            "text": "Kama watu huru, lakini msiutumie uhuru wenu kuwa kifuniko cha ubaya, bali kama watumishi wa Mungu."
+          },
+          {
+            "number": 17,
+            "text": "Waheshimuni watu wote. Wapendeni ndugu. Mhofuni Mungu. Mheshimuni mfalme."
+          },
+          {
+            "number": 18,
+            "text": "Watumishi, jitiisheni kwa mabwana zenu kwa hofu yote; si kwa wale walio wema na wapole tu, bali pia kwa wale walio wakaidi."
+          },
+          {
+            "number": 19,
+            "text": "Kwa maana hili ni jambo la kustahili shukrani, ikiwa mtu kwa sababu ya dhamiri yake mbele za Mungu anavumilia huzuni, akiteswa isivyo haki."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana kuna sifa gani ikiwa, mnapopigwa kwa sababu ya makosa yenu, mnastahimili kwa saburi? Lakini ikiwa mnatenda mema, kisha mkateseka kwa ajili yake na kustahimili kwa saburi, jambo hili linakubalika mbele za Mungu."
+          },
+          {
+            "number": 21,
+            "text": "Kwa maana hata kwa hili mliitwa; kwa sababu Kristo naye aliteseka kwa ajili yetu, akituachia mfano, ili mfuate nyayo zake."
+          },
+          {
+            "number": 22,
+            "text": "Yeye hakutenda dhambi, wala hila haukuonekana kinywani mwake."
+          },
+          {
+            "number": 23,
+            "text": "Yeye alipotukanwa, hakutukana tena; alipoteswa, hakutishia, bali alijikabidhi kwake yeye ahukumuye kwa haki;"
+          },
+          {
+            "number": 24,
+            "text": "Yeye mwenyewe alizichukua dhambi zetu katika mwili wake juu ya mti, ili sisi, tukiwa tumekufa kwa dhambi, tuishi kwa usahihi; ambaye kwa kupigwa kwake mliponywa."
+          },
+          {
+            "number": 25,
+            "text": "Kwa maana mlikuwa kama kondoo waliopotea; lakini sasa mmemrudia Mchungaji na Mwangalizi wa roho zenu."
+          }
+        ],
+        "3": [
+          {
+            "number": 1,
+            "text": "Vivyo hivyo, ninyi wake, jitiisheni kwa waume zenu wenyewe; ili ikiwa baadhi yao hawalitii neno, wapate kuvutwa bila neno kwa mwenendo wa wake zao;"
+          },
+          {
+            "number": 2,
+            "text": "Wanapouona mwenendo wenu safi ulioambatana na hofu."
+          },
+          {
+            "number": 3,
+            "text": "Kujipamba kwenu kusiwe kwa nje tu, kwa kusuka nywele, kuvaa dhahabu, au kuvaa mavazi ya kifahari;"
+          },
+          {
+            "number": 4,
+            "text": "Bali kuwe ni utu wa ndani wa moyo, katika uzuri usioharibika wa roho ya upole na utulivu, ambao ni wa thamani kubwa mbele za Mungu."
+          },
+          {
+            "number": 5,
+            "text": "Kwa maana kwa namna hii wanawake watakatifu wa zamani, waliomtumaini Mungu, walijipamba, wakijitiisha kwa waume zao wenyewe;"
+          },
+          {
+            "number": 6,
+            "text": "Kama Sara alivyomtii Abrahamu, akimwita bwana; ninyi ni binti zake ikiwa mnatenda mema, wala hamwogopi jambo lolote la kutisha."
+          },
+          {
+            "number": 7,
+            "text": "Vivyo hivyo ninyi waume, kaeni pamoja na wake zenu kwa maarifa, mkimpa mke heshima kama chombo kilicho dhaifu zaidi, na kama warithi pamoja nanyi wa neema ya uzima; ili maombi yenu yasizuiliwe."
+          },
+          {
+            "number": 8,
+            "text": "Hatimaye, ninyi nyote muwe na nia moja, mkihurumiana, mkipendana kama ndugu, mkiwa na moyo wa huruma na wenye adabu;"
+          },
+          {
+            "number": 9,
+            "text": "Hatimaye, ninyi nyote muwe na nia moja, mkihurumiana, mkipendana kama ndugu, mkiwa na moyo wa huruma na wenye adabu;"
+          },
+          {
+            "number": 10,
+            "text": "Kwa maana yeye anayetaka kuyapenda maisha na kuona siku njema, auzuie ulimi wake usinene mabaya, na midomo yake isinene udanganyifu."
+          },
+          {
+            "number": 11,
+            "text": "Na ajiepushe na uovu na atende mema; aitafute amani na kuifuatilia."
+          },
+          {
+            "number": 12,
+            "text": "Kwa maana macho ya Bwana huwaelekea wenye haki, na masikio yake yako wazi kwa maombi yao; lakini uso wa Bwana uko dhidi ya wale watendao uovu."
+          },
+          {
+            "number": 13,
+            "text": "Na ni nani atakayewadhuru, ikiwa ninyi ni wafuasi wa lililo jema?"
+          },
+          {
+            "number": 14,
+            "text": "Lakini hata mkiteseka kwa ajili ya usahihi, mmebarikiwa; wala msiogope vitisho vyao, wala msifadhaike."
+          },
+          {
+            "number": 15,
+            "text": "Bali mtakaseni Bwana Mungu mioyoni mwenu; na muwe tayari siku zote kumjibu kila mtu anayewauliza sababu ya tumaini lililo ndani yenu, kwa upole na hofu;"
+          },
+          {
+            "number": 16,
+            "text": "Mkiwa na dhamiri njema; ili katika yale wanayowasema vibaya kana kwamba ninyi ni watenda maovu, waaibike wale wanaoushtaki kwa uongo mwenendo wenu mwema katika Kristo."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana ni afadhali, ikiwa ni mapenzi ya Mungu, kuteseka kwa kutenda mema kuliko kwa kutenda mabaya."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana Kristo naye aliteseka mara moja kwa ajili ya dhambi, mwenye haki kwa ajili ya wasio haki, ili atulete kwa Mungu; akauawa katika mwili, lakini akahuishwa kwa Roho;"
+          },
+          {
+            "number": 19,
+            "text": "Ambaye kwa huyo pia alikwenda na kuwahubiria roho waliokuwa kifungoni;"
+          },
+          {
+            "number": 20,
+            "text": "Ambao zamani hawakutii, wakati uvumilivu wa Mungu ulipokuwa ukingoja katika siku za Nuhu, wakati safina ilipokuwa ikitengenezwa; ndani yake watu wachache, yaani nafsi nane, waliokolewa kwa maji."
+          },
+          {
+            "number": 21,
+            "text": "Mfano unaolingana na hayo, yaani ubatizo, sasa unatuokoa sisi pia—si kwa kuondoa uchafu wa mwili, bali kama jibu la dhamiri njema kwa Mungu kwa kufufuka kwake Yesu Kristo;"
+          },
+          {
+            "number": 22,
+            "text": "Ambaye amekwenda mbinguni, naye yuko mkono wa kuume wa Mungu; malaika, mamlaka na nguvu zikiwa zimetiishwa chini yake."
+          }
+        ],
+        "4": [
+          {
+            "number": 1,
+            "text": "Basi, kwa kuwa Kristo aliteseka kwa ajili yetu katika mwili, ninyi nanyi jivikeni silaha ya nia hiyo; kwa maana yeye aliyeteseka katika mwili ameacha kutenda dhambi;"
+          },
+          {
+            "number": 2,
+            "text": "Ili asiishi tena muda uliobaki wa maisha yake katika mwili kwa kufuata tamaa za wanadamu, bali kwa kuyafuata mapenzi ya Mungu."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana muda uliopita wa maisha yetu umetutosha kufanya mapenzi ya Mataifa, tulipoenenda katika uasherati, tamaa, ulevi uliopitiliza, karamu za anasa, sherehe za ulevi, na ibada za sanamu zenye kuchukiza."
+          },
+          {
+            "number": 4,
+            "text": "Katika jambo hilo wanashangaa kwamba hampigi mbio pamoja nao katika wingi ule ule wa maisha ya ufisadi usio na kiasi, hivyo wanawasema vibaya;"
+          },
+          {
+            "number": 5,
+            "text": "Nao watatoa hesabu kwake yeye aliye tayari kuwahukumu walio hai na wafu."
+          },
+          {
+            "number": 6,
+            "text": "Kwa maana kwa sababu hii Injili ilihubiriwa pia kwa wale waliokufa, ili wahukumiwe katika mwili kwa kadiri ya wanadamu, lakini waishi katika roho kwa kadiri ya Mungu."
+          },
+          {
+            "number": 7,
+            "text": "Lakini mwisho wa mambo yote umekaribia; kwa hiyo, iweni na kiasi na mkeshe katika maombi."
+          },
+          {
+            "number": 8,
+            "text": "Zaidi ya yote, iweni na upendo wa dhati na wenye nguvu ninyi kwa ninyi; kwa maana upendo hufunika wingi wa dhambi."
+          },
+          {
+            "number": 9,
+            "text": "Karibishaneni ninyi kwa ninyi bila kunung'unika."
+          },
+          {
+            "number": 10,
+            "text": "Kila mmoja kwa kadiri alivyopokea karama, aitumie kuwahudumia wengine, kama mawakili wema wa neema mbalimbali za Mungu."
+          },
+          {
+            "number": 11,
+            "text": "Mtu akisema, na aseme kama akisema maneno ya Mungu; mtu akihudumu, na ahudumu kwa uwezo ambao Mungu humpa; ili katika mambo yote Mungu atukuzwe kwa njia ya Yesu Kristo, ambaye utukufu na mamlaka ni vyake milele na milele. Amina."
+          },
+          {
+            "number": 12,
+            "text": "Wapenzi, msione kuwa ni jambo la ajabu kuhusu jaribu kali kama moto linalowapata ili kuwajaribu, kana kwamba ni kitu kigeni kimewapata;"
+          },
+          {
+            "number": 13,
+            "text": "Bali furahini kwa kadiri mnavyoshiriki mateso ya Kristo; ili utukufu wake utakapofunuliwa, ninyi pia mpate kufurahi kwa shangwe kuu."
+          },
+          {
+            "number": 14,
+            "text": "Ikiwa mnashutumiwa kwa ajili ya jina la Kristo, mmebarikiwa; kwa maana Roho wa utukufu na wa Mungu anakaa juu yenu. Kwa upande wao anatukanwa, lakini kwa upande wenu anatukuzwa."
+          },
+          {
+            "number": 15,
+            "text": "Lakini mtu yeyote miongoni mwenu asiteseke kwa kuwa muuaji, au mwizi, au mtenda maovu, au mtu anayejiingiza katika mambo ya watu wengine."
+          },
+          {
+            "number": 16,
+            "text": "Lakini ikiwa mtu anateseka kwa kuwa Mkristo, asione haya; bali amtukuze Mungu kwa ajili ya jambo hilo."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana wakati umefika wa hukumu kuanza katika nyumba ya Mungu; na ikiwa inaanza kwetu kwanza, mwisho wao wasioitii Injili ya Mungu utakuwaje?"
+          },
+          {
+            "number": 18,
+            "text": "Na ikiwa aliyesahihi anaokolewa kwa shida, mtu asiye wa ki Mungu na mwenye dhambi ataonekana wapi?"
+          },
+          {
+            "number": 19,
+            "text": "Kwa hiyo, wale wanaoteseka sawasawa na mapenzi ya Mungu wazikabidhi roho zao kwake, Muumba mwaminifu, huku wakiendelea kutenda mema."
+          }
+        ],
+        "5": [
+          {
+            "number": 1,
+            "text": "Nawasihi wazee walioko miongoni mwenu, mimi nikiwa mzee mwenzao, shahidi wa mateso ya Kristo, na pia mshiriki wa utukufu utakaofunuliwa;"
+          },
+          {
+            "number": 2,
+            "text": "Lichungeni kundi la Mungu lililo miongoni mwenu, mkilisimamia, si kwa kulazimishwa, bali kwa hiari; si kwa ajili ya faida ya fedha isiyo ya haki, bali kwa moyo wa kujitolea;"
+          },
+          {
+            "number": 3,
+            "text": "Wala si kwa kuwatawala kwa mabavu wale mliopewa kuwasimamia, bali kwa kuwa mifano kwa kundi."
+          },
+          {
+            "number": 4,
+            "text": "Na Mchungaji mkuu atakapodhihirishwa, mtapokea taji ya utukufu isiyonyauka."
+          },
+          {
+            "number": 5,
+            "text": "Vivyo hivyo, ninyi vijana, jitiisheni kwa wazee. Naam, ninyi nyote jitiisheni ninyi kwa ninyi, na jivikeni unyenyekevu; kwa maana Mungu huwapinga wenye kiburi, lakini huwapa neema wanyenyekevu."
+          },
+          {
+            "number": 6,
+            "text": "Basi nyenyekeeni chini ya mkono wa Mungu wenye nguvu, ili awainue kwa wakati unaofaa;"
+          },
+          {
+            "number": 7,
+            "text": "Mkimtwika yeye mahangaiko yenu yote, kwa maana yeye anawajali."
+          },
+          {
+            "number": 8,
+            "text": "Iweni na kiasi, kesheni; kwa sababu adui yenu Ibilisi, kama simba angurumaye, huzunguka-zunguka akitafuta mtu wa kummeza."
+          },
+          {
+            "number": 9,
+            "text": "Mpingeni huyo, mkiwa imara katika imani, mkijua kwamba mateso hayo hayo yanawapata ndugu zenu walioko ulimwenguni."
+          },
+          {
+            "number": 10,
+            "text": "Lakini Mungu wa neema yote, ambaye ametuita kuingia katika utukufu wake wa milele kwa njia ya Kristo Yesu, baada ya kuteseka kwa muda mfupi, yeye mwenyewe atawakamilisha, atawaimarisha, atawatia nguvu, na kuwaweka imara."
+          },
+          {
+            "number": 11,
+            "text": "Utukufu na mamlaka viwe kwake milele na milele. Amina."
+          },
+          {
+            "number": 12,
+            "text": "Kwa mkono wa Silvano, ndugu mwaminifu kwenu, kama ninavyomhesabu, nimewaandikia kwa ufupi, nikiwahimiza na kushuhudia kwamba hii ndiyo neema ya kweli ya Mungu ambayo ndani yake mnasimama."
+          },
+          {
+            "number": 13,
+            "text": "Kanisa lililoko Babeli, lililochaguliwa pamoja nanyi, linawasalimu; na Marko mwanangu pia anawasalimu."
+          },
+          {
+            "number": 14,
+            "text": "Salimianeni kwa busu la upendo. Amani iwe nanyi nyote mlio katika Kristo Yesu. Amina."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2_petro",
+      "name": "2 Petro",
+      "englishName": "2 Peter",
+      "testament": "Agano Jipya",
+      "bookNumber": 61,
+      "chapterCount": 3,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Simoni Petro, mtumishi na mtume wa Yesu Kristo, kwa wale waliopata pamoja nasi imani iliyo ya thamani ile ile, kwa haki ya Mungu wetu na Mwokozi Yesu Kristo."
+          },
+          {
+            "number": 2,
+            "text": "Neema na amani na viongezwe kwenu katika kumjua Mungu na Yesu Bwana wetu."
+          },
+          {
+            "number": 3,
+            "text": "Kwa kuwa uweza wake wa kimungu umetujalia vitu vyote vipasavyo uzima na utauwa, kwa kumjua yeye aliyetuita kwa utukufu na wema wake."
+          },
+          {
+            "number": 4,
+            "text": "Kwa hayo ametukirimia ahadi zilizo kuu mno na za thamani, ili kwa hizo mpate kuwa washiriki wa asili ya Mungu, mkiisha kuuepuka uharibifu uliyoko duniani kwa sababu ya tamaa."
+          },
+          {
+            "number": 5,
+            "text": "Kwa sababu hiyo, mkifanya bidii yote, ongezeni katika imani yenu wema; na katika wema, maarifa;"
+          },
+          {
+            "number": 6,
+            "text": "Na katika maarifa, kiasi; na katika kiasi, saburi; na katika saburi, utauwa;"
+          },
+          {
+            "number": 7,
+            "text": "Na katika utauwa, upendo wa kindugu; na katika upendo wa kindugu, upendo."
+          },
+          {
+            "number": 8,
+            "text": "Kwa maana mambo hayo yakiwa ndani yenu na yakizidi, yatawafanya msiwe wavivu wala wasiozaa matunda katika kumjua Bwana wetu Yesu Kristo."
+          },
+          {
+            "number": 9,
+            "text": "Lakini yeye asiye na mambo hayo ni kipofu, haoni yaliyo mbali, naye amesahau kwamba alitakaswa dhambi zake za zamani."
+          },
+          {
+            "number": 10,
+            "text": "Kwa hiyo, ndugu, jitahidini zaidi kuhakikisha wito wenu na uteule wenu; maana mkifanya mambo hayo hamtaanguka kamwe."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana hivyo mtafunguliwa kwa wingi mlango wa kuingia katika ufalme wa milele wa Bwana na Mwokozi wetu Yesu Kristo."
+          },
+          {
+            "number": 12,
+            "text": "Kwa sababu hiyo sitakoma kuwakumbusha mambo hayo sikuzote, ijapokuwa mnayajua na mmeimarishwa katika kweli mliyo nayo sasa."
+          },
+          {
+            "number": 13,
+            "text": "Naam, naona ni wajibu wangu, maadamu bado niko katika hema hii ya mwili, kuwachochea kwa kuwakumbusha mambo haya;"
+          },
+          {
+            "number": 14,
+            "text": "Kwa kuwa najua kwamba hivi karibuni nitaivua hema hii ya mwili, kama Bwana wetu Yesu Kristo alivyonionyesha."
+          },
+          {
+            "number": 15,
+            "text": "Nami nitajitahidi ili hata baada ya kufariki kwangu mpate kuyakumbuka mambo haya siku zote."
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana hatukufuata hadithi zilizobuniwa kwa ustadi tulipowajulisha uweza na kuja kwake Bwana wetu Yesu Kristo, bali tulikuwa mashahidi wa macho wa ukuu wake."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana alipokea heshima na utukufu kutoka kwa Mungu Baba, sauti ilipomjia kutoka katika utukufu mkuu ikisema, ‘Huyu ndiye Mwanangu mpendwa, ninayependezwa naye sana."
+          },
+          {
+            "number": 18,
+            "text": "Na sauti hiyo iliyotoka mbinguni sisi tuliisikia tulipokuwa pamoja naye katika mlima mtakatifu."
+          },
+          {
+            "number": 19,
+            "text": "Nasi tuna neno la unabii lililo imara zaidi; nalo mnafanya vyema kulizingatia, kama taa ing'aayo mahali penye giza, mpaka kutakapopambazuka, na nyota ya asubuhi kuchomoza mioyoni mwenu."
+          },
+          {
+            "number": 20,
+            "text": "Mkijua kwanza kabisa jambo hili, ya kwamba hakuna unabii wa Maandiko unaotokana na tafsiri ya mtu binafsi."
+          },
+          {
+            "number": 21,
+            "text": "Kwa maana unabii haukuletwa kamwe kwa mapenzi ya mwanadamu, bali watu watakatifu wa Mungu walinena wakiongozwa na Roho Mtakatifu."
+          }
+        ],
+        "2": [
+          {
+            "number": 1,
+            "text": "Lakini walikuwapo pia manabii wa uongo miongoni mwa watu, kama vile kutakavyokuwapo walimu wa uongo miongoni mwenu. Wataingiza kwa siri mafundisho ya uzushi yenye kuleta uharibifu, hata wakimkana Bwana aliyewanunua, na hivyo watajiletea uharibifu wa ghafla."
+          },
+          {
+            "number": 2,
+            "text": "Na wengi watafuata njia zao za upotovu; na kwa sababu yao njia ya kweli itatukanwa."
+          },
+          {
+            "number": 3,
+            "text": "Kwa tamaa ya mali watawafanya ninyi kuwa biashara kwa maneno ya uongo. Hukumu yao imekuwa ikiwangoja tangu zamani, wala uharibifu wao hausinzii."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana ikiwa Mungu hakuwahurumia malaika waliotenda dhambi, bali aliwatupa kuzimuni, akawakabidhi katika minyororo ya giza ili wahifadhiwe kwa ajili ya hukumu."
+          },
+          {
+            "number": 5,
+            "text": "Wala hakuuhurumia ulimwengu wa zamani, bali alimwokoa Nuhu, mhubiri wa haki, pamoja na watu wengine saba, alipoleta gharika juu ya ulimwengu wa wasio wa ki Mungu."
+          },
+          {
+            "number": 6,
+            "text": "Na kwa kuigeuza miji ya Sodoma na Gomora kuwa majivu, aliihukumu kwa kuiangamiza, akiifanya kuwa mfano kwa wale watakaoishi kinyume na Mungu baadaye."
+          },
+          {
+            "number": 7,
+            "text": "Lakini alimwokoa Lutu mwenye haki, aliyekuwa akiteswa sana na mwenendo mchafu wa watu waovu;"
+          },
+          {
+            "number": 8,
+            "text": "(Kwa maana mtu huyo mwenye haki, alipokuwa akiishi miongoni mwao, alitesa roho yake ya haki siku baada ya siku kwa kuona na kusikia matendo yao ya uasi.)."
+          },
+          {
+            "number": 9,
+            "text": "Basi Bwana anajua jinsi ya kuwaokoa watauwa kutoka majaribuni, na kuwahifadhi wasio haki kwa ajili ya siku ya hukumu ili waadhibiwe."
+          },
+          {
+            "number": 10,
+            "text": "Hasa wale wanaoifuata tamaa ya mwili katika uchafu, na kudharau mamlaka. Ni wenye kiburi na wenye kujitakia wenyewe; hawaogopi kuyatukana yenye utukufu."
+          },
+          {
+            "number": 11,
+            "text": "Ingawa malaika ni wakuu zaidi kwa nguvu na uwezo, hawaleti mashtaka ya kashfa dhidi yao mbele za Bwana."
+          },
+          {
+            "number": 12,
+            "text": "Lakini watu hawa wanakufuru mambo wasiyoyafahamu. Wao ni kama wanyama wasio na akili, wanaoongozwa na silika zao za asili, waliozaliwa ili wakamatwe na kuangamizwa. Na kama wanyama hao, wao pia wataangamia."
+          },
+          {
+            "number": 13,
+            "text": "Nao watapokea malipo ya udhalimu wao. Huona anasa za mchana kuwa ni starehe. Ni madoa na kasoro, wakijifurahisha katika udanganyifu wao wanapokula karamu pamoja nanyi."
+          },
+          {
+            "number": 14,
+            "text": "Wakiwa na macho yaliyojaa uzinzi, wasioweza kuacha kutenda dhambi; huwadanganya watu wasio imara. Mioyo yao imezoezwa katika tamaa ya mali; ni watoto waliolaaniwa."
+          },
+          {
+            "number": 15,
+            "text": "Wameiacha njia iliyo sawa, wakapotea kwa kuifuata njia ya Balaamu mwana wa Beori, aliyependa ujira wa udhalimu."
+          },
+          {
+            "number": 16,
+            "text": "Lakini alikemewa kwa kosa lake; punda bubu, akinena kwa sauti ya mwanadamu, aliuzuia wazimu wa yule nabii."
+          },
+          {
+            "number": 17,
+            "text": "Hawa ni chemchemi zisizo na maji, na mawingu yanayopeperushwa na tufani; ambao wamewekewa giza nene milele."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana wanaponena maneno ya majivuno yasiyo na maana, huwavuta kwa tamaa za mwili na uasherati wale waliokuwa wameanza tu kuwakimbia watu waishio katika upotevu."
+          },
+          {
+            "number": 19,
+            "text": "Wanawaahidi uhuru, hali wao wenyewe ni watumwa wa uharibifu; kwa maana kile kinachomshinda mtu, hicho ndicho humfanya kuwa mtumwa."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana ikiwa baada ya kuuepuka uchafu wa dunia kwa kumjua Bwana na Mwokozi Yesu Kristo, wananaswa tena na kushindwa nao, hali yao ya mwisho huwa mbaya kuliko ya kwanza."
+          },
+          {
+            "number": 21,
+            "text": "Kwa maana ingekuwa afadhali kwao wasingeijua njia sahihi, kuliko kwamba baada ya kuijua, waigeuke na kuiacha amri takatifu waliyopewa."
+          },
+          {
+            "number": 22,
+            "text": "Lakini imewatokea sawasawa na methali ya kweli: ‘Mbwa amerudia matapishi yake mwenyewe,’ na, ‘Nguruwe aliyekuwa ameoshwa amerudi kujigaragaza matopeni.’"
+          }
+        ],
+        "3": [
+          {
+            "number": 1,
+            "text": "1. Wapenzi, hii sasa ndiyo barua ya pili ninayowaandikia; katika zote mbili ninaziamsha nia zenu safi kwa kuwakumbusha;"
+          },
+          {
+            "number": 2,
+            "text": "2. Ili myakumbuke maneno yaliyosemwa zamani na manabii watakatifu, na amri ya Bwana na Mwokozi iliyotolewa kwenu kupitia sisi mitume;"
+          },
+          {
+            "number": 3,
+            "text": "3. Mkijua hili kwanza, kwamba katika siku za mwisho watakuja wenye dhihaka, wakienenda kwa kufuata tamaa zao wenyewe."
+          },
+          {
+            "number": 4,
+            "text": "4. Wakisema, ‘Iko wapi ahadi ya kuja kwake? Kwa maana tangu baba zetu walipolala, mambo yote yanaendelea kama yalivyokuwa tangu mwanzo wa uumbaji.’"
+          },
+          {
+            "number": 5,
+            "text": "5. Kwa maana kwa makusudi hawataki kujua kwamba kwa neno la Mungu mbingu zilikuwako tangu zamani, na dunia ilitokea katika maji na kwa maji."
+          },
+          {
+            "number": 6,
+            "text": "6. Na kwa maji hayo, ulimwengu wa wakati ule uligharikishwa na kuangamia."
+          },
+          {
+            "number": 7,
+            "text": "7. Lakini mbingu na dunia zilizopo sasa, kwa neno hilo zimehifadhiwa, zikiwekwa akiba kwa ajili ya moto hata siku ya hukumu na maangamizi ya watu wa ki Mungu."
+          },
+          {
+            "number": 8,
+            "text": "8. Lakini, wapenzi, msiwe wajinga kuhusu jambo hili moja: kwamba siku moja kwa Bwana ni kama miaka elfu, na miaka elfu ni kama siku moja."
+          },
+          {
+            "number": 9,
+            "text": "9. Bwana hakawii kuhusu ahadi yake, kama baadhi ya watu wanavyohesabu kukawia; bali anatuvumilia kwa muda mrefu, hataki mtu yeyote aangamie, bali anataka wote wafikie toba."
+          },
+          {
+            "number": 10,
+            "text": "10. Lakini siku ya Bwana itakuja kama mwizi usiku; siku hiyo mbingu zitapita kwa kishindo kikubwa, na elementi zitayeyuka kwa joto kali, dunia pia na kazi zilizomo ndani yake zitateketezwa."
+          },
+          {
+            "number": 11,
+            "text": "11. Basi, kwa kuwa vitu hivi vyote vitayeyushwa, imewapasa ninyi kuwa watu wa namna gani katika mwenendo wote mtakatifu na utauwa?"
+          },
+          {
+            "number": 12,
+            "text": "12. Mkiitazamia na kuiharakisha kuja kwa siku ya Mungu, ambayo kwa sababu yake mbingu zikiwa katika moto zitayeyuka, na elementi zitayeyuka kwa joto kali?"
+          },
+          {
+            "number": 13,
+            "text": "13. Lakini sisi, sawasawa na ahadi yake, tunatazamia mbingu mpya na dunia mpya, ambamo usahihi unakaa."
+          },
+          {
+            "number": 14,
+            "text": "14. Kwa hiyo, wapenzi, kwa kuwa mnatazamia mambo hayo, jitahidini ili mpate kuonekana mbele zake katika amani, bila doa na bila lawama."
+          },
+          {
+            "number": 15,
+            "text": "15. Na hesabuni kwamba uvumilivu wa muda mrefu wa Bwana wetu ni kwa ajili ya wokovu; kama vile ndugu yetu mpendwa Paulo, kwa hekima aliyopewa, alivyowaandikia ninyi;"
+          },
+          {
+            "number": 16,
+            "text": "16. Kama vile pia katika barua zake zote, akizungumza ndani yake kuhusu mambo haya; ambamo yapo baadhi ya mambo yaliyo magumu kueleweka, ambayo watu wasio na elimu na wasio imara huyapotosha, kama wanavyofanya pia kwa Maandiko mengine, kwa maangamizi yao wenyewe."
+          },
+          {
+            "number": 17,
+            "text": "17. Basi ninyi, wapenzi, kwa kuwa mnayajua mambo haya tangu awali, jihadharini msije nanyi mkachukuliwa na upotovu wa watu waovu, na kuanguka kutoka katika uthabiti wenu wenyewe."
+          },
+          {
+            "number": 18,
+            "text": "18. Bali kueni katika neema, na katika kumjua Bwana na Mwokozi wetu Yesu Kristo. Utukufu uwe kwake sasa na hata milele. Amina"
+          }
+        ]
+      }
+    },
+    {
       "id": "1_yohana",
       "name": "1 Yohana",
       "englishName": "1 John",
