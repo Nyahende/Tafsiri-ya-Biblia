@@ -26574,6 +26574,1776 @@
       }
     },
     {
+      "id": "warumi",
+      "name": "Warumi",
+      "englishName": "Romans",
+      "testament": "Agano Jipya",
+      "bookNumber": 45,
+      "chapterCount": 16,
+      "chapters": {
+        "1": [
+          {
+            "number": 1,
+            "text": "Paulo, mtumishi wa Yesu Kristo, aliyeitwa kuwa mtume, aliyetengwa kwa ajili ya Injili ya Mungu,"
+          },
+          {
+            "number": 2,
+            "text": "ambayo Mungu alikuwa ameiahidi hapo awali kupitia manabii wake katika Maandiko Matakatifu,"
+          },
+          {
+            "number": 3,
+            "text": "kuhusu Mwana wake Yesu Kristo Bwana wetu, aliyezaliwa katika uzao wa Daudi kwa jinsi ya mwili;"
+          },
+          {
+            "number": 4,
+            "text": "na kutangazwa kuwa Mwana wa Mungu kwa nguvu, kulingana na Roho wa utakatifu, kwa kufufuka kutoka kwa wafu;"
+          },
+          {
+            "number": 5,
+            "text": "ambaye kupitia yeye tumepokea neema na utume, kwa ajili ya utii wa imani miongoni mwa mataifa yote, kwa ajili ya jina lake;"
+          },
+          {
+            "number": 6,
+            "text": "ambao miongoni mwao ninyi pia mmeitwa kuwa wa Yesu Kristo;"
+          },
+          {
+            "number": 7,
+            "text": "Kwa wote walioko Roma, wapendwa wa Mungu, walioitwa kuwa watakatifu: Neema na amani ziwe kwenu kutoka kwa Mungu Baba yetu, na Bwana Yesu Kristo."
+          },
+          {
+            "number": 8,
+            "text": "Kwanza, ninamshukuru Mungu wangu kupitia Yesu Kristo kwa ajili yenu nyote, kwa sababu imani yenu inatangazwa katika ulimwengu wote."
+          },
+          {
+            "number": 9,
+            "text": "Kwa maana Mungu ni shahidi wangu, ambaye ninamtumikia kwa roho yangu katika Injili ya Mwana wake, kwamba bila kukoma ninawataja siku zote katika sala zangu;"
+          },
+          {
+            "number": 10,
+            "text": "nikiomba kwamba, ikiwezekana, sasa hatimaye nipate safari yenye mafanikio kwa mapenzi ya Mungu ili nije kwenu."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana ninatamani sana kuwaona, ili niwashirikishe karama fulani ya kiroho, kusudi mpate kuimarishwa;"
+          },
+          {
+            "number": 12,
+            "text": "yaani, ili mimi pamoja nanyi tupate kufarijiana kwa imani tuliyo nayo sisi kwa sisi, yenu na yangu."
+          },
+          {
+            "number": 13,
+            "text": "Basi sitaki msijue, ndugu, kwamba mara nyingi nilikusudia kuja kwenu, lakini nimezuiwa mpaka sasa, ili nipate matunda fulani miongoni mwenu pia, kama nilivyo nayo miongoni mwa Mataifa mengine."
+          },
+          {
+            "number": 14,
+            "text": "Mimi nina deni kwa Wayunani na kwa wasio Wayunani; kwa wenye hekima na kwa wasio na hekima."
+          },
+          {
+            "number": 15,
+            "text": "Kwa hiyo, kwa kadiri ilivyo ndani yangu, niko tayari kuwahubiria Injili ninyi mlio Roma pia."
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana siionei aibu Injili ya Kristo; kwa maana ni nguvu ya Mungu iletayo wokovu kwa kila aaminiye; kwa Myahudi kwanza, na pia kwa Myunani."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana ndani yake usahihi wa Mungu unafunuliwa kutoka imani hata imani; kama ilivyoandikwa, Mtenda haki ataishi kwa imani."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana ghadhabu ya Mungu inafunuliwa kutoka mbinguni dhidi ya kutomcha Mungu kote na kutokuwa sahihi kote kwa wanadamu, ambao wanaizuia kweli katika kutokuwa sahihi;"
+          },
+          {
+            "number": 19,
+            "text": "kwa sababu yale yanayoweza kujulikana kuhusu Mungu yamedhihirika ndani yao; kwa maana Mungu amewaonyesha."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana tangu kuumbwa kwa ulimwengu, mambo yake yasiyoonekana yanaonekana wazi, yakieleweka kupitia vitu vilivyoumbwa, yaani, nguvu zake za milele na Uungu wake; hata hawana udhuru;"
+          },
+          {
+            "number": 21,
+            "text": "kwa sababu walipomjua Mungu, hawakumtukuza kama Mungu, wala hawakushukuru; bali wakawa wapumbavu katika mawazo yao, na moyo wao wa kijinga ukatiwa giza."
+          },
+          {
+            "number": 22,
+            "text": "Wakijidai kuwa wenye hekima, wakawa wajinga,"
+          },
+          {
+            "number": 23,
+            "text": "wakaubadilisha utukufu wa Mungu asiyeharibika kuwa mfano wa sanamu yenye sura ya mwanadamu anayeharibika, na ya ndege, na wanyama wenye miguu minne, na viumbe vitambaavyo."
+          },
+          {
+            "number": 24,
+            "text": "Kwa hiyo Mungu pia akawaacha katika uchafu kupitia tamaa za mioyo yao wenyewe, ili wazivunjie heshima miili yao wao kwa wao;"
+          },
+          {
+            "number": 25,
+            "text": "ambao waliibadilisha kweli ya Mungu kuwa uongo, wakakiabudu na kukitumikia kiumbe kuliko Muumba, ambaye amebarikiwa milele. Amina."
+          },
+          {
+            "number": 26,
+            "text": "Kwa sababu hiyo Mungu akawaacha katika tamaa za aibu; kwa maana hata wanawake wao walibadilisha matumizi ya asili kuwa yale yaliyo kinyume cha asili;"
+          },
+          {
+            "number": 27,
+            "text": "vivyo hivyo wanaume pia, wakiyaacha matumizi ya asili ya mwanamke, wakawaka katika tamaa zao wao kwa wao; wanaume wakifanya na wanaume mambo yasiyofaa, na kupokea ndani yao wenyewe malipo yaliyostahili ya upotovu wao."
+          },
+          {
+            "number": 28,
+            "text": "Na kwa kuwa hawakuona vema kumhifadhi Mungu katika ujuzi wao, Mungu akawaacha katika akili iliyokataliwa, wafanye mambo yasiyofaa;"
+          },
+          {
+            "number": 29,
+            "text": "wakiwa wamejaa kutokuwa sahihi kote, uasherati, ubaya, tamaa ya mali, na nia mbaya; wamejaa wivu, mauaji, ugomvi, udanganyifu na hila; wasengenyaji,"
+          },
+          {
+            "number": 30,
+            "text": "wasingiziaji, wanaomchukia Mungu, wenye dharau, wenye kiburi, wenye kujisifu, wabunifu wa mambo maovu, wasiowatii wazazi,"
+          },
+          {
+            "number": 31,
+            "text": "wasio na uelewa, wavunja maagano, wasio na upendo wa asili, wasiopatanika, wasio na rehema;"
+          },
+          {
+            "number": 32,
+            "text": "ambao, wakijua hukumu ya Mungu kwamba wale wanaofanya mambo kama hayo wanastahili kifo, si kwamba wanayatenda tu, bali pia wanapendezwa na wale wanaoyatenda."
+          }
+        ],
+        "2": [
+          {
+            "number": 1,
+            "text": "Kwa hiyo huna udhuru, Ee mwanadamu, yeyote wewe uhukumuye; kwa maana katika jambo unalomhukumu mwingine, unajihukumu mwenyewe; kwa sababu wewe uhukumuye unatenda mambo hayohayo."
+          },
+          {
+            "number": 2,
+            "text": "Lakini tunajua kwamba hukumu ya Mungu ni kulingana na kweli dhidi ya wale wanaotenda mambo kama hayo."
+          },
+          {
+            "number": 3,
+            "text": "Je, unafikiri hivi, Ee mwanadamu, wewe unayewahukumu wale wanaotenda mambo kama hayo, nawe unatenda hayohayo, kwamba utaikwepa hukumu ya Mungu?"
+          },
+          {
+            "number": 4,
+            "text": "Au unadharau utajiri wa wema wake, uvumilivu wake, na ustahimilivu wake wa muda mrefu, bila kujua kwamba wema wa Mungu unakuongoza kwenye toba?"
+          },
+          {
+            "number": 5,
+            "text": "Lakini kwa sababu ya ugumu wako na moyo wako usiotubu, unajiwekea mwenyewe akiba ya ghadhabu kwa ajili ya siku ya ghadhabu na kufunuliwa kwa hukumu iliyo sahihi ya Mungu;"
+          },
+          {
+            "number": 6,
+            "text": "ambaye atamlipa kila mtu kulingana na matendo yake;"
+          },
+          {
+            "number": 7,
+            "text": "wale ambao kwa kuvumilia katika kutenda mema wanatafuta utukufu, heshima na kutoharibika, atawapa uzima wa milele;"
+          },
+          {
+            "number": 8,
+            "text": "lakini wale wenye ugomvi, wasioitii kweli bali wanaotii kutokuwa sahihi, watapata hasira na ghadhabu,"
+          },
+          {
+            "number": 9,
+            "text": "dhiki na uchungu, juu ya kila nafsi ya mwanadamu atendaye uovu, kwa Myahudi kwanza, na pia kwa Myunani;"
+          },
+          {
+            "number": 10,
+            "text": "lakini utukufu, heshima na amani kwa kila mtu atendaye mema, kwa Myahudi kwanza, na pia kwa Myunani;"
+          },
+          {
+            "number": 11,
+            "text": "kwa maana Mungu hana upendeleo kwa watu."
+          },
+          {
+            "number": 12,
+            "text": "Kwa maana wote waliotenda dhambi bila Torati wataangamia pia bila Torati; na wote waliotenda dhambi chini ya Torati watahukumiwa kwa Torati;"
+          },
+          {
+            "number": 13,
+            "text": "kwa maana si wasikiaji wa Torati walio sahihi mbele za Mungu, bali watendaji wa Torati ndio watakaohesabiwa kuwa sahihi."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana Mataifa, ambao hawana Torati, wanapotenda kwa asili mambo yaliyomo katika Torati, hao, ingawa hawana Torati, ni Torati kwao wenyewe;"
+          },
+          {
+            "number": 15,
+            "text": "wakionyesha kazi ya Torati iliyoandikwa mioyoni mwao, dhamiri yao pia ikiwashuhudia, na mawazo yao yakishtakiana au kuteteana wao kwa wao;"
+          },
+          {
+            "number": 16,
+            "text": "katika siku ambayo Mungu atayahukumu mambo ya siri ya wanadamu kupitia Yesu Kristo, kulingana na Injili yangu."
+          },
+          {
+            "number": 17,
+            "text": "Tazama, wewe unaitwa Myahudi, unaitegemea Torati, na unajisifu katika Mungu,"
+          },
+          {
+            "number": 18,
+            "text": "nawe unayajua mapenzi yake, na kuyakubali mambo yaliyo bora, ukiwa umefundishwa kutoka katika Torati;"
+          },
+          {
+            "number": 19,
+            "text": "nawe una hakika kwamba wewe mwenyewe ni kiongozi wa vipofu, nuru ya wale walio gizani,"
+          },
+          {
+            "number": 20,
+            "text": "mwalimu wa wajinga, mwalimu wa watoto wachanga, ukiwa na mfano wa ujuzi na wa kweli katika Torati."
+          },
+          {
+            "number": 21,
+            "text": "Basi wewe unayemfundisha mwingine, je, hujifundishi mwenyewe? Wewe unayehubiri kwamba mtu asiibe, je, unaiba?"
+          },
+          {
+            "number": 22,
+            "text": "Wewe unayesema kwamba mtu asizini, je, unazini? Wewe unayechukia sanamu, je, unafanya unajisi wa vitu vitakatifu?"
+          },
+          {
+            "number": 23,
+            "text": "Wewe unayejisifu kwa Torati, je, kwa kuivunja Torati unamvunjia Mungu heshima?"
+          },
+          {
+            "number": 24,
+            "text": "Kwa maana jina la Mungu linakufuriwa miongoni mwa Mataifa kwa sababu yenu, kama ilivyoandikwa."
+          },
+          {
+            "number": 25,
+            "text": "Kwa maana kutahiriwa kwa kweli kuna faida ikiwa unaihifadhi Torati; lakini ikiwa wewe ni mvunjaji wa Torati, kutahiriwa kwako kumekuwa kutokutahiriwa."
+          },
+          {
+            "number": 26,
+            "text": "Basi ikiwa asiyetahiriwa anahifadhi matakwa yaliyo sahihi ya Torati, je, kutokutahiriwa kwake hakutahesabiwa kuwa kutahiriwa?"
+          },
+          {
+            "number": 27,
+            "text": "Na je, yule ambaye kwa asili hakutahiriwa, ikiwa anaitimiza Torati, hatakuhukumu wewe ambaye, ukiwa na andiko la Torati na kutahiriwa, unaivunja Torati?"
+          },
+          {
+            "number": 28,
+            "text": "Kwa maana yeye si Myahudi aliye Myahudi kwa nje; wala kutahiriwa si kule kuliko kwa nje katika mwili;"
+          },
+          {
+            "number": 29,
+            "text": "bali yeye ni Myahudi aliye hivyo kwa ndani; na kutahiriwa ni kwa moyo, katika roho, wala si katika andiko; ambaye sifa yake haitoki kwa wanadamu, bali kwa Mungu."
+          }
+        ],
+        "3": [
+          {
+            "number": 1,
+            "text": "Basi Myahudi ana faida gani? Au kutahiriwa kuna manufaa gani?"
+          },
+          {
+            "number": 2,
+            "text": "Ni mengi kwa kila namna; kwanza kabisa, kwa sababu wao walikabidhiwa maneno ya Mungu."
+          },
+          {
+            "number": 3,
+            "text": "Maana iweje ikiwa baadhi yao hawakuamini? Je, kutokuamini kwao kutaifanya imani ya Mungu isiwe na nguvu?"
+          },
+          {
+            "number": 4,
+            "text": "Hasha! Naam, Mungu na awe wa kweli, lakini kila mwanadamu mwongo; kama ilivyoandikwa, Ili uhesabiwe kuwa sahihi katika maneno yako, na ushinde unapohukumiwa."
+          },
+          {
+            "number": 5,
+            "text": "Lakini ikiwa kutokuwa sahihi kwetu kunaudhihirisha usahihi wa Mungu, tuseme nini? Je, Mungu si sahihi anapoleta ghadhabu? (Ninasema kwa namna ya kibinadamu.)"
+          },
+          {
+            "number": 6,
+            "text": "Hasha! Kwa maana ikiwa hivyo, Mungu atauhukumuje ulimwengu?"
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana ikiwa kweli ya Mungu imezidi kudhihirika kupitia uongo wangu kwa utukufu wake, kwa nini mimi bado ninahukumiwa kama mwenye dhambi?"
+          },
+          {
+            "number": 8,
+            "text": "Na kwa nini tusiseme, kama tunavyosingiziwa, na kama baadhi wanavyodai kwamba tunasema, Tufanye uovu ili mema yatokee? Hukumu yao ni ya haki."
+          },
+          {
+            "number": 9,
+            "text": "Basi iweje? Je, sisi ni bora kuliko wao? La, hata kidogo; kwa maana tayari tumethibitisha kwamba Wayahudi na Mataifa wote wako chini ya dhambi;"
+          },
+          {
+            "number": 10,
+            "text": "kama ilivyoandikwa, Hakuna aliye sahihi, hata mmoja;"
+          },
+          {
+            "number": 11,
+            "text": "hakuna mwenye uelewa, hakuna anayemtafuta Mungu."
+          },
+          {
+            "number": 12,
+            "text": "Wote wamepotoka kutoka katika njia, wote kwa pamoja wamekuwa wasiofaa; hakuna atendaye mema, hata mmoja."
+          },
+          {
+            "number": 13,
+            "text": "Koo lao ni kaburi lililo wazi; kwa ndimi zao wametumia udanganyifu; sumu ya nyoka iko chini ya midomo yao;"
+          },
+          {
+            "number": 14,
+            "text": "vinywa vyao vimejaa laana na uchungu;"
+          },
+          {
+            "number": 15,
+            "text": "miguu yao ni myepesi kumwaga damu;"
+          },
+          {
+            "number": 16,
+            "text": "uharibifu na taabu ziko katika njia zao;"
+          },
+          {
+            "number": 17,
+            "text": "wala njia ya amani hawajaijua;"
+          },
+          {
+            "number": 18,
+            "text": "hakuna hofu ya Mungu mbele ya macho yao."
+          },
+          {
+            "number": 19,
+            "text": "Basi tunajua kwamba mambo yoyote ambayo Torati inasema, inawaambia wale walio chini ya Torati; ili kila kinywa kifungwe, na ulimwengu wote uwe na hatia mbele za Mungu."
+          },
+          {
+            "number": 20,
+            "text": "Kwa hiyo, kwa matendo ya Torati hakuna mwanadamu atakayehesabiwa kuwa sahihi mbele zake; kwa maana kupitia Torati huja ujuzi wa dhambi."
+          },
+          {
+            "number": 21,
+            "text": "Lakini sasa usahihi wa Mungu bila Torati umedhihirishwa, ukishuhudiwa na Torati na Manabii;"
+          },
+          {
+            "number": 22,
+            "text": "yaani, usahihi wa Mungu ambao ni kupitia imani katika Yesu Kristo kwa wote na juu ya wote wanaoamini; kwa maana hakuna tofauti;"
+          },
+          {
+            "number": 23,
+            "text": "kwa maana wote wamefanya dhambi na kupungukiwa na utukufu wa Mungu;"
+          },
+          {
+            "number": 24,
+            "text": "wakihesabiwa kuwa sahihi bure kwa neema yake kupitia ukombozi ulio katika Kristo Yesu;"
+          },
+          {
+            "number": 25,
+            "text": "ambaye Mungu amemweka kuwa dhabihu ya upatanisho kupitia imani katika damu yake, ili kuudhihirisha usahihi wake kwa ajili ya msamaha wa dhambi zilizotendwa zamani, kupitia uvumilivu wa Mungu;"
+          },
+          {
+            "number": 26,
+            "text": "ili kuudhihirisha, nasema, wakati huu usahihi wake; ili yeye awe mtenda haki, na mwenye kumhesabu kuwa sahihi yule anayemwamini Yesu."
+          },
+          {
+            "number": 27,
+            "text": "Basi kujisifu kuko wapi? Kumeondolewa. Kwa sheria gani? Ya matendo? La; bali kwa sheria ya imani."
+          },
+          {
+            "number": 28,
+            "text": "Kwa hiyo tunahitimisha kwamba mwanadamu anahesabiwa kuwa sahihi kwa imani bila matendo ya Torati."
+          },
+          {
+            "number": 29,
+            "text": "Je, yeye ni Mungu wa Wayahudi peke yao? Je, si Mungu wa Mataifa pia? Naam, wa Mataifa pia;"
+          },
+          {
+            "number": 30,
+            "text": "kwa kuwa ni Mungu mmoja, ambaye atawahesabu waliotahiriwa kuwa sahihi kwa imani, na wasiotahiriwa kupitia imani."
+          },
+          {
+            "number": 31,
+            "text": "Basi je, tunaibatilisha Torati kupitia imani? Hasha! Bali tunaithibitisha Torati."
+          }
+        ],
+        "4": [
+          {
+            "number": 1,
+            "text": "Basi tuseme nini kwamba Abrahamu baba yetu, kwa jinsi ya mwili, alipata?"
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana ikiwa Abrahamu alihesabiwa kuwa sahihi kwa matendo, ana sababu ya kujisifu; lakini si mbele za Mungu."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana Maandiko yanasema nini? Abrahamu alimwamini Mungu, na ikahesabiwa kwake kuwa usahihi."
+          },
+          {
+            "number": 4,
+            "text": "Basi kwa mtu afanyaye kazi, ujira wake hauhesabiwi kuwa wa neema, bali kuwa deni."
+          },
+          {
+            "number": 5,
+            "text": "Lakini kwa yule asiyefanya kazi, bali anamwamini yeye anayemhesabu mtu asiyemcha Mungu kuwa sahihi, imani yake inahesabiwa kuwa usahihi."
+          },
+          {
+            "number": 6,
+            "text": "Kama vile Daudi pia anavyoeleza baraka ya mtu ambaye Mungu anamhesabia usahihi bila matendo,"
+          },
+          {
+            "number": 7,
+            "text": "akisema, Wamebarikiwa wale ambao maovu yao yamesamehewa, na ambao dhambi zao zimefunikwa."
+          },
+          {
+            "number": 8,
+            "text": "Amebarikiwa mtu ambaye Bwana hatamhesabia dhambi."
+          },
+          {
+            "number": 9,
+            "text": "Basi baraka hii inawajia waliotahiriwa tu, au wasiotahiriwa pia? Kwa maana tunasema kwamba imani ilihesabiwa kwa Abrahamu kuwa usahihi."
+          },
+          {
+            "number": 10,
+            "text": "Basi ilihesabiwaje? Alipokuwa ametahiriwa, au alipokuwa hajatahiriwa? Si alipokuwa ametahiriwa, bali alipokuwa hajatahiriwa."
+          },
+          {
+            "number": 11,
+            "text": "Naye alipokea ishara ya kutahiriwa, ikiwa muhuri wa usahihi wa imani aliyokuwa nayo alipokuwa bado hajatahiriwa; ili awe baba wa wote wanaoamini, ingawa hawajatahiriwa, ili usahihi uhesabiwe kwao pia;"
+          },
+          {
+            "number": 12,
+            "text": "na awe baba wa waliotahiriwa, si kwa wale waliotahiriwa tu, bali pia kwa wale wanaotembea katika hatua za imani ile ya baba yetu Abrahamu, aliyokuwa nayo alipokuwa bado hajatahiriwa."
+          },
+          {
+            "number": 13,
+            "text": "Kwa maana ahadi kwamba angekuwa mrithi wa ulimwengu haikuja kwa Abrahamu au kwa uzao wake kupitia Torati, bali kupitia usahihi wa imani."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana ikiwa wale walio wa Torati ndio warithi, basi imani imefanywa kuwa bure, na ahadi imebatilishwa;"
+          },
+          {
+            "number": 15,
+            "text": "kwa sababu Torati huleta ghadhabu; kwa maana pasipo Torati hakuna uvunjaji wa sheria."
+          },
+          {
+            "number": 16,
+            "text": "Kwa hiyo ahadi ni kwa imani, ili iwe kwa neema; kusudi ahadi iwe imara kwa uzao wote, si kwa wale walio wa Torati tu, bali pia kwa wale walio wa imani ya Abrahamu, ambaye ni baba yetu sote;"
+          },
+          {
+            "number": 17,
+            "text": "kama ilivyoandikwa, Nimekufanya kuwa baba wa mataifa mengi, mbele zake yeye aliyemwamini, yaani Mungu, ambaye huwapa wafu uzima na kuyaita mambo yasiyokuwapo kana kwamba yamekuwapo."
+          },
+          {
+            "number": 18,
+            "text": "Abrahamu, pasipokuwa na sababu ya kutumaini, aliamini akiwa na tumaini, ili awe baba wa mataifa mengi, kulingana na lile lililosemwa, Ndivyo utakavyokuwa uzao wako."
+          },
+          {
+            "number": 19,
+            "text": "Naye, akiwa si dhaifu katika imani, hakuuangalia mwili wake mwenyewe uliokuwa tayari kama umekufa, akiwa na umri wa karibu miaka mia moja, wala hali ya kufa ya tumbo la uzazi la Sara."
+          },
+          {
+            "number": 20,
+            "text": "Hakusitasita kuhusu ahadi ya Mungu kwa kutokuamini; bali alikuwa na nguvu katika imani, akimpa Mungu utukufu;"
+          },
+          {
+            "number": 21,
+            "text": "akiwa ameshawishika kabisa kwamba kile Mungu alichoahidi, alikuwa na uwezo pia wa kukitimiza."
+          },
+          {
+            "number": 22,
+            "text": "Na kwa hiyo ikahesabiwa kwake kuwa usahihi."
+          },
+          {
+            "number": 23,
+            "text": "Basi haikuandikwa kwa ajili yake peke yake kwamba ilihesabiwa kwake;"
+          },
+          {
+            "number": 24,
+            "text": "bali kwa ajili yetu pia, ambao tutahesabiwa hivyo ikiwa tunamwamini yeye aliyemfufua Yesu Bwana wetu kutoka kwa wafu;"
+          },
+          {
+            "number": 25,
+            "text": "ambaye alitolewa kwa ajili ya makosa yetu, na akafufuliwa kwa ajili ya sisi kuhesabiwa kuwa sahihi."
+          }
+        ],
+        "5": [
+          {
+            "number": 1,
+            "text": "Basi, kwa kuwa tumehesabiwa kuwa sahihi kwa imani, tuna amani na Mungu kupitia Bwana wetu Yesu Kristo;"
+          },
+          {
+            "number": 2,
+            "text": "ambaye kupitia yeye pia tumepata kwa imani njia ya kuingia katika neema hii ambayo ndani yake tunasimama, nasi tunafurahi katika tumaini la utukufu wa Mungu."
+          },
+          {
+            "number": 3,
+            "text": "Wala si hivyo tu, bali tunajisifu pia katika dhiki, tukijua kwamba dhiki huleta uvumilivu;"
+          },
+          {
+            "number": 4,
+            "text": "na uvumilivu huleta uthabiti uliothibitishwa; na uthabiti uliothibitishwa huleta tumaini;"
+          },
+          {
+            "number": 5,
+            "text": "na tumaini halituaibishi, kwa sababu upendo wa Mungu umemiminwa katika mioyo yetu kupitia Roho Mtakatifu ambaye tumepewa."
+          },
+          {
+            "number": 6,
+            "text": "Kwa maana tulipokuwa bado hatuna nguvu, kwa wakati ufaao Kristo alikufa kwa ajili ya wasiomcha Mungu."
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana ni vigumu mtu kufa kwa ajili ya mtu aliye sahihi; ingawa huenda kwa ajili ya mtu mwema mtu akathubutu hata kufa."
+          },
+          {
+            "number": 8,
+            "text": "Lakini Mungu anaudhihirisha upendo wake kwetu kwa kuwa, tulipokuwa bado wenye dhambi, Kristo alikufa kwa ajili yetu."
+          },
+          {
+            "number": 9,
+            "text": "Basi zaidi sana, kwa kuwa sasa tumehesabiwa kuwa sahihi kwa damu yake, tutaokolewa kutoka katika ghadhabu kupitia yeye."
+          },
+          {
+            "number": 10,
+            "text": "Kwa maana ikiwa tulipokuwa adui tulipatanishwa na Mungu kupitia kifo cha Mwana wake, zaidi sana, tukiwa tumepatanishwa, tutaokolewa kwa uzima wake."
+          },
+          {
+            "number": 11,
+            "text": "Wala si hivyo tu, bali pia tunafurahi katika Mungu kupitia Bwana wetu Yesu Kristo, ambaye kupitia yeye sasa tumepokea upatanisho."
+          },
+          {
+            "number": 12,
+            "text": "Kwa hiyo, kama vile kupitia mtu mmoja dhambi iliingia katika ulimwengu, na kifo kupitia dhambi; na hivyo kifo kikawafikia wanadamu wote, kwa sababu wote wamefanya dhambi;"
+          },
+          {
+            "number": 13,
+            "text": "kwa maana kabla ya Torati, dhambi ilikuwapo ulimwenguni; lakini dhambi haihesabiwi pasipo Torati."
+          },
+          {
+            "number": 14,
+            "text": "Hata hivyo, kifo kilitawala tangu Adamu mpaka Musa, hata juu ya wale ambao hawakutenda dhambi kwa mfano wa uvunjaji wa sheria wa Adamu, ambaye ni mfano wa yeye aliyekuwa aje."
+          },
+          {
+            "number": 15,
+            "text": "Lakini karama ya bure si kama kosa. Kwa maana ikiwa kupitia kosa la mtu mmoja wengi walikufa, zaidi sana neema ya Mungu na karama iliyo kwa neema, kupitia mtu mmoja, Yesu Kristo, imezidi kuwafikia wengi."
+          },
+          {
+            "number": 16,
+            "text": "Wala karama hiyo si kama matokeo ya mtu mmoja aliyefanya dhambi; kwa maana hukumu ilitokana na kosa moja na kuleta hukumu ya adhabu, lakini karama ya bure ilitokana na makosa mengi na kuleta kuhesabiwa kuwa sahihi."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana ikiwa kupitia kosa la mtu mmoja kifo kilitawala kupitia huyo mmoja, zaidi sana wale wanaopokea wingi wa neema na karama ya usahihi watatawala katika uzima kupitia mmoja, Yesu Kristo."
+          },
+          {
+            "number": 18,
+            "text": "Kwa hiyo, kama vile kupitia kosa la mtu mmoja hukumu iliwafikia wanadamu wote na kuleta hukumu ya adhabu, vivyo hivyo kupitia tendo la usahihi la mtu mmoja karama ya bure iliwafikia wanadamu wote na kuleta kuhesabiwa kuwa sahihi kunakoleta uzima."
+          },
+          {
+            "number": 19,
+            "text": "Kwa maana kama vile kupitia kutokutii kwa mtu mmoja wengi walifanywa wenye dhambi, vivyo hivyo kupitia utii wa mtu mmoja wengi watafanywa kuwa sahihi."
+          },
+          {
+            "number": 20,
+            "text": "Zaidi ya hayo, Torati ikaingia ili kosa liongezeke; lakini pale dhambi ilipoongezeka, neema ilizidi kuongezeka zaidi sana;"
+          },
+          {
+            "number": 21,
+            "text": "ili kama vile dhambi ilivyotawala katika kifo, vivyo hivyo neema itawale kupitia usahihi mpaka uzima wa milele, kupitia Yesu Kristo Bwana wetu."
+          }
+        ],
+        "6": [
+          {
+            "number": 1,
+            "text": "Basi tuseme nini? Je, tuendelee katika dhambi ili neema izidi kuongezeka?"
+          },
+          {
+            "number": 2,
+            "text": "Hasha! Sisi tulioifia dhambi, tutawezaje kuendelea kuishi ndani yake?"
+          },
+          {
+            "number": 3,
+            "text": "Je, hamjui kwamba sisi sote tuliobatizwa katika Yesu Kristo tulibatizwa katika kifo chake?"
+          },
+          {
+            "number": 4,
+            "text": "Kwa hiyo tulizikwa pamoja naye kupitia ubatizo katika kifo; ili kama vile Kristo alivyofufuliwa kutoka kwa wafu kwa utukufu wa Baba, vivyo hivyo sisi pia tutembee katika upya wa uzima."
+          },
+          {
+            "number": 5,
+            "text": "Kwa maana ikiwa tumeunganishwa pamoja naye katika mfano wa kifo chake, tutakuwa pia katika mfano wa ufufuo wake;"
+          },
+          {
+            "number": 6,
+            "text": "tukijua hili, kwamba utu wetu wa kale umesulubishwa pamoja naye, ili mwili wa dhambi uharibiwe, kusudi tangu sasa tusiitumikie dhambi."
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana yeye aliyekufa amewekwa huru kutoka katika dhambi."
+          },
+          {
+            "number": 8,
+            "text": "Basi ikiwa tumekufa pamoja na Kristo, tunaamini kwamba tutaishi pia pamoja naye;"
+          },
+          {
+            "number": 9,
+            "text": "tukijua kwamba Kristo, akiwa amefufuliwa kutoka kwa wafu, hafi tena; kifo hakina mamlaka tena juu yake."
+          },
+          {
+            "number": 10,
+            "text": "Kwa maana katika kufa kwake, aliifia dhambi mara moja; lakini katika kuishi kwake, anaishi kwa Mungu."
+          },
+          {
+            "number": 11,
+            "text": "Vivyo hivyo ninyi pia jihesabuni kuwa mmekufa kweli kwa dhambi, lakini mko hai kwa Mungu kupitia Yesu Kristo Bwana wetu."
+          },
+          {
+            "number": 12,
+            "text": "Kwa hiyo dhambi isitawale katika miili yenu inayokufa, hata mkazitii tamaa zake."
+          },
+          {
+            "number": 13,
+            "text": "Wala msitoe viungo vyenu kwa dhambi kuwa vyombo vya kutokuwa sahihi; bali jitoeni wenyewe kwa Mungu kama walio hai kutoka kwa wafu, na viungo vyenu kwa Mungu kuwa vyombo vya usahihi."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana dhambi haitakuwa na mamlaka juu yenu; kwa sababu hamko chini ya Torati, bali chini ya neema."
+          },
+          {
+            "number": 15,
+            "text": "Basi iweje? Je, tufanye dhambi kwa sababu hatuko chini ya Torati, bali chini ya neema? Hasha!"
+          },
+          {
+            "number": 16,
+            "text": "Je, hamjui kwamba yule ambaye mnajitoa kwake kuwa watumishi ili kumtii, ninyi ni watumishi wa yule mnayemtii; ikiwa ni wa dhambi iletayo kifo, au wa utii uletao usahihi?"
+          },
+          {
+            "number": 17,
+            "text": "Lakini Mungu ashukuriwe kwamba, ingawa mlikuwa watumishi wa dhambi, mmetii kutoka moyoni namna ile ya mafundisho mliyokabidhiwa."
+          },
+          {
+            "number": 18,
+            "text": "Basi, baada ya kuwekwa huru kutoka katika dhambi, mkawa watumishi wa usahihi."
+          },
+          {
+            "number": 19,
+            "text": "Ninasema kwa namna ya kibinadamu kwa sababu ya udhaifu wa mwili wenu; kwa maana kama vile mlivyovitoa viungo vyenu kuwa watumishi wa uchafu na wa uovu hata kuingia katika uovu zaidi, vivyo hivyo sasa vitoeni viungo vyenu kuwa watumishi wa usahihi hata kufikia utakatifu."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana mlipokuwa watumishi wa dhambi, mlikuwa huru kutoka katika usahihi."
+          },
+          {
+            "number": 21,
+            "text": "Basi mlipata matunda gani wakati huo katika mambo ambayo sasa mnayaonea aibu? Kwa maana mwisho wa mambo hayo ni kifo."
+          },
+          {
+            "number": 22,
+            "text": "Lakini sasa, baada ya kuwekwa huru kutoka katika dhambi na kuwa watumishi wa Mungu, mnayo matunda yenu yanayoleta utakatifu, na mwisho wake ni uzima wa milele."
+          },
+          {
+            "number": 23,
+            "text": "Kwa maana mshahara wa dhambi ni kifo; lakini karama ya Mungu ni uzima wa milele kupitia Yesu Kristo Bwana wetu."
+          }
+        ],
+        "7": [
+          {
+            "number": 1,
+            "text": "Je, hamjui, ndugu, kwa maana ninasema na wale wanaoijua Torati, kwamba Torati ina mamlaka juu ya mtu kwa muda wote anaoishi?"
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana mwanamke aliye na mume amefungwa kwa Torati kwa mume wake wakati wote mume huyo anapoishi; lakini mume akifa, amefunguliwa kutoka katika sheria ya mume wake."
+          },
+          {
+            "number": 3,
+            "text": "Basi ikiwa mume wake akiwa hai ataolewa na mwanamume mwingine, ataitwa mzinzi; lakini mume wake akifa, yuko huru kutoka katika sheria hiyo, hata kwamba si mzinzi ingawa ataolewa na mwanamume mwingine."
+          },
+          {
+            "number": 4,
+            "text": "Kwa hiyo, ndugu zangu, ninyi pia mmeifia Torati kupitia mwili wa Kristo, ili muwe wa mwingine, yaani, yeye aliyefufuliwa kutoka kwa wafu, kusudi tumzalie Mungu matunda."
+          },
+          {
+            "number": 5,
+            "text": "Kwa maana tulipokuwa katika mwili, tamaa za dhambi, zilizochochewa kupitia Torati, zilifanya kazi katika viungo vyetu ili kuzaa matunda ya kifo."
+          },
+          {
+            "number": 6,
+            "text": "Lakini sasa tumefunguliwa kutoka katika Torati, tukiwa tumekufa kwa kile kilichotushikilia; ili tutumikie katika upya wa roho, wala si katika ukale wa andiko."
+          },
+          {
+            "number": 7,
+            "text": "Basi tuseme nini? Je, Torati ni dhambi? Hasha! La, nisingaliijua dhambi isipokuwa kupitia Torati; kwa maana nisingaliijua tamaa, kama Torati isingalisema, Usitamani."
+          },
+          {
+            "number": 8,
+            "text": "Lakini dhambi, ikipata nafasi kupitia amri, ikatenda ndani yangu kila namna ya tamaa. Kwa maana pasipo Torati dhambi ilikuwa imekufa."
+          },
+          {
+            "number": 9,
+            "text": "Maana hapo zamani nilikuwa hai pasipo Torati; lakini amri ilipokuja, dhambi ikawa hai, nami nikafa."
+          },
+          {
+            "number": 10,
+            "text": "Na ile amri iliyokusudiwa kuleta uzima, nikaona kwamba kwangu ilileta kifo."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana dhambi, ikipata nafasi kupitia amri, ilinidanganya, na kupitia hiyo ikaniua."
+          },
+          {
+            "number": 12,
+            "text": "Kwa hiyo Torati ni takatifu, na amri ni takatifu, na ni sahihi, na ni njema."
+          },
+          {
+            "number": 13,
+            "text": "Basi je, kile kilicho chema kilikuwa kifo kwangu? Hasha! Bali dhambi, ili ionekane kuwa dhambi, ilitenda kifo ndani yangu kupitia kile kilicho chema; ili kupitia amri dhambi ionekane kuwa yenye dhambi kupita kiasi."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana tunajua kwamba Torati ni ya kiroho; lakini mimi ni wa kimwili, nimeuzwa chini ya dhambi."
+          },
+          {
+            "number": 15,
+            "text": "Kwa maana lile ninalolitenda silielewi; kwa sababu lile ninalotaka kulitenda, silitendi; bali lile ninalolichukia, ndilo ninalolitenda."
+          },
+          {
+            "number": 16,
+            "text": "Basi ikiwa ninatenda lile nisilotaka kulitenda, ninakubaliana na Torati kwamba ni njema."
+          },
+          {
+            "number": 17,
+            "text": "Basi sasa si mimi tena ninayelitenda, bali ni dhambi inayokaa ndani yangu."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana najua kwamba ndani yangu, yaani, katika mwili wangu, halikai jambo lolote jema; kwa maana kutaka kutenda mema kuko ndani yangu, lakini jinsi ya kuyatenda yaliyo mema siipati."
+          },
+          {
+            "number": 19,
+            "text": "Kwa maana mema ninayotaka kuyatenda siyatendi; bali uovu nisiotaka kuutenda, ndio ninaoutenda."
+          },
+          {
+            "number": 20,
+            "text": "Basi ikiwa ninatenda lile nisilotaka, si mimi tena ninayelitenda, bali ni dhambi inayokaa ndani yangu."
+          },
+          {
+            "number": 21,
+            "text": "Basi ninaiona sheria hii: kwamba ninapotaka kutenda mema, uovu upo pamoja nami."
+          },
+          {
+            "number": 22,
+            "text": "Kwa maana ninaifurahia Torati ya Mungu kwa utu wa ndani;"
+          },
+          {
+            "number": 23,
+            "text": "lakini ninaona sheria nyingine katika viungo vyangu, ikipigana dhidi ya sheria ya akili yangu, na kunifanya mateka wa sheria ya dhambi iliyo katika viungo vyangu."
+          },
+          {
+            "number": 24,
+            "text": "Ole wangu, mimi mwanadamu mwenye taabu! Ni nani atakayeniokoa kutoka katika mwili huu wa kifo?"
+          },
+          {
+            "number": 25,
+            "text": "Ninamshukuru Mungu kupitia Yesu Kristo Bwana wetu. Basi kwa akili mimi mwenyewe ninaitumikia Torati ya Mungu; lakini kwa mwili ninaitumikia sheria ya dhambi."
+          }
+        ],
+        "8": [
+          {
+            "number": 1,
+            "text": "Basi sasa hakuna hukumu ya adhabu kwa wale walio katika Kristo Yesu, ambao hawatembei kwa kufuata mwili, bali kwa kufuata Roho."
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana sheria ya Roho wa uzima katika Kristo Yesu imeniweka huru kutoka katika sheria ya dhambi na kifo."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana lile ambalo Torati haikuweza kufanya, kwa kuwa ilikuwa dhaifu kupitia mwili, Mungu alifanya kwa kumtuma Mwana wake mwenyewe katika mfano wa mwili wenye dhambi, na kwa ajili ya dhambi, akaihukumu dhambi katika mwili;"
+          },
+          {
+            "number": 4,
+            "text": "ili matakwa yaliyo sahihi ya Torati yatimizwe ndani yetu, sisi ambao hatutembei kwa kufuata mwili, bali kwa kufuata Roho."
+          },
+          {
+            "number": 5,
+            "text": "Kwa maana wale wanaofuata mwili huyawaza mambo ya mwili; lakini wale wanaofuata Roho huyawaza mambo ya Roho."
+          },
+          {
+            "number": 6,
+            "text": "Kwa maana kuwa na nia ya kimwili ni kifo; lakini kuwa na nia ya kiroho ni uzima na amani."
+          },
+          {
+            "number": 7,
+            "text": "Kwa sababu nia ya kimwili ni uadui dhidi ya Mungu; kwa maana haitii Torati ya Mungu, wala kwa kweli haiwezi kuitii."
+          },
+          {
+            "number": 8,
+            "text": "Basi wale walio katika mwili hawawezi kumpendeza Mungu."
+          },
+          {
+            "number": 9,
+            "text": "Lakini ninyi hamko katika mwili, bali katika Roho, ikiwa kweli Roho wa Mungu anakaa ndani yenu. Basi ikiwa mtu yeyote hana Roho wa Kristo, huyo si wake."
+          },
+          {
+            "number": 10,
+            "text": "Na ikiwa Kristo yumo ndani yenu, mwili umekufa kwa sababu ya dhambi; lakini Roho ni uzima kwa sababu ya usahihi."
+          },
+          {
+            "number": 11,
+            "text": "Lakini ikiwa Roho wake yeye aliyemfufua Yesu kutoka kwa wafu anakaa ndani yenu, yeye aliyemfufua Kristo kutoka kwa wafu ataihuisha pia miili yenu inayokufa kupitia Roho wake anayekaa ndani yenu."
+          },
+          {
+            "number": 12,
+            "text": "Kwa hiyo, ndugu, sisi tuna deni, lakini si kwa mwili, ili tuishi kwa kuufuata mwili."
+          },
+          {
+            "number": 13,
+            "text": "Kwa maana ikiwa mnaishi kwa kuufuata mwili, mtakufa; lakini ikiwa kupitia Roho mnayaua matendo ya mwili, mtaishi."
+          },
+          {
+            "number": 14,
+            "text": "Kwa maana wote wanaoongozwa na Roho wa Mungu, hao ndio wana wa Mungu."
+          },
+          {
+            "number": 15,
+            "text": "Kwa maana hamkupokea roho ya utumwa ili mrudi tena katika hofu; bali mmepokea Roho wa kufanywa wana, ambaye kupitia yeye tunalia, Abba, Baba."
+          },
+          {
+            "number": 16,
+            "text": "Roho mwenyewe hushuhudia pamoja na roho yetu kwamba sisi ni watoto wa Mungu;"
+          },
+          {
+            "number": 17,
+            "text": "na ikiwa sisi ni watoto, basi tu warithi; warithi wa Mungu na warithi pamoja na Kristo; ikiwa kweli tunateseka pamoja naye, ili pia tutukuzwe pamoja naye."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana nahesabu kwamba mateso ya wakati huu hayastahili kulinganishwa na utukufu utakaofunuliwa ndani yetu."
+          },
+          {
+            "number": 19,
+            "text": "Kwa maana matarajio makubwa ya uumbaji yanangojea kufunuliwa kwa wana wa Mungu."
+          },
+          {
+            "number": 20,
+            "text": "Kwa maana uumbaji uliwekwa chini ya ubatili, si kwa hiari yake, bali kwa sababu yake yeye aliyeuweka chini, katika tumaini;"
+          },
+          {
+            "number": 21,
+            "text": "kwa sababu uumbaji wenyewe pia utawekwa huru kutoka katika utumwa wa uharibifu na kuingia katika uhuru wenye utukufu wa watoto wa Mungu."
+          },
+          {
+            "number": 22,
+            "text": "Kwa maana tunajua kwamba uumbaji wote unaugua na kuwa katika uchungu wa kuzaa pamoja mpaka sasa."
+          },
+          {
+            "number": 23,
+            "text": "Wala si uumbaji tu, bali sisi wenyewe pia, tulio na malimbuko ya Roho, sisi wenyewe tunaugua ndani yetu, tukingojea kufanywa wana, yaani, ukombozi wa mwili wetu."
+          },
+          {
+            "number": 24,
+            "text": "Kwa maana tumeokolewa katika tumaini; lakini tumaini linaloonekana si tumaini; kwa maana mtu anachokiona, kwa nini akitumainie tena?"
+          },
+          {
+            "number": 25,
+            "text": "Lakini ikiwa tunatumainia lile tusiloliona, basi tunalingojea kwa uvumilivu."
+          },
+          {
+            "number": 26,
+            "text": "Vivyo hivyo Roho pia hutusaidia katika udhaifu wetu; kwa maana hatujui tunachopaswa kuomba kama inavyotupasa; lakini Roho mwenyewe hutuombea kwa kuugua kusikoweza kutamkwa."
+          },
+          {
+            "number": 27,
+            "text": "Naye achunguzaye mioyo anajua nia ya Roho ni nini, kwa sababu huwaombea watakatifu kulingana na mapenzi ya Mungu."
+          },
+          {
+            "number": 28,
+            "text": "Nasi tunajua kwamba mambo yote hufanya kazi pamoja kwa mema kwa wale wanaompenda Mungu, kwa wale walioitwa kulingana na kusudi lake."
+          },
+          {
+            "number": 29,
+            "text": "Kwa maana wale aliowajua tangu awali, aliwachagua tangu awali wafananishwe na mfano wa Mwana wake, ili yeye awe mzaliwa wa kwanza miongoni mwa ndugu wengi."
+          },
+          {
+            "number": 30,
+            "text": "Na wale aliowachagua tangu awali, hao pia aliwaita; na wale aliowaita, hao pia aliwahesabu kuwa sahihi; na wale aliowahesabu kuwa sahihi, hao pia aliwatukuza."
+          },
+          {
+            "number": 31,
+            "text": "Basi tuseme nini kuhusu mambo haya? Ikiwa Mungu yuko upande wetu, ni nani awezaye kuwa dhidi yetu?"
+          },
+          {
+            "number": 32,
+            "text": "Yeye ambaye hakumhurumia Mwana wake mwenyewe, bali alimtoa kwa ajili yetu sote, atawezaje kutotupatia pia pamoja naye vitu vyote bure?"
+          },
+          {
+            "number": 33,
+            "text": "Ni nani atakayeleta shtaka lolote dhidi ya wateule wa Mungu? Ni Mungu anayewahesabu kuwa sahihi."
+          },
+          {
+            "number": 34,
+            "text": "Ni nani anayehukumu? Ni Kristo aliyekufa, naam, zaidi ya hayo, aliyefufuka tena, ambaye yuko mkono wa kuume wa Mungu, ambaye pia anatuombea."
+          },
+          {
+            "number": 35,
+            "text": "Ni nani atakayetutenga na upendo wa Kristo? Je, ni dhiki, au taabu, au mateso, au njaa, au uchi, au hatari, au upanga?"
+          },
+          {
+            "number": 36,
+            "text": "Kama ilivyoandikwa, Kwa ajili yako tunauawa mchana kutwa; tumehesabiwa kuwa kama kondoo wa kuchinjwa."
+          },
+          {
+            "number": 37,
+            "text": "La, katika mambo haya yote sisi ni zaidi ya washindi kupitia yeye aliyetupenda."
+          },
+          {
+            "number": 38,
+            "text": "Kwa maana nimeshawishika kwamba wala kifo, wala uzima, wala malaika, wala falme, wala mamlaka, wala mambo yaliyopo sasa, wala mambo yatakayokuja,"
+          },
+          {
+            "number": 39,
+            "text": "wala kilicho juu, wala kilicho chini, wala kiumbe kingine chochote, hakitaweza kututenga na upendo wa Mungu ulio katika Kristo Yesu Bwana wetu."
+          }
+        ],
+        "9": [
+          {
+            "number": 1,
+            "text": "Ninasema kweli katika Kristo, sisemi uongo, dhamiri yangu pia ikinishuhudia katika Roho Mtakatifu,"
+          },
+          {
+            "number": 2,
+            "text": "kwamba nina huzuni kubwa na uchungu usiokoma moyoni mwangu."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana ningeweza kutamani mimi mwenyewe nilaaniwe na kutengwa na Kristo kwa ajili ya ndugu zangu, jamaa zangu kwa jinsi ya mwili;"
+          },
+          {
+            "number": 4,
+            "text": "ambao ni Waisraeli; ambao kwao ni kufanywa wana, na utukufu, na maagano, na kutolewa kwa Torati, na ibada ya Mungu, na ahadi;"
+          },
+          {
+            "number": 5,
+            "text": "ambao mababu ni wao, na ambao kutoka kwao kwa jinsi ya mwili Kristo alikuja, ambaye yuko juu ya yote, Mungu aliyebarikiwa milele. Amina."
+          },
+          {
+            "number": 6,
+            "text": "Si kwamba neno la Mungu limekosa kutimia. Kwa maana si wote walio wa Israeli ambao ni Israeli;"
+          },
+          {
+            "number": 7,
+            "text": "wala kwa sababu wao ni uzao wa Abrahamu, wote si watoto; bali, Katika Isaka uzao wako utaitwa."
+          },
+          {
+            "number": 8,
+            "text": "Yaani, wale walio watoto wa mwili, hao si watoto wa Mungu; bali watoto wa ahadi ndio wanaohesabiwa kuwa uzao."
+          },
+          {
+            "number": 9,
+            "text": "Kwa maana hili ndilo neno la ahadi, Wakati huu nitakuja, na Sara atakuwa na mwana."
+          },
+          {
+            "number": 10,
+            "text": "Wala si hivyo tu; bali Rebeka pia, alipokuwa amechukua mimba kwa mtu mmoja, yaani Isaka baba yetu;"
+          },
+          {
+            "number": 11,
+            "text": "kwa maana watoto walipokuwa bado hawajazaliwa, wala hawajafanya jema au ovu, ili kusudi la Mungu kulingana na uchaguzi lisimame, si kwa matendo, bali kwa yeye aitaye;"
+          },
+          {
+            "number": 12,
+            "text": "aliambiwa, Mkubwa atamtumikia mdogo."
+          },
+          {
+            "number": 13,
+            "text": "Kama ilivyoandikwa, Yakobo nimempenda, lakini Esau nimemchukia."
+          },
+          {
+            "number": 14,
+            "text": "Basi tuseme nini? Je, kuna kutokuwa sahihi kwa Mungu? Hasha!"
+          },
+          {
+            "number": 15,
+            "text": "Kwa maana anamwambia Musa, Nitamrehemu yule nitakayemrehemu, nami nitamhurumia yule nitakayemhurumia."
+          },
+          {
+            "number": 16,
+            "text": "Basi si kwa yule anayetaka, wala kwa yule anayekimbia, bali ni kwa Mungu anayeonyesha rehema."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana Maandiko yanamwambia Farao, Kwa kusudi hili hili nimekuinua, ili nionyeshe nguvu zangu ndani yako, na ili jina langu litangazwe katika dunia yote."
+          },
+          {
+            "number": 18,
+            "text": "Kwa hiyo humrehemu yule anayetaka kumrehemu, na yule anayetaka humfanya kuwa mgumu."
+          },
+          {
+            "number": 19,
+            "text": "Basi utaniambia, Kwa nini bado analaumu? Kwa maana ni nani aliyepinga mapenzi yake?"
+          },
+          {
+            "number": 20,
+            "text": "La, Ee mwanadamu, wewe ni nani hata umjibu Mungu? Je, kitu kilichoumbwa kitamwambia yeye aliyekiumba, Kwa nini umeniumba hivi?"
+          },
+          {
+            "number": 21,
+            "text": "Je, mfinyanzi hana mamlaka juu ya udongo, kutoka katika donge lilelile kutengeneza chombo kimoja kwa heshima, na kingine kwa kutokuwa na heshima?"
+          },
+          {
+            "number": 22,
+            "text": "Itakuwaje basi ikiwa Mungu, akitaka kuonyesha ghadhabu yake na kufanya nguvu zake zijulikane, alivivumilia kwa ustahimilivu mwingi vyombo vya ghadhabu vilivyoandaliwa kwa uharibifu;"
+          },
+          {
+            "number": 23,
+            "text": "na ili ajulishe utajiri wa utukufu wake juu ya vyombo vya rehema, ambavyo alikuwa amevitayarisha tangu awali kwa ajili ya utukufu,"
+          },
+          {
+            "number": 24,
+            "text": "yaani sisi, ambao ametuita, si kutoka kwa Wayahudi tu, bali pia kutoka kwa Mataifa?"
+          },
+          {
+            "number": 25,
+            "text": "Kama asemavyo pia katika Hosea, Nitawaita watu wangu wale ambao hawakuwa watu wangu; na yeye ambaye hakupendwa, nitamwita mpendwa."
+          },
+          {
+            "number": 26,
+            "text": "Na itakuwa kwamba mahali pale walipoambiwa, Ninyi si watu wangu, hapo wataitwa wana wa Mungu aliye hai."
+          },
+          {
+            "number": 27,
+            "text": "Isaya pia analia kuhusu Israeli, Ingawa hesabu ya wana wa Israeli ni kama mchanga wa bahari, mabaki yataokolewa;"
+          },
+          {
+            "number": 28,
+            "text": "kwa maana ataikamilisha kazi na kuifupisha katika usahihi; kwa sababu Bwana atafanya kazi fupi juu ya dunia."
+          },
+          {
+            "number": 29,
+            "text": "Na kama Isaya alivyosema hapo awali, Kama BWANA wa majeshi asingalituachia uzao, tungalikuwa kama Sodoma, na tungalifanywa kama Gomora."
+          },
+          {
+            "number": 30,
+            "text": "Basi tuseme nini? Kwamba Mataifa, ambao hawakufuatilia usahihi, wameufikia usahihi, yaani, usahihi ambao ni wa imani."
+          },
+          {
+            "number": 31,
+            "text": "Lakini Israeli, waliofuatilia Torati ya usahihi, hawakuifikia Torati ya usahihi."
+          },
+          {
+            "number": 32,
+            "text": "Kwa nini? Kwa sababu hawakuutafuta kwa imani, bali kana kwamba kwa matendo ya Torati. Kwa maana walijikwaa katika jiwe lile la kujikwaa;"
+          },
+          {
+            "number": 33,
+            "text": "kama ilivyoandikwa, Tazama, ninaweka katika Sayuni jiwe la kujikwaa na mwamba wa kukwaza; na yeyote anayemwamini hatatahayarika."
+          }
+        ],
+        "10": [
+          {
+            "number": 1,
+            "text": "Ndugu, shauku ya moyo wangu na maombi yangu kwa Mungu kwa ajili ya Israeli ni kwamba waokolewe."
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana ninawashuhudia kwamba wana bidii kwa ajili ya Mungu, lakini si kulingana na ujuzi."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana, wakiwa hawaujui usahihi wa Mungu, na wakitafuta kuuthibitisha usahihi wao wenyewe, hawajajitiisha chini ya usahihi wa Mungu."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana Kristo ndiye mwisho wa Torati kwa ajili ya usahihi kwa kila aaminiye."
+          },
+          {
+            "number": 5,
+            "text": "Kwa maana Musa anaueleza usahihi ulio wa Torati hivi, Mtu atendaye mambo hayo ataishi kwa hayo."
+          },
+          {
+            "number": 6,
+            "text": "Lakini usahihi ulio wa imani unasema hivi, Usiseme moyoni mwako, Ni nani atakayepanda mbinguni? yaani, kumshusha Kristo kutoka juu;"
+          },
+          {
+            "number": 7,
+            "text": "au, Ni nani atakayeshuka katika kilindi? yaani, kumleta Kristo juu tena kutoka kwa wafu."
+          },
+          {
+            "number": 8,
+            "text": "Lakini unasema nini? Neno liko karibu nawe, katika kinywa chako na katika moyo wako; yaani, neno la imani tunalolihubiri;"
+          },
+          {
+            "number": 9,
+            "text": "kwamba ukimkiri kwa kinywa chako Bwana Yesu, na kuamini moyoni mwako kwamba Mungu alimfufua kutoka kwa wafu, utaokolewa."
+          },
+          {
+            "number": 10,
+            "text": "Kwa maana kwa moyo mtu huamini hata kuhesabiwa kuwa sahihi; na kwa kinywa hukiri hata kupata wokovu."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana Maandiko yanasema, Yeyote anayemwamini hatatahayarika."
+          },
+          {
+            "number": 12,
+            "text": "Kwa maana hakuna tofauti kati ya Myahudi na Myunani; kwa kuwa Bwana yuleyule ni Bwana wa wote, mwenye utajiri kwa wote wanaomwita."
+          },
+          {
+            "number": 13,
+            "text": "Kwa maana yeyote atakayeliitia jina la Bwana ataokolewa."
+          },
+          {
+            "number": 14,
+            "text": "Basi watamwitaje yeye ambaye hawajamwamini? Na watamwaminije yeye ambaye hawajasikia habari zake? Na watasikiaje pasipo mhubiri?"
+          },
+          {
+            "number": 15,
+            "text": "Na watahubirije wasipotumwa? Kama ilivyoandikwa, Jinsi ilivyo mizuri miguu ya wale wanaohubiri Injili ya amani, na kuleta habari njema za mambo mema!"
+          },
+          {
+            "number": 16,
+            "text": "Lakini si wote walioitii Injili. Kwa maana Isaya anasema, Bwana, ni nani aliyeamini taarifa yetu?"
+          },
+          {
+            "number": 17,
+            "text": "Basi imani huja kwa kusikia, na kusikia kupitia neno la Mungu."
+          },
+          {
+            "number": 18,
+            "text": "Lakini nasema, Je, hawakusikia? Naam, hakika, sauti yao ilienea katika dunia yote, na maneno yao mpaka miisho ya ulimwengu."
+          },
+          {
+            "number": 19,
+            "text": "Lakini Isaya ana ujasiri mkubwa, na anasema, Nilipatikana na wale ambao hawakunitafuta; nilijidhihirisha kwa wale ambao hawakuniulizia."
+          },
+          {
+            "number": 20,
+            "text": "Lakini kuhusu Israeli anasema, Mchana kutwa nimeinyosha mikono yangu kwa watu wasiotii na wanaopinga."
+          }
+        ],
+        "11": [
+          {
+            "number": 1,
+            "text": "Basi nasema, Je, Mungu amewatupilia mbali watu wake? Hasha! Kwa maana mimi pia ni Mwisraeli, wa uzao wa Abrahamu, wa kabila la Benyamini."
+          },
+          {
+            "number": 2,
+            "text": "Mungu hajawatupilia mbali watu wake aliowajua tangu awali. Je, hamjui Maandiko yanasema nini kuhusu Eliya? Jinsi anavyomwomba Mungu dhidi ya Israeli, akisema,"
+          },
+          {
+            "number": 3,
+            "text": "Bwana, wamewaua manabii wako, na wamezibomoa madhabahu zako; nami nimebaki peke yangu, nao wanatafuta uhai wangu."
+          },
+          {
+            "number": 4,
+            "text": "Lakini jibu la Mungu linamwambia nini? Nimejihifadhia wanaume elfu saba, ambao hawajapiga magoti mbele ya sanamu ya Baali."
+          },
+          {
+            "number": 5,
+            "text": "Vivyo hivyo basi, hata wakati huu wa sasa kuna mabaki kulingana na uchaguzi wa neema."
+          },
+          {
+            "number": 6,
+            "text": "Na ikiwa ni kwa neema, basi si tena kwa matendo; la sivyo neema si neema tena. Lakini ikiwa ni kwa matendo, basi si neema tena; la sivyo tendo si tendo tena."
+          },
+          {
+            "number": 7,
+            "text": "Basi iweje? Israeli hawakupata lile walilokuwa wakilitafuta; lakini wateule walilipata, na wengine walipofushwa;"
+          },
+          {
+            "number": 8,
+            "text": "kama ilivyoandikwa, Mungu amewapa roho ya usingizi mzito, macho ili wasione, na masikio ili wasisikie, mpaka siku hii."
+          },
+          {
+            "number": 9,
+            "text": "Na Daudi anasema, Meza yao na iwe mtego, na tanzi, na jiwe la kujikwaa, na malipo kwao;"
+          },
+          {
+            "number": 10,
+            "text": "macho yao na yatiwe giza ili wasione, na migongo yao iiname daima."
+          },
+          {
+            "number": 11,
+            "text": "Basi nasema, Je, walijikwaa ili waanguke kabisa? Hasha! Bali kupitia kuanguka kwao wokovu umewajia Mataifa, ili kuwachochea wao kuwa na wivu."
+          },
+          {
+            "number": 12,
+            "text": "Basi ikiwa kuanguka kwao ni utajiri wa ulimwengu, na kupungua kwao ni utajiri wa Mataifa, je, utimilifu wao utakuwa zaidi kiasi gani?"
+          },
+          {
+            "number": 13,
+            "text": "Kwa maana ninasema nanyi Mataifa; kwa kuwa mimi ni mtume wa Mataifa, ninaitukuza huduma yangu;"
+          },
+          {
+            "number": 14,
+            "text": "ikiwa kwa njia yoyote nitaweza kuwachochea kuwa na wivu wale walio wa mwili wangu, na kuwaokoa baadhi yao."
+          },
+          {
+            "number": 15,
+            "text": "Kwa maana ikiwa kutupiliwa mbali kwao ni upatanisho wa ulimwengu, kupokelewa kwao kutakuwa nini isipokuwa uzima kutoka kwa wafu?"
+          },
+          {
+            "number": 16,
+            "text": "Kwa maana ikiwa malimbuko ni matakatifu, donge lote pia ni takatifu; na ikiwa mzizi ni mtakatifu, matawi nayo pia ni matakatifu."
+          },
+          {
+            "number": 17,
+            "text": "Na ikiwa baadhi ya matawi yalikatwa, nawe, ukiwa mzeituni wa mwitu, ukapandikizwa kati yao, na pamoja nao ukawa mshiriki wa mzizi na unono wa mzeituni;"
+          },
+          {
+            "number": 18,
+            "text": "usijisifu dhidi ya matawi. Lakini ikiwa unajisifu, kumbuka kwamba si wewe unaoubeba mzizi, bali mzizi ndio unaokubeba wewe."
+          },
+          {
+            "number": 19,
+            "text": "Basi utasema, Matawi yalikatwa ili mimi nipandikizwe."
+          },
+          {
+            "number": 20,
+            "text": "Ni kweli; kwa sababu ya kutokuamini kwao walikatwa, nawe unasimama kwa imani. Usijivune, bali uwe na hofu;"
+          },
+          {
+            "number": 21,
+            "text": "kwa maana ikiwa Mungu hakuyahurumia matawi ya asili, jihadhari asije pia akakosa kukuhurumia wewe."
+          },
+          {
+            "number": 22,
+            "text": "Basi tazama wema na ukali wa Mungu; kwa wale walioanguka, ukali; lakini kwako, wema, ikiwa utaendelea katika wema wake; la sivyo wewe pia utakatwa."
+          },
+          {
+            "number": 23,
+            "text": "Nao pia, ikiwa hawataendelea katika kutokuamini, watapandikizwa; kwa maana Mungu ana uwezo wa kuwapandikiza tena."
+          },
+          {
+            "number": 24,
+            "text": "Kwa maana ikiwa wewe ulikatwa kutoka katika mzeituni ambao kwa asili ni wa mwitu, na kinyume cha asili ukapandikizwa katika mzeituni mzuri, je, zaidi kiasi gani hawa walio matawi ya asili watapandikizwa katika mzeituni wao wenyewe?"
+          },
+          {
+            "number": 25,
+            "text": "Kwa maana sitaki, ndugu, msiijue siri hii, msije mkawa wenye hekima katika mawazo yenu wenyewe; kwamba upofu kwa sehemu umewapata Israeli, mpaka utimilifu wa Mataifa uingie."
+          },
+          {
+            "number": 26,
+            "text": "Na hivyo Israeli wote wataokolewa; kama ilivyoandikwa, Mwokozi atatoka Sayuni, naye atauondoa kutomcha Mungu kutoka kwa Yakobo;"
+          },
+          {
+            "number": 27,
+            "text": "kwa maana hili ndilo agano langu nao, nitakapoziondoa dhambi zao."
+          },
+          {
+            "number": 28,
+            "text": "Kwa habari ya Injili, wao ni adui kwa ajili yenu; lakini kwa habari ya uchaguzi, wao ni wapendwa kwa ajili ya mababu."
+          },
+          {
+            "number": 29,
+            "text": "Kwa maana karama na mwito wa Mungu havina majuto."
+          },
+          {
+            "number": 30,
+            "text": "Kwa maana kama vile ninyi zamani hamkumwamini Mungu, lakini sasa mmepata rehema kupitia kutokuamini kwao;"
+          },
+          {
+            "number": 31,
+            "text": "vivyo hivyo hawa pia sasa hawajaamini, ili kupitia rehema mliyoipata ninyi, wao pia wapate rehema."
+          },
+          {
+            "number": 32,
+            "text": "Kwa maana Mungu amewafungia wote katika kutokuamini, ili awarehemu wote."
+          },
+          {
+            "number": 33,
+            "text": "Ee kina cha utajiri wa hekima na ujuzi wa Mungu! Hukumu zake hazichunguziki jinsi gani, na njia zake hazitafutikani!"
+          },
+          {
+            "number": 34,
+            "text": "Kwa maana ni nani aliyeijua nia ya Bwana? Au ni nani aliyekuwa mshauri wake?"
+          },
+          {
+            "number": 35,
+            "text": "Au ni nani aliyempa yeye kwanza, naye atalipwa tena?"
+          },
+          {
+            "number": 36,
+            "text": "Kwa maana vitu vyote vinatoka kwake, na kupitia yeye, na kwa ajili yake; kwake uwe utukufu milele. Amina."
+          }
+        ],
+        "12": [
+          {
+            "number": 1,
+            "text": "Basi nawasihi, ndugu, kwa rehema za Mungu, kwamba itoeni miili yenu kuwa dhabihu iliyo hai, takatifu, inayokubalika kwa Mungu, ambayo ndiyo ibada yenu yenye akili."
+          },
+          {
+            "number": 2,
+            "text": "Wala msifananishwe na ulimwengu huu; bali mbadilishwe kwa kufanywa upya kwa nia zenu, ili mpate kuthibitisha yaliyo mapenzi ya Mungu, yaliyo mema, yanayokubalika, na makamilifu."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana, kupitia neema niliyopewa, namwambia kila mtu aliye miongoni mwenu asijifikirie kuwa mkuu kuliko inavyompasa kujifikiria; bali afikiri kwa kiasi, kulingana na kipimo cha imani ambacho Mungu amemgawia kila mtu."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana kama vile tulivyo na viungo vingi katika mwili mmoja, wala viungo vyote havina kazi ileile;"
+          },
+          {
+            "number": 5,
+            "text": "vivyo hivyo sisi, ingawa tu wengi, tu mwili mmoja katika Kristo, na kila mmoja ni kiungo cha mwingine"
+          },
+          {
+            "number": 6,
+            "text": "Basi, tukiwa na karama zinazotofautiana kulingana na neema tuliyopewa, ikiwa ni unabii, na tutoe unabii kulingana na kipimo cha imani;"
+          },
+          {
+            "number": 7,
+            "text": "au ikiwa ni huduma, na tudumu katika kuhudumu; au afundishaye, katika kufundisha;"
+          },
+          {
+            "number": 8,
+            "text": "au mwenye kuhimiza, katika kuhimiza; atoaye, na atoe kwa moyo mweupe; aongozaye, na aongoze kwa bidii; aonyeshaye rehema, na afanye hivyo kwa furaha."
+          },
+          {
+            "number": 9,
+            "text": "Upendo na uwe bila unafiki. Chukieni uovu; shikamaneni na lililo jema."
+          },
+          {
+            "number": 10,
+            "text": "Pendaneni kwa upendo wa kindugu; katika kuheshimiana, mtangulizane;"
+          },
+          {
+            "number": 11,
+            "text": "msiwe wavivu katika shughuli; muwe na bidii katika roho; mkimtumikia Bwana;"
+          },
+          {
+            "number": 12,
+            "text": "mkifurahi katika tumaini; mkivumilia katika dhiki; mkidumu kwa bidii katika maombi;"
+          },
+          {
+            "number": 13,
+            "text": "mkishiriki katika mahitaji ya watakatifu; mkijitoa katika ukarimu kwa wageni."
+          },
+          {
+            "number": 14,
+            "text": "Wabarikini wanaowatesa; barikini, wala msilaani."
+          },
+          {
+            "number": 15,
+            "text": "Furahini pamoja na wanaofurahi, na lieni pamoja na wanaolia."
+          },
+          {
+            "number": 16,
+            "text": "Iweni na nia moja ninyi kwa ninyi. Msiyawaze mambo ya juu, bali shirikianeni na watu wa hali ya chini. Msiwe wenye hekima katika mawazo yenu wenyewe."
+          },
+          {
+            "number": 17,
+            "text": "Msimlipe mtu yeyote uovu kwa uovu. Yazingatieni mambo yaliyo ya heshima mbele ya watu wote."
+          },
+          {
+            "number": 18,
+            "text": "Ikiwezekana, kwa kadiri inavyowategemea ninyi, isheni kwa amani na watu wote."
+          },
+          {
+            "number": 19,
+            "text": "Wapenzi, msijilipizie kisasi wenyewe, bali ipisheni ghadhabu; kwa maana imeandikwa, Kisasi ni changu; mimi nitalipa, asema Bwana."
+          },
+          {
+            "number": 20,
+            "text": "Kwa hiyo, adui yako akiwa na njaa, mpe chakula; akiwa na kiu, mpe kinywaji; kwa maana kwa kufanya hivyo utamkusanyia makaa ya moto juu ya kichwa chake."
+          },
+          {
+            "number": 21,
+            "text": "Usishindwe na uovu, bali ushinde uovu kwa wema."
+          }
+        ],
+        "13": [
+          {
+            "number": 1,
+            "text": "Kila nafsi na ijitiishe chini ya mamlaka zilizo juu. Kwa maana hakuna mamlaka isipokuwa kutoka kwa Mungu; mamlaka zilizopo zimewekwa na Mungu."
+          },
+          {
+            "number": 2,
+            "text": "Kwa hiyo yeyote anayeipinga mamlaka anaipinga amri ya Mungu; na wale wanaopinga watajiletea hukumu."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana watawala si tishio kwa matendo mema, bali kwa maovu. Basi wataka kutoiogopa mamlaka? Tenda lililo jema, nawe utapata sifa kutoka kwake;"
+          },
+          {
+            "number": 4,
+            "text": "kwa maana yeye ni mtumishi wa Mungu kwako kwa ajili ya mema. Lakini ukitenda uovu, ogopa; kwa maana hauchukui upanga bure; kwa kuwa yeye ni mtumishi wa Mungu, mlipiza kisasi wa kutekeleza ghadhabu juu ya atendaye uovu."
+          },
+          {
+            "number": 5,
+            "text": "Kwa hiyo ni lazima mjitiishe, si kwa sababu ya ghadhabu tu, bali pia kwa ajili ya dhamiri."
+          },
+          {
+            "number": 6,
+            "text": "Kwa sababu hiyo pia mnalipa kodi; kwa maana wao ni watumishi wa Mungu, wakidumu daima katika jambo hili hili."
+          },
+          {
+            "number": 7,
+            "text": "Basi wapeni wote haki zao; kodi kwa anayestahili kodi; ushuru kwa anayestahili ushuru; hofu kwa anayestahili hofu; heshima kwa anayestahili heshima."
+          },
+          {
+            "number": 8,
+            "text": "Msiwe na deni la kitu chochote kwa mtu yeyote, isipokuwa kupendana ninyi kwa ninyi; kwa maana anayempenda mwingine ameitimiza Torati."
+          },
+          {
+            "number": 9,
+            "text": "Kwa maana amri hizi, Usizini, Usiue, Usiibe, Usitoe ushahidi wa uongo, Usitamani; na ikiwa kuna amri nyingine yoyote, zinajumlishwa kwa ufupi katika neno hili, Mpende jirani yako kama unavyojipenda mwenyewe."
+          },
+          {
+            "number": 10,
+            "text": "Upendo haumfanyii jirani uovu; kwa hiyo upendo ndio utimilifu wa Torati."
+          },
+          {
+            "number": 11,
+            "text": "Na zaidi ya hayo, mkiujua wakati, kwamba sasa ni wakati wa kuamka kutoka usingizini; kwa maana sasa wokovu wetu uko karibu zaidi kuliko tulipoanza kuamini."
+          },
+          {
+            "number": 12,
+            "text": "Usiku umekwenda sana, mchana umekaribia; basi na tuyavue matendo ya giza, na tuvae silaha za nuru."
+          },
+          {
+            "number": 13,
+            "text": "Na tutembee kwa heshima, kama wakati wa mchana; si katika ulafi na ulevi, si katika uasherati na ufisadi, si katika ugomvi na wivu."
+          },
+          {
+            "number": 14,
+            "text": "Bali mvaeni Bwana Yesu Kristo, wala msiufanyie mwili maandalizi ya kutimiza tamaa zake."
+          }
+        ],
+        "14": [
+          {
+            "number": 1,
+            "text": "Yeye aliye dhaifu katika imani mpokeeni, lakini si kwa ajili ya mabishano juu ya mambo yenye mashaka."
+          },
+          {
+            "number": 2,
+            "text": "Kwa maana mmoja anaamini kwamba anaweza kula vitu vyote; lakini mwingine, aliye dhaifu, hula mboga."
+          },
+          {
+            "number": 3,
+            "text": "Yeye anayekula asimdharau yule asiyekula; wala yule asiyekula asimhukumu anayekula; kwa maana Mungu amempokea."
+          },
+          {
+            "number": 4,
+            "text": "Wewe ni nani unayemhukumu mtumishi wa mtu mwingine? Kwa bwana wake mwenyewe anasimama au anaanguka. Naam, atasimamishwa; kwa maana Mungu ana uwezo wa kumsimamisha."
+          },
+          {
+            "number": 5,
+            "text": "Mtu mmoja anaiona siku moja kuwa bora kuliko nyingine; mwingine anaziona siku zote kuwa sawa. Kila mtu na ashawishike kabisa katika nia yake mwenyewe."
+          },
+          {
+            "number": 6,
+            "text": "Yeye anayeiheshimu siku, anaiheshimu kwa ajili ya Bwana; na yeye asiyeiheshimu siku, haiheshimu kwa ajili ya Bwana. Yeye anayekula, anakula kwa ajili ya Bwana, kwa maana anamshukuru Mungu; na yeye asiyekula, hali kwa ajili ya Bwana, naye anamshukuru Mungu."
+          },
+          {
+            "number": 7,
+            "text": "Kwa maana hakuna hata mmoja wetu anayeishi kwa ajili yake mwenyewe, wala hakuna anayekufa kwa ajili yake mwenyewe."
+          },
+          {
+            "number": 8,
+            "text": "Kwa maana ikiwa tunaishi, tunaishi kwa ajili ya Bwana; na ikiwa tunakufa, tunakufa kwa ajili ya Bwana. Basi ikiwa tunaishi au tunakufa, sisi ni wa Bwana."
+          },
+          {
+            "number": 9,
+            "text": "Kwa maana kwa kusudi hili Kristo alikufa, akafufuka, na akaishi tena, ili awe Bwana wa wafu na walio hai."
+          },
+          {
+            "number": 10,
+            "text": "Lakini kwa nini unamhukumu ndugu yako? Au kwa nini unamdharau ndugu yako? Kwa maana sisi sote tutasimama mbele ya kiti cha hukumu cha Kristo."
+          },
+          {
+            "number": 11,
+            "text": "Kwa maana imeandikwa, Kama niishivyo, asema Bwana, kila goti litapigwa mbele yangu, na kila ulimi utakiri kwa Mungu."
+          },
+          {
+            "number": 12,
+            "text": "Basi kila mmoja wetu atatoa habari zake mwenyewe kwa Mungu."
+          },
+          {
+            "number": 13,
+            "text": "Kwa hiyo tusiendelee kuhukumiana; bali tuamue hili, kwamba mtu yeyote asiweke jiwe la kujikwaa au sababu ya kuanguka katika njia ya ndugu yake."
+          },
+          {
+            "number": 14,
+            "text": "Ninajua, nami nimeshawishika katika Bwana Yesu, kwamba hakuna kitu kilicho najisi chenyewe; lakini kwa mtu anayehesabu kitu kuwa najisi, kwake huyo ni najisi."
+          },
+          {
+            "number": 15,
+            "text": "Lakini ikiwa ndugu yako anahuzunishwa kwa sababu ya chakula chako, sasa hutembei katika upendo. Usimwangamize kwa chakula chako yule ambaye Kristo alimfia."
+          },
+          {
+            "number": 16,
+            "text": "Basi mema yenu yasinenwe vibaya."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana ufalme wa Mungu si chakula na kinywaji; bali ni usahihi, na amani, na furaha katika Roho Mtakatifu."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana yeye anayemtumikia Kristo katika mambo haya anakubalika kwa Mungu, na amethibitishwa na wanadamu."
+          },
+          {
+            "number": 19,
+            "text": "Basi na tuyafuatilie mambo yanayoleta amani, na mambo ambayo kwayo mmoja anaweza kumjenga mwingine."
+          },
+          {
+            "number": 20,
+            "text": "Kwa ajili ya chakula usiiharibu kazi ya Mungu. Kweli vitu vyote ni safi; lakini ni uovu kwa mtu anayekula kwa namna inayosababisha kujikwaa."
+          },
+          {
+            "number": 21,
+            "text": "Ni vema kutokula nyama, wala kunywa divai, wala kufanya jambo lolote ambalo kwalo ndugu yako anajikwaa, au anakwazika, au anafanywa dhaifu."
+          },
+          {
+            "number": 22,
+            "text": "Je, unayo imani? Iwe nayo mwenyewe mbele za Mungu. Amebarikiwa yule ambaye hajihukumu mwenyewe katika jambo analolikubali."
+          },
+          {
+            "number": 23,
+            "text": "Lakini yeye mwenye mashaka akila, amehukumiwa, kwa sababu hali kwa imani; kwa maana chochote kisichotokana na imani ni dhambi."
+          }
+        ],
+        "15": [
+          {
+            "number": 1,
+            "text": "Basi sisi tulio na nguvu tunapaswa kubeba udhaifu wa walio dhaifu, wala si kujipendeza wenyewe."
+          },
+          {
+            "number": 2,
+            "text": "Kila mmoja wetu na ampendeze jirani yake kwa mema yake, ili kumjenga."
+          },
+          {
+            "number": 3,
+            "text": "Kwa maana hata Kristo hakujipendeza mwenyewe; bali kama ilivyoandikwa, Lawama za wale waliokulaumu ziliniangukia mimi."
+          },
+          {
+            "number": 4,
+            "text": "Kwa maana mambo yote yaliyoandikwa zamani yaliandikwa kwa ajili ya kujifunza kwetu, ili kupitia uvumilivu na faraja ya Maandiko tuwe na tumaini."
+          },
+          {
+            "number": 5,
+            "text": "Basi Mungu wa uvumilivu na faraja awajalie kuwa na nia moja ninyi kwa ninyi kulingana na Kristo Yesu;"
+          },
+          {
+            "number": 6,
+            "text": "ili kwa nia moja na kinywa kimoja mumtukuze Mungu, yaani Baba wa Bwana wetu Yesu Kristo."
+          },
+          {
+            "number": 7,
+            "text": "Kwa hiyo pokeaneni ninyi kwa ninyi, kama vile Kristo pia alivyotupokea kwa utukufu wa Mungu."
+          },
+          {
+            "number": 8,
+            "text": "Basi nasema kwamba Yesu Kristo alikuwa mtumishi wa waliotahiriwa kwa ajili ya kweli ya Mungu, ili kuzithibitisha ahadi zilizotolewa kwa mababu;"
+          },
+          {
+            "number": 9,
+            "text": "na ili Mataifa wamtukuze Mungu kwa ajili ya rehema yake; kama ilivyoandikwa, Kwa sababu hiyo nitakukiri miongoni mwa Mataifa, na kuliimbia jina lako."
+          },
+          {
+            "number": 10,
+            "text": "Na tena anasema, Furahini, enyi Mataifa, pamoja na watu wake."
+          },
+          {
+            "number": 11,
+            "text": "Na tena, Msifuni Bwana, enyi Mataifa yote; na mtukuzeni, enyi watu wote."
+          },
+          {
+            "number": 12,
+            "text": "Na tena Isaya anasema, Kutakuwa na mzizi wa Yese, naye atakayeinuka kutawala Mataifa; ndani yake Mataifa watatumaini."
+          },
+          {
+            "number": 13,
+            "text": "Basi Mungu wa tumaini awajaze furaha yote na amani katika kuamini, ili mzidi sana katika tumaini, kupitia nguvu za Roho Mtakatifu."
+          },
+          {
+            "number": 14,
+            "text": "Nami mwenyewe pia nimeshawishika kuhusu ninyi, ndugu zangu, kwamba ninyi pia mmejaa wema, mmejazwa ujuzi wote, na mnaweza pia kuonyana ninyi kwa ninyi."
+          },
+          {
+            "number": 15,
+            "text": "Hata hivyo, ndugu, nimewaandikia kwa ujasiri zaidi kwa sehemu, kama kuwakumbusha, kwa sababu ya neema niliyopewa na Mungu,"
+          },
+          {
+            "number": 16,
+            "text": "ili niwe mtumishi wa Yesu Kristo kwa Mataifa, nikihudumu katika Injili ya Mungu, ili sadaka ya Mataifa ikubalike, ikiwa imetakaswa na Roho Mtakatifu."
+          },
+          {
+            "number": 17,
+            "text": "Kwa hiyo nina sababu ya kujisifu kupitia Yesu Kristo katika mambo yanayomhusu Mungu."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana sitathubutu kusema jambo lolote isipokuwa yale ambayo Kristo ametenda kupitia mimi, ili kuwafanya Mataifa kuwa watiifu, kwa neno na kwa tendo,"
+          },
+          {
+            "number": 19,
+            "text": "kupitia ishara na maajabu yenye nguvu, kwa nguvu za Roho wa Mungu; hata kwamba kutoka Yerusalemu na kuzunguka mpaka Iliriko, nimeihubiri kikamilifu Injili ya Kristo."
+          },
+          {
+            "number": 20,
+            "text": "Naam, nimejitahidi sana kuihubiri Injili mahali ambapo Kristo hakutajwa, nisije nikajenga juu ya msingi wa mtu mwingine;"
+          },
+          {
+            "number": 21,
+            "text": "bali kama ilivyoandikwa, Wale ambao hawakuambiwa habari zake wataona; na wale ambao hawakusikia wataelewa."
+          },
+          {
+            "number": 22,
+            "text": "Kwa sababu hiyo pia nimezuiliwa mara nyingi kuja kwenu."
+          },
+          {
+            "number": 23,
+            "text": "Lakini sasa, kwa kuwa sina tena mahali pa kuhudumu katika maeneo haya, na kwa kuwa kwa miaka mingi nimekuwa na shauku kubwa ya kuja kwenu,"
+          },
+          {
+            "number": 24,
+            "text": "nitakapofanya safari yangu kwenda Hispania, nitakuja kwenu; kwa maana ninatumaini kuwaona katika safari yangu, na kusaidiwa nanyi katika safari yangu kuelekea huko, baada ya kwanza kufurahia ushirika wenu kwa muda."
+          },
+          {
+            "number": 25,
+            "text": "Lakini sasa ninaenda Yerusalemu kuwahudumia watakatifu."
+          },
+          {
+            "number": 26,
+            "text": "Kwa maana wale wa Makedonia na Akaya wameona vema kutoa mchango fulani kwa ajili ya watakatifu maskini walioko Yerusalemu."
+          },
+          {
+            "number": 27,
+            "text": "Kweli wameona vema kufanya hivyo, nao ni wadeni wao. Kwa maana ikiwa Mataifa wamekuwa washiriki wa mambo yao ya kiroho, ni wajibu wao pia kuwahudumia katika mambo ya kimwili."
+          },
+          {
+            "number": 28,
+            "text": "Basi nitakapokuwa nimekamilisha jambo hili, na kuwafikishia kwa uhakika tunda hili, nitapitia kwenu nikienda Hispania."
+          },
+          {
+            "number": 29,
+            "text": "Nami nina hakika kwamba nitakapokuja kwenu, nitakuja katika utimilifu wa baraka ya Injili ya Kristo."
+          },
+          {
+            "number": 30,
+            "text": "Basi nawasihi, ndugu, kwa ajili ya Bwana Yesu Kristo, na kwa ajili ya upendo wa Roho, kwamba mshindane pamoja nami katika maombi yenu kwa Mungu kwa ajili yangu;"
+          },
+          {
+            "number": 31,
+            "text": "ili niokolewe kutoka kwa wale wasioamini katika Uyahudi, na ili huduma yangu kwa ajili ya Yerusalemu ikubalike na watakatifu;"
+          },
+          {
+            "number": 32,
+            "text": "ili nije kwenu kwa furaha kwa mapenzi ya Mungu, na pamoja nanyi nipate kuburudishwa."
+          },
+          {
+            "number": 33,
+            "text": "Basi Mungu wa amani awe pamoja nanyi nyote. Amina."
+          }
+        ],
+        "16": [
+          {
+            "number": 1,
+            "text": "Nampendekeza kwenu Fibi, dada yetu, ambaye ni mtumishi wa kanisa lililoko Kenkrea;"
+          },
+          {
+            "number": 2,
+            "text": "ili mmpokee katika Bwana kama inavyowapasa watakatifu, na msaidieni katika jambo lolote atakalohitaji kutoka kwenu; kwa maana yeye amekuwa msaidizi wa wengi, na wangu pia."
+          },
+          {
+            "number": 3,
+            "text": "Wasalimuni Prisila na Akila, wasaidizi wangu katika Kristo Yesu;"
+          },
+          {
+            "number": 4,
+            "text": "ambao kwa ajili ya uhai wangu walihatarisha shingo zao wenyewe; ambao si mimi peke yangu ninayewashukuru, bali pia makanisa yote ya Mataifa."
+          },
+          {
+            "number": 5,
+            "text": "Vivyo hivyo lisalimuni kanisa lililoko nyumbani mwao. Msalimuni Epeneto, mpendwa wangu, ambaye ni malimbuko ya Akaya kwa Kristo."
+          },
+          {
+            "number": 6,
+            "text": "Msalimuni Maria, ambaye alifanya kazi nyingi kwa ajili yetu."
+          },
+          {
+            "number": 7,
+            "text": "Wasalimuni Androniko na Yunia, jamaa zangu na wafungwa wenzangu, ambao wanajulikana sana miongoni mwa mitume, na ambao pia walikuwa katika Kristo kabla yangu."
+          },
+          {
+            "number": 8,
+            "text": "Msalimuni Amplia, mpendwa wangu katika Bwana."
+          },
+          {
+            "number": 9,
+            "text": "Msalimuni Urbano, msaidizi wetu katika Kristo, na Stakisi, mpendwa wangu."
+          },
+          {
+            "number": 10,
+            "text": "Msalimuni Apele, aliyethibitishwa katika Kristo. Wasalimuni wale walio wa nyumba ya Aristobulo."
+          },
+          {
+            "number": 11,
+            "text": "Msalimuni Herodioni, jamaa yangu. Wasalimuni wale walio wa nyumba ya Narkiso ambao wako katika Bwana."
+          },
+          {
+            "number": 12,
+            "text": "Wasalimuni Trifena na Trifosa, ambao wanafanya kazi katika Bwana. Msalimuni Persisi mpendwa, ambaye alifanya kazi nyingi katika Bwana."
+          },
+          {
+            "number": 13,
+            "text": "Msalimuni Rufo, aliyechaguliwa katika Bwana, na mama yake, ambaye pia ni mama yangu."
+          },
+          {
+            "number": 14,
+            "text": "Wasalimuni Asinkrito, Flegoni, Herma, Patroba, Herme, na ndugu walio pamoja nao."
+          },
+          {
+            "number": 15,
+            "text": "Wasalimuni Filologo, na Yulia, Nerea na dada yake, na Olimpa, na watakatifu wote walio pamoja nao."
+          },
+          {
+            "number": 16,
+            "text": "Salimianeni kwa busu takatifu. Makanisa ya Kristo yanawasalimu."
+          },
+          {
+            "number": 17,
+            "text": "Basi nawasihi, ndugu, waangalieni wale wanaosababisha migawanyiko na makwazo kinyume na mafundisho mliyojifunza; na jiepusheni nao."
+          },
+          {
+            "number": 18,
+            "text": "Kwa maana watu kama hao hawamtumikii Bwana wetu Yesu Kristo, bali matumbo yao wenyewe; na kwa maneno mazuri na hotuba za kupendeza wanaidanganya mioyo ya maamuma."
+          },
+          {
+            "number": 19,
+            "text": "Kwa maana utii wenu umejulikana kwa watu wote. Kwa hiyo ninafurahi kwa ajili yenu; lakini nataka muwe wenye hekima kuhusu lililo jema, na maamuma kuhusu uovu."
+          },
+          {
+            "number": 20,
+            "text": "Na Mungu wa amani atamponda Shetani chini ya miguu yenu hivi karibuni. Neema ya Bwana wetu Yesu Kristo iwe pamoja nanyi. Amina."
+          },
+          {
+            "number": 21,
+            "text": "Timotheo, mfanyakazi mwenzangu, na Lukio, na Yasoni, na Sosipatro, jamaa zangu, wanawasalimu."
+          },
+          {
+            "number": 22,
+            "text": "Mimi Tertio, niliyeandika waraka huu, nawasalimu katika Bwana."
+          },
+          {
+            "number": 23,
+            "text": "Gayo, mwenye kunikaribisha mimi na kanisa lote, anawasalimu. Erasto, mtunza hazina wa mji, anawasalimu, na Kwarto ndugu yetu."
+          },
+          {
+            "number": 24,
+            "text": "Neema ya Bwana wetu Yesu Kristo iwe pamoja nanyi nyote. Amina."
+          },
+          {
+            "number": 25,
+            "text": "Basi kwake yeye aliye na uwezo wa kuwaimarisha kulingana na Injili yangu na mahubiri ya Yesu Kristo, kulingana na ufunuo wa siri iliyokuwa imefichwa tangu mwanzo wa ulimwengu,"
+          },
+          {
+            "number": 26,
+            "text": "lakini sasa imedhihirishwa, na kupitia Maandiko ya manabii, kulingana na amri ya Mungu wa milele, imejulishwa kwa mataifa yote kwa ajili ya utii wa imani;"
+          },
+          {
+            "number": 27,
+            "text": "kwa Mungu pekee mwenye hekima, uwe utukufu kupitia Yesu Kristo milele. Amina."
+          }
+        ]
+      }
+    },
+    {
       "id": "2_wathesalonike",
       "name": "2 Wathesalonike",
       "englishName": "2 Thessalonians",
