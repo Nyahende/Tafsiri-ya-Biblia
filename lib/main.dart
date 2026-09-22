@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
 
 import 'screens/splash_screen.dart';
+import 'services/daily_verse_notification_service.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await DailyVerseNotificationService.initialize();
+
+  await DailyVerseNotificationService.scheduleDailyVerseNotifications(
+    hour: 7,
+    minute: 0,
+    daysToSchedule: 30,
+  );
+
   runApp(const TafsiriYaBibliaApp());
 }
 

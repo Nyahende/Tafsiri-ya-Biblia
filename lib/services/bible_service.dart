@@ -133,6 +133,73 @@ class BibleService {
     }
   }
 
+  static Future<BibleReferenceVerse> getReferenceVerse({
+    required String bookId,
+    required int chapterNumber,
+    required int verseNumber,
+  }) async {
+    try {
+      final Map<String, dynamic> jsonData = await _loadBibleData();
+      final List<dynamic> books = jsonData['books'] as List<dynamic>? ?? [];
+
+      Map<String, dynamic>? selectedBook;
+
+      for (final dynamic bookData in books) {
+        final Map<String, dynamic> book = bookData as Map<String, dynamic>;
+        final String currentBookId = book['id']?.toString() ?? '';
+
+        if (currentBookId.toLowerCase() == bookId.toLowerCase()) {
+          selectedBook = book;
+          break;
+        }
+      }
+
+      if (selectedBook == null) {
+        throw BibleDataException('Kitabu chenye ID "$bookId" hakijapatikana.');
+      }
+
+      final String bookName = selectedBook['name']?.toString() ?? '';
+      final Map<String, dynamic> chapters =
+          selectedBook['chapters'] as Map<String, dynamic>? ?? {};
+      final int chapterCount =
+          int.tryParse(selectedBook['chapterCount']?.toString() ?? '') ??
+          chapters.length;
+
+      final List<dynamic>? chapterData =
+          chapters[chapterNumber.toString()] as List<dynamic>?;
+
+      if (chapterData == null) {
+        throw BibleDataException(
+          '$bookName sura ya $chapterNumber haijapatikana.',
+        );
+      }
+
+      for (final dynamic verseData in chapterData) {
+        final Map<String, dynamic> verseMap = verseData as Map<String, dynamic>;
+        final BibleVerse verse = BibleVerse.fromJson(verseMap);
+
+        if (verse.number == verseNumber) {
+          return BibleReferenceVerse(
+            bookId: bookId,
+            bookName: bookName,
+            chapterNumber: chapterNumber,
+            chapterCount: chapterCount,
+            verseNumber: verse.number,
+            verseText: verse.text,
+          );
+        }
+      }
+
+      throw BibleDataException(
+        '$bookName $chapterNumber:$verseNumber haujapatikana.',
+      );
+    } on BibleDataException {
+      rethrow;
+    } catch (error) {
+      throw BibleDataException('Imeshindikana kupakia rejeo: $error');
+    }
+  }
+
   static Map<String, dynamic>? _findBook({
     required List<dynamic> books,
     required String bookName,
@@ -159,6 +226,26 @@ class DailyBibleVerse {
     required this.verseText,
   });
 
+  final String bookName;
+  final int chapterNumber;
+  final int chapterCount;
+  final int verseNumber;
+  final String verseText;
+
+  String get reference => '$bookName $chapterNumber:$verseNumber';
+}
+
+class BibleReferenceVerse {
+  const BibleReferenceVerse({
+    required this.bookId,
+    required this.bookName,
+    required this.chapterNumber,
+    required this.chapterCount,
+    required this.verseNumber,
+    required this.verseText,
+  });
+
+  final String bookId;
   final String bookName;
   final int chapterNumber;
   final int chapterCount;

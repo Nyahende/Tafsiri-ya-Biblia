@@ -6,6 +6,7 @@ import '../../services/bookmark_service.dart';
 import '../../services/reading_progress_service.dart';
 import 'saved_verses_screen.dart';
 import 'package:share_plus/share_plus.dart';
+import '../../services/cross_reference_service.dart';
 
 class VerseReadingScreen extends StatefulWidget {
   const VerseReadingScreen({
@@ -46,6 +47,12 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
   bool _isPlayingAudio = false;
 
   final Set<int> _bookmarkedVerseNumbers = <int>{};
+  final Set<int> _crossReferencedVerseNumbers = <int>{};
+
+  final ScrollController _verseScrollController = ScrollController();
+  final Map<int, GlobalKey> _verseKeys = <int, GlobalKey>{};
+
+  int? _destinationHighlightVerseNumber;
 
   String? _errorMessage;
 
@@ -58,6 +65,12 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     _selectedVerseNumber = widget.initialVerseNumber;
 
     _initializeChapter();
+  }
+
+  @override
+  void dispose() {
+    _verseScrollController.dispose();
+    super.dispose();
   }
 
   Future<void> _initializeChapter() async {
@@ -74,6 +87,84 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     }
 
     await _loadBookmarkStatus();
+
+    if (!mounted) {
+      return;
+    }
+
+    await _loadCrossReferenceStatus();
+
+    if (!mounted) {
+      return;
+    }
+
+    await _focusInitialVerse();
+  }
+
+  Future<void> _focusInitialVerse() async {
+    final int? targetVerseNumber = widget.initialVerseNumber;
+
+    if (targetVerseNumber == null || _verses.isEmpty) {
+      return;
+    }
+
+    final int targetIndex = _verses.indexWhere(
+      (BibleVerse verse) => verse.number == targetVerseNumber,
+    );
+
+    if (targetIndex < 0) {
+      return;
+    }
+
+    setState(() {
+      _destinationHighlightVerseNumber = targetVerseNumber;
+    });
+
+    // Let the ListView build before positioning it.
+    await Future<void>.delayed(const Duration(milliseconds: 120));
+
+    if (!mounted || !_verseScrollController.hasClients) {
+      return;
+    }
+
+    // First jump near the target. This works even when the target verse is
+    // initially far outside the ListView's built/rendered area.
+    final double maxExtent = _verseScrollController.position.maxScrollExtent;
+    final double approximateOffset = _verses.length <= 1
+        ? 0
+        : maxExtent * (targetIndex / (_verses.length - 1));
+
+    _verseScrollController.jumpTo(approximateOffset.clamp(0.0, maxExtent));
+
+    // Give Flutter a frame to build the target verse, then align it neatly.
+    await Future<void>.delayed(const Duration(milliseconds: 100));
+
+    if (!mounted) {
+      return;
+    }
+
+    final BuildContext? targetContext =
+        _verseKeys[targetVerseNumber]?.currentContext;
+
+    if (targetContext != null) {
+      await Scrollable.ensureVisible(
+        targetContext,
+        alignment: 0.28,
+        duration: const Duration(milliseconds: 450),
+        curve: Curves.easeOutCubic,
+      );
+    }
+
+    // Keep the gold focus long enough to be noticed, then fade it away.
+    await Future<void>.delayed(const Duration(milliseconds: 1600));
+
+    if (!mounted || _destinationHighlightVerseNumber != targetVerseNumber) {
+      return;
+    }
+
+    setState(() {
+      _destinationHighlightVerseNumber = null;
+    });
   }
 
   Future<void> _saveReadingProgress() async {
@@ -209,6 +300,369 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
       debugPrint(
         'Imeshindikana kupakia hali ya mistari iliyohifadhiwa: $error',
       );
+    }
+  }
+
+  Future<void> _loadCrossReferenceStatus() async {
+    try {
+      final Set<int> versesWithReferences = <int>{};
+      final String bookId = _bookNameToId(widget.bookName);
+
+      for (final BibleVerse verse in _verses) {
+        final bool hasReferences = await CrossReferenceService.hasReferences(
+          bookId: bookId,
+          chapter: widget.chapterNumber,
+          verse: verse.number,
+        );
+
+        if (hasReferences) {
+          versesWithReferences.add(verse.number);
+        }
+      }
+
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _crossReferencedVerseNumbers
+          ..clear()
+          ..addAll(versesWithReferences);
+      });
+    } catch (error) {
+      debugPrint('Imeshindikana kupakia marejeo ya mistari: $error');
+    }
+  }
+
+  String _bookNameToId(String bookName) {
+    return bookName.trim().toLowerCase().replaceAll(' ', '_');
+  }
+
+  Future<void> _openCrossReferences(BibleVerse sourceVerse) async {
+    final String bookId = _bookNameToId(widget.bookName);
+
+    showModalBottomSheet<void>(
+      context: context,
+      backgroundColor: backgroundColor,
+      isScrollControlled: true,
+      useSafeArea: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+      ),
+      builder: (BuildContext sheetContext) {
+        return DraggableScrollableSheet(
+          expand: false,
+          initialChildSize: 0.72,
+          minChildSize: 0.45,
+          maxChildSize: 0.94,
+          builder: (BuildContext context, ScrollController scrollController) {
+            return FutureBuilder<List<_CrossReferenceDisplayItem>>(
+              future: _loadCrossReferenceDisplayItems(
+                bookId: bookId,
+                sourceVerse: sourceVerse,
+              ),
+              builder: (BuildContext context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return const Center(
+                    child: CircularProgressIndicator(color: gold),
+                  );
+                }
+
+                if (snapshot.hasError) {
+                  return _buildCrossReferenceError(
+                    scrollController,
+                    sourceVerse,
+                  );
+                }
+
+                final List<_CrossReferenceDisplayItem> items =
+                    snapshot.data ?? const <_CrossReferenceDisplayItem>[];
+
+                return _buildCrossReferenceSheet(
+                  sheetContext: sheetContext,
+                  scrollController: scrollController,
+                  sourceVerse: sourceVerse,
+                  items: items,
+                );
+              },
+            );
+          },
+        );
+      },
+    );
+  }
+
+  Future<List<_CrossReferenceDisplayItem>> _loadCrossReferenceDisplayItems({
+    required String bookId,
+    required BibleVerse sourceVerse,
+  }) async {
+    final List<CrossReference> references =
+        await CrossReferenceService.getReferences(
+          bookId: bookId,
+          chapter: widget.chapterNumber,
+          verse: sourceVerse.number,
+        );
+
+    final List<_CrossReferenceDisplayItem> items = [];
+
+    for (final CrossReference reference in references) {
+      try {
+        final BibleReferenceVerse target = await BibleService.getReferenceVerse(
+          bookId: reference.bookId,
+          chapterNumber: reference.chapter,
+          verseNumber: reference.verse,
+        );
+
+        items.add(
+          _CrossReferenceDisplayItem(reference: reference, target: target),
+        );
+      } catch (error) {
+        debugPrint('Imeshindikana kupakia rejeo: $error');
+      }
+    }
+
+    return items;
+  }
+
+  Widget _buildCrossReferenceSheet({
+    required BuildContext sheetContext,
+    required ScrollController scrollController,
+    required BibleVerse sourceVerse,
+    required List<_CrossReferenceDisplayItem> items,
+  }) {
+    return Column(
+      children: [
+        const SizedBox(height: 12),
+        Container(
+          width: 46,
+          height: 5,
+          decoration: BoxDecoration(
+            color: primaryBrown.withValues(alpha: 0.18),
+            borderRadius: BorderRadius.circular(10),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(22, 18, 14, 12),
+          child: Row(
+            children: [
+              Container(
+                width: 46,
+                height: 46,
+                decoration: BoxDecoration(
+                  color: lightGold,
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                alignment: Alignment.center,
+                child: const Text(
+                  '†',
+                  style: TextStyle(
+                    color: gold,
+                    fontSize: 27,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'serif',
+                  ),
+                ),
+              ),
+              const SizedBox(width: 13),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      'Marejeo',
+                      style: TextStyle(
+                        color: primaryBrown,
+                        fontSize: 21,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    Text(
+                      '${widget.bookName} '
+                      '${widget.chapterNumber}:${sourceVerse.number}',
+                      style: const TextStyle(
+                        color: secondaryBrown,
+                        fontSize: 13,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              IconButton(
+                tooltip: 'Funga',
+                onPressed: () => Navigator.of(sheetContext).pop(),
+                icon: const Icon(Icons.close_rounded, color: primaryBrown),
+              ),
+            ],
+          ),
+        ),
+        Divider(height: 1, color: primaryBrown.withValues(alpha: 0.08)),
+        Expanded(
+          child: items.isEmpty
+              ? const Center(
+                  child: Padding(
+                    padding: EdgeInsets.all(28),
+                    child: Text(
+                      'Hakuna marejeo yanayoweza kuonyeshwa.',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: secondaryBrown, fontSize: 15),
+                    ),
+                  ),
+                )
+              : ListView.separated(
+                  controller: scrollController,
+                  padding: const EdgeInsets.fromLTRB(20, 18, 20, 30),
+                  itemCount: items.length,
+                  separatorBuilder: (_, __) => const SizedBox(height: 12),
+                  itemBuilder: (BuildContext context, int index) {
+                    final _CrossReferenceDisplayItem item = items[index];
+                    return _buildCrossReferenceCard(
+                      sheetContext: sheetContext,
+                      item: item,
+                    );
+                  },
+                ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildCrossReferenceCard({
+    required BuildContext sheetContext,
+    required _CrossReferenceDisplayItem item,
+  }) {
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(18),
+        onTap: () {
+          Navigator.of(sheetContext).pop();
+
+          Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => VerseReadingScreen(
+                bookName: item.target.bookName,
+                chapterNumber: item.target.chapterNumber,
+                chapterCount: item.target.chapterCount,
+                initialVerseNumber: item.target.verseNumber,
+              ),
+            ),
+          );
+        },
+        child: Ink(
+          width: double.infinity,
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: lightGold.withValues(alpha: 0.55),
+            borderRadius: BorderRadius.circular(18),
+            border: Border.all(color: gold.withValues(alpha: 0.20)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      item.target.reference,
+                      style: const TextStyle(
+                        color: primaryBrown,
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  const Icon(
+                    Icons.arrow_forward_rounded,
+                    color: gold,
+                    size: 20,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              Text(
+                item.target.verseText,
+                style: const TextStyle(
+                  color: primaryBrown,
+                  fontSize: 15,
+                  height: 1.55,
+                  fontFamily: 'serif',
+                ),
+              ),
+              const SizedBox(height: 11),
+              Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 10,
+                  vertical: 5,
+                ),
+                decoration: BoxDecoration(
+                  color: backgroundColor,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Text(
+                  _crossReferenceTypeLabel(item.reference.type),
+                  style: const TextStyle(
+                    color: secondaryBrown,
+                    fontSize: 11,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildCrossReferenceError(
+    ScrollController scrollController,
+    BibleVerse sourceVerse,
+  ) {
+    return ListView(
+      controller: scrollController,
+      padding: const EdgeInsets.all(28),
+      children: [
+        const SizedBox(height: 30),
+        const Icon(Icons.error_outline_rounded, color: gold, size: 42),
+        const SizedBox(height: 14),
+        const Text(
+          'Marejeo hayakuweza kupakiwa.',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            color: primaryBrown,
+            fontSize: 18,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        const SizedBox(height: 7),
+        Text(
+          '${widget.bookName} '
+          '${widget.chapterNumber}:${sourceVerse.number}',
+          textAlign: TextAlign.center,
+          style: const TextStyle(color: secondaryBrown, fontSize: 14),
+        ),
+      ],
+    );
+  }
+
+  String _crossReferenceTypeLabel(String type) {
+    switch (type) {
+      case 'direct_reference':
+        return 'Rejeo la moja kwa moja';
+      case 'quotation_or_echo':
+        return 'Nukuu / mwangwi wa maandiko';
+      case 'parallel':
+        return 'Kifungu sambamba';
+      case 'explanation':
+        return 'Maelezo / ufafanuzi';
+      case 'contrast':
+        return 'Ulinganisho / tofauti';
+      case 'fulfillment':
+        return 'Utimizwaji / maendeleo ya ahadi';
+      case 'theme':
+        return 'Mada inayohusiana';
+      default:
+        return 'Rejeo linalohusiana';
     }
   }
 
@@ -672,6 +1126,7 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
     }
 
     return ListView.builder(
+      controller: _verseScrollController,
       padding: const EdgeInsets.fromLTRB(20, 10, 20, 130),
       itemCount: _verses.length,
       itemBuilder: (context, index) {
@@ -682,8 +1137,19 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
 
   Widget _buildVerse(BibleVerse verse) {
     final bool isSelected = _selectedVerseNumber == verse.number;
+    final bool isDestinationHighlighted =
+        _destinationHighlightVerseNumber == verse.number;
+    final bool hasCrossReferences = _crossReferencedVerseNumbers.contains(
+      verse.number,
+    );
+
+    final GlobalKey verseKey = _verseKeys.putIfAbsent(
+      verse.number,
+      () => GlobalKey(),
+    );
 
     return Padding(
+      key: verseKey,
       padding: const EdgeInsets.only(bottom: 5),
       child: Material(
         color: Colors.transparent,
@@ -693,13 +1159,20 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
           },
           borderRadius: BorderRadius.circular(14),
           child: AnimatedContainer(
-            duration: const Duration(milliseconds: 180),
+            duration: const Duration(milliseconds: 650),
+            curve: Curves.easeOut,
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
             decoration: BoxDecoration(
-              color: isSelected ? selectedVerseColor : Colors.transparent,
+              color: isDestinationHighlighted
+                  ? gold.withValues(alpha: 0.30)
+                  : isSelected
+                  ? selectedVerseColor
+                  : Colors.transparent,
               borderRadius: BorderRadius.circular(14),
-              border: isSelected
+              border: isDestinationHighlighted
+                  ? Border.all(color: gold.withValues(alpha: 0.70), width: 1.4)
+                  : isSelected
                   ? Border.all(color: gold.withValues(alpha: 0.35))
                   : null,
             ),
@@ -722,6 +1195,34 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
                     ),
                   ),
                   TextSpan(text: verse.text),
+                  if (hasCrossReferences)
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.middle,
+                      child: Padding(
+                        padding: const EdgeInsets.only(left: 5),
+                        child: GestureDetector(
+                          behavior: HitTestBehavior.opaque,
+                          onTap: () {
+                            _openCrossReferences(verse);
+                          },
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 4,
+                              vertical: 2,
+                            ),
+                            child: Text(
+                              '†',
+                              style: TextStyle(
+                                color: gold,
+                                fontSize: _fontSize + 10,
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'serif',
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
                 ],
               ),
             ),
@@ -1089,4 +1590,14 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
       ),
     );
   }
+}
+
+class _CrossReferenceDisplayItem {
+  const _CrossReferenceDisplayItem({
+    required this.reference,
+    required this.target,
+  });
+
+  final CrossReference reference;
+  final BibleReferenceVerse target;
 }
