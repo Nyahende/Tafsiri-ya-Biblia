@@ -335,7 +335,13 @@ class _VerseReadingScreenState extends State<VerseReadingScreen> {
   }
 
   String _bookNameToId(String bookName) {
-    return bookName.trim().toLowerCase().replaceAll(' ', '_');
+    final String normalized = bookName.trim().toLowerCase();
+
+    if (normalized == 'mambo ya walawi') {
+      return 'mambo ya walawi';
+    }
+
+    return normalized.replaceAll(' ', '_');
   }
 
   Future<void> _openCrossReferences(BibleVerse sourceVerse) async {

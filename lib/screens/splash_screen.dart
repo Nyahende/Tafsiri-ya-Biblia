@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'home_screen.dart';
+import '../services/daily_verse_notification_service.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -106,6 +107,10 @@ class _SplashScreenState extends State<SplashScreen> {
         },
       ),
     );
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      DailyVerseNotificationService.openPendingNotification();
+    });
   }
 
   @override

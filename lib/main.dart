@@ -1,15 +1,38 @@
 import 'package:flutter/material.dart';
 
 import 'screens/splash_screen.dart';
+import 'screens/verse_reading_screen.dart';
 import 'services/daily_verse_notification_service.dart';
+
+final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await DailyVerseNotificationService.initialize();
 
+  DailyVerseNotificationService.onNotificationTap =
+      (DailyVerseNotificationTarget target) {
+        final NavigatorState? navigator = navigatorKey.currentState;
+
+        if (navigator == null) {
+          return;
+        }
+
+        navigator.push(
+          MaterialPageRoute<void>(
+            builder: (_) => VerseReadingScreen(
+              bookName: target.bookName,
+              chapterNumber: target.chapterNumber,
+              chapterCount: target.chapterCount,
+              initialVerseNumber: target.verseNumber,
+            ),
+          ),
+        );
+      };
+
   await DailyVerseNotificationService.scheduleDailyVerseNotifications(
-    hour: 7,
+    hour: 5,
     minute: 0,
     daysToSchedule: 30,
   );
@@ -23,6 +46,7 @@ class TafsiriYaBibliaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      navigatorKey: navigatorKey,
       title: 'Jifunze Biblia',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,

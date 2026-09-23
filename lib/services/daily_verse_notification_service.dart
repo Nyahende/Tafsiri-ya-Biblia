@@ -4,11 +4,28 @@ import 'package:timezone/timezone.dart' as tz;
 
 import 'bible_service.dart';
 
+class DailyVerseNotificationTarget {
+  const DailyVerseNotificationTarget({
+    required this.bookName,
+    required this.chapterNumber,
+    required this.chapterCount,
+    required this.verseNumber,
+  });
+
+  final String bookName;
+  final int chapterNumber;
+  final int chapterCount;
+  final int verseNumber;
+}
+
 class DailyVerseNotificationService {
   DailyVerseNotificationService._();
 
   static final FlutterLocalNotificationsPlugin _notifications =
       FlutterLocalNotificationsPlugin();
+
+  static void Function(DailyVerseNotificationTarget target)? onNotificationTap;
+  static DailyVerseNotificationTarget? _pendingTarget;
 
   static const String _channelId = 'neno_la_leo_channel';
   static const String _channelName = 'Neno la Leo';
@@ -29,6 +46,13 @@ class DailyVerseNotificationService {
       onDidReceiveNotificationResponse: _onNotificationTapped,
     );
 
+    final NotificationAppLaunchDetails? launchDetails = await _notifications
+        .getNotificationAppLaunchDetails();
+
+    if (launchDetails?.didNotificationLaunchApp ?? false) {
+      _storeOrOpenPayload(launchDetails?.notificationResponse?.payload);
+    }
+
     await _requestNotificationPermission();
   }
 
@@ -44,8 +68,58 @@ class DailyVerseNotificationService {
 
   /// Called when the user taps the Neno la Leo notification.
   static void _onNotificationTapped(NotificationResponse notificationResponse) {
-    // For now, tapping the notification opens the application.
-    // We can later make this navigate directly to the verse.
+    _storeOrOpenPayload(notificationResponse.payload);
+  }
+
+  static void _storeOrOpenPayload(String? payload) {
+    if (payload == null || payload.trim().isEmpty) {
+      return;
+    }
+
+    final List<String> parts = payload.split('|');
+
+    // Current payload format:
+    // bookName|chapterNumber|chapterCount|verseNumber
+    if (parts.length != 4) {
+      return;
+    }
+
+    final int? chapterNumber = int.tryParse(parts[1]);
+    final int? chapterCount = int.tryParse(parts[2]);
+    final int? verseNumber = int.tryParse(parts[3]);
+
+    if (chapterNumber == null || chapterCount == null || verseNumber == null) {
+      return;
+    }
+
+    final DailyVerseNotificationTarget target = DailyVerseNotificationTarget(
+      bookName: parts[0],
+      chapterNumber: chapterNumber,
+      chapterCount: chapterCount,
+      verseNumber: verseNumber,
+    );
+
+    final handler = onNotificationTap;
+
+    if (handler != null) {
+      handler(target);
+    } else {
+      _pendingTarget = target;
+    }
+  }
+
+  /// Opens a notification that launched the app once normal app navigation
+  /// is ready (after the splash screen has opened HomeScreen).
+  static void openPendingNotification() {
+    final DailyVerseNotificationTarget? target = _pendingTarget;
+    final handler = onNotificationTap;
+
+    if (target == null || handler == null) {
+      return;
+    }
+
+    _pendingTarget = null;
+    handler(target);
   }
 
   /// Schedule Neno la Leo notifications for upcoming days.
@@ -105,7 +179,7 @@ class DailyVerseNotificationService {
         ),
         androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
         payload:
-            '${verse.bookName}|${verse.chapterNumber}|${verse.verseNumber}',
+            '${verse.bookName}|${verse.chapterNumber}|${verse.chapterCount}|${verse.verseNumber}',
       );
     }
   }
