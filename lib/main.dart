@@ -32,8 +32,6 @@ Future<void> main() async {
       };
 
   await DailyVerseNotificationService.scheduleDailyVerseNotifications(
-    hour: 5,
-    minute: 0,
     daysToSchedule: 30,
   );
 
