@@ -40,32 +40,44 @@ class PrivacyPolicyScreen extends StatelessWidget {
               const SizedBox(height: 20),
               _buildIntroductionCard(),
               const SizedBox(height: 18),
+              _buildAppDetailsCard(),
+              const SizedBox(height: 18),
               _buildSection(
                 number: '1',
                 title: 'Ukusanyaji wa Taarifa',
                 children: const [
                   Text(
-                    'Programu ya Jifunze Biblia haikusanyi, kuhifadhi wala '
-                    'kutuma taarifa zozote binafsi za mtumiaji.',
+                    'Jifunze biblia imeundwa kwa ajili ya kusoma na kujifunza '
+                    'Biblia pamoja na huduma nyingine zinazohusiana na maudhui '
+                    'ya Biblia.',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 12),
-                  Text('Hutahitajika kutoa:', style: _bodyStyle),
+                  Text(
+                    'Programu haihitaji mtumiaji kufungua akaunti au kutoa '
+                    'taarifa binafsi ili kutumia huduma zake kuu.',
+                    style: _bodyStyle,
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    'Mtumiaji hahitajiki kutoa taarifa kama:',
+                    style: _bodyStyle,
+                  ),
                   SizedBox(height: 8),
                   _BulletList(
                     items: [
-                      'Jina lako',
+                      'Jina',
                       'Anwani ya barua pepe',
                       'Namba ya simu',
-                      'Eneo ulipo (Location)',
+                      'Eneo alipo (Location)',
                       'Orodha ya mawasiliano (Contacts)',
-                      'Picha au faili zako',
+                      'Picha au faili binafsi',
                     ],
                   ),
                   SizedBox(height: 12),
                   Text(
-                    'Programu inaweza kutumika bila kujiandikisha au kufungua '
-                    'akaunti.',
+                    'Taarifa binafsi ambazo hazikusanywi na programu '
+                    'hazihifadhiwi kwenye seva za msanidi.',
                     style: _bodyStyle,
                   ),
                 ],
@@ -76,8 +88,9 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 title: 'Taarifa Zinazohifadhiwa Kwenye Kifaa Chako',
                 children: const [
                   Text(
-                    'Ili kuboresha uzoefu wa matumizi, programu inaweza kuhifadhi '
-                    'taarifa zifuatazo kwenye kifaa chako pekee:',
+                    'Ili kuboresha matumizi ya programu, Jifunze biblia inaweza '
+                    'kuhifadhi baadhi ya taarifa moja kwa moja kwenye kifaa cha '
+                    'mtumiaji, kama vile:',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 8),
@@ -90,8 +103,9 @@ class PrivacyPolicyScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 12),
                   Text(
-                    'Taarifa hizi hazitumwi kwa msanidi wa programu wala kwa '
-                    'mtu mwingine yeyote.',
+                    'Taarifa hizi hutumika kusaidia utendaji wa programu na '
+                    'hazikusanywi moja kwa moja na Michael Nyahende kwa '
+                    'madhumuni ya biashara, matangazo au uuzaji wa taarifa.',
                     style: _bodyStyle,
                   ),
                 ],
@@ -102,15 +116,17 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 title: 'Matumizi ya Intaneti',
                 children: const [
                   Text(
-                    'Toleo la sasa la Jifunze Biblia halihitaji intaneti ili '
-                    'kutumia huduma zake kuu.',
+                    'Huduma kuu za kusoma Biblia ndani ya Jifunze biblia '
+                    'zimeundwa kufanya kazi bila kuhitaji mtumiaji kutoa '
+                    'taarifa binafsi kupitia intaneti.',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 12),
                   Text(
-                    'Iwapo huduma zitakazohitaji intaneti zitaongezwa katika '
-                    'matoleo yajayo, sera hii itasasishwa ili kueleza jinsi '
-                    'taarifa zitakavyoshughulikiwa.',
+                    'Ikiwa huduma mpya zinazohitaji intaneti au usindikaji wa '
+                    'taarifa zitaongezwa katika matoleo yajayo, Sera hii ya '
+                    'Faragha itasasishwa inapohitajika ili kueleza jinsi '
+                    'taarifa hizo zitakavyoshughulikiwa.',
                     style: _bodyStyle,
                   ),
                 ],
@@ -118,39 +134,46 @@ class PrivacyPolicyScreen extends StatelessWidget {
               const SizedBox(height: 18),
               _buildSection(
                 number: '4',
-                title: 'Kushirikisha Taarifa',
+                title: 'Matumizi na Ushirikishaji wa Taarifa',
                 children: const [
                   Text(
-                    'Programu ya Jifunze Biblia haishirikishi taarifa za '
-                    'watumiaji na mtu yeyote au taasisi yoyote.',
+                    'Michael Nyahende hauzi taarifa binafsi za watumiaji wa '
+                    'Jifunze biblia wala kuzitumia kwa madhumuni ya matangazo '
+                    'au masoko.',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 12),
-                  Text('Vilevile:', style: _bodyStyle),
-                  SizedBox(height: 8),
-                  _BulletList(
-                    items: [
-                      'Haitumii huduma za kufuatilia matumizi ya watumiaji (Analytics).',
-                      'Haitumii matangazo (Advertisements).',
-                      'Haitumii huduma zinazokusanya taarifa za watumiaji kutoka kwa watu wengine.',
-                    ],
+                  Text(
+                    'Taarifa zozote zinazohifadhiwa ndani ya kifaa kwa ajili '
+                    'ya utendaji wa programu hutumika kutoa au kuboresha '
+                    'huduma za programu.',
+                    style: _bodyStyle,
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    'Ikiwa programu itatumia huduma za mfumo wa Android au '
+                    'huduma nyingine za wahusika wengine katika matoleo '
+                    'yajayo, sera hii itasasishwa inapohitajika ili kueleza '
+                    'matumizi hayo.',
+                    style: _bodyStyle,
                   ),
                 ],
               ),
               const SizedBox(height: 18),
               _buildSection(
                 number: '5',
-                title: 'Faragha ya Watoto',
+                title: 'Arifa (Notifications)',
                 children: const [
                   Text(
-                    'Programu hii inaweza kutumiwa na watu wa rika zote, ikiwemo '
-                    'watoto.',
+                    'Jifunze biblia inaweza kutuma arifa zinazohusiana na '
+                    'maudhui ya Biblia, ikiwemo huduma kama Neno la Leo.',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 12),
                   Text(
-                    'Kwa kuwa programu haikusanyi taarifa binafsi, hakuna taarifa '
-                    'za watoto zinazokusanywa au kuhifadhiwa.',
+                    'Ruhusa ya kupokea arifa inadhibitiwa kupitia mfumo wa '
+                    'Android na mipangilio ya kifaa cha mtumiaji. Mtumiaji '
+                    'anaweza kuzima arifa kupitia mipangilio ya kifaa chake.',
                     style: _bodyStyle,
                   ),
                 ],
@@ -158,16 +181,20 @@ class PrivacyPolicyScreen extends StatelessWidget {
               const SizedBox(height: 18),
               _buildSection(
                 number: '6',
-                title: 'Mabadiliko ya Sera Hii',
+                title: 'Usalama wa Taarifa',
                 children: const [
                   Text(
-                    'Sera hii inaweza kufanyiwa marekebisho kadri programu '
-                    'inavyoendelea kuboreshwa.',
+                    'Jifunze biblia imeundwa kwa kuzingatia faragha ya '
+                    'mtumiaji na kupunguza ukusanyaji usio wa lazima wa '
+                    'taarifa binafsi.',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 12),
                   Text(
-                    'Mabadiliko yoyote yatatangazwa kupitia toleo jipya la sera hii.',
+                    'Hatua zinazofaa huchukuliwa kulinda taarifa '
+                    'zinazoshughulikiwa na programu. Hata hivyo, hakuna mfumo '
+                    'wa kielektroniki unaoweza kuhakikishiwa kuwa salama kwa '
+                    'asilimia 100.',
                     style: _bodyStyle,
                   ),
                 ],
@@ -175,22 +202,94 @@ class PrivacyPolicyScreen extends StatelessWidget {
               const SizedBox(height: 18),
               _buildSection(
                 number: '7',
+                title: 'Uhifadhi na Ufutaji wa Taarifa',
+                children: const [
+                  Text(
+                    'Jifunze biblia haihitaji akaunti ya mtumiaji kwa ajili '
+                    'ya huduma zake kuu. Kwa hiyo, taarifa binafsi ambazo '
+                    'hazikusanywi na msanidi hazihifadhiwi kwenye seva za '
+                    'msanidi.',
+                    style: _bodyStyle,
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    'Taarifa zinazohifadhiwa ndani ya kifaa na programu '
+                    'zinaweza kuondolewa kwa kufuta data ya programu kupitia '
+                    'mipangilio ya kifaa au kwa kuiondoa (uninstall) programu.',
+                    style: _bodyStyle,
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    'Kwa swali au ombi lolote kuhusu faragha au taarifa '
+                    'zinazohusiana na Jifunze biblia, mtumiaji anaweza '
+                    'kuwasiliana na msanidi kupitia anuani ya barua pepe '
+                    'iliyotolewa katika sera hii.',
+                    style: _bodyStyle,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 18),
+              _buildSection(
+                number: '8',
+                title: 'Faragha ya Watoto',
+                children: const [
+                  Text(
+                    'Jifunze biblia inaweza kutumiwa na watu wa rika '
+                    'mbalimbali, ikiwemo watoto.',
+                    style: _bodyStyle,
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    'Programu haikusudii kukusanya taarifa binafsi za watoto. '
+                    'Ikiwa msanidi atatambua kuwa taarifa binafsi za mtoto '
+                    'zimekusanywa kinyume na sera hii au masharti yanayotumika, '
+                    'hatua zinazofaa zitachukuliwa kushughulikia au kuondoa '
+                    'taarifa hizo.',
+                    style: _bodyStyle,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 18),
+              _buildSection(
+                number: '9',
+                title: 'Mabadiliko ya Sera Hii',
+                children: const [
+                  Text(
+                    'Sera hii inaweza kusasishwa mara kwa mara kutokana na '
+                    'maboresho ya Jifunze biblia, mabadiliko ya huduma zake, '
+                    'au mahitaji yanayotumika ya faragha.',
+                    style: _bodyStyle,
+                  ),
+                  SizedBox(height: 12),
+                  Text(
+                    'Toleo lililosasishwa la sera litawekwa kwenye ukurasa '
+                    'huu na tarehe ya mwisho ya kusasishwa itaonyeshwa.',
+                    style: _bodyStyle,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 18),
+              _buildSection(
+                number: '10',
                 title: 'Mawasiliano',
                 children: const [
                   Text(
-                    'Kwa maswali, maoni au mapendekezo kuhusu sera hii au programu '
-                    'ya Jifunze Biblia, unaweza kuwasiliana na:',
+                    'Kwa maswali, maoni, au maombi yanayohusiana na faragha, '
+                    'matumizi ya taarifa, au programu ya Jifunze biblia, '
+                    'wasiliana na:',
                     style: _bodyStyle,
                   ),
                   SizedBox(height: 14),
                   Text(
-                    'Michael  Nyahende',
+                    'Michael Nyahende',
                     style: TextStyle(
                       color: primaryBrown,
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  SizedBox(height: 4),
+                  Text('Msanidi wa Jifunze biblia', style: _bodyStyle),
                   SizedBox(height: 6),
                   SelectableText(
                     'Barua pepe: michaelnyahende8@gmail.com',
@@ -208,7 +307,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      'Mwisho kusasishwa: Julai 2026',
+                      'Mwisho kusasishwa: 2 Oktoba 2026',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: secondaryBrown,
@@ -218,7 +317,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 8),
                     Text(
-                      '© 2026 Jifunze Biblia. Haki zote zimehifadhiwa.',
+                      '© 2026 Jifunze biblia. Haki zote zimehifadhiwa.',
                       textAlign: TextAlign.center,
                       style: TextStyle(color: secondaryBrown, fontSize: 13),
                     ),
@@ -250,7 +349,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
           ),
           SizedBox(height: 16),
           Text(
-            'Sera ya Faragha ya Jifunze Biblia',
+            'Sera ya Faragha ya Jifunze biblia',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: primaryBrown,
@@ -261,7 +360,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            'Tarehe ya Kuanza Kutumika: Julai 2026',
+            'Tarehe ya Kuanza Kutumika: 2 Oktoba 2026',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: secondaryBrown,
@@ -284,11 +383,46 @@ class PrivacyPolicyScreen extends StatelessWidget {
         border: Border.all(color: primaryBrown.withValues(alpha: 0.08)),
       ),
       child: const Text(
-        'Karibu kwenye Jifunze Biblia.\n\n'
-        'Tunathamini faragha yako na tumejitolea kuhakikisha kuwa '
-        'taarifa zako zinalindwa. Sera hii inaeleza jinsi programu ya '
-        'Jifunze Biblia inavyoshughulikia taarifa za watumiaji.',
+        'Karibu kwenye Jifunze biblia.\n\n'
+        'Sera hii ya Faragha inatumika kwa programu ya Android inayoitwa '
+        'Jifunze biblia, iliyotengenezwa na kuchapishwa na Michael Nyahende.\n\n'
+        'Tunathamini faragha yako na tumejitolea kuhakikisha kuwa taarifa za '
+        'watumiaji zinalindwa. Sera hii inaeleza jinsi programu ya Jifunze '
+        'biblia inavyoshughulikia taarifa na data za watumiaji.',
         style: _bodyStyle,
+      ),
+    );
+  }
+
+  Widget _buildAppDetailsCard() {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: lightGold,
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: gold.withValues(alpha: 0.22)),
+      ),
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Taarifa za Programu na Msanidi',
+            style: TextStyle(
+              color: primaryBrown,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(height: 14),
+          Text(
+            'Jina la programu: Jifunze biblia\n'
+            'Msanidi: Michael Nyahende\n'
+            'Package name: com.nyahende.tafsiriyabiblia\n'
+            'Barua pepe: michaelnyahende8@gmail.com',
+            style: _bodyStyle,
+          ),
+        ],
       ),
     );
   }
