@@ -98,7 +98,7 @@
           },
           {
             "number": 22,
-            "text": "Mungu akavibariki, akisema, Zaeni, mkaongezeke, mkayajaze maji ya bahari, na ndege waongezeke duniani."
+            "text": "Mungu akavibariki, akisema, Zaeni matunda, mkaongezeke, mkayajaze maji ya bahari, na ndege waongezeke duniani."
           },
           {
             "number": 23,
@@ -446,7 +446,7 @@
         "5": [
           {
             "number": 1,
-            "text": "Hiki ndicho kitabu cha vizazi vya Adamu. Siku ile Mungu alipomuumba mwanadamu, alimfanya kwa mfano wa Mungu;"
+            "text": "Hiki ndicho kitabu cha vizazi vya Adamu. Siku ile Mungu alipomuumba mwanadamu, alimfanya kwa taswira ya Mungu;"
           },
           {
             "number": 2,
@@ -854,7 +854,7 @@
         "9": [
           {
             "number": 1,
-            "text": "Mungu akambariki Nuhu na wanawe, akawaambia, Zaeni, mkaongezeke, mkaijaze dunia."
+            "text": "Mungu akambariki Nuhu na wanawe, akawaambia, Zaeni matunda, mkaongezeke, mkaijaze dunia."
           },
           {
             "number": 2,
@@ -1362,7 +1362,7 @@
           },
           {
             "number": 13,
-            "text": "Lakini watu wa Sodoma walikuwa wabaya na wenye dhambi nyingi sana mbele za BWANA."
+            "text": "Lakini watu wa Sodoma walikuwa wabaya na wenye dhambi sana mbele za BWANA."
           },
           {
             "number": 14,
@@ -3172,7 +3172,7 @@
           },
           {
             "number": 3,
-            "text": "Mungu Mwenyezi akubariki, akufanye uzae, na akuongeze, ili uwe kusanyiko la mataifa;"
+            "text": "Mungu Mwenyezi akubariki, akufanye uzae matunda, na akuongeze, ili uwe kusanyiko la mataifa;"
           },
           {
             "number": 4,
@@ -3548,7 +3548,7 @@
           },
           {
             "number": 39,
-            "text": "Makundi yakapata mimba mbele ya vijiti, yakazaa mifugo yenye mistari, madoadoa, na mistari."
+            "text": "Makundi yakapata mimba mbele ya vijiti, yakazaa mifugo yenye mistari, madoadoa, na mabaka."
           },
           {
             "number": 40,
@@ -6038,7 +6038,7 @@
           },
           {
             "number": 9,
-            "text": "Ilaaniwe hasira yao, kwa maana ilikuwa kali; na ghadhabu yao, kwa maana ilikuwa ya kikatili. Nitawagawa katika Yakobo, na kuwatawanya katika Israeli."
+            "text": "Yuda ni mwana wa simba; kutoka katika mawindo, mwanangu, umepanda; aliinama chini, akajilaza kama simba, na kama simba mzee; ni nani atakayemwamsha?"
           },
           {
             "number": 10,
@@ -7350,7 +7350,7 @@
           },
           {
             "number": 25,
-            "text": "Musa akasema, Lazima utupe pia sadaka na sadaka za kuteketezwa, ili tumtolee BWANA Mungu wetu."
+            "text": "Musa akasema, Lazima utupe pia matoleo na sadaka za kuteketezwa, ili tumtolee BWANA Mungu wetu."
           },
           {
             "number": 26,
@@ -7864,7 +7864,7 @@
           },
           {
             "number": 8,
-            "text": "Na kwa pumzi ya mianzi ya pua yako maji yakakusanyika pamoja, mafuriko yakasimama wima kama lundo, na vilindi vikaganda katikati ya bahari."
+            "text": "Na kwa pumzi ya pua zako maji yakakusanyika pamoja, mafuriko yakasimama wima kama lundo, na vilindi vikaganda katikati ya bahari."
           },
           {
             "number": 9,
@@ -11254,7 +11254,7 @@
           },
           {
             "number": 15,
-            "text": "Kuhani ataileta kwenye madhabahu, na kukizungusha na kukiondoa kichwa chake, na kukiteketeza juu ya madhabahu; na damu yake itakamuliwa kwenye upande wa madhabahu."
+            "text": "Kuhani ataileta kwenye madhabahu, na kukiondoa kichwa chake, na kukiteketeza juu ya madhabahu; na damu yake itakamuliwa kwenye upande wa madhabahu."
           },
           {
             "number": 16,
@@ -18524,7 +18524,7 @@
           },
           {
             "number": 60,
-            "text": "Na Haruni akazaliwa Nadabu, Abihu, Eleazari, na Ithamari."
+            "text": "Na kwa Haruni wakazaliwa Nadabu, Abihu, Eleazari, na Ithamari."
           },
           {
             "number": 61,
@@ -19213,222 +19213,174 @@
             "text": "Musa na Eleazari kuhani wakaipokea dhahabu kutoka kwa maakida wa maelfu na wa mamia, wakaileta ndani ya Hema la Kukutania, kuwa ukumbusho kwa ajili ya wana wa Israeli mbele za BWANA."
           }
         ],
-        "32": [
+       "32": [
           {
             "number": 1,
-            "text": "BWANA akanena na Musa, akisema,"
+            "text": "Basi wana wa Reubeni na wana wa Gadi walikuwa na mifugo mingi sana; nao walipoiona nchi ya Yazeri na nchi ya Gileadi, tazama, mahali pale palikuwa mahali pa kufaa kwa mifugo."
           },
           {
             "number": 2,
-            "text": "Walipizie kisasi wana wa Israeli dhidi ya Wamidiani; baada ya hayo utakusanywa kwa watu wako."
+            "text": "Wana wa Gadi na wana wa Reubeni wakaja, wakasema na Musa, na Eleazari kuhani, na wakuu wa kusanyiko, wakisema,"
           },
           {
             "number": 3,
-            "text": "Musa akanena na watu, akisema, Wapeni silaha baadhi yenu kwa ajili ya vita, nao waende dhidi ya Wamidiani, ili kulipiza kisasi cha BWANA dhidi ya Midiani."
+            "text": "Atarothi, na Diboni, na Yazeri, na Nimra, na Heshboni, na Eleale, na Shebamu, na Nebo, na Beoni,"
           },
           {
             "number": 4,
-            "text": "Katika kila kabila, watu elfu moja, kutoka makabila yote ya Israeli, mtawatuma vitani."
+            "text": "nchi ambayo BWANA aliipiga mbele ya kusanyiko la Israeli, ni nchi ya kufaa kwa mifugo, na watumishi wako wana mifugo."
           },
           {
             "number": 5,
-            "text": "Basi kutoka katika maelfu ya Israeli wakatolewa watu elfu moja kwa kila kabila, watu elfu kumi na mbili wenye silaha kwa ajili ya vita."
+            "text": "Kwa hiyo wakasema, Ikiwa tumepata kibali machoni pako, nchi hii na wapewe watumishi wako kuwa milki; usituvushe Yordani."
           },
           {
             "number": 6,
-            "text": "Musa akawatuma vitani, watu elfu moja kwa kila kabila, wao pamoja na Finehasi mwana wa Eleazari kuhani, akiwa na vyombo vitakatifu na tarumbeta za kupigia mkononi mwake."
+            "text": "Musa akawaambia wana wa Gadi na wana wa Reubeni, Je, ndugu zenu wataenda vitani, nanyi mtakaa hapa?"
           },
           {
             "number": 7,
-            "text": "Wakapigana na Wamidiani, kama BWANA alivyomwamuru Musa; nao wakawaua wanaume wote."
+            "text": "Na kwa nini mnaivunja moyo ya wana wa Israeli wasivuke kwenda katika nchi ambayo BWANA amewapa?"
           },
           {
             "number": 8,
-            "text": "Wakawaua pia wafalme wa Midiani pamoja na wengine waliouawa; yaani Evi, Rekemu, Suri, Huri, na Reba, wafalme watano wa Midiani; Balaamu mwana wa Beori pia wakamuua kwa upanga."
+            "text": "Ndivyo baba zenu walivyofanya, nilipowatuma kutoka Kadesh-barnea kwenda kuipeleleza nchi."
           },
           {
             "number": 9,
-            "text": "Wana wa Israeli wakawachukua mateka wanawake wote wa Midiani na watoto wao wadogo, wakateka mifugo yao yote, na makundi yao yote, na mali zao zote."
+            "text": "Kwa maana walipopanda mpaka bonde la Eshkoli, wakaiona nchi, waliivunja moyo ya wana wa Israeli, ili wasiingie katika nchi ambayo BWANA alikuwa amewapa."
           },
           {
             "number": 10,
-            "text": "Wakateketeza kwa moto miji yao yote waliyokaa, na ngome zao zote nzuri."
+            "text": "Ghadhabu ya BWANA ikawaka siku ile, naye akaapa, akisema,"
           },
           {
             "number": 11,
-            "text": "Wakachukua nyara zote na mateka wote, wa wanadamu na wa wanyama."
+            "text": "Hakika hakuna hata mmoja wa watu waliopanda kutoka Misri, wenye umri wa miaka ishirini na zaidi, atakayeiona nchi ambayo niliwaapia Abrahamu, Isaka, na Yakobo; kwa sababu hawakunifuata kikamilifu;"
           },
           {
             "number": 12,
-            "text": "Wakawaleta mateka, na wanyama waliotekwa, na nyara, kwa Musa na Eleazari kuhani, na kwa kusanyiko la wana wa Israeli, kambini katika tambarare za Moabu, kando ya Yordani karibu na Yeriko."
+            "text": "isipokuwa Kalebu mwana wa Yefune Mkenizi, na Yoshua mwana wa Nuni; kwa maana wao wamemfuata BWANA kikamilifu."
           },
           {
             "number": 13,
-            "text": "Musa, na Eleazari kuhani, na wakuu wote wa kusanyiko, wakatoka nje ya kambi kwenda kuwalaki."
+            "text": "Ghadhabu ya BWANA ikawaka dhidi ya Israeli, naye akawazungusha jangwani miaka arobaini, mpaka kizazi chote kilichofanya uovu machoni pa BWANA kilipoteketea."
           },
           {
             "number": 14,
-            "text": "Musa akawakasirikia maafisa wa jeshi, maakida wa maelfu na maakida wa mamia, waliokuwa wamerudi kutoka vitani."
+            "text": "Na tazama, ninyi mmeinuka badala ya baba zenu, uzao wa watu wenye dhambi, ili kuongeza zaidi ghadhabu kali ya BWANA dhidi ya Israeli."
           },
           {
             "number": 15,
-            "text": "Musa akawaambia, Je, mmewaacha wanawake wote hai?"
+            "text": "Kwa maana mkigeuka na kuacha kumfuata, atawaacha tena jangwani; nanyi mtawaangamiza watu hawa wote."
           },
           {
             "number": 16,
-            "text": "Tazama, hawa ndio waliowafanya wana wa Israeli, kwa shauri la Balaamu, wafanye kosa dhidi ya BWANA katika jambo la Peori, na pigo likaja kati ya kusanyiko la BWANA."
+            "text": "Nao wakamkaribia, wakasema, Tutajenga mazizi ya mifugo yetu hapa, na miji kwa ajili ya watoto wetu;"
           },
           {
             "number": 17,
-            "text": "Basi sasa, muueni kila mwanamume miongoni mwa watoto wadogo, na muueni kila mwanamke aliyemjua mwanamume kwa kulala naye."
+            "text": "lakini sisi wenyewe tutakwenda tukiwa na silaha mbele ya wana wa Israeli, mpaka tutakapowafikisha mahali pao; na watoto wetu watakaa katika miji yenye maboma kwa sababu ya wakaaji wa nchi."
           },
           {
             "number": 18,
-            "text": "Lakini watoto wote wa kike ambao hawajamjua mwanamume kwa kulala naye, waacheni hai kwa ajili yenu."
+            "text": "Hatutarudi kwenye nyumba zetu mpaka kila mmoja wa wana wa Israeli atakaporithi urithi wake."
           },
           {
             "number": 19,
-            "text": "Nanyi kaeni nje ya kambi siku saba; yeyote aliyemuua mtu, na yeyote aliyegusa mtu aliyeuawa, jitakaseni ninyi na mateka wenu siku ya tatu na siku ya saba."
+            "text": "Kwa maana hatutarithi pamoja nao upande wa pili wa Yordani, wala mbele zaidi; kwa sababu urithi wetu umetufikia upande huu wa Yordani kuelekea mashariki."
           },
           {
             "number": 20,
-            "text": "Na mtakase mavazi yenu yote, na kila kitu kilichotengenezwa kwa ngozi, na kila kitu kilichotengenezwa kwa manyoya ya mbuzi, na kila kitu kilichotengenezwa kwa mbao."
+            "text": "Musa akawaambia, Ikiwa mtafanya jambo hili, ikiwa mtakwenda mkiwa na silaha mbele za BWANA vitani,"
           },
           {
             "number": 21,
-            "text": "Eleazari kuhani akawaambia watu wa vita waliokwenda kupigana, Hii ndiyo sheria ya Torati ambayo BWANA alimwamuru Musa;"
+            "text": "na kila mtu wenu mwenye silaha atavuka Yordani mbele za BWANA, mpaka atakapowafukuza adui zake mbele yake,"
           },
           {
             "number": 22,
-            "text": "dhahabu tu, na fedha, na shaba, na chuma, na bati, na risasi,"
+            "text": "na nchi itakapotiishwa mbele za BWANA, ndipo baadaye mtakaporudi, nanyi mtakuwa bila hatia mbele za BWANA na mbele ya Israeli; na nchi hii itakuwa milki yenu mbele za BWANA."
           },
           {
             "number": 23,
-            "text": "kila kitu kinachoweza kustahimili moto, mtakipitisha katika moto, nacho kitakuwa safi; hata hivyo kitatakaswa kwa maji ya utakaso; na kila kitu kisichoweza kustahimili moto mtakipitisha katika maji."
+            "text": "Lakini ikiwa hamtafanya hivyo, tazama, mtakuwa mmetenda dhambi dhidi ya BWANA; nanyi jueni kwamba dhambi yenu itawapata."
           },
           {
             "number": 24,
-            "text": "Nanyi mtaosha mavazi yenu siku ya saba, nanyi mtakuwa safi; na baada ya hayo mtaingia kambini."
+            "text": "Jengeni miji kwa ajili ya watoto wenu, na mazizi kwa ajili ya kondoo zenu; na fanyeni yale yaliyotoka kinywani mwenu."
           },
           {
             "number": 25,
-            "text": "BWANA akanena na Musa, akisema,"
+            "text": "Wana wa Gadi na wana wa Reubeni wakasema na Musa, wakisema, Watumishi wako watafanya kama bwana wetu anavyoamuru."
           },
           {
             "number": 26,
-            "text": "Hesabu jumla ya mateka waliotekwa, wa wanadamu na wa wanyama, wewe na Eleazari kuhani, na wakuu wa nyumba za baba za kusanyiko;"
+            "text": "Watoto wetu, wake zetu, mifugo yetu, na wanyama wetu wote, watakuwa huko katika miji ya Gileadi;"
           },
           {
             "number": 27,
-            "text": "kisha ugawanye mateka katika sehemu mbili; kati ya watu wa vita waliokwenda kupigana, na kati ya kusanyiko lote."
+            "text": "lakini watumishi wako watavuka, kila mtu mwenye silaha kwa ajili ya vita, mbele za BWANA kwenda vitani, kama bwana wangu anavyosema."
           },
           {
             "number": 28,
-            "text": "Na utoze ushuru kwa ajili ya BWANA kutoka kwa watu wa vita waliokwenda kupigana; mmoja katika kila mia tano, wa watu, na wa ng'ombe, na wa punda, na wa kondoo;"
+            "text": "Basi Musa akatoa amri juu yao kwa Eleazari kuhani, na Yoshua mwana wa Nuni, na wakuu wa nyumba za baba za makabila ya wana wa Israeli;"
           },
           {
             "number": 29,
-            "text": "utwae kutoka katika nusu yao, umpe Eleazari kuhani kuwa sadaka ya kuinuliwa kwa BWANA."
+            "text": "Musa akawaambia, Ikiwa wana wa Gadi na wana wa Reubeni watavuka pamoja nanyi Yordani, kila mtu mwenye silaha kwa ajili ya vita, mbele za BWANA, na nchi itatiishwa mbele yenu, ndipo mtakapowapa nchi ya Gileadi kuwa milki yao."
           },
           {
             "number": 30,
-            "text": "Na kutoka katika nusu ya wana wa Israeli, utatwaa mmoja katika kila hamsini, wa watu, wa ng'ombe, wa punda, wa makundi ya mifugo, na wa kila aina ya wanyama, uwape Walawi wanaolihifadhi agizo la Maskani ya BWANA."
+            "text": "Lakini ikiwa hawatavuka pamoja nanyi wakiwa na silaha, watapata milki kati yenu katika nchi ya Kanaani."
           },
           {
             "number": 31,
-            "text": "Musa na Eleazari kuhani wakafanya kama BWANA alivyomwamuru Musa."
+            "text": "Wana wa Gadi na wana wa Reubeni wakajibu, wakisema, Kama BWANA alivyowaambia watumishi wako, ndivyo tutakavyofanya."
           },
           {
             "number": 32,
-            "text": "Na nyara, yaani mabaki ya mateka ambayo watu wa vita walikuwa wameteka, yalikuwa kondoo laki sita sabini na tano elfu,"
+            "text": "Tutavuka tukiwa na silaha mbele za BWANA kwenda katika nchi ya Kanaani, ili milki ya urithi wetu upande huu wa Yordani iwe yetu."
           },
           {
             "number": 33,
-            "text": "na ng'ombe elfu sabini na mbili,"
+            "text": "Basi Musa akawapa wana wa Gadi, na wana wa Reubeni, na nusu ya kabila la Manase mwana wa Yusufu, ufalme wa Sihoni mfalme wa Waamori, na ufalme wa Ogu mfalme wa Bashani, nchi pamoja na miji yake katika mipaka yake, yaani miji ya nchi iliyozunguka."
           },
           {
             "number": 34,
-            "text": "na punda elfu sitini na moja,"
+            "text": "Wana wa Gadi wakajenga Diboni, na Atarothi, na Aroeri,"
           },
           {
             "number": 35,
-            "text": "na watu elfu thelathini na mbili kwa jumla, wanawake ambao hawakuwa wamemjua mwanamume kwa kulala naye."
+            "text": "na Atroth-shofani, na Yazeri, na Yogbeha,"
           },
           {
             "number": 36,
-            "text": "Na nusu iliyokuwa sehemu ya wale waliokwenda vitani ilikuwa kondoo laki tatu thelathini na saba elfu na mia tano;"
+            "text": "na Beth-nimra, na Beth-harani, miji yenye maboma; na mazizi kwa ajili ya kondoo."
           },
           {
             "number": 37,
-            "text": "na ushuru wa BWANA kutoka kwa kondoo ulikuwa mia sita sabini na tano."
+            "text": "Na wana wa Reubeni wakajenga Heshboni, na Eleale, na Kiriathaimu,"
           },
           {
             "number": 38,
-            "text": "Na ng'ombe walikuwa elfu thelathini na sita; ambao ushuru wa BWANA ulikuwa sabini na wawili."
+            "text": "na Nebo, na Baal-meoni, majina yao yakibadilishwa, na Shibma; nao wakaipa miji waliyoijenga majina mengine."
           },
           {
             "number": 39,
-            "text": "Na punda walikuwa elfu thelathini na mia tano; ambao ushuru wa BWANA ulikuwa sitini na mmoja."
+            "text": "Na wana wa Makiri mwana wa Manase wakaenda Gileadi, wakaitwaa, na kuwafukuza Waamori waliokuwa humo."
           },
           {
             "number": 40,
-            "text": "Na watu walikuwa elfu kumi na sita; ambao ushuru wa BWANA ulikuwa watu thelathini na wawili."
+            "text": "Musa akampa Makiri mwana wa Manase Gileadi; naye akakaa humo."
           },
           {
             "number": 41,
-            "text": "Musa akampa Eleazari kuhani ushuru uliokuwa sadaka ya kuinuliwa ya BWANA, kama BWANA alivyomwamuru Musa."
+            "text": "Na Yairi mwana wa Manase akaenda, akavitwaa vijiji vyake, akaviita Havoth-yairi."
           },
           {
             "number": 42,
-            "text": "Na kuhusu nusu ya wana wa Israeli, ambayo Musa aliitenga na ile ya watu waliopigana,"
-          },
-          {
-            "number": 43,
-            "text": "(nusu iliyokuwa ya kusanyiko ilikuwa kondoo laki tatu thelathini na saba elfu na mia tano,"
-          },
-          {
-            "number": 44,
-            "text": "na ng'ombe elfu thelathini na sita,"
-          },
-          {
-            "number": 45,
-            "text": "na punda elfu thelathini na mia tano,"
-          },
-          {
-            "number": 46,
-            "text": "na watu elfu kumi na sita;)"
-          },
-          {
-            "number": 47,
-            "text": "kutoka katika nusu ya wana wa Israeli, Musa akatwaa mmoja katika kila hamsini, wa watu na wa wanyama, akawapa Walawi waliolihifadhi agizo la Maskani ya BWANA; kama BWANA alivyomwamuru Musa."
-          },
-          {
-            "number": 48,
-            "text": "Ndipo maafisa waliokuwa juu ya maelfu ya jeshi, maakida wa maelfu na maakida wa mamia, wakamkaribia Musa;"
-          },
-          {
-            "number": 49,
-            "text": "wakamwambia Musa, Watumishi wako wamehesabu watu wa vita walio chini ya mamlaka yetu, wala hakupunguka hata mtu mmoja miongoni mwetu."
-          },
-          {
-            "number": 50,
-            "text": "Kwa hiyo tumemletea BWANA sadaka, kila mtu kile alichokipata, vitu vya dhahabu, minyororo, na vikuku, pete, vipuli, na mapambo, ili kufanya upatanisho kwa ajili ya nafsi zetu mbele za BWANA."
-          },
-          {
-            "number": 51,
-            "text": "Musa na Eleazari kuhani wakaipokea dhahabu kutoka kwao, yaani vitu vyote vya dhahabu vilivyotengenezwa."
-          },
-          {
-            "number": 52,
-            "text": "Na dhahabu yote ya sadaka waliyomtolea BWANA, kutoka kwa maakida wa maelfu na maakida wa mamia, ilikuwa shekeli elfu kumi na sita mia saba na hamsini."
-          },
-          {
-            "number": 53,
-            "text": "(Kwa maana watu wa vita walikuwa wamejichukulia nyara, kila mtu kwa ajili yake mwenyewe.)"
-          },
-          {
-            "number": 54,
-            "text": "Musa na Eleazari kuhani wakaipokea dhahabu kutoka kwa maakida wa maelfu na wa mamia, wakaileta ndani ya Hema la Kukutania, kuwa ukumbusho kwa ajili ya wana wa Israeli mbele za BWANA."
+            "text": "Na Noba akaenda, akaitwaa Kenathi na vijiji vyake, akaiita Noba, kwa jina lake mwenyewe."
           }
         ],
         "33": [
@@ -20088,7 +20040,7 @@
           },
           {
             "number": 28,
-            "text": "Tutapanda kwenda wapi? Ndugu zetu wameivunja moyo yetu, wakisema, Watu hao ni wakubwa na warefu kuliko sisi; miji ni mikubwa na imezungushiwa kuta zinazofika mbinguni; na zaidi ya hayo tumewaona huko wana wa Waanaki."
+            "text": "Tutapanda kwenda wapi? Ndugu zetu wameivunja mioyo yetu, wakisema, Watu hao ni wakubwa na warefu kuliko sisi; miji ni mikubwa na imezungushiwa kuta zinazofika mbinguni; na zaidi ya hayo tumewaona huko wana wa Waanaki."
           },
           {
             "number": 29,
@@ -20880,7 +20832,7 @@
           },
           {
             "number": 4,
-            "text": "Kwa maana watamgeuza mwana wako asifuate mimi, ili waitumikie miungu mingine; ndipo hasira ya BWANA itakapowaka dhidi yenu, na kukuangamiza ghafula."
+            "text": "Kwa maana watamgeuza mwana wako asinifuate mimi, ili waitumikie miungu mingine; ndipo hasira ya BWANA itakapowaka dhidi yenu, na kukuangamiza ghafula."
           },
           {
             "number": 5,
@@ -21076,7 +21028,7 @@
           },
           {
             "number": 6,
-            "text": "Basi ujue kwamba BWANA Mungu wako hakupi nchi hii nzuri kuimiliki kwa sababu ya usahihi wako; kwa maana wewe ni watu wenye shingo ngumu."
+            "text": "Basi ujue kwamba BWANA Mungu wako hakupi nchi hii nzuri kuimiliki kwa sababu ya usahihi wako; kwa maana ninyi ni watu wenye shingo ngumu."
           },
           {
             "number": 7,
@@ -21268,7 +21220,7 @@
           },
           {
             "number": 2,
-            "text": "Nanyi jueni leo; kwa maana sisemi na watoto wenu ambao hawakujua, wala hawakuona kurudiwa na BWANA Mungu wenu, ukuu wake, mkono wake wenye nguvu, na mkono wake ulionyoshwa,"
+            "text": "Nanyi jueni leo; kwa maana sisemi na watoto wenu ambao hawakujua, wala hawakuona adhabu ya BWANA Mungu wenu, ukuu wake, mkono wake wenye nguvu, na mkono wake ulionyoshwa,"
           },
           {
             "number": 3,
@@ -21602,7 +21554,7 @@
           },
           {
             "number": 2,
-            "text": "Kwa maana wewe ni watu watakatifu kwa BWANA Mungu wako, naye BWANA amekuchagua uwe watu wake wa pekee, kuliko mataifa yote yaliyo juu ya dunia."
+            "text": "Kwa maana ninyi ni watu watakatifu kwa BWANA Mungu wako, naye BWANA amekuchagua uwe watu wake wa pekee, kuliko mataifa yote yaliyo juu ya dunia."
           },
           {
             "number": 3,
@@ -22836,7 +22788,7 @@
           },
           {
             "number": 9,
-            "text": "Na Musa na makuhani Walawi wakasema na Israeli wote, wakisema, Nyamaza, na usikilize, Ee Israeli; leo hii umekuwa watu wa BWANA Mungu wako."
+            "text": "Na Musa na makuhani Walawi wakasema na Israeli wote, wakisema, Nyamaza, na usikilize, Ee Israeli; leo hii mmekuwa watu wa BWANA Mungu wako."
           },
           {
             "number": 10,
@@ -23138,7 +23090,7 @@
           },
           {
             "number": 58,
-            "text": "Ikiwa hutahifadhi kuyatenda maneno yote ya Torati hii yaliyoandikwa katika kitabu hiki, ili kulicha jina hili lenye utukufu na la kutisha, BWANA MUNGU WAKO;"
+            "text": "Ikiwa hutahifadhi kuyatenda maneno yote ya Torati hii yaliyoandikwa katika kitabu hiki, ili kulihofu jina hili lenye utukufu na la kutisha, BWANA MUNGU WAKO;"
           },
           {
             "number": 59,
@@ -24282,7 +24234,7 @@
           },
           {
             "number": 13,
-            "text": "Ikawa Yoshua alipokuwa karibu na Yeriko, akainua macho yake, akatazama, na tazama, mtu mmoja alikuwa amesimama mkabala naye, akiwa na upanga uliofutwa mkononi mwake; Yoshua akamwendea, akamwambia, Je, wewe ni upande wetu, au upande wa adui zetu?"
+            "text": "Ikawa Yoshua alipokuwa karibu na Yeriko, akainua macho yake, akatazama, na tazama, mtu mmoja amesimama mbele yake, na upanga wake umefutwa mkononi mwake; Yoshua akamwendea, akamwambia, “Je, wewe ni upande wetu, au upande wa adui zetu?”"
           },
           {
             "number": 14,
@@ -26236,67 +26188,139 @@
         "22": [
           {
             "number": 1,
-            "text": "Ikawa baada ya muda mrefu, baada ya BWANA kuwapa Israeli pumziko kutoka kwa adui zao wote waliowazunguka, Yoshua akawa mzee, mwenye miaka mingi."
+            "text": "Ndipo Yoshua akawaita Wareubeni, na Wagadi, na nusu ya kabila la Manase,"
           },
           {
             "number": 2,
-            "text": "Yoshua akawaita Israeli wote, na wazee wao, na wakuu wao, na waamuzi wao, na maafisa wao, akawaambia, Mimi ni mzee, mwenye miaka mingi;"
+            "text": "akawaambia, Ninyi mmehifadhi yote ambayo Musa mtumishi wa BWANA aliwaamuru, nanyi mmeitii sauti yangu katika yote niliyowaamuru;"
           },
           {
             "number": 3,
-            "text": "nanyi mmeona yote ambayo BWANA Mungu wenu ameyatendea mataifa haya yote kwa ajili yenu; kwa maana BWANA Mungu wenu ndiye aliyewapigania."
+            "text": "hamkuwaacha ndugu zenu siku hizi nyingi hata leo, bali mmehifadhi agizo la amri ya BWANA Mungu wenu."
           },
           {
             "number": 4,
-            "text": "Tazama, nimewagawanyia kwa kura mataifa haya yaliyobaki kuwa urithi kwa makabila yenu, kutoka Yordani, pamoja na mataifa yote niliyoyaangamiza, mpaka bahari kubwa upande wa magharibi."
+            "text": "Na sasa BWANA Mungu wenu amewapa ndugu zenu pumziko, kama alivyowaahidi; basi sasa rudini, mwende kwenye hema zenu, na katika nchi ya milki yenu, ambayo Musa mtumishi wa BWANA aliwapa ng'ambo ya Yordani."
           },
           {
             "number": 5,
-            "text": "Na BWANA Mungu wenu, yeye atawafukuza mbele yenu, na kuwaondoa machoni penu; nanyi mtaimiliki nchi yao, kama BWANA Mungu wenu alivyowaahidi."
+            "text": "Lakini jihadharini sana kuitenda amri na Torati, ambayo Musa mtumishi wa BWANA aliwaamuru, kumpenda BWANA Mungu wenu, na kwenda katika njia zake zote, na kuzishika amri zake, na kushikamana naye, na kumtumikia kwa moyo wenu wote na kwa roho yenu yote."
           },
           {
             "number": 6,
-            "text": "Basi iweni hodari sana kuhifadhi na kutenda yote yaliyoandikwa katika kitabu cha Torati ya Musa, msigeuke kutoka kwayo kwenda mkono wa kuume wala wa kushoto;"
+            "text": "Basi Yoshua akawabariki, akawaacha waende; nao wakaenda kwenye hema zao."
           },
           {
             "number": 7,
-            "text": "ili msiingie kati ya mataifa haya, haya yaliyobaki kati yenu; wala msilitaje jina la miungu yao, wala msiapishe kwa majina yao, wala msiitumikie, wala msiisujudie;"
+            "text": "Basi kwa nusu ya kabila la Manase Musa alikuwa amewapa urithi katika Bashani; lakini kwa nusu yake nyingine Yoshua akawapa urithi kati ya ndugu zao upande huu wa Yordani kuelekea magharibi. Na Yoshua alipowaacha waende kwenye hema zao, ndipo akawabariki,"
           },
           {
             "number": 8,
-            "text": "bali shikamaneni na BWANA Mungu wenu, kama mlivyofanya hata leo."
+            "text": "akawaambia, Rudini kwenye hema zenu mkiwa na mali nyingi, na mifugo mingi sana, pamoja na fedha, na dhahabu, na shaba, na chuma, na mavazi mengi sana; gawanyeni nyara za adui zenu pamoja na ndugu zenu."
           },
           {
             "number": 9,
-            "text": "Kwa maana BWANA amewafukuza mbele yenu mataifa makubwa na yenye nguvu; lakini kwa habari yenu ninyi, hakuna mtu aliyeweza kusimama mbele yenu hata leo."
+            "text": "Na wana wa Reubeni, na wana wa Gadi, na nusu ya kabila la Manase wakarudi, wakaondoka kutoka kwa wana wa Israeli huko Shilo, iliyo katika nchi ya Kanaani, ili waende katika nchi ya Gileadi, nchi ya milki yao, ambayo waliimiliki, kulingana na neno la BWANA kwa mkono wa Musa."
           },
           {
             "number": 10,
-            "text": "Mtu mmoja wenu atawafukuza elfu; kwa maana BWANA Mungu wenu ndiye anayewapigania, kama alivyowaahidi."
+            "text": "Nao walipofika kwenye mipaka ya Yordani, iliyo katika nchi ya Kanaani, wana wa Reubeni, na wana wa Gadi, na nusu ya kabila la Manase wakajenga huko madhabahu karibu na Yordani, madhabahu kubwa ya kuonekana."
           },
           {
             "number": 11,
-            "text": "Basi jihadharini sana nafsi zenu, ili mpate kumpenda BWANA Mungu wenu."
+            "text": "Na wana wa Israeli wakasikia ikisemwa, Tazama, wana wa Reubeni, na wana wa Gadi, na nusu ya kabila la Manase wamejenga madhabahu mkabala na nchi ya Kanaani, katika mipaka ya Yordani, upande wa wana wa Israeli."
           },
           {
             "number": 12,
-            "text": "Lakini ikiwa kwa vyovyote mtarudi nyuma, na kushikamana na mabaki ya mataifa haya, haya yaliyobaki kati yenu, na kuoana nao, na kuingia kwao, nao kwenu;"
+            "text": "Na wana wa Israeli waliposikia habari hiyo, kusanyiko lote la wana wa Israeli likakusanyika huko Shilo, ili kwenda kupigana nao."
           },
           {
             "number": 13,
-            "text": "jueni kwa hakika kwamba BWANA Mungu wenu hataendelea kuyafukuza mataifa haya mbele yenu; bali yatakuwa mitego na tanzi kwenu, na mijeledi mbavuni mwenu, na miiba machoni mwenu, mpaka mtakapoangamia kutoka katika nchi hii njema ambayo BWANA Mungu wenu amewapa."
+            "text": "Na wana wa Israeli wakamtuma Finehasi mwana wa Eleazari kuhani kwa wana wa Reubeni, na kwa wana wa Gadi, na kwa nusu ya kabila la Manase, katika nchi ya Gileadi,"
           },
           {
             "number": 14,
-            "text": "Na tazama, leo ninaenda njia ya dunia yote; nanyi mnajua kwa mioyo yenu yote na kwa nafsi zenu zote kwamba hakuna jambo hata moja lililokosa kutimia katika mambo yote mema ambayo BWANA Mungu wenu alisema kuhusu ninyi; yote yametimia kwenu, wala hakuna jambo hata moja lililokosa kutimia."
+            "text": "na pamoja naye wakuu kumi, mkuu mmoja kutoka kila nyumba kuu katika makabila yote ya Israeli; na kila mmoja wao alikuwa mkuu wa nyumba ya baba zake kati ya maelfu ya Israeli."
           },
           {
             "number": 15,
-            "text": "Basi itakuwa, kama mambo yote mema yalivyowajia ambayo BWANA Mungu wenu aliwaahidi, ndivyo BWANA atakavyowaletea mambo yote mabaya, mpaka atakapowaangamiza kutoka katika nchi hii njema ambayo BWANA Mungu wenu amewapa."
+            "text": "Nao wakafika kwa wana wa Reubeni, na kwa wana wa Gadi, na kwa nusu ya kabila la Manase, katika nchi ya Gileadi, wakasema nao, wakisema,"
           },
           {
             "number": 16,
-            "text": "Mtakapolivunja agano la BWANA Mungu wenu, ambalo aliwaamuru, na kwenda kuitumikia miungu mingine, na kuisujudia; ndipo hasira ya BWANA itakapowaka dhidi yenu, nanyi mtaangamia upesi kutoka katika nchi njema ambayo amewapa."
+            "text": "Kusanyiko lote la BWANA linasema hivi, Ni kosa gani hili mlilofanya dhidi ya Mungu wa Israeli, hata leo mmegeuka na kuacha kumfuata BWANA, kwa kujijengea madhabahu, ili leo mwasi dhidi ya BWANA?"
+          },
+          {
+            "number": 17,
+            "text": "Je, uovu wa Peori ni mdogo sana kwetu, ambao hatujajitakasa nao hata leo, ingawa pigo lilikuja juu ya kusanyiko la BWANA,"
+          },
+          {
+            "number": 18,
+            "text": "hata ninyi mgeuke leo na kuacha kumfuata BWANA? Na itakuwa, kwa kuwa leo mnamwasi BWANA, kesho atakuwa na ghadhabu dhidi ya kusanyiko lote la Israeli."
+          },
+          {
+            "number": 19,
+            "text": "Lakini ikiwa nchi ya milki yenu ni najisi, basi vukeni kwenda katika nchi ya milki ya BWANA, ambamo maskani ya BWANA inakaa, mkajipatie milki kati yetu; lakini msimwasi BWANA, wala msituasi sisi, kwa kujijengea madhabahu nyingine isipokuwa madhabahu ya BWANA Mungu wetu."
+          },
+          {
+            "number": 20,
+            "text": "Je, Akani mwana wa Zera hakufanya kosa katika kitu kilichowekwa wakfu, na ghadhabu ikaanguka juu ya kusanyiko lote la Israeli? Wala mtu huyo hakuangamia peke yake katika uovu wake."
+          },
+          {
+            "number": 21,
+            "text": "Ndipo wana wa Reubeni, na wana wa Gadi, na nusu ya kabila la Manase wakajibu, wakawaambia wakuu wa maelfu ya Israeli,"
+          },
+          {
+            "number": 22,
+            "text": "BWANA Mungu wa miungu, BWANA Mungu wa miungu, yeye anajua, na Israeli watajua; ikiwa ni kwa uasi, au ikiwa ni kwa kosa dhidi ya BWANA, usituokoe leo,"
+          },
+          {
+            "number": 23,
+            "text": "kwamba tumejijengea madhabahu ili tugeuke na kuacha kumfuata BWANA, au ikiwa ni kutoa juu yake sadaka ya kuteketezwa au sadaka ya unga, au ikiwa ni kutoa juu yake sadaka za amani, BWANA mwenyewe na atake hesabu;"
+          },
+          {
+            "number": 24,
+            "text": "na ikiwa hatukufanya hivyo kwa kuhofia jambo hili, tukisema, Katika wakati ujao watoto wenu wanaweza kusema na watoto wetu, wakisema, Mna nini ninyi na BWANA Mungu wa Israeli?"
+          },
+          {
+            "number": 25,
+            "text": "Kwa maana BWANA ameweka Yordani kuwa mpaka kati yetu na ninyi, enyi wana wa Reubeni na wana wa Gadi; ninyi hamna sehemu katika BWANA. Hivyo watoto wenu watawafanya watoto wetu waache kumhofu BWANA."
+          },
+          {
+            "number": 26,
+            "text": "Kwa hiyo tukasema, Na sasa tujiandae kujenga madhabahu, si kwa ajili ya sadaka ya kuteketezwa, wala kwa ajili ya sadaka;"
+          },
+          {
+            "number": 27,
+            "text": "bali iwe shahidi kati yetu na ninyi, na kati ya vizazi vyetu baada yetu, ili tufanye huduma ya BWANA mbele zake kwa sadaka zetu za kuteketezwa, na kwa sadaka zetu, na kwa sadaka zetu za amani; ili watoto wenu wasiwaambie watoto wetu katika wakati ujao, Ninyi hamna sehemu katika BWANA."
+          },
+          {
+            "number": 28,
+            "text": "Kwa hiyo tukasema, Itakuwa watakapotuambia hivyo sisi au vizazi vyetu katika wakati ujao, ndipo tutakaposema, Tazameni mfano wa madhabahu ya BWANA, ambayo baba zetu waliijenga, si kwa ajili ya sadaka za kuteketezwa, wala kwa ajili ya sadaka, bali ni shahidi kati yetu na ninyi."
+          },
+          {
+            "number": 29,
+            "text": "Mungu apishe mbali kwamba tumwasi BWANA, na kugeuka leo na kuacha kumfuata BWANA, kwa kujenga madhabahu kwa ajili ya sadaka za kuteketezwa, au sadaka za unga, au sadaka, isipokuwa madhabahu ya BWANA Mungu wetu iliyo mbele ya maskani yake."
+          },
+          {
+            "number": 30,
+            "text": "Na Finehasi kuhani, na wakuu wa kusanyiko, na wakuu wa maelfu ya Israeli waliokuwa pamoja naye, waliposikia maneno ambayo wana wa Reubeni, na wana wa Gadi, na wana wa Manase walisema, yakawa mema machoni pao."
+          },
+          {
+            "number": 31,
+            "text": "Finehasi mwana wa Eleazari kuhani akawaambia wana wa Reubeni, na wana wa Gadi, na wana wa Manase, Leo tunajua kwamba BWANA yuko kati yetu, kwa sababu hamjafanya kosa hili dhidi ya BWANA; sasa mmewaokoa wana wa Israeli kutoka mkononi mwa BWANA."
+          },
+          {
+            "number": 32,
+            "text": "Na Finehasi mwana wa Eleazari kuhani, na wakuu, wakarudi kutoka kwa wana wa Reubeni, na kutoka kwa wana wa Gadi, kutoka nchi ya Gileadi, wakaenda katika nchi ya Kanaani kwa wana wa Israeli, wakawaletea habari."
+          },
+          {
+            "number": 33,
+            "text": "Na jambo hilo likawa jema machoni pa wana wa Israeli; nao wana wa Israeli wakambariki Mungu, wala hawakusema tena kwenda kupigana nao, ili kuiharibu nchi ambayo wana wa Reubeni na wana wa Gadi walikaa."
+          },
+          {
+            "number": 34,
+            "text": "Na wana wa Reubeni na wana wa Gadi wakaiita madhabahu hiyo Edi; kwa maana itakuwa shahidi kati yetu kwamba BWANA ndiye Mungu."
           }
         ],
         "23": [
@@ -27292,7 +27316,7 @@
           },
           {
             "number": 8,
-            "text": "Basi wale watu wakachukua chakula mikononi mwao, na tarumbeta zao; naye akawaacha Israeli wengine wote waende, kila mtu hemani kwake, lakini akawabaki na wale watu mia tatu; na jeshi la Midiani lilikuwa chini yake bondeni."
+            "text": "Basi watu wakachukua vyakula mikononi mwao, na tarumbeta zao; naye akawaacha watu wote wa Israeli waende, kila mtu hemani kwake, lakini akabaki na wale watu mia tatu. Na kambi ya Midiani ilikuwa chini yake bondeni."
           },
           {
             "number": 9,
@@ -27904,7 +27928,7 @@
           },
           {
             "number": 24,
-            "text": "Je, wewe hutaimiliki ile ambayo Kemoshi mungu wako anakupa kuimiliki? Vivyo hivyo yeyote ambaye BWANA Mungu wetu atamfukuza mbele yetu, nchi yake tutaamiliki."
+            "text": "Je, wewe hutamiliki kile ambacho Kemoshi mungu wako anakupa umiliki wake? Basi yeyote ambaye BWANA Mungu wetu anamfukuza mbele yetu, huyo tutamiliki."
           },
           {
             "number": 25,
@@ -28104,7 +28128,7 @@
           },
           {
             "number": 18,
-            "text": "Malaika wa BWANA akamwambia, Kwa nini unaliuliza jina langu, kwa kuwa ni la ajabu?"
+            "text": "Malaika wa BWANA akamwambia, “Kwa nini unaliuliza jina langu, kwa kuwa ni la siri?"
           },
           {
             "number": 19,
@@ -29654,7 +29678,7 @@
         "3": [
           {
             "number": 1,
-            "text": "Na mtoto Samweli akamhudumia BWANA mbele ya Eli. Nalo neno la BWANA lilikuwa la thamani katika siku hizo; hapakuwa na maono yaliyofunuliwa waziwazi."
+            "text": "Naye mtoto Samweli akamtumikia BWANA mbele ya Eli. Na neno la BWANA lilikuwa adimu siku zile; hapakuwa na maono ya wazi."
           },
           {
             "number": 2,
@@ -30476,7 +30500,7 @@
           },
           {
             "number": 18,
-            "text": "Basi Samweli akamwita BWANA; naye BWANA akatuma radi na mvua siku hiyo; nao watu wote wakamwogopa sana BWANA na Samweli."
+            "text": "Basi Samweli akamwita BWANA; naye BWANA akatuma ngurumo na mvua siku ile; na watu wote wakamhofu sana BWANA na Samweli."
           },
           {
             "number": 19,
@@ -32773,9 +32797,45 @@
             "text": "Daudi akaomboleza kwa maombolezo haya juu ya Sauli na juu ya Yonathani mwanawe;"
           },
           {
-            "number": 18,
-            "text": "naye akaamuru kwamba wana wa Yuda wafundishwe matumizi ya upinde; tazama,"
-          }
+        "number": 18,
+        "text": "Naye akaamuru kwamba wana wa Yuda wafundishwe matumizi ya upinde; tazama, imeandikwa katika kitabu cha Yashari."
+        },
+        {
+        "number": 19,
+        "text": "Uzuri wa Israeli umeuawa juu ya mahali pako pa juu; jinsi mashujaa walivyoanguka!"
+        },
+        {
+        "number": 20,
+        "text": "Msitangaze huko Gathi, wala msihubiri katika mitaa ya Ashkeloni; binti za Wafilisti wasije wakafurahi, binti za wasiotahiriwa wasije wakashangilia."
+        },
+        {
+        "number": 21,
+        "text": "Enyi milima ya Gilboa, kusiwe na umande wala mvua juu yenu, wala mashamba ya sadaka; kwa maana huko ngao ya mashujaa ilitupwa kwa aibu, ngao ya Sauli, kana kwamba hakutiwa mafuta."
+        },
+        {
+        "number": 22,
+        "text": "Kutoka katika damu ya waliouawa, kutoka katika mafuta ya mashujaa, upinde wa Yonathani haukurudi nyuma, wala upanga wa Sauli haukurudi bure."
+        },
+        {
+        "number": 23,
+        "text": "Sauli na Yonathani walipendwa na walipendeza katika maisha yao, wala katika kufa kwao hawakutengana; walikuwa wepesi kuliko tai, walikuwa wenye nguvu kuliko simba."
+        },
+        {
+        "number": 24,
+        "text": "Enyi binti za Israeli, mlilieni Sauli, aliyewavika nguo nyekundu pamoja na mapambo, aliyewawekea mapambo ya dhahabu juu ya mavazi yenu."
+        },
+        {
+        "number": 25,
+        "text": "Jinsi mashujaa walivyoanguka katikati ya vita! Ee Yonathani, umeuawa juu ya mahali pako pa juu."
+        },
+        {
+        "number": 26,
+        "text": "Nimehuzunika kwa ajili yako, ndugu yangu Yonathani; ulikuwa wa kupendeza sana kwangu; upendo wako kwangu ulikuwa wa ajabu, ukipita upendo wa wanawake."
+        },
+        {
+        "number": 27,
+        "text": "Jinsi mashujaa walivyoanguka, na silaha za vita zilivyopotea!"
+        }
         ],
         "2": [
           {
@@ -35318,7 +35378,7 @@
           },
           {
             "number": 21,
-            "text": "Pia alimuua Mmisri, mtu mwenye sura ya kutisha. Mmisri huyo alikuwa na mkuki mkononi mwake, lakini Benaya akamwendea akiwa na fimbo, akampokonya Mmisri mkuki kutoka mkononi mwake, kisha akamuua kwa mkuki wake mwenyewe."
+            "text": "Pia alimuua Mmisri, mtu mwenye sura ya kuvutia. Mmisri huyo alikuwa na mkuki mkononi mwake, lakini Benaya akamwendea akiwa na fimbo, akampokonya Mmisri mkuki kutoka mkononi mwake, kisha akamuua kwa mkuki wake mwenyewe."
           },
           {
             "number": 22,
@@ -38458,7 +38518,7 @@
           },
           {
             "number": 38,
-            "text": "Basi nabii akaondoka, akamngojea mfalme kando ya njia, akajificha sura yake kwa kifuniko."
+            "text": "Basi nabii akaondoka, akamngojea mfalme kando ya njia, akajibadilisha sura kwa kuweka majivu usoni mwake."
           },
           {
             "number": 39,
@@ -38470,7 +38530,7 @@
           },
           {
             "number": 41,
-            "text": "Naye akafanya haraka, akaondoa kifuniko usoni pake; na mfalme wa Israeli akamtambua kuwa alikuwa mmoja wa manabii."
+            "text": "Naye akafanya haraka, akaondoa majivu usoni pake; na mfalme wa Israeli akamtambua kwamba alikuwa mmoja wa manabii."
           },
           {
             "number": 42,
@@ -39976,7 +40036,7 @@
           },
           {
             "number": 24,
-            "text": "Walipoingia kutoa sadaka na sadaka za kuteketezwa, Yehu alikuwa amewaweka watu themanini nje, akasema, “Ikiwa yeyote kati ya watu hawa niliowatia mikononi mwenu atatoroka, uhai wa yule atakayemwacha utakuwa badala ya uhai wake.”"
+            "text": "Walipoingia kutoa matoleo na sadaka za kuteketezwa, Yehu alikuwa amewaweka watu themanini nje, akasema, “Ikiwa yeyote kati ya watu hawa niliowatia mikononi mwenu atatoroka, uhai wa yule atakayemwacha utakuwa badala ya uhai wake.”"
           },
           {
             "number": 25,
@@ -41753,7 +41813,7 @@
     },
     {
       "id": "1_nyakati",
-      "name": "1 Nyakati",
+      "name": "1 Mambo ya Nyakati",
       "englishName": "1 Chronicles",
       "testament": "Agano la Kale",
       "bookNumber": 13,
@@ -43342,10 +43402,69 @@
           },
           {
             "number": 29,
-            "text": "Baadhi yao pia waliwekwa kusimamia vyombo, na vifaa vyote vya mahali patakatifu, na unga laini"
+            "text": "Baadhi yao pia waliwekwa kusimamia vyombo, na vifaa vyote vya mahali patakatifu, na unga laini, na divai, na mafuta, na uvumba, na manukato."
+          },
+          {
+            "number": 30,
+            "text": "Na baadhi ya wana wa makuhani walitengeneza marhamu ya manukato."
+          },
+          {
+            "number": 31,
+            "text": "Na Matithia, mmoja wa Walawi, ambaye alikuwa mzaliwa wa kwanza wa Shalumu Mkora, alikuwa na kazi maalum juu ya vitu vilivyotengenezwa katika sufuria."
+          },
+          {
+            "number": 32,
+            "text": "Na wengine wa ndugu zao, wa wana wa Kohathi, walikuwa juu ya mikate ya wonyesho, ili kuiandaa kila Sabato."
+          },
+          {
+            "number": 33,
+            "text": "Na hawa ndio waimbaji, wakuu wa nyumba za baba za Walawi, ambao walikaa katika vyumba wakiwa huru kutokana na kazi nyingine; kwa maana walikuwa wakifanya kazi hiyo mchana na usiku."
+          },
+          {
+            "number": 34,
+            "text": "Hawa wakuu wa nyumba za baba za Walawi walikuwa wakuu katika vizazi vyao; hawa walikaa Yerusalemu."
+          },
+          {
+            "number": 35,
+            "text": "Na huko Gibeoni alikaa baba wa Gibeoni, Yehieli; na jina la mkewe lilikuwa Maaka."
+          },
+          {
+            "number": 36,
+            "text": "Na mwanawe mzaliwa wa kwanza alikuwa Abdoni, kisha Suri, na Kishi, na Baali, na Neri, na Nadabu,"
+          },
+          {
+            "number": 37,
+            "text": "na Gedori, na Ahio, na Zekaria, na Miklothi."
+          },
+          {
+            "number": 38,
+            "text": "Na Miklothi akamzaa Shimeamu. Nao pia walikaa pamoja na ndugu zao huko Yerusalemu, karibu na ndugu zao."
+          },
+          {
+            "number": 39,
+            "text": "Na Neri akamzaa Kishi; na Kishi akamzaa Sauli; na Sauli akawazaa Yonathani, na Malkishua, na Abinadabu, na Eshbaali."
+          },
+          {
+            "number": 40,
+            "text": "Na mwana wa Yonathani alikuwa Merib-baali; na Merib-baali akamzaa Mika."
+          },
+          {
+            "number": 41,
+            "text": "Na wana wa Mika walikuwa Pithoni, na Meleki, na Tahrea, na Ahazi."
+          },
+          {
+            "number": 42,
+            "text": "Na Ahazi akamzaa Yara; na Yara akawazaa Alemethi, na Azmawethi, na Zimri; na Zimri akamzaa Moza;"
+          },
+          {
+            "number": 43,
+            "text": "na Moza akamzaa Binea; na Refaya mwanawe, Eleasa mwanawe, Azeli mwanawe."
+          },
+          {
+            "number": 44,
+            "text": "Na Azeli alikuwa na wana sita, ambao majina yao ni haya: Azrikamu, Bokeru, Ishmaeli, Shearia, Obadia, na Hanani; hawa ndio wana wa Azeli."
           }
-        ],
-        "10": [
+        ], "10": [
           {
             "number": 1,
             "text": "Basi Wafilisti wakapigana na Israeli; na watu wa Israeli wakakimbia mbele ya Wafilisti, wakaanguka wameuawa katika mlima Gilboa."
@@ -45529,7 +45648,7 @@
     },
     {
       "id": "2_nyakati",
-      "name": "2 Nyakati",
+      "name": "2 Mambo ya Nyakati",
       "englishName": "2 Chronicles",
       "testament": "Agano la Kale",
       "bookNumber": 14,
@@ -48102,7 +48221,7 @@
           },
           {
             "number": 31,
-            "text": "Ndipo Hezekia akajibu, akasema, “Sasa mmejiweka wakfu kwa BWANA; karibieni, mkalete sadaka na sadaka za shukrani katika nyumba ya BWANA.” Kusanyiko likaleta sadaka na sadaka za shukrani; na wote waliokuwa na moyo wa hiari wakaleta sadaka za kuteketezwa."
+            "text": "Ndipo Hezekia akajibu, akasema, “Sasa mmejiweka wakfu kwa BWANA; karibieni, mkalete matoleo na sadaka za shukrani katika nyumba ya BWANA.” Kusanyiko likaleta matoleo na sadaka za shukrani; na wote waliokuwa na moyo wa hiari wakaleta sadaka za kuteketezwa."
           },
           {
             "number": 32,
@@ -52228,7 +52347,7 @@
           },
           {
             "number": 10,
-            "text": "Naye akaandika kwa jina la mfalme Ahasuero, akatia muhuri kwa pete ya mfalme, akatuma barua kwa wajumbe waliopanda farasi, na wapanda nyumbu, ngamia, na ngamia vijana wenye mbio;"
+            "text": "Naye akaandika kwa jina la mfalme Ahasuero, akatia muhuri kwa pete ya mfalme, akatuma barua kwa wajumbe waliopanda farasi, na wapanda punda, ngamia, na ngamia vijana wenye mbio;"
           },
           {
             "number": 11,
@@ -52420,7 +52539,7 @@
           },
           {
             "number": 2,
-            "text": "Naye akazaliwa wana saba na binti watatu."
+            "text": "Kwake wakazaliwa wana saba na binti watatu."
           },
           {
             "number": 3,
@@ -52746,7 +52865,7 @@
           },
           {
             "number": 21,
-            "text": "Je, ubora wao ulio ndani yao hauondoki? Wanakufa,"
+            "text": "Je, ubora wao ulio ndani yao hauondoki? Wanakufa, hata bila hekima."
           }
         ],
         "5": [
@@ -56882,7 +57001,7 @@
           },
           {
             "number": 5,
-            "text": "Nilijilaza, nikala usingizi; nikaamka; kwa maana BWANA alinitegemeza."
+            "text": "Nilijilaza, nikalala usingizi; nikaamka; kwa maana BWANA alinitegemeza."
           },
           {
             "number": 6,
@@ -66086,90 +66205,110 @@
           }
         ],
         "136": [
-          {
-            "number": 1,
-            "text": "Msifuni BWANA. Lisifuni jina la BWANA; msifuni, enyi watumishi wa BWANA."
-          },
-          {
-            "number": 2,
-            "text": "Ninyi mnaosimama katika nyumba ya BWANA, katika nyua za nyumba ya Mungu wetu."
-          },
-          {
-            "number": 3,
-            "text": "Msifuni BWANA; kwa maana BWANA ni mwema; liimbieni jina lake sifa, kwa maana linapendeza."
-          },
-          {
-            "number": 4,
-            "text": "Kwa maana BWANA amemchagua Yakobo kuwa wake mwenyewe, na Israeli kuwa hazina yake ya pekee."
-          },
-          {
-            "number": 5,
-            "text": "Kwa maana najua kwamba BWANA ni mkuu, na kwamba Bwana wetu yu juu ya miungu yote."
-          },
-          {
-            "number": 6,
-            "text": "Lolote lililompendeza BWANA, hilo alilitenda mbinguni, na duniani, baharini, na katika vilindi vyote."
-          },
-          {
-            "number": 7,
-            "text": "Huyapandisha mvuke kutoka miisho ya dunia; huifanya radi pamoja na mvua; huutoa upepo kutoka katika hazina zake."
-          },
-          {
-            "number": 8,
-            "text": "Yeye aliyewapiga wazaliwa wa kwanza wa Misri, wa mwanadamu na wa mnyama."
-          },
-          {
-            "number": 9,
-            "text": "Aliyetuma ishara na maajabu katikati yako, Ee Misri, juu ya Farao na juu ya watumishi wake wote."
-          },
-          {
-            "number": 10,
-            "text": "Aliyeyapiga mataifa makubwa, na kuwaua wafalme wenye nguvu;"
-          },
-          {
-            "number": 11,
-            "text": "Sihoni mfalme wa Waamori, na Ogu mfalme wa Bashani, na falme zote za Kanaani;"
-          },
-          {
-            "number": 12,
-            "text": "Akaitoa nchi yao kuwa urithi, urithi kwa Israeli watu wake."
-          },
-          {
-            "number": 13,
-            "text": "Jina lako, Ee BWANA, ladumu milele; na kumbukumbu yako, Ee BWANA, katika vizazi vyote."
-          },
-          {
-            "number": 14,
-            "text": "Kwa maana BWANA atawahukumu watu wake, naye ataghairi kuhusu watumishi wake."
-          },
-          {
-            "number": 15,
-            "text": "Sanamu za mataifa ni fedha na dhahabu, kazi ya mikono ya wanadamu."
-          },
-          {
-            "number": 16,
-            "text": "Zina vinywa, lakini hazisemi; zina macho, lakini hazioni;"
-          },
-          {
-            "number": 17,
-            "text": "Zina masikio, lakini hazisikii; wala hakuna pumzi yoyote vinywani mwao."
-          },
-          {
-            "number": 18,
-            "text": "Wale wanaozifanya wanafanana nazo; ndivyo alivyo kila mtu anayezitumaini."
-          },
-          {
-            "number": 19,
-            "text": "Enyi nyumba ya Israeli, m’barikini BWANA; enyi nyumba ya Haruni, m’barikini BWANA."
-          },
-          {
-            "number": 20,
-            "text": "Enyi nyumba ya Lawi, m’barikini BWANA; ninyi mnaomhofu BWANA, m’barikini BWANA."
-          },
-          {
-            "number": 21,
-            "text": "Na abarikiwe BWANA kutoka Sayuni, yeye akaaye Yerusalemu. Msifuni BWANA."
-          }
+        {
+        "number": 1,
+        "text": "Mshukuruni BWANA, kwa maana yeye ni mwema; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 2,
+        "text": "Mshukuruni Mungu wa miungu; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 3,
+        "text": "Mshukuruni Bwana wa mabwana; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 4,
+        "text": "Yeye peke yake atendaye maajabu makuu; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 5,
+        "text": "Yeye aliyezifanya mbingu kwa hekima; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 6,
+        "text": "Yeye aliyeitandaza dunia juu ya maji; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 7,
+        "text": "Yeye aliyezifanya nuru kuu; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 8,
+        "text": "Jua litawale mchana; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 9,
+        "text": "Mwezi na nyota zitawale usiku; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 10,
+        "text": "Yeye aliyewapiga Wamisri katika wazaliwa wao wa kwanza; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 11,
+        "text": "Akawatoa Israeli kutoka katikati yao; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 12,
+        "text": "Kwa mkono wenye nguvu, na kwa mkono ulionyoshwa; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 13,
+        "text": "Yeye aliyeigawanya Bahari ya Shamu sehemu mbili; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 14,
+        "text": "Akawapitisha Israeli katikati yake; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 15,
+        "text": "Lakini akamwangusha Farao na jeshi lake katika Bahari ya Shamu; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 16,
+        "text": "Yeye aliyewaongoza watu wake kupitia jangwani; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 17,
+        "text": "Yeye aliyewapiga wafalme wakubwa; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 18,
+        "text": "Akawaua wafalme mashuhuri; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 19,
+        "text": "Sihoni mfalme wa Waamori; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 20,
+        "text": "Na Ogu mfalme wa Bashani; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 21,
+        "text": "Akaitoa nchi yao kuwa urithi; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 22,
+        "text": "Urithi kwa Israeli mtumishi wake; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 23,
+        "text": "Aliyetukumbuka katika hali yetu ya chini; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 24,
+        "text": "Akatuokoa kutoka kwa adui zetu; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 25,
+        "text": "Awapaye chakula wote wenye mwili; kwa maana rehema yake yadumu milele."
+        },
+        {
+        "number": 26,
+        "text": "Mshukuruni Mungu wa mbinguni; kwa maana rehema yake yadumu milele."
+        }
         ],
         "137": [
           {
@@ -67746,7 +67885,7 @@
         "8": [
           {
             "number": 1,
-            "text": "Je, hekima hali? na uelewa hapazi sauti yake?"
+            "text": "Je, hekima halii? na uelewa hapazi sauti yake?"
           },
           {
             "number": 2,
@@ -68128,7 +68267,7 @@
           },
           {
             "number": 9,
-            "text": "Mnafiki humwangamiza Jirani yake kwa kinywa chake, laikini wenye haki wataokolewa kwa maarifa."
+            "text": "Mnafiki humwangamiza Jirani yake kwa kinywa chake, lakini walio sahihi wataokolewa kwa maarifa."
           },
           {
             "number": 10,
@@ -68904,7 +69043,7 @@
           },
           {
             "number": 15,
-            "text": "Yeye amhesabiaye mtu mbaya kuwa ametenda haki, na yeye anayemhukumu mtenda haki, wote wawili ni chukizo kwa Bwana."
+            "text": "Yeye amhesabiaye mtu mbaya kuwa ametenda haki, na yeye anayemhukumu mtenda haki kua hajatenda haki, wote wawili ni chukizo kwa Bwana."
           },
           {
             "number": 16,
@@ -69308,7 +69447,7 @@
           },
           {
             "number": 3,
-            "text": "Kutenda usahihi na hukumu ya haki ni jambo linalokubalika zaidi kwa BWANA kuliko dhabihu."
+            "text": "Kutenda usahihi na hukumu ya haki ni jambo linalokubalika zaidi kwa BWANA kuliko sadaka."
           },
           {
             "number": 4,
@@ -71290,7 +71429,7 @@
           },
           {
             "number": 13,
-            "text": "Lakini haitakuwa vema kwa mtu mbaya, wala hatazirefusha siku zake, zilizo kama kivuli; kwa sababu hamu hofu Mungu mbele zake."
+            "text": "Lakini haitakuwa vema kwa mtu mbaya, wala hatazirefusha siku zake, zilizo kama kivuli; kwa sababu hamhofu Mungu mbele zake."
           },
           {
             "number": 14,
@@ -71510,7 +71649,7 @@
         "12": [
           {
             "number": 1,
-            "text": "Mkumbuke sasa Muumba wako katika siku za ujana wako, kabla siku za ovu hazijaja, wala miaka haijakaribia ambayo utasema, ‘Sina furaha ndani yake."
+            "text": "Mkumbuke sasa Muumba wako katika siku za ujana wako, kabla siku za uovu hazijaja, wala miaka haijakaribia ambayo utasema, “Sina furaha ndani yake.”"
           },
           {
             "number": 2,
@@ -71559,6 +71698,10 @@
           {
             "number": 13,
             "text": "Na tusikie hitimisho la jambo lote: Mhofu Mungu, na uzihifadhi amri zake; kwa maana hili ndilo jukumu lote la mwanadamu."
+          },
+          {
+          "number": 14,
+          "text": "Kwa maana Mungu ataleta kila tendo hukumuni, pamoja na kila jambo la siri, likiwa jema au likiwa baya."
           }
         ]
       }
@@ -73414,36 +73557,64 @@
           }
         ],
         "17": [
-          {
-            "number": 1,
-            "text": "Ole kwa nchi yenye uvuli wa mabawa, iliyo ng’ambo ya mito ya Ethiopia;"
-          },
-          {
-            "number": 2,
-            "text": "iwatumayo wajumbe kwa njia ya bahari, katika vyombo vya mafunjo juu ya maji, ikisema, “Nendeni, enyi wajumbe wenye kasi, kwa taifa lililotawanyika na kunyolewa, kwa watu wa kutisha tangu mwanzo wao hata sasa; taifa lililopimwa na kukanyagwa, ambalo nchi yake mito imeiharibu!”"
-          },
-          {
-            "number": 3,
-            "text": "Enyi wakazi wote wa ulimwengu, na ninyi mkaao duniani, oneni atakapoinua bendera juu ya milima; naye atakapopiga tarumbeta, sikieni."
-          },
-          {
-            "number": 4,
-            "text": "Kwa maana BWANA aliniambia hivi, “Nitatulia, nami nitatazama kutoka mahali pangu pa kukaa, kama joto angavu juu ya mimea, na kama wingu la umande katika joto la mavuno.”"
-          },
-          {
-            "number": 5,
-            "text": "Kwa maana kabla ya mavuno, ua litakapokuwa limekwisha kuchanua, na zabibu changa inapoiva katika ua, atayakata machipukizi kwa visu vya kupogolea, na kuyaondoa na kuyakata matawi."
-          },
-          {
-            "number": 6,
-            "text": "Yataachwa pamoja kwa ndege wa milimani na kwa wanyama wa dunia; nao ndege watakaa juu yake wakati wote wa kiangazi, na wanyama wote wa dunia watakaa juu yake wakati wote wa majira ya baridi."
-          },
-          {
-            "number": 7,
-            "text": "Wakati huo zawadi italetwa kwa BWANA wa majeshi kutoka kwa watu waliotawanyika na kunyolewa, na kutoka kwa watu wa kutisha tangu mwanzo wao hata sasa; taifa lililopimwa na kukanyagwa, ambalo nchi yake mito imeiharibu; mpaka mahali pa jina la BWANA wa majeshi, mlima Sayuni."
-          }
+        {
+        "number": 1,
+        "text": "Mzigo wa Dameski. Tazama, Dameski imeondolewa isiwe mji, nayo itakuwa rundo la magofu."
+        },
+        {
+        "number": 2,
+        "text": "Miji ya Aroeri imeachwa; itakuwa kwa ajili ya makundi ya mifugo, ambayo yatajilaza, wala hakuna atakayeyaogopesha."
+        },
+        {
+        "number": 3,
+        "text": "Ngome pia itakoma katika Efraimu, na ufalme katika Dameski, na mabaki ya Siria; yatakuwa kama utukufu wa wana wa Israeli, asema BWANA wa majeshi."
+        },
+        {
+        "number": 4,
+        "text": "Na katika siku hiyo itakuwa kwamba utukufu wa Yakobo utapungua, na unene wa mwili wake utakonda."
+        },
+        {
+        "number": 5,
+        "text": "Itakuwa kama mvunaji akusanyavyo nafaka, na kuvuna masuke kwa mkono wake; na itakuwa kama mtu akusanyaye masuke katika bonde la Refaimu."
+        },
+        {
+        "number": 6,
+        "text": "Lakini masazo ya zabibu yatabaki ndani yake, kama wakati wa kutikisa mzeituni, matunda mawili au matatu katika kilele cha tawi la juu kabisa, manne au matano katika matawi yake ya nje yenye kuzaa, asema BWANA Mungu wa Israeli."
+        },
+        {
+        "number": 7,
+        "text": "Katika siku hiyo mwanadamu atamtazama Muumba wake, na macho yake yatamwangalia Mtakatifu wa Israeli."
+        },
+        {
+        "number": 8,
+        "text": "Wala hatazitazama madhabahu, kazi ya mikono yake, wala hataangalia vitu vilivyofanywa na vidole vyake, Ashera wala sanamu."
+        },
+        {
+        "number": 9,
+        "text": "Katika siku hiyo miji yake yenye nguvu itakuwa kama tawi lililoachwa na kama tawi la juu kabisa, ambalo waliliacha kwa sababu ya wana wa Israeli; nako kutakuwa ukiwa."
+        },
+        {
+        "number": 10,
+        "text": "Kwa sababu umemsahau Mungu wa wokovu wako, wala hukumkumbuka Mwamba wa nguvu zako; kwa hiyo utapanda mimea ya kupendeza, na kuipandikiza kwa miche ya kigeni."
+        },
+        {
+        "number": 11,
+        "text": "Siku utakayoipanda utaifanya ikue, na asubuhi utaifanya mbegu yako ichanue; lakini mavuno yatakuwa rundo katika siku ya huzuni na maumivu yasiyoponyeka."
+        },
+        {
+        "number": 12,
+        "text": "Ole kwa umati wa watu wengi, wanaofanya kelele kama kelele ya bahari; na kwa kishindo cha mataifa, wanaofanya kishindo kama kishindo cha maji mengi!"
+        },
+        {
+        "number": 13,
+        "text": "Mataifa yatafanya kishindo kama kishindo cha maji mengi; lakini Mungu atayakemea, nayo yatakimbia mbali, na yatafukuzwa kama makapi ya milimani mbele ya upepo, na kama kitu kinachoviringishwa mbele ya tufani."
+        },
+        {
+        "number": 14,
+        "text": "Na tazama, wakati wa jioni kuna taabu; na kabla ya asubuhi hayapo. Hii ndiyo sehemu ya wale wanaotunyang'anya, na kura ya wale wanaotuibia."
+        }
         ],
-        "18": [
+              "18": [
           {
             "number": 1,
             "text": "Ole wa nchi yenye uvuli wa mabawa, iliyo ng’ambo ya mito ya Ethiopia;"
@@ -73556,7 +73727,7 @@
           },
           {
             "number": 21,
-            "text": "Naye BWANA atajulikana kwa Misri, na Wamisri watamjua BWANA katika siku hiyo, nao watatoa sadaka na sadaka ya nafaka; naam, watamwekea BWANA nadhiri, nao wataitimiza."
+            "text": "Naye BWANA atajulikana kwa Misri, na Wamisri watamjua BWANA katika siku hiyo, nao watatoa matoleo na sadaka ya nafaka; naam, watamwekea BWANA nadhiri, nao wataitimiza."
           },
           {
             "number": 22,
@@ -78937,7 +79108,7 @@
             "text": "Nami nitakuokoa kutoka mkononi mwa watu wabaya, na kukukomboa kutoka mkononi mwa watu wa kutisha.”"
           }
         ],
-        "16": [
+       "16": [
           {
             "number": 1,
             "text": "Neno la BWANA likanijia pia, kusema,"
@@ -78996,7 +79167,31 @@
           },
           {
             "number": 15,
-            "text": "bali, ‘BWANA yu hai, aliyewapandisha wana wa Israeli kutoka nchi ya kaskazini, na kutoka nchi zote alikokuwa amewafukuza"
+            "text": "bali, ‘BWANA yu hai, aliyewapandisha wana wa Israeli kutoka nchi ya kaskazini, na kutoka nchi zote alikokuwa amewafukuza’; nami nitawarudisha tena katika nchi yao niliyowapa baba zao."
+          },
+          {
+            "number": 16,
+            "text": "Tazama, nitawaita wavuvi wengi, asema BWANA, nao watawavua; na baada ya hayo nitawaita wawindaji wengi, nao watawawinda kutoka kila mlima, na kutoka kila kilima, na kutoka katika mapango ya miamba."
+          },
+          {
+            "number": 17,
+            "text": "Kwa maana macho yangu yako juu ya njia zao zote; hazijafichwa kutoka usoni mwangu, wala uovu wao haujafichwa kutoka machoni mwangu."
+          },
+          {
+            "number": 18,
+            "text": "Na kwanza nitawalipa mara mbili kwa uovu wao na dhambi yao; kwa sababu wameitia nchi yangu unajisi, wameujaza urithi wangu kwa mizoga ya vitu vyao vya kuchukiza na vya machukizo."
+          },
+          {
+            "number": 19,
+            "text": "Ee BWANA, nguvu zangu, na ngome yangu, na kimbilio langu katika siku ya taabu, mataifa yatakuja kwako kutoka miisho ya dunia, na kusema, “Hakika baba zetu wamerithi uongo, ubatili, na vitu visivyo na faida.”"
+          },
+          {
+            "number": 20,
+            "text": "Je, mwanadamu atajifanyia miungu, ambayo si miungu?"
+          },
+          {
+            "number": 21,
+            "text": "Kwa hiyo, tazama, wakati huu nitawajulisha; nitawajulisha mkono wangu na nguvu zangu; nao watajua kwamba jina langu ni BWANA."
           }
         ],
         "17": [
@@ -80265,265 +80460,265 @@
             "text": "kwa hiyo BWANA asema hivi: Tazama, nitamwadhibu Shemaya Mnehelami, na uzao wake; hatakuwa na mtu atakayekaa miongoni mwa watu hawa; wala hataona mema nitakayowatendea watu wangu, asema BWANA; kwa sababu amefundisha uasi dhidi ya BWANA.’”"
           }
         ],
-        "30": [
+      "30": [
           {
             "number": 1,
-            "text": "Basi haya ndiyo maneno ya barua ambayo Yeremia nabii aliituma kutoka Yerusalemu kwa mabaki ya wazee waliochukuliwa mateka, na kwa makuhani, na kwa manabii, na kwa watu wote ambao Nebukadneza alikuwa amewachukua mateka kutoka Yerusalemu mpaka Babeli;"
+            "text": "Neno lililomjia Yeremia kutoka kwa BWANA, kusema,"
           },
           {
             "number": 2,
-            "text": "baada ya Yekonia mfalme, na malkia, na matowashi, na wakuu wa Yuda na Yerusalemu, na maseremala, na wahunzi, kuondoka Yerusalemu;"
+            "text": "“BWANA Mungu wa Israeli asema hivi, akisema, Jiandikie katika kitabu maneno yote niliyokuambia."
           },
           {
             "number": 3,
-            "text": "kwa mkono wa Elasa mwana wa Shafani, na Gemaria mwana wa Hilkia, ambao Sedekia mfalme wa Yuda aliwatuma Babeli kwa Nebukadneza mfalme wa Babeli, ikisema,"
+            "text": "Kwa maana tazama, siku zinakuja, asema BWANA, ambazo nitawarudisha kutoka utumwani watu wangu Israeli na Yuda, asema BWANA; nami nitawarudisha katika nchi niliyowapa baba zao, nao wataimiliki.”"
           },
           {
             "number": 4,
-            "text": "“BWANA wa majeshi, Mungu wa Israeli, asema hivi kwa wote waliochukuliwa mateka, ambao nimewafanya wachukuliwe kutoka Yerusalemu mpaka Babeli:"
+            "text": "Na haya ndiyo maneno ambayo BWANA alisema kuhusu Israeli na kuhusu Yuda."
           },
           {
             "number": 5,
-            "text": "Jengeni nyumba, na kukaa ndani yake; pandeni bustani, na kula matunda yake;"
+            "text": "Kwa maana BWANA asema hivi, “Tumesikia sauti ya kutetemeka, ya hofu, wala si ya amani."
           },
           {
             "number": 6,
-            "text": "oeni wake, na kuzaa wana na binti; waoleeni wana wenu wake, na waozesheni binti zenu kwa waume, ili wazae wana na binti; mpate kuongezeka huko, wala msipungue."
+            "text": "Ulizeni sasa, muone ikiwa mwanamume huzaa mtoto. Kwa nini basi namwona kila mwanamume akiwa na mikono yake viunoni, kama mwanamke aliye katika utungu wa kuzaa, na nyuso zote zimegeuka kuwa nyeupe?"
           },
           {
             "number": 7,
-            "text": "Na uutafuteni ustawi wa mji ambao nimewafanya mchukuliwe mateka kwenda humo, na kumwomba BWANA kwa ajili yake; kwa maana katika ustawi wake ninyi mtakuwa na ustawi."
+            "text": "Ole! kwa maana siku hiyo ni kuu, hata hakuna iliyo kama hiyo; ni wakati wa taabu ya Yakobo; lakini ataokolewa kutoka humo."
           },
           {
             "number": 8,
-            "text": "Kwa maana BWANA wa majeshi, Mungu wa Israeli, asema hivi: Manabii wenu na waaguzi wenu walio katikati yenu wasiwadanganye, wala msizisikilize ndoto zenu mnazozifanya ziotwe."
+            "text": "Kwa maana itakuwa katika siku hiyo, asema BWANA wa majeshi, kwamba nitaivunja nira yake kutoka shingoni mwako, na kuzivunja pingu zako; wala wageni hawatamtumikisha tena;"
           },
           {
             "number": 9,
-            "text": "Kwa maana wanawatabiria uongo kwa jina langu; mimi sikuwatuma, asema BWANA."
+            "text": "bali watamtumikia BWANA Mungu wao, na Daudi mfalme wao, nitakayewainulia."
           },
           {
             "number": 10,
-            "text": "Kwa maana BWANA asema hivi: Miaka sabini itakapotimia kwa Babeli, nitawajilia, na kulitimiza neno langu jema kwenu, kwa kuwarudisha mahali hapa."
+            "text": "Kwa hiyo usiogope, Ee Yakobo mtumishi wangu, asema BWANA; wala usifadhaike, Ee Israeli; kwa maana tazama, nitakuokoa kutoka mbali, na uzao wako kutoka nchi ya utumwa wao; na Yakobo atarudi, naye atatulia na kuwa na amani, wala hakuna mtu atakayemwogopesha."
           },
           {
             "number": 11,
-            "text": "Kwa maana nayajua mawazo ninayowawazia, asema BWANA, mawazo ya amani, wala si ya balaa, ili kuwapa mwisho wenye tumaini."
+            "text": "Kwa maana mimi niko pamoja nawe, asema BWANA, ili kukuokoa; ingawa nitayaangamiza kabisa mataifa yote nilikokutawanya, hata hivyo sitakuangamiza kabisa; bali nitakurekebisha kwa hukumu, wala sitakuacha kabisa bila adhabu."
           },
           {
             "number": 12,
-            "text": "Ndipo mtakaponiita, na kwenda na kuniomba, nami nitawasikiliza."
+            "text": "Kwa maana BWANA asema hivi, “Jeraha lako haliwezi kuponywa, na kidonda chako ni kikubwa."
           },
           {
             "number": 13,
-            "text": "Nanyi mtanitafuta, na kuniona, mtakaponitafuta kwa moyo wenu wote."
+            "text": "Hakuna mtu wa kutetea shauri lako, ili ufungwe jeraha; huna dawa za kukuponya."
           },
           {
             "number": 14,
-            "text": "Nami nitapatikana na ninyi, asema BWANA; nami nitawarudisha kutoka utumwani, na kuwakusanya kutoka mataifa yote, na kutoka mahali pote nilikowafukuza, asema BWANA; nami nitawarudisha mahali nilikowafanya mchukuliwe mateka kutoka huko."
+            "text": "Wapenzi wako wote wamekusahau; hawakutafuti; kwa maana nimekupiga kwa pigo la adui, kwa adhabu ya mtu mkali, kwa sababu ya wingi wa uovu wako; kwa sababu dhambi zako zimeongezeka."
           },
           {
             "number": 15,
-            "text": "Kwa sababu mmesema, ‘BWANA ametusimamishia manabii katika Babeli’;"
+            "text": "Kwa nini unapiga kelele kwa ajili ya mateso yako? Huzuni yako haiwezi kuponywa kwa sababu ya wingi wa uovu wako; kwa sababu dhambi zako zimeongezeka, nimekutendea mambo haya."
           },
           {
             "number": 16,
-            "text": "jueni kwamba BWANA asema hivi kuhusu mfalme aketiye juu ya kiti cha enzi cha Daudi, na kuhusu watu wote wakaao katika mji huu, na kuhusu ndugu zenu ambao hawakwenda pamoja nanyi utumwani;"
+            "text": "Kwa hiyo wote wanaokula wataliwa; na adui zako wote, kila mmoja wao, wataingia utumwani; na wale wanaokuteka watatekwa, na wote wanaokunyang’anya nitawatoa kuwa nyara."
           },
           {
             "number": 17,
-            "text": "BWANA wa majeshi asema hivi: Tazama, nitatuma juu yao upanga, njaa, na tauni, nami nitawafanya kama tini mbaya sana, ambazo haziwezi kuliwa kwa sababu ni mbaya sana."
+            "text": "Kwa maana nitakurudishia afya, nami nitakuponya majeraha yako, asema BWANA; kwa sababu wamekuita Aliyetupwa, wakisema, ‘Huyu ndiye Sayuni, ambaye hakuna mtu anayemtafuta.’"
           },
           {
             "number": 18,
-            "text": "Nami nitawafuatilia kwa upanga, kwa njaa, na kwa tauni, na kuwatoa ili watangatangishwe katika falme zote za dunia, wawe laana, na kitu cha kushangaza, na cha kuzomewa, na shutuma, miongoni mwa mataifa yote nilikowafukuza;"
+            "text": "BWANA asema hivi, “Tazama, nitawarudisha kutoka utumwani mahema ya Yakobo, nami nitayahurumia makao yake; na mji utajengwa juu ya kilima chake mwenyewe, na jumba litakaa katika mahali pake."
           },
           {
             "number": 19,
-            "text": "kwa sababu hawakuyasikiliza maneno yangu, asema BWANA, ambayo niliwatumia kwa watumishi wangu manabii, nikiamka mapema na kuwatuma; lakini hamkutaka kusikia, asema BWANA."
+            "text": "Na kutoka kwao kutatoka shukrani na sauti ya wale wanaofurahi; nami nitawazidisha, wala hawatapungua; nami nitawatukuza, wala hawatakuwa wachache."
           },
           {
             "number": 20,
-            "text": "Basi lisikieni neno la BWANA, ninyi nyote mlio utumwani, ambao nimewatuma kutoka Yerusalemu mpaka Babeli:"
+            "text": "Watoto wao pia watakuwa kama zamani, na kusanyiko lao litaimarishwa mbele yangu; nami nitawaadhibu wote wanaowakandamiza."
           },
           {
             "number": 21,
-            "text": "BWANA wa majeshi, Mungu wa Israeli, asema hivi kuhusu Ahabu mwana wa Kolaya, na Sedekia mwana wa Maaseya, wanaowatabiria uongo kwa jina langu: Tazama, nitawatia mkononi mwa Nebukadneza mfalme wa Babeli, naye atawaua mbele ya macho yenu;"
+            "text": "Na mkuu wao atakuwa mmoja wao wenyewe, na mtawala wao atatoka katikati yao; nami nitamleta karibu, naye atanikaribia; kwa maana ni nani huyu aliyeuhakikisha moyo wake kunikaribia? asema BWANA."
           },
           {
             "number": 22,
-            "text": "na kutokana nao laana itatumiwa na mateka wote wa Yuda walioko Babeli, wakisema, ‘BWANA na akufanye kama Sedekia na kama Ahabu, ambao mfalme wa Babeli aliwachoma motoni’;"
+            "text": "Nanyi mtakuwa watu wangu, nami nitakuwa Mungu wenu."
           },
           {
             "number": 23,
-            "text": "kwa sababu wametenda upumbavu mkubwa katika Israeli, na wamefanya uzinzi na wake za jirani zao, na wamesema maneno ya uongo kwa jina langu, ambayo sikuwaamuru; naam, mimi najua, nami ni shahidi, asema BWANA."
+            "text": "Tazama, kisulisuli cha BWANA kinatoka kwa ghadhabu, kisulisuli kinachoendelea; kitaanguka kwa maumivu juu ya kichwa cha watu wabaya."
           },
           {
             "number": 24,
-            "text": "Nawe pia sema na Shemaya Mnehelami, ukisema,"
-          },
-          {
-            "number": 25,
-            "text": "“BWANA wa majeshi, Mungu wa Israeli, asema hivi: Kwa sababu umetuma barua kwa jina lako kwa watu wote walioko Yerusalemu, na kwa Sefania mwana wa Maaseya kuhani, na kwa makuhani wote, ukisema,"
-          },
-          {
-            "number": 26,
-            "text": "‘BWANA amekufanya kuwa kuhani badala ya Yehoyada kuhani, ili muwe wasimamizi katika nyumba ya BWANA, kwa ajili ya kila mtu aliye mwendawazimu na anayejifanya nabii, ili umtie gerezani na katika mkatale."
-          },
-          {
-            "number": 27,
-            "text": "Basi sasa kwa nini hukumkemea Yeremia wa Anathothi, anayejifanya nabii kwenu?"
-          },
-          {
-            "number": 28,
-            "text": "Kwa maana ametutumia ujumbe Babeli, akisema, “Utumwa huu utakuwa wa muda mrefu; jengeni nyumba, na kukaa ndani yake; pandeni bustani, na kula matunda yake.”’”"
-          },
-          {
-            "number": 29,
-            "text": "Naye Sefania kuhani akaisoma barua hii masikioni mwa Yeremia nabii."
-          },
-          {
-            "number": 30,
-            "text": "Ndipo neno la BWANA likamjia Yeremia, kusema,"
-          },
-          {
-            "number": 31,
-            "text": "“Tuma ujumbe kwa mateka wote, ukisema, ‘BWANA asema hivi kuhusu Shemaya Mnehelami: Kwa sababu Shemaya amewatabiria, nami sikumtuma, naye amewafanya kuutumainia uongo;"
-          },
-          {
-            "number": 32,
-            "text": "kwa hiyo BWANA asema hivi: Tazama, nitamwadhibu Shemaya Mnehelami, na uzao wake; hatakuwa na mtu atakayekaa miongoni mwa watu hawa; wala hataona mema nitakayowatendea watu wangu, asema BWANA; kwa sababu amefundisha uasi dhidi ya BWANA.’”"
+            "text": "Hasira kali ya BWANA haitarudi mpaka atakapoyafanya, na mpaka atakapoyatimiza makusudi ya moyo wake; katika siku za mwisho mtalielewa jambo hilo."
           }
         ],
         "31": [
-          {
-            "number": 1,
-            "text": "Basi haya ndiyo maneno ya barua ambayo Yeremia nabii aliituma kutoka Yerusalemu kwa mabaki ya wazee waliochukuliwa mateka, na kwa makuhani, na kwa manabii, na kwa watu wote ambao Nebukadneza alikuwa amewachukua mateka kutoka Yerusalemu mpaka Babeli;"
-          },
-          {
-            "number": 2,
-            "text": "baada ya Yekonia mfalme, na malkia, na matowashi, na wakuu wa Yuda na Yerusalemu, na maseremala, na wahunzi, kuondoka Yerusalemu;"
-          },
-          {
-            "number": 3,
-            "text": "kwa mkono wa Elasa mwana wa Shafani, na Gemaria mwana wa Hilkia, ambao Sedekia mfalme wa Yuda aliwatuma Babeli kwa Nebukadneza mfalme wa Babeli, ikisema,"
-          },
-          {
-            "number": 4,
-            "text": "“BWANA wa majeshi, Mungu wa Israeli, asema hivi kwa wote waliochukuliwa mateka, ambao nimewafanya wachukuliwe kutoka Yerusalemu mpaka Babeli:"
-          },
-          {
-            "number": 5,
-            "text": "Jengeni nyumba, na kukaa ndani yake; pandeni bustani, na kula matunda yake;"
-          },
-          {
-            "number": 6,
-            "text": "oeni wake, na kuzaa wana na binti; waoleeni wana wenu wake, na waozesheni binti zenu kwa waume, ili wazae wana na binti; mpate kuongezeka huko, wala msipungue."
-          },
-          {
-            "number": 7,
-            "text": "Na uutafuteni ustawi wa mji ambao nimewafanya mchukuliwe mateka kwenda humo, na kumwomba BWANA kwa ajili yake; kwa maana katika ustawi wake ninyi mtakuwa na ustawi."
-          },
-          {
-            "number": 8,
-            "text": "Kwa maana BWANA wa majeshi, Mungu wa Israeli, asema hivi: Manabii wenu na waaguzi wenu walio katikati yenu wasiwadanganye, wala msizisikilize ndoto zenu mnazozifanya ziotwe."
-          },
-          {
-            "number": 9,
-            "text": "Kwa maana wanawatabiria uongo kwa jina langu; mimi sikuwatuma, asema BWANA."
-          },
-          {
-            "number": 10,
-            "text": "Kwa maana BWANA asema hivi: Miaka sabini itakapotimia kwa Babeli, nitawajilia, na kulitimiza neno langu jema kwenu, kwa kuwarudisha mahali hapa."
-          },
-          {
-            "number": 11,
-            "text": "Kwa maana nayajua mawazo ninayowawazia, asema BWANA, mawazo ya amani, wala si ya balaa, ili kuwapa mwisho wenye tumaini."
-          },
-          {
-            "number": 12,
-            "text": "Ndipo mtakaponiita, na kwenda na kuniomba, nami nitawasikiliza."
-          },
-          {
-            "number": 13,
-            "text": "Nanyi mtanitafuta, na kuniona, mtakaponitafuta kwa moyo wenu wote."
-          },
-          {
-            "number": 14,
-            "text": "Nami nitapatikana na ninyi, asema BWANA; nami nitawarudisha kutoka utumwani, na kuwakusanya kutoka mataifa yote, na kutoka mahali pote nilikowafukuza, asema BWANA; nami nitawarudisha mahali nilikowafanya mchukuliwe mateka kutoka huko."
-          },
-          {
-            "number": 15,
-            "text": "Kwa sababu mmesema, ‘BWANA ametusimamishia manabii katika Babeli’;"
-          },
-          {
-            "number": 16,
-            "text": "jueni kwamba BWANA asema hivi kuhusu mfalme aketiye juu ya kiti cha enzi cha Daudi, na kuhusu watu wote wakaao katika mji huu, na kuhusu ndugu zenu ambao hawakwenda pamoja nanyi utumwani;"
-          },
-          {
-            "number": 17,
-            "text": "BWANA wa majeshi asema hivi: Tazama, nitatuma juu yao upanga, njaa, na tauni, nami nitawafanya kama tini mbaya sana, ambazo haziwezi kuliwa kwa sababu ni mbaya sana."
-          },
-          {
-            "number": 18,
-            "text": "Nami nitawafuatilia kwa upanga, kwa njaa, na kwa tauni, na kuwatoa ili watangatangishwe katika falme zote za dunia, wawe laana, na kitu cha kushangaza, na cha kuzomewa, na shutuma, miongoni mwa mataifa yote nilikowafukuza;"
-          },
-          {
-            "number": 19,
-            "text": "kwa sababu hawakuyasikiliza maneno yangu, asema BWANA, ambayo niliwatumia kwa watumishi wangu manabii, nikiamka mapema na kuwatuma; lakini hamkutaka kusikia, asema BWANA."
-          },
-          {
-            "number": 20,
-            "text": "Basi lisikieni neno la BWANA, ninyi nyote mlio utumwani, ambao nimewatuma kutoka Yerusalemu mpaka Babeli:"
-          },
-          {
-            "number": 21,
-            "text": "BWANA wa majeshi, Mungu wa Israeli, asema hivi kuhusu Ahabu mwana wa Kolaya, na Sedekia mwana wa Maaseya, wanaowatabiria uongo kwa jina langu: Tazama, nitawatia mkononi mwa Nebukadneza mfalme wa Babeli, naye atawaua mbele ya macho yenu;"
-          },
-          {
-            "number": 22,
-            "text": "na kutokana nao laana itatumiwa na mateka wote wa Yuda walioko Babeli, wakisema, ‘BWANA na akufanye kama Sedekia na kama Ahabu, ambao mfalme wa Babeli aliwachoma motoni’;"
-          },
-          {
-            "number": 23,
-            "text": "kwa sababu wametenda upumbavu mkubwa katika Israeli, na wamefanya uzinzi na wake za jirani zao, na wamesema maneno ya uongo kwa jina langu, ambayo sikuwaamuru; naam, mimi najua, nami ni shahidi, asema BWANA."
-          },
-          {
-            "number": 24,
-            "text": "Nawe pia sema na Shemaya Mnehelami, ukisema,"
-          },
-          {
-            "number": 25,
-            "text": "“BWANA wa majeshi, Mungu wa Israeli, asema hivi: Kwa sababu umetuma barua kwa jina lako kwa watu wote walioko Yerusalemu, na kwa Sefania mwana wa Maaseya kuhani, na kwa makuhani wote, ukisema,"
-          },
-          {
-            "number": 26,
-            "text": "‘BWANA amekufanya kuwa kuhani badala ya Yehoyada kuhani, ili muwe wasimamizi katika nyumba ya BWANA, kwa ajili ya kila mtu aliye mwendawazimu na anayejifanya nabii, ili umtie gerezani na katika mkatale."
-          },
-          {
-            "number": 27,
-            "text": "Basi sasa kwa nini hukumkemea Yeremia wa Anathothi, anayejifanya nabii kwenu?"
-          },
-          {
-            "number": 28,
-            "text": "Kwa maana ametutumia ujumbe Babeli, akisema, “Utumwa huu utakuwa wa muda mrefu; jengeni nyumba, na kukaa ndani yake; pandeni bustani, na kula matunda yake.”’”"
-          },
-          {
-            "number": 29,
-            "text": "Naye Sefania kuhani akaisoma barua hii masikioni mwa Yeremia nabii."
-          },
-          {
-            "number": 30,
-            "text": "Ndipo neno la BWANA likamjia Yeremia, kusema,"
-          },
-          {
-            "number": 31,
-            "text": "“Tuma ujumbe kwa mateka wote, ukisema, ‘BWANA asema hivi kuhusu Shemaya Mnehelami: Kwa sababu Shemaya amewatabiria, nami sikumtuma, naye amewafanya kuutumainia uongo;"
-          },
-          {
-            "number": 32,
-            "text": "kwa hiyo BWANA asema hivi: Tazama, nitamwadhibu Shemaya Mnehelami, na uzao wake; hatakuwa na mtu atakayekaa miongoni mwa watu hawa; wala hataona mema nitakayowatendea watu wangu, asema BWANA; kwa sababu amefundisha uasi dhidi ya BWANA.’”"
-          }
+        {
+        "number": 1,
+        "text": "Wakati huo, asema BWANA, nitakuwa Mungu wa jamaa zote za Israeli, nao watakuwa watu wangu."
+        },
+        {
+        "number": 2,
+        "text": "BWANA asema hivi, Watu walioachwa na upanga walipata neema jangwani; naam, Israeli, nilipokwenda kumpumzisha."
+        },
+        {
+        "number": 3,
+        "text": "BWANA alinitokea tangu zamani, akisema, Naam, nimekupenda kwa upendo wa milele; kwa hiyo kwa fadhili nimekuvuta."
+        },
+        {
+        "number": 4,
+        "text": "Nitakujenga tena, nawe utajengwa, Ee bikira Israeli; utajipamba tena kwa matari yako, nawe utatoka katika ngoma za wale wafurahio."
+        },
+        {
+        "number": 5,
+        "text": "Utapanda tena mizabibu juu ya milima ya Samaria; wapandaji wataipanda, nao watakula matunda yake."
+        },
+        {
+        "number": 6,
+        "text": "Kwa maana kutakuwa na siku ambayo walinzi juu ya mlima Efraimu watapaza sauti, Simameni, na twende Sayuni kwa BWANA Mungu wetu."
+        },
+        {
+        "number": 7,
+        "text": "Kwa maana BWANA asema hivi, Mwimbieni Yakobo kwa furaha, mpige kelele miongoni mwa wakuu wa mataifa; tangazeni, sifuni, na kusema, Ee BWANA, waokoe watu wako, mabaki ya Israeli."
+        },
+        {
+        "number": 8,
+        "text": "Tazama, nitawaleta kutoka nchi ya kaskazini, na kuwakusanya kutoka miisho ya dunia; pamoja nao vipofu na viwete, mwanamke mwenye mimba na yeye aliye katika uchungu wa kuzaa pamoja; kusanyiko kubwa litarudi hapa."
+        },
+        {
+        "number": 9,
+        "text": "Watakuja kwa kulia, na kwa maombi nitawaongoza; nitawaendesha kando ya mito ya maji, katika njia iliyonyooka ambayo hawatajikwaa; kwa maana mimi ni Baba kwa Israeli, na Efraimu ni mzaliwa wangu wa kwanza."
+        },
+        {
+        "number": 10,
+        "text": "Lisikieni neno la BWANA, enyi mataifa, na kulitangaza katika visiwa vya mbali, mkisema, Yeye aliyemtawanya Israeli atamkusanya, na kumlinda kama mchungaji alindavyo kundi lake."
+        },
+        {
+        "number": 11,
+        "text": "Kwa maana BWANA amemkomboa Yakobo, na kumwokoa kutoka mkononi mwa yeye aliyekuwa na nguvu kuliko yeye."
+        },
+        {
+        "number": 12,
+        "text": "Kwa hiyo watakuja na kuimba katika kilele cha Sayuni, nao watamiminika pamoja kuelekea wema wa BWANA, kwa ajili ya ngano, na divai, na mafuta, na watoto wa kondoo na wa ng'ombe; na nafsi yao itakuwa kama bustani iliyonyweshwa maji, wala hawatahuzunika tena kabisa."
+        },
+        {
+        "number": 13,
+        "text": "Ndipo bikira atafurahi katika ngoma, vijana na wazee pamoja; kwa maana nitageuza maombolezo yao kuwa furaha, nami nitawafariji, na kuwafurahisha kutoka katika huzuni yao."
+        },
+        {
+        "number": 14,
+        "text": "Nami nitaishibisha nafsi ya makuhani kwa unono, na watu wangu watashibishwa kwa wema wangu, asema BWANA."
+        },
+        {
+        "number": 15,
+        "text": "BWANA asema hivi, Sauti imesikiwa Rama, maombolezo na kilio kichungu; Raheli akiwalilia watoto wake, akakataa kufarijiwa kwa ajili ya watoto wake, kwa sababu hawapo."
+        },
+        {
+        "number": 16,
+        "text": "BWANA asema hivi, Zuia sauti yako isilie, na macho yako yasitoe machozi; kwa maana kazi yako italipwa, asema BWANA, nao watarudi kutoka nchi ya adui."
+        },
+        {
+        "number": 17,
+        "text": "Na kuna tumaini katika mwisho wako, asema BWANA, kwamba watoto wako watarudi katika mpaka wao wenyewe."
+        },
+        {
+        "number": 18,
+        "text": "Hakika nimemsikia Efraimu akijililia hivi, Umeniadhimisha, nami nikaadhibiwa, kama ndama asiyezoea nira; unirudishe, nami nitarudi, kwa maana wewe ndiwe BWANA Mungu wangu."
+        },
+        {
+        "number": 19,
+        "text": "Hakika baada ya kurudishwa nilitubu; na baada ya kufundishwa nilijipiga paja; niliona aibu, naam, nikafadhaika, kwa sababu niliibeba aibu ya ujana wangu."
+        },
+        {
+        "number": 20,
+        "text": "Je, Efraimu ni mwana wangu mpendwa? Je, yeye ni mtoto wa kupendeza? Kwa maana tangu niliposema dhidi yake, bado ninamkumbuka sana; kwa hiyo moyo wangu unamhangaikia; hakika nitamhurumia, asema BWANA."
+        },
+        {
+        "number": 21,
+        "text": "Jiwekee alama za njia, jiwekee vilima vya kuongozea; uuelekeze moyo wako kwenye njia kuu, njia ile uliyopita; rudi, Ee bikira Israeli, rudi katika miji yako hii."
+        },
+        {
+        "number": 22,
+        "text": "Utazunguka-zunguka mpaka lini, Ee binti mwenye kurudi nyuma? Kwa maana BWANA ameumba jambo jipya duniani; mwanamke atamzunguka mwanamume."
+        },
+        {
+        "number": 23,
+        "text": "BWANA wa majeshi, Mungu wa Israeli, asema hivi, Bado watatumia maneno haya katika nchi ya Yuda na katika miji yake, nitakaporudisha utekwa wao: BWANA akubariki, Ee makao ya haki, mlima wa utakatifu."
+        },
+        {
+        "number": 24,
+        "text": "Na Yuda pamoja na miji yake yote watakaa humo pamoja, wakulima na wale watokao pamoja na makundi ya mifugo."
+        },
+        {
+        "number": 25,
+        "text": "Kwa maana nimeishibisha nafsi iliyochoka, na nimeijaza kila nafsi yenye huzuni."
+        },
+        {
+        "number": 26,
+        "text": "Ndipo nikaamka, nikatazama; na usingizi wangu ulikuwa mtamu kwangu."
+        },
+        {
+        "number": 27,
+        "text": "Tazama, siku zinakuja, asema BWANA, nitakapoipanda nyumba ya Israeli na nyumba ya Yuda kwa mbegu ya mwanadamu na kwa mbegu ya mnyama."
+        },
+        {
+        "number": 28,
+        "text": "Na itakuwa kwamba kama nilivyowaangalia ili kung'oa, kubomoa, kuangusha, kuharibu, na kutesa; ndivyo nitakavyowaangalia ili kujenga na kupanda, asema BWANA."
+        },
+        {
+        "number": 29,
+        "text": "Katika siku hizo hawatasema tena, Baba wamekula zabibu mbichi, na meno ya watoto yametiwa ganzi."
+        },
+        {
+        "number": 30,
+        "text": "Lakini kila mtu atakufa kwa ajili ya uovu wake mwenyewe; kila mtu alaye zabibu mbichi, meno yake mwenyewe yatatiwa ganzi."
+        },
+        {
+        "number": 31,
+        "text": "Tazama, siku zinakuja, asema BWANA, nitakapofanya agano jipya na nyumba ya Israeli, na nyumba ya Yuda;"
+        },
+        {
+        "number": 32,
+        "text": "si kama agano nililofanya na baba zao siku ile nilipowashika mkono ili kuwatoa katika nchi ya Misri; agano langu walilolivunja, ingawa nilikuwa mume kwao, asema BWANA."
+        },
+        {
+        "number": 33,
+        "text": "Lakini hili ndilo agano nitakalofanya na nyumba ya Israeli baada ya siku hizo, asema BWANA: Nitatia sheria yangu ndani yao, na kuiandika mioyoni mwao; nami nitakuwa Mungu wao, nao watakuwa watu wangu."
+        },
+        {
+        "number": 34,
+        "text": "Wala hawatafundishana tena, kila mtu na jirani yake, na kila mtu na ndugu yake, wakisema, Mjue BWANA; kwa maana wote watanijua, tangu aliye mdogo wao mpaka aliye mkuu wao, asema BWANA; kwa maana nitasamehe uovu wao, wala sitaikumbuka tena dhambi yao."
+        },
+        {
+        "number": 35,
+        "text": "BWANA asema hivi, yeye atoaye jua kuwa nuru ya mchana, na maagizo ya mwezi na nyota kuwa nuru ya usiku, aigawanyaye bahari wakati mawimbi yake yanapovuma; BWANA wa majeshi ndilo jina lake."
+        },
+        {
+        "number": 36,
+        "text": "Ikiwa maagizo hayo yataondoka mbele zangu, asema BWANA, ndipo uzao wa Israeli pia utakoma kuwa taifa mbele zangu milele."
+        },
+        {
+        "number": 37,
+        "text": "BWANA asema hivi, Ikiwa mbingu zilizo juu zinaweza kupimwa, na misingi ya dunia iliyo chini inaweza kuchunguzwa, basi nami nitautupa uzao wote wa Israeli kwa ajili ya yote waliyoyafanya, asema BWANA."
+        },
+        {
+        "number": 38,
+        "text": "Tazama, siku zinakuja, asema BWANA, ambapo mji utajengwa kwa BWANA, tangu mnara wa Hananeeli mpaka lango la pembeni."
+        },
+        {
+        "number": 39,
+        "text": "Na kamba ya kupimia itaendelea kutoka hapo kuelekea kilima Garebu, nayo itazunguka mpaka Goathi."
+        },
+        {
+        "number": 40,
+        "text": "Na bonde lote la mizoga na majivu, na mashamba yote mpaka kijito Kidroni, mpaka pembe ya lango la farasi upande wa mashariki, litakuwa takatifu kwa BWANA; halitang'olewa wala kuangushwa tena milele."
+        }
         ],
         "32": [
           {
@@ -83522,9 +83717,9 @@
       }
     },
     {
-      "id": "ezekiel",
-      "name": "Ezekiel",
-      "englishName": "Ezekiel",
+      "id": "ezekieli",
+      "name": "Ezekieli",
+      "englishName": "Ezekieli",
       "testament": "Agano la Kale",
       "bookNumber": 26,
       "chapterCount": 48,
@@ -84843,6 +85038,166 @@
           {
             "number": 23,
             "text": "Ikawa baada ya ubaya wako wote ole, ole wako! asema Bwana MUNGU."
+          },
+          {
+          "number": 24,
+          "text": "Kwamba pia umejijengea mahali pa juu, na kujifanyia mahali palipoinuka katika kila njia."
+          },
+          {
+          "number": 25,
+          "text": "Umejenga mahali pako pa juu katika kila mwanzo wa njia, umefanya uzuri wako kuwa chukizo, ukapanua miguu yako kwa kila mpita njia, na kuzidisha ukahaba wako."
+          },
+          {
+          "number": 26,
+          "text": "Pia umefanya ukahaba na Wamisri jirani zako, wenye miili mikubwa; nawe umezidisha ukahaba wako ili kunikasirisha."
+          },
+          {
+          "number": 27,
+          "text": "Basi tazama, nimeunyosha mkono wangu juu yako, nimepunguza sehemu yako ya chakula, na kukutia mikononi mwa wale wanaokuchukia, binti za Wafilisti, ambao wanaona aibu kwa sababu ya njia yako ya uasherati."
+          },
+          {
+          "number": 28,
+          "text": "Pia umefanya ukahaba na Waashuru, kwa sababu hukushiba; naam, umefanya ukahaba nao, lakini bado hukushiba."
+          },
+          {
+          "number": 29,
+          "text": "Zaidi ya hayo, umeuzidisha ukahaba wako katika nchi ya Kanaani mpaka Ukaldayo; lakini hata kwa hayo hukushiba."
+          },
+          {
+          "number": 30,
+          "text": "Jinsi moyo wako ulivyo dhaifu, asema Bwana MUNGU, kwa kuwa unatenda mambo haya yote, kazi ya mwanamke kahaba mwenye jeuri."
+          },
+          {
+          "number": 31,
+          "text": "Kwa kuwa unajenga mahali pako palipoinuka katika mwanzo wa kila njia, na kujifanyia mahali pa juu katika kila mtaa; lakini hukufanana na kahaba, kwa kuwa uliudharau ujira."
+          },
+          {
+          "number": 32,
+          "text": "Bali kama mke afanyaye uzinzi, anayewachukua wageni badala ya mume wake!"
+          },
+          {
+          "number": 33,
+          "text": "Watu huwapa makahaba wote zawadi; lakini wewe unawapa zawadi wapenzi wako wote, na kuwalipa ili waje kwako kutoka kila upande kwa ajili ya ukahaba wako."
+          },
+          {
+          "number": 34,
+          "text": "Na katika ukahaba wako wewe ni kinyume cha wanawake wengine, kwa kuwa hakuna anayekufuata kufanya ukahaba; nawe unatoa ujira, wala hupewi ujira; kwa hiyo wewe ni kinyume."
+          },
+          {
+          "number": 35,
+          "text": "Kwa hiyo, Ee kahaba, lisikie neno la BWANA."
+          },
+          {
+          "number": 36,
+          "text": "Bwana MUNGU asema hivi: Kwa sababu uchafu wako umemwagwa, na uchi wako umefunuliwa kwa ukahaba wako pamoja na wapenzi wako, na pamoja na sanamu zote za machukizo yako, na kwa damu ya watoto wako uliowapa;"
+          },
+          {
+          "number": 37,
+          "text": "basi tazama, nitawakusanya wapenzi wako wote uliopendezwa nao, na wote uliowapenda, pamoja na wote uliowachukia; nitawakusanya kutoka kila upande dhidi yako, nami nitaufunua uchi wako mbele yao, ili wauone uchi wako wote."
+          },
+          {
+          "number": 38,
+          "text": "Nami nitakuhukumu kama wanawake wafanyao uzinzi na wamwagao damu wanavyohukumiwa; nami nitakupa damu katika ghadhabu na wivu."
+          },
+          {
+          "number": 39,
+          "text": "Nami nitakutia mikononi mwao, nao watapaangusha mahali pako palipoinuka, na kubomoa mahali pako pa juu; watakuvua mavazi yako, na kuchukua mapambo yako mazuri, na kukuacha uchi na bila kufunikwa."
+          },
+          {
+          "number": 40,
+          "text": "Pia watakuleta kusanyiko dhidi yako, nao watakupiga kwa mawe, na kukuchoma kwa panga zao."
+          },
+          {
+          "number": 41,
+          "text": "Nao wataziteketeza nyumba zako kwa moto, na kutekeleza hukumu juu yako mbele ya wanawake wengi; nami nitakukomesha usifanye ukahaba tena, wala hutatoa ujira tena."
+          },
+          {
+          "number": 42,
+          "text": "Hivyo nitaifanya ghadhabu yangu juu yako ipumzike, na wivu wangu utaondoka kwako; nami nitatulia, wala sitakasirika tena."
+          },
+          {
+          "number": 43,
+          "text": "Kwa sababu hukuzikumbuka siku za ujana wako, bali umenikasirisha katika mambo haya yote; basi tazama, nami nitailipa njia yako juu ya kichwa chako, asema Bwana MUNGU; wala hutafanya uasherati huu juu ya machukizo yako yote."
+          },
+          {
+          "number": 44,
+          "text": "Tazama, kila mtu atumiaye mithali atatumia mithali hii dhidi yako, akisema, Kama alivyo mama, ndivyo alivyo binti yake."
+          },
+          {
+          "number": 45,
+          "text": "Wewe ni binti ya mama yako, aliyemchukia mume wake na watoto wake; nawe ni dada ya dada zako, waliowachukia waume zao na watoto wao; mama yenu alikuwa Mhiti, na baba yenu Mwamori."
+          },
+          {
+          "number": 46,
+          "text": "Na dada yako mkubwa ni Samaria, yeye na binti zake wakaao upande wako wa kushoto; na dada yako mdogo, akaaye upande wako wa kulia, ni Sodoma na binti zake."
+          },
+          {
+          "number": 47,
+          "text": "Lakini hukuenenda tu katika njia zao, wala kutenda tu sawasawa na machukizo yao; kana kwamba hilo lilikuwa jambo dogo sana, uliharibika kuliko wao katika njia zako zote."
+          },
+          {
+          "number": 48,
+          "text": "Kama niishivyo, asema Bwana MUNGU, Sodoma dada yako, yeye pamoja na binti zake, hakufanya kama ulivyofanya wewe pamoja na binti zako."
+          },
+          {
+          "number": 49,
+          "text": "Tazama, huu ndio ulikuwa uovu wa Sodoma dada yako: kiburi, kushiba chakula, na wingi wa uvivu ulikuwa ndani yake na ndani ya binti zake; wala hakuuimarisha mkono wa maskini na mhitaji."
+          },
+          {
+          "number": 50,
+          "text": "Nao walikuwa wenye majivuno, wakafanya chukizo mbele yangu; kwa hiyo nikawaondoa nilipoona inafaa."
+          },
+          {
+          "number": 51,
+          "text": "Wala Samaria hakutenda hata nusu ya dhambi zako; lakini wewe umeongeza machukizo yako kuliko wao, nawe umewafanya dada zako waonekane wenye haki kwa machukizo yako yote uliyoyatenda."
+          },
+          {
+          "number": 52,
+          "text": "Wewe pia, uliyewahukumu dada zako, ibebe aibu yako mwenyewe kwa ajili ya dhambi zako ulizozifanya kuwa chukizo zaidi kuliko wao; wao ni wenye haki kuliko wewe; naam, nawe ufadhaike na kuibeba aibu yako, kwa kuwa umewafanya dada zako waonekane wenye haki."
+          },
+          {
+          "number": 53,
+          "text": "Nitakaporudisha utekwa wao, utekwa wa Sodoma na binti zake, na utekwa wa Samaria na binti zake, ndipo nitakaporudisha utekwa wako katikati yao;"
+          },
+          {
+          "number": 54,
+          "text": "ili uibebe aibu yako mwenyewe, na ufadhaike kwa ajili ya yote uliyoyafanya, kwa kuwa umekuwa faraja kwao."
+          },
+          {
+          "number": 55,
+          "text": "Dada zako, Sodoma na binti zake, watakaporudi katika hali yao ya kwanza, na Samaria na binti zake watakaporudi katika hali yao ya kwanza, ndipo wewe na binti zako mtakaporudi katika hali yenu ya kwanza."
+          },
+          {
+          "number": 56,
+          "text": "Kwa maana Sodoma dada yako hakutajwa kwa kinywa chako katika siku ya kiburi chako,"
+          },
+          {
+          "number": 57,
+          "text": "kabla uovu wako haujafunuliwa, kama wakati wa aibu yako kutoka kwa binti za Siria na wote waliozunguka pande zake, binti za Wafilisti, wanaokudharau pande zote."
+          },
+          {
+          "number": 58,
+          "text": "Umeubeba uasherati wako na machukizo yako, asema BWANA."
+          },
+          {
+          "number": 59,
+          "text": "Kwa maana Bwana MUNGU asema hivi: Nitakutendea kama ulivyotenda wewe, uliyeidharau kiapo kwa kulivunja agano."
+          },
+          {
+          "number": 60,
+          "text": "Hata hivyo nitalikumbuka agano langu pamoja nawe katika siku za ujana wako, nami nitakuwekea agano la milele."
+          },
+          {
+          "number": 61,
+          "text": "Ndipo utakapozikumbuka njia zako, na kuona aibu, utakapowapokea dada zako, mkubwa wako na mdogo wako; nami nitakupa wao kuwa binti zako, lakini si kwa agano lako."
+          },
+          {
+          "number": 62,
+          "text": "Nami nitalithibitisha agano langu pamoja nawe; nawe utajua kwamba mimi ndimi BWANA;"
+          },
+          {
+          "number": 63,
+          "text": "ili ukumbuke na ufadhaike, wala usifungue tena kinywa chako kwa sababu ya aibu yako, nitakapofanya upatanisho nawe kwa ajili ya yote uliyoyafanya, asema Bwana MUNGU."
           }
         ],
         "17": [
@@ -87173,99 +87528,119 @@
             "text": "Kama kundi takatifu, kama kundi la Yerusalemu katika sikukuu zake kuu, ndivyo miji iliyokuwa ukiwa itakavyojazwa na makundi ya watu; nao watajua kwamba mimi ndimi BWANA.’”"
           }
         ],
-        "37": [
-          {
-            "number": 1,
-            "text": "Neno la BWANA likanijia, likisema,"
-          },
-          {
-            "number": 2,
-            "text": "“Mwana wa Adamu, uelekeze uso wako dhidi ya Gogu, wa nchi ya Magogu, mkuu mkuu wa Mesheki na Tubali, na utoe unabii dhidi yake,"
-          },
-          {
-            "number": 3,
-            "text": "useme, ‘Bwana MUNGU asema hivi: Tazama, mimi niko dhidi yako, Ee Gogu, mkuu mkuu wa Mesheki na Tubali;"
-          },
-          {
-            "number": 4,
-            "text": "nami nitakugeuza, na kutia ndoano katika taya zako, nami nitakutoa nje, wewe pamoja na jeshi lako lote, farasi na wapanda farasi, wote wamevaa silaha za kila aina, naam, kusanyiko kubwa lenye ngao ndogo na ngao kubwa, wote wakishika panga;"
-          },
-          {
-            "number": 5,
-            "text": "Uajemi, Ethiopia, na Libia pamoja nao; wote wakiwa na ngao na kofia za chuma;"
-          },
-          {
-            "number": 6,
-            "text": "Gomeri na vikosi vyake vyote; nyumba ya Togarma kutoka sehemu za kaskazini, pamoja na vikosi vyake vyote; na watu wengi pamoja nawe."
-          },
-          {
-            "number": 7,
-            "text": "Uwe tayari, na ujiandae, wewe pamoja na kusanyiko lako lote lililokusanyika kwako, nawe uwe mlinzi wao."
-          },
-          {
-            "number": 8,
-            "text": "Baada ya siku nyingi utaitwa; katika miaka ya mwisho utakuja katika nchi iliyorudishwa kutoka katika upanga, na kukusanywa kutoka kwa mataifa mengi, juu ya milima ya Israeli, ambayo ilikuwa ukiwa kwa muda mrefu; lakini watu wake wametolewa kutoka katika mataifa, nao wote watakaa salama."
-          },
-          {
-            "number": 9,
-            "text": "Utapanda na kuja kama dhoruba; utakuwa kama wingu linaloifunika nchi, wewe pamoja na vikosi vyako vyote, na watu wengi pamoja nawe."
-          },
-          {
-            "number": 10,
-            "text": "Bwana MUNGU asema hivi: Itakuwa pia wakati huo kwamba mawazo yataingia moyoni mwako, nawe utawaza wazo la uovu;"
-          },
-          {
-            "number": 11,
-            "text": "nawe utasema, “Nitapanda kwenda katika nchi ya vijiji visivyo na kuta; nitawaendea wale waliotulia, wanaokaa salama, wote wakikaa bila kuta, wala hawana mapingo wala malango;"
-          },
-          {
-            "number": 12,
-            "text": "ili kuteka nyara na kuchukua mateka; kuunyosha mkono wako dhidi ya mahali palipokuwa ukiwa lakini sasa panakaliwa, na dhidi ya watu waliokusanywa kutoka katika mataifa, ambao wamepata mifugo na mali, wanaokaa katikati ya nchi.”"
-          },
-          {
-            "number": 13,
-            "text": "Sheba, Dedani, na wafanyabiashara wa Tarshishi, pamoja na simba wake wote wachanga, watakuambia, “Je, umekuja kuteka nyara? Je, umelikusanya kusanyiko lako ili kuchukua mateka? Kuchukua fedha na dhahabu, kuchukua mifugo na mali, na kuteka nyara nyingi?”"
-          },
-          {
-            "number": 14,
-            "text": "Kwa hiyo, mwana wa Adamu, toa unabii, umwambie Gogu, ‘Bwana MUNGU asema hivi: Katika siku hiyo, watu wangu Israeli watakapokaa salama, je, hutalijua hilo?"
-          },
-          {
-            "number": 15,
-            "text": "Nawe utakuja kutoka mahali pako, kutoka sehemu za kaskazini, wewe pamoja na watu wengi walio pamoja nawe, wote wakipanda farasi, kusanyiko kubwa na jeshi lenye nguvu;"
-          },
-          {
-            "number": 16,
-            "text": "nawe utapanda dhidi ya watu wangu Israeli kama wingu linaloifunika nchi; itakuwa katika siku za mwisho, nami nitakuleta dhidi ya nchi yangu, ili mataifa wapate kunijua, nitakapotakaswa ndani yako, Ee Gogu, mbele ya macho yao."
-          },
-          {
-            "number": 17,
-            "text": "Bwana MUNGU asema hivi: Je, wewe ndiye yule niliyemnena zamani kwa vinywa vya watumishi wangu, manabii wa Israeli, waliotoa unabii katika siku hizo kwa miaka mingi kwamba ningekuleta dhidi yao?"
-          },
-          {
-            "number": 18,
-            "text": "Na itakuwa wakati huo, Gogu atakapokuja dhidi ya nchi ya Israeli, asema Bwana MUNGU, kwamba ghadhabu yangu itapanda usoni mwangu."
-          },
-          {
-            "number": 19,
-            "text": "Kwa maana katika wivu wangu na katika moto wa ghadhabu yangu nimesema, Hakika katika siku hiyo kutakuwa na mtetemeko mkubwa katika nchi ya Israeli;"
-          },
-          {
-            "number": 20,
-            "text": "hata samaki wa baharini, ndege wa angani, wanyama wa porini, viumbe vyote vitambaavyo juu ya nchi, na wanadamu wote walio juu ya uso wa dunia, watatetemeka mbele yangu; na milima itabomolewa, na miinuko mikali itaanguka, na kila ukuta utaanguka chini."
-          },
-          {
-            "number": 21,
-            "text": "Nami nitaita upanga dhidi yake katika milima yangu yote, asema Bwana MUNGU; upanga wa kila mtu utakuwa dhidi ya ndugu yake."
-          },
-          {
-            "number": 22,
-            "text": "Nami nitamhukumu kwa tauni na kwa damu; nami nitanyesha juu yake, na juu ya vikosi vyake, na juu ya watu wengi walio pamoja naye, mvua kubwa ifurikayo, na mawe makubwa ya mvua ya mawe, moto, na kiberiti."
-          },
-          {
-            "number": 23,
-            "text": "Hivyo nitajikuza na kujitakasa; nami nitajulikana mbele ya macho ya mataifa mengi, nao watajua kwamba mimi ndimi BWANA.’”"
-          }
+       "37": [
+        {
+        "number": 1,
+        "text": "Mkono wa BWANA ulikuwa juu yangu, naye akanitoa kwa Roho wa BWANA, akaniweka chini katikati ya bonde lililokuwa limejaa mifupa."
+        },
+        {
+        "number": 2,
+        "text": "Akanipitisha karibu nayo pande zote; na tazama, ilikuwa mingi sana katika lile bonde la wazi; na tazama, ilikuwa mikavu sana."
+        },
+        {
+        "number": 3,
+        "text": "Akaniambia, Mwanadamu, je, mifupa hii inaweza kuishi? Nami nikajibu, Ee Bwana MUNGU, wewe wajua."
+        },
+        {
+        "number": 4,
+        "text": "Tena akaniambia, Tabiri juu ya mifupa hii, uiambie, Enyi mifupa mikavu, lisikieni neno la BWANA."
+        },
+        {
+        "number": 5,
+        "text": "Bwana MUNGU asema hivi kwa mifupa hii: Tazama, nitatia pumzi ndani yenu, nanyi mtaishi."
+        },
+        {
+        "number": 6,
+        "text": "Nami nitaweka mishipa juu yenu, na kuleta nyama juu yenu, na kuwafunika kwa ngozi, na kutia pumzi ndani yenu, nanyi mtaishi; nanyi mtajua kwamba mimi ndimi BWANA."
+        },
+        {
+        "number": 7,
+        "text": "Basi nikatabiri kama nilivyoamriwa; na nilipokuwa nikitabiri, kukawa na sauti, na tazama, mtikisiko; nayo mifupa ikakaribiana, mfupa kwa mfupa wake."
+        },
+        {
+        "number": 8,
+        "text": "Nilipotazama, tazama, mishipa na nyama vikaja juu yake, na ngozi ikaifunika juu; lakini hapakuwa na pumzi ndani yake."
+        },
+        {
+        "number": 9,
+        "text": "Ndipo akaniambia, Tabiri kwa upepo, tabiri, Mwanadamu, uuambie upepo, Bwana MUNGU asema hivi: Njoo kutoka pepo nne, Ee pumzi, ukawapulizie hawa waliouawa, ili waishi."
+        },
+        {
+        "number": 10,
+        "text": "Basi nikatabiri kama alivyoniamuru; pumzi ikaingia ndani yao, nao wakaishi, wakasimama kwa miguu yao, jeshi kubwa sana."
+        },
+        {
+        "number": 11,
+        "text": "Ndipo akaniambia, Mwanadamu, mifupa hii ni nyumba yote ya Israeli; tazama, wanasema, Mifupa yetu imekauka, na tumaini letu limepotea; tumekatiliwa mbali kabisa."
+        },
+        {
+        "number": 12,
+        "text": "Kwa hiyo tabiri, uwaambie, Bwana MUNGU asema hivi: Tazama, enyi watu wangu, nitayafungua makaburi yenu, nami nitawapandisha kutoka katika makaburi yenu, na kuwaleta katika nchi ya Israeli."
+        },
+        {
+        "number": 13,
+        "text": "Nanyi mtajua kwamba mimi ndimi BWANA, nitakapoyafungua makaburi yenu, enyi watu wangu, na kuwatoa kutoka katika makaburi yenu."
+        },
+        {
+        "number": 14,
+        "text": "Nami nitatia Roho yangu ndani yenu, nanyi mtaishi, nami nitawaweka katika nchi yenu wenyewe; ndipo mtakapojua kwamba mimi BWANA nimesema, nami nimelitenda, asema BWANA."
+        },
+        {
+        "number": 15,
+        "text": "Neno la BWANA likanijia tena, likisema,"
+        },
+        {
+        "number": 16,
+        "text": "Nawe, Mwanadamu, jitwalie kijiti kimoja, uandike juu yake, Kwa ajili ya Yuda, na kwa ajili ya wana wa Israeli wenzake; kisha jitwalie kijiti kingine, uandike juu yake, Kwa ajili ya Yusufu, kijiti cha Efraimu, na kwa ajili ya nyumba yote ya Israeli wenzake."
+        },
+        {
+        "number": 17,
+        "text": "Kisha uviunganishe kimoja na kingine kuwa kijiti kimoja; navyo vitakuwa kimoja mkononi mwako."
+        },
+        {
+        "number": 18,
+        "text": "Na wana wa watu wako watakaposema nawe, Je, hutatuambia unamaanisha nini kwa mambo haya?"
+        },
+        {
+        "number": 19,
+        "text": "Waambie, Bwana MUNGU asema hivi: Tazama, nitakitwaa kijiti cha Yusufu, kilicho mkononi mwa Efraimu, na makabila ya Israeli wenzake, nami nitawaweka pamoja naye, yaani pamoja na kijiti cha Yuda, na kuwafanya kijiti kimoja; nao watakuwa kitu kimoja mkononi mwangu."
+        },
+        {
+        "number": 20,
+        "text": "Na vile vijiti utakavyoandika juu yake vitakuwa mkononi mwako mbele ya macho yao."
+        },
+        {
+        "number": 21,
+        "text": "Na uwaambie, Bwana MUNGU asema hivi: Tazama, nitawatwaa wana wa Israeli kutoka miongoni mwa mataifa walikokwenda, nami nitawakusanya kutoka kila upande, na kuwaleta katika nchi yao wenyewe."
+        },
+        {
+        "number": 22,
+        "text": "Nami nitawafanya kuwa taifa moja katika nchi juu ya milima ya Israeli; na mfalme mmoja atakuwa mfalme juu yao wote; wala hawatakuwa tena mataifa mawili, wala hawatagawanyika tena kuwa falme mbili."
+        },
+        {
+        "number": 23,
+        "text": "Wala hawatajitia unajisi tena kwa sanamu zao, wala kwa vitu vyao vya kuchukiza, wala kwa makosa yao yoyote; lakini nitawaokoa kutoka katika makao yao yote ambamo wametenda dhambi, nami nitawatakasa; nao watakuwa watu wangu, nami nitakuwa Mungu wao."
+        },
+        {
+        "number": 24,
+        "text": "Na Daudi mtumishi wangu atakuwa mfalme juu yao; nao wote watakuwa na mchungaji mmoja; pia wataenenda katika hukumu zangu, na kuzihifadhi amri zangu, na kuzitenda."
+        },
+        {
+        "number": 25,
+        "text": "Nao watakaa katika nchi niliyompa Yakobo mtumishi wangu, ambayo baba zenu walikaa humo; nao watakaa humo, wao, na watoto wao, na watoto wa watoto wao milele; na Daudi mtumishi wangu atakuwa mkuu wao milele."
+        },
+        {
+        "number": 26,
+        "text": "Zaidi ya hayo, nitafanya agano la amani pamoja nao; litakuwa agano la milele pamoja nao; nami nitawaweka, na kuwazidisha, na kuliweka patakatifu pangu katikati yao milele."
+        },
+        {
+        "number": 27,
+        "text": "Maskani yangu pia itakuwa pamoja nao; naam, nitakuwa Mungu wao, nao watakuwa watu wangu."
+        },
+        {
+        "number": 28,
+        "text": "Na mataifa watajua kwamba mimi BWANA ndiye ninayemtakasa Israeli, patakatifu pangu patakapokuwa katikati yao milele."
+        }
         ],
         "38": [
           {
@@ -91802,7 +92177,7 @@
           },
           {
             "number": 12,
-            "text": "Lakini hukupaswa kuitazama siku ya ndugu yako, siku ya mashtaka yake; wala hukupaswa kuwafurahia wana wa Yuda siku ya maangamizi yao; wala hukupaswa kunena kwa majivuno siku ya dhiki."
+            "text": "Lakini hukupaswa kuitazama siku ya ndugu yako, siku alipokuwa mgeni; wala hukupaswa kufurahia juu ya wana wa Yuda siku ya kuangamia kwao; wala hukupaswa kusema kwa kiburi siku ya dhiki."
           },
           {
             "number": 13,
@@ -91914,7 +92289,7 @@
           },
           {
             "number": 16,
-            "text": "Ndipo wale watu wakamhofu sana BWANA; wakamtolea BWANA dhabihu, na kuweka nadhiri."
+            "text": "Ndipo wale watu wakamhofu sana BWANA; wakamtolea BWANA sadaka, na kuweka nadhiri."
           },
           {
             "number": 17,
@@ -91956,7 +92331,7 @@
           },
           {
             "number": 9,
-            "text": "Lakini mimi nitakutolea dhabihu kwa sauti ya shukrani; nitatimiza nadhiri zangu. Wokovu unatoka kwa BWANA."
+            "text": "Lakini mimi nitakutolea sadaka kwa sauti ya shukrani; nitatimiza nadhiri zangu. Wokovu unatoka kwa BWANA."
           },
           {
             "number": 10,
@@ -92524,7 +92899,7 @@
           },
           {
             "number": 5,
-            "text": "Milima hutetemeka mbele zake, na vilima huyeyuka; dunia huinuka mbele ya uso wake, naam, ulimwengu na wote wakaao ndani yake."
+            "text": "Milima hutetemeka mbele zake, na vilima huyeyuka; dunia huungua mbele ya uso wake, naam, ulimwengu na wote wakaao ndani yake."
           },
           {
             "number": 6,
@@ -92724,7 +93099,7 @@
           },
           {
             "number": 4,
-            "text": "Kwa hiyo sheria imelegea, na hukumu haitolewi kwa haki; kwa maana waovu wamewazunguka wenye haki, hivyo hukumu potovu hutolewa."
+            "text": "Kwa hiyo sheria imelegea, na hukumu haitolewi kwa haki; kwa maana waovu wamewazunguka walio sahihi, hivyo hukumu potovu hutolewa."
           },
           {
             "number": 5,
@@ -92760,7 +93135,7 @@
           },
           {
             "number": 13,
-            "text": "Macho yako ni matakatifu mno hata hayawezi kutazama uovu; wala huwezi kuvumilia uovu. Kwa nini basi unawatazama watendao kwa hila, na kunyamaza wakati mwovu anamla aliye mwenye haki kuliko yeye?"
+            "text": "Macho yako ni matakatifu mno hata hayawezi kutazama uovu; wala huwezi kuvumilia uovu. Kwa nini basi unawatazama watendao kwa hila, na kunyamaza wakati mwovu anamla aliye sasa kuliko yeye?"
           },
           {
             "number": 14,
@@ -92772,7 +93147,7 @@
           },
           {
             "number": 16,
-            "text": "Kwa hiyo hulitolea dhabihu wavu wao, na kulifukizia uvumba kokoro lao; kwa maana kwa hayo sehemu yao ni nono, na chakula chao ni kingi."
+            "text": "Kwa hiyo hulitolea sadaka wavu wao, na kulifukizia uvumba kokoro lao; kwa maana kwa hayo sehemu yao ni nono, na chakula chao ni kingi."
           },
           {
             "number": 17,
@@ -93038,7 +93413,7 @@
           },
           {
             "number": 4,
-            "text": "Mtafuteni BWANA, ninyi nyote wanyenyekevu wa nchi, mnaotenda hukumu yake; tafuteni haki, tafuteni unyenyekevu; huenda mkafichwa katika siku ya ghadhabu ya BWANA."
+            "text": "Kwa maana Gaza itaachwa, na Ashkeloni itakuwa ukiwa; Ashdodi wataifukuza wakati wa adhuhuri, na Ekroni itang’olewa."
           },
           {
             "number": 5,
@@ -93104,7 +93479,7 @@
           },
           {
             "number": 5,
-            "text": "BWANA aliye mwenye haki yuko katikati yake; hatendi uovu. Kila asubuhi huweka hukumu yake wazi; hashindwi kamwe; lakini mtu asiye haki hajui aibu."
+            "text": "BWANA aliye sahihi yuko katikati yake; hatendi uovu. Kila asubuhi huweka hukumu yake wazi; hashindwi kamwe; lakini mtu asiye haki hajui aibu."
           },
           {
             "number": 6,
@@ -93490,7 +93865,7 @@
           },
           {
             "number": 2,
-            "text": "Naye BWANA akamwambia Shetani, “BWANA na akukemee, Ee Shetani; naam, BWANA aliyeichagua Yerusalemu na akukemee; je, huyu si kinga kilichonyakuliwa kutoka motoni?”"
+            "text": "Naye BWANA akamwambia Shetani, “BWANA na akukemee, Ee Shetani; naam, BWANA aliyeichagua Yerusalemu na akukemee; je, huyu si kijinga kilichonyakuliwa kutoka motoni?”"
           },
           {
             "number": 3,
@@ -93640,7 +94015,7 @@
           },
           {
             "number": 3,
-            "text": "na katika gari la tatu farasi weupe; na katika gari la nne farasi wenye madoadoa na wenye nguvu."
+            "text": "na katika gari la tatu farasi weupe; na katika gari la nne farasi wenye madoadoa na farasi wa kahawia."
           },
           {
             "number": 4,
@@ -94294,7 +94669,7 @@
           },
           {
             "number": 3,
-            "text": "Tazama, nitakemea uzao wenu, na nitapakaza samadi usoni mwenu, yaani samadi ya dhabihu za sikukuu zenu; nanyi mtaondolewa pamoja nayo."
+            "text": "Tazama, nitakemea uzao wenu, na nitapakaza samadi usoni mwenu, yaani samadi ya sadaka za sikukuu zenu; nanyi mtaondolewa pamoja nayo."
           },
           {
             "number": 4,
@@ -95470,7 +95845,7 @@
           },
           {
             "number": 13,
-            "text": "Lakini nendeni mkajifunze maana ya maneno haya: ‘Nataka rehema, wala si dhabihu.’ Kwa maana sikuja kuwaita watenda haki, bali wenye dhambi wapate kutubu."
+            "text": "Lakini nendeni mkajifunze maana ya maneno haya: ‘Nataka rehema, wala si sadaka.’ Kwa maana sikuja kuwaita watenda haki, bali wenye dhambi wapate kutubu."
           },
           {
             "number": 14,
@@ -95754,7 +96129,7 @@
           },
           {
             "number": 3,
-            "text": "Basi Yohana, akiwa gerezani, aliposikia habari za matendo ya Kristo, akawatuma wanafunzi wake wawili,"
+            "text": "Wakamwambia, “Je, wewe ndiwe yule ajaye, au tumngojee mwingine?”"
           },
           {
             "number": 4,
@@ -95892,7 +96267,7 @@
           },
           {
             "number": 7,
-            "text": "Lakini kama mngejua maana ya maneno haya, Nataka rehema, wala si dhabihu, msingewahukumu wasio na hatia."
+            "text": "Lakini kama mngejua maana ya maneno haya, Nataka rehema, wala si sadaka, msingewahukumu wasio na hatia."
           },
           {
             "number": 8,
@@ -96651,28 +97026,28 @@
             "text": "Imekuwaje hamwelewi kwamba sikuwa nikizungumza nanyi kuhusu mikate? Bali nilisema mjihadhari na chachu ya Mafarisayo na Masadukayo."
           },
           {
-            "number": 12,
-            "text": "Wakasema, ‘Wengine wanasema wewe ni Yohana Mbatizaji; wengine Eliya; na wengine Yeremia, au mmoja wa manabii.’"
+          "number": 12,
+          "text": "Ndipo wakaelewa kwamba hakuwaambia wajihadhari na chachu ya mkate, bali na mafundisho ya Mafarisayo na Masadukayo."
           },
           {
-            "number": 13,
-            "text": "Akawaambia, ‘Lakini ninyi mnasema mimi ni nani?’"
+          "number": 13,
+          "text": "Yesu alipofika katika sehemu za Kaisaria Filipi, akawauliza wanafunzi wake, akisema, “Watu husema kwamba mimi Mwana wa Adamu ni nani?”"
           },
           {
-            "number": 14,
-            "text": "Wakasema, ‘Wengine wanasema wewe ni Yohana Mbatizaji; wengine Eliya; na wengine Yeremia, au mmoja wa manabii.’ Yesu akajibu, akamwambia, ‘Umebarikiwa wewe, Simoni Bar-Yona; kwa maana mwili na damu havikukufunulia hili, bali Baba yangu aliye mbinguni.’"
+          "number": 14,
+          "text": "Wakasema, “Wengine wanasema wewe ni Yohana Mbatizaji; wengine Eliya; na wengine Yeremia, au mmoja wa manabii.”"
           },
           {
-            "number": 15,
-            "text": "Akawaambia, ‘Lakini ninyi mnasema mimi ni nani?’"
+          "number": 15,
+          "text": "Akawaambia, “Lakini ninyi mnasema mimi ni nani?”"
           },
           {
-            "number": 16,
-            "text": "Simoni Petro akajibu, akasema, ‘Wewe ndiwe Kristo, Mwana wa Mungu aliye hai.’"
+          "number": 16,
+          "text": "Simoni Petro akajibu, akasema, “Wewe ndiwe Kristo, Mwana wa Mungu aliye hai.”"
           },
           {
-            "number": 17,
-            "text": "Yesu akajibu, akamwambia, ‘Umebarikiwa wewe, Simoni Bar-Yona; kwa maana mwili na damu havikukufunulia hili, bali Baba yangu aliye mbinguni.’"
+          "number": 17,
+          "text": "Yesu akajibu, akamwambia, “Umebarikiwa wewe, Simoni Bar-Yona; kwa maana mwili na damu havikukufunulia hili, bali Baba yangu aliye mbinguni.”"
           },
           {
             "number": 18,
@@ -97714,11 +98089,11 @@
           },
           {
             "number": 28,
-            "text": "Vivyo hivyo ninyi pia, kwa nje mnaonekana kuwa wenye haki mbele ya watu, lakini ndani mmejaa unafiki na uasi wa sheria."
+            "text": "Vivyo hivyo ninyi pia, kwa nje mnaonekana kuwa walio sahihi mbele ya watu, lakini ndani mmejaa unafiki na uasi wa sheria."
           },
           {
             "number": 29,
-            "text": "Ole wenu, waandishi na Mafarisayo, wanafiki! Kwa sababu mnajenga makaburi ya manabii na kuyapamba makaburi ya wenye haki,"
+            "text": "Ole wenu, waandishi na Mafarisayo, wanafiki! Kwa sababu mnajenga makaburi ya manabii na kuyapamba makaburi ya walio sahihi,"
           },
           {
             "number": 30,
@@ -97742,7 +98117,7 @@
           },
           {
             "number": 35,
-            "text": "ili ije juu yenu damu yote ya wenye haki iliyomwagika duniani, tangu damu ya Abeli mwenye haki mpaka damu ya Zakaria mwana wa Barakia, ambaye mlimwua kati ya hekalu na madhabahu."
+            "text": "ili ije juu yenu damu yote ya walio sahihi iliyomwagika duniani, tangu damu ya Abeli aliye sahihi mpaka damu ya Zakaria mwana wa Barakia, ambaye mlimwua kati ya hekalu na madhabahu."
           },
           {
             "number": 36,
@@ -97758,7 +98133,7 @@
           },
           {
             "number": 39,
-            "text": "Kwa maana nawaambia, hamtaniona tena tangu sasa mpaka mtakaposema:"
+            "text": "Kwa maana nawaambia, hamtaniona tena tangu sasa mpaka mtakaposema; Amebarikiwa yeye ajaye kwa jina la Bwana."
           }
         ],
         "24": [
@@ -98388,11 +98763,11 @@
           },
           {
             "number": 59,
-            "text": "Lakini hawakupata; naam, ingawa mashahidi wengi wa uongo walikuja, hawakupata. Mwishowe wakaja mashahidi wawili wa uongo,"
+            "text": "Basi wakuu wa makuhani, na wazee, na baraza lote, wakatafuta ushahidi wa uongo juu ya Yesu, wapate kumwua;"
           },
           {
             "number": 60,
-            "text": "Lakini hawakupata; naam, ingawa mashahidi wengi wa uongo walikuja, hawakupata. Mwishowe wakaja mashahidi wawili wa uongo,"
+            "text": "lakini hawakuupata; ingawa mashahidi wengi wa uongo walikuja, hawakuupata. Hatimaye wakaja mashahidi wawili wa uongo,"
           },
           {
             "number": 61,
@@ -99480,7 +99855,7 @@
           },
           {
             "number": 16,
-            "text": "Wakamjia Yesu, wakamwona yule aliyekuwa amepagawa na pepo, aliyekuwa na Legioni, ameketi, amevaa nguo, na akiwa na akili timamu; wakaogopa."
+            "text": "Nao wale walioona wakawaambia jinsi ilivyompata yule aliyekuwa amepagawa na pepo, na pia habari za nguruwe."
           },
           {
             "number": 17,
@@ -100316,7 +100691,7 @@
           },
           {
             "number": 49,
-            "text": "Kwa maana kila mtu atatiwa chumvi kwa moto, na kila dhabihu itatiwa chumvi kwa chumvi."
+            "text": "Kwa maana kila mtu atatiwa chumvi kwa moto, na kila sadaka itatiwa chumvi kwa chumvi."
           },
           {
             "number": 50,
@@ -100798,7 +101173,7 @@
           },
           {
             "number": 33,
-            "text": "Na kumpenda yeye kwa moyo wote, kwa uelewa wote, kwa nafsi yote, na kwa nguvu zote, na kumpenda jirani kama mtu anavyojipenda mwenyewe, ni jambo kuu kuliko sadaka zote za kuteketezwa na dhabihu zote."
+            "text": "Na kumpenda yeye kwa moyo wote, kwa uelewa wote, kwa nafsi yote, na kwa nguvu zote, na kumpenda jirani kama mtu anavyojipenda mwenyewe, ni jambo kuu kuliko sadaka zote za kuteketezwa na sadaka zote."
           },
           {
             "number": 34,
@@ -101983,16 +102358,16 @@
             "text": "Kama ilivyoandikwa katika sheria ya Bwana, Kila mtoto wa kiume anayefungua tumbo la uzazi ataitwa mtakatifu kwa Bwana,"
           },
           {
-            "number": 24,
-            "text": "Na tazama, kulikuwa na mtu mmoja Yerusalemu, jina lake Simeoni; mtu huyo alikuwa mtenda haki na mwenye kumhofu Mungu, akiingojea faraja ya Israeli; na Roho Mtakatifu alikuwa juu yake."
+          "number": 24,
+          "text": "na kutoa sadaka sawasawa na ilivyosemwa katika sheria ya Bwana, Jozi ya hua, au makinda mawili ya njiwa."
           },
           {
-            "number": 25,
-            "text": "Naye alikuwa amefunuliwa na Roho Mtakatifu kwamba hataona mauti kabla hajamwona Kristo wa Bwana."
+          "number": 25,
+          "text": "Na tazama, kulikuwa na mtu mmoja Yerusalemu, jina lake Simeoni; mtu huyo alikuwa mwenye haki na mwenye kumhofu Mungu, akiingojea faraja ya Israeli; na Roho Mtakatifu alikuwa juu yake."
           },
           {
-            "number": 26,
-            "text": "Naye alikuwa amefunuliwa na Roho Mtakatifu kwamba hataona mauti kabla hajamwona Kristo wa Bwana."
+          "number": 26,
+          "text": "Naye alikuwa amefunuliwa na Roho Mtakatifu kwamba hataona mauti kabla hajamwona Kristo wa Bwana."
           },
           {
             "number": 27,
@@ -102312,7 +102687,7 @@
           },
           {
             "number": 15,
-            "text": "Akafika Nazareti, mahali alipolelewa; na kama ilivyokuwa desturi yake, akaingia katika sinagogi siku ya Sabato, akasimama ili asome."
+            "text": "Naye akafundisha katika masinagogi yao, akitukuzwa na watu wote."
           },
           {
             "number": 16,
@@ -102558,7 +102933,7 @@
           },
           {
             "number": 32,
-            "text": "Sikuja kuwaita wenye haki, bali wenye dhambi wapate kutubu."
+            "text": "Sikuja kuwaita walio sahihi, bali wenye dhambi wapate kutubu."
           },
           {
             "number": 33,
@@ -102902,7 +103277,7 @@
           },
           {
             "number": 29,
-            "text": "Na watu wote waliomsikia, pamoja na watoza ushuru, walikiri kuwa Mungu ni mwenye haki, kwa kuwa walikuwa wamebatizwa kwa ubatizo wa Yohana."
+            "text": "Na watu wote waliomsikia, pamoja na watoza ushuru, walikiri kuwa Mungu yu sahihi, kwa kuwa walikuwa wamebatizwa kwa ubatizo wa Yohana."
           },
           {
             "number": 30,
@@ -103132,7 +103507,7 @@
           },
           {
             "number": 36,
-            "text": "Watu wakatoka kwenda kuona yaliyotokea. Walipomjia Yesu, wakamkuta yule mtu ambaye pepo walikuwa wamemtoka ameketi miguuni pa Yesu, amevaa nguo na akiwa na akili timamu; wakaogopa."
+            "text": "Nao wale walioona wakawaambia jinsi yule aliyekuwa amepagawa na pepo alivyoponywa."
           },
           {
             "number": 37,
@@ -104094,7 +104469,7 @@
         "13": [
           {
             "number": 1,
-            "text": "Wakati huo walikuwapo baadhi ya watu waliomweleza habari za Wagalilaya ambao Pilato alikuwa amechanganya damu yao na dhabihu zao."
+            "text": "Wakati huo walikuwapo baadhi ya watu waliomweleza habari za Wagalilaya ambao Pilato alikuwa amechanganya damu yao na sadaka zao."
           },
           {
             "number": 2,
@@ -104288,7 +104663,7 @@
           },
           {
             "number": 14,
-            "text": "Nawe utabarikiwa, kwa sababu hawawezi kukulipa; kwa maana utalipwa wakati wa ufufuo wa wenye haki."
+            "text": "Nawe utabarikiwa, kwa sababu hawawezi kukulipa; kwa maana utalipwa wakati wa ufufuo wa walio sahihi."
           },
           {
             "number": 15,
@@ -104402,7 +104777,7 @@
           },
           {
             "number": 7,
-            "text": "Nawaambia, vivyo hivyo kutakuwa na furaha mbinguni kwa ajili ya mwenye dhambi mmoja anayetubu, kuliko kwa ajili ya wenye haki tisini na tisa ambao hawana haja ya kutubu."
+            "text": "Nawaambia, vivyo hivyo kutakuwa na furaha mbinguni kwa ajili ya mwenye dhambi mmoja anayetubu, kuliko kwa ajili ya walio sahihi tisini na tisa ambao hawana haja ya kutubu."
           },
           {
             "number": 8,
@@ -104564,7 +104939,7 @@
           },
           {
             "number": 15,
-            "text": "Naye akawaambia, Ninyi ndio mnaojifanya kuwa wenye haki mbele ya watu, lakini Mungu anaijua mioyo yenu; kwa maana kile kinachothaminiwa sana na wanadamu ni chukizo mbele za Mungu."
+            "text": "Naye akawaambia, Ninyi ndio mnaojifanya kuwa mlio sahihi mbele ya watu, lakini Mungu anaijua mioyo yenu; kwa maana kile kinachothaminiwa sana na wanadamu ni chukizo mbele za Mungu."
           },
           {
             "number": 16,
@@ -105228,7 +105603,7 @@
           },
           {
             "number": 20,
-            "text": "Wakamvizia, wakatuma wapelelezi waliojifanya kuwa watu wenye haki, ili wamnase kwa maneno yake, wapate kumtia katika mamlaka na uwezo wa liwali."
+            "text": "Wakamvizia, wakatuma wapelelezi waliojifanya kuwa watu walio sahihi, ili wamnase kwa maneno yake, wapate kumtia katika mamlaka na uwezo wa liwali."
           },
           {
             "number": 21,
@@ -105966,7 +106341,7 @@
           },
           {
             "number": 47,
-            "text": "Yule jemadari alipoona yaliyotokea, akamtukuza Mungu, akisema, Hakika mtu huyu alikuwa mwenye haki."
+            "text": "Yule jemadari alipoona yaliyotokea, akamtukuza Mungu, akisema, Hakika mtu huyu alikuwa sahihi."
           },
           {
             "number": 48,
@@ -105978,7 +106353,7 @@
           },
           {
             "number": 50,
-            "text": "Na tazama, palikuwa na mtu aitwaye Yusufu, ambaye alikuwa mshauri katika baraza; naye alikuwa mtu mwema na mwenye haki."
+            "text": "Na tazama, palikuwa na mtu aitwaye Yusufu, ambaye alikuwa mshauri katika baraza; naye alikuwa mtu mwema na sahihi."
           },
           {
             "number": 51,
@@ -106140,7 +106515,7 @@
           },
           {
             "number": 34,
-            "text": "Wakisema, Hakika Bwana amefufuka, naye amempokea Simoni."
+            "text": "Wakisema, Hakika Bwana amefufuka, naye amemtokea Simoni."
           },
           {
             "number": 35,
@@ -106681,10 +107056,6 @@
           {
             "number": 36,
             "text": "Yeye anayemwamini Mwana anao uzima wa milele; lakini yeye asiyemtii Mwana hataona uzima, bali ghadhabu ya Mungu inakaa juu yake."
-          },
-          {
-            "number": 37,
-            "text": "Basi Bwana alipojua kwamba Mafarisayo walikuwa wamesikia kuwa Yesu alikuwa akipata na kubatiza wanafunzi wengi kuliko Yohana;"
           }
         ],
         "4": [
@@ -107860,7 +108231,7 @@
           },
           {
             "number": 7,
-            "text": "Akamwambia, ‘Nenda ukaoge katika bwawa la Siloamu’ (maana yake, ‘Aliyetumwa’). Basi akaenda, akaoga, akarudi akiwa anaona."
+            "text": "Akamwambia, ‘Nenda ukanawe katika bwawa la Siloamu’ (maana yake, ‘Aliyetumwa’). Basi akaenda, akaoga, akarudi akiwa anaona."
           },
           {
             "number": 8,
@@ -108232,7 +108603,7 @@
           },
           {
             "number": 16,
-            "text": "Ndipo Tomaso, aitwaye Didimo, akawaambia wanafunzi wenzake, ‘Sisi nasi twendeni, ili tufe pamoja naye.’"
+            "text": "Ndipo Tomaso, aitwaye pacha, akawaambia wanafunzi wenzake, ‘Sisi nasi twendeni, ili tufe pamoja naye.’"
           },
           {
             "number": 17,
@@ -109658,7 +110029,7 @@
           },
           {
             "number": 24,
-            "text": "Lakini Tomaso, mmoja wa wale kumi na wawili, aitwaye Didimo, hakuwa pamoja nao Yesu alipokuja."
+            "text": "Lakini Tomaso, mmoja wa wale kumi na wawili, aitwaye pacha, hakuwa pamoja nao Yesu alipokuja."
           },
           {
             "number": 25,
@@ -109696,7 +110067,7 @@
           },
           {
             "number": 2,
-            "text": "Walikuwa pamoja Simoni Petro, Tomaso aitwaye Didimo, Nathanaeli wa Kana ya Galilaya, wana wa Zebedayo, na wanafunzi wake wengine wawili."
+            "text": "Walikuwa pamoja Simoni Petro, Tomaso aitwaye pacha, Nathanaeli wa Kana ya Galilaya, wana wa Zebedayo, na wanafunzi wake wengine wawili."
           },
           {
             "number": 3,
@@ -110152,7 +110523,7 @@
           },
           {
             "number": 14,
-            "text": "Lakini ninyi mlimkana yule Mtakatifu na Mwenye Haki, mkaomba mpewe mtu muuaji;"
+            "text": "Lakini ninyi mlimkana yule Mtakatifu na Alieye sahihi, mkaomba mpewe mtu muuaji;"
           },
           {
             "number": 15,
@@ -110748,11 +111119,11 @@
           },
           {
             "number": 41,
-            "text": "Katika siku hizo wakatengeneza ndama, wakaitolea sanamu hiyo dhabihu, na wakafurahia kazi ya mikono yao wenyewe."
+            "text": "Katika siku hizo wakatengeneza ndama, wakaitolea sanamu hiyo sadaka, na wakafurahia kazi ya mikono yao wenyewe."
           },
           {
             "number": 42,
-            "text": "Ndipo Mungu akawaacha, akawapa waabudu jeshi la mbinguni, kama ilivyoandikwa katika kitabu cha manabii: Enyi nyumba ya Israeli, je, mlinitolea mimi wanyama waliochinjwa na dhabihu kwa miaka arobaini jangwani?"
+            "text": "Ndipo Mungu akawaacha, akawapa waabudu jeshi la mbinguni, kama ilivyoandikwa katika kitabu cha manabii: Enyi nyumba ya Israeli, je, mlinitolea mimi wanyama waliochinjwa na sadaka kwa miaka arobaini jangwani?"
           },
           {
             "number": 43,
@@ -110792,7 +111163,7 @@
           },
           {
             "number": 52,
-            "text": "Ni nabii gani ambaye baba zenu hawakumtesa? Waliwaua wale waliotabiri mapema juu ya kuja kwake yule Mwenye Haki, ambaye sasa ninyi mmekuwa wasaliti na wauaji wake;"
+            "text": "Ni nabii gani ambaye baba zenu hawakumtesa? Waliwaua wale waliotabiri mapema juu ya kuja kwake yule aliye sahihi, ambaye sasa ninyi mmekuwa wasaliti na wauaji wake;"
           },
           {
             "number": 53,
@@ -111135,28 +111506,32 @@
             "text": "Huko Yafa kulikuwa na mwanafunzi mmoja mwanamke jina lake Tabitha, ambalo likitafsiriwa ni Dorkasi. Mwanamke huyu alikuwa amejaa matendo mema na kuwasaidia wahitaji."
           },
           {
-            "number": 37,
-            "text": "Ikawa siku hizo akaugua, akafa; na baada ya kuuosha mwili wake, wakamweka katika chumba cha juu. Kwa kuwa Lida ilikuwa karibu na Yafa, wanafunzi waliposikia kwamba Petro alikuwa huko, wakatuma watu wawili kwake, wakimsihi, Usichelewe kuja kwetu."
+          "number": 37,
+          "text": "Ikawa siku hizo akaugua, akafa; na baada ya kuuosha mwili wake, wakamweka katika chumba cha juu."
           },
           {
-            "number": 38,
-            "text": "Petro akasimama, akaenda pamoja nao. Alipofika, wakampeleka katika chumba cha juu; na wajane wote wakasimama karibu naye wakilia, wakimwonyesha kanzu na mavazi ambayo Dorkasi alikuwa amewatengenezea alipokuwa pamoja nao."
+          "number": 38,
+          "text": "Kwa kuwa Lida ilikuwa karibu na Yafa, wanafunzi waliposikia kwamba Petro alikuwa huko, wakatuma watu wawili kwake, wakimsihi, Usichelewe kuja kwetu."
           },
           {
-            "number": 39,
-            "text": "Lakini Petro akawatoa wote nje, akapiga magoti, akaomba; kisha akaugeukia mwili, akasema, Tabitha, simama. Naye akafungua macho yake; alipomwona Petro, akaketi."
+          "number": 39,
+          "text": "Petro akasimama, akaenda pamoja nao. Alipofika, wakampeleka katika chumba cha juu; na wajane wote wakasimama karibu naye wakilia, wakimwonyesha kanzu na mavazi ambayo Dorkasi alikuwa amewatengenezea alipokuwa pamoja nao."
           },
           {
-            "number": 40,
-            "text": "Petro akampa mkono, akamwinua; kisha akawaita watakatifu na wajane, akamweka mbele yao akiwa hai."
+          "number": 40,
+          "text": "Lakini Petro akawatoa wote nje, akapiga magoti, akaomba; kisha akaugeukia mwili, akasema, Tabitha, simama. Naye akafungua macho yake; alipomwona Petro, akaketi."
           },
           {
-            "number": 41,
-            "text": "Jambo hilo likajulikana katika Yafa yote, na watu wengi wakamwamini Bwana."
+          "number": 41,
+          "text": "Petro akampa mkono, akamwinua; kisha akawaita watakatifu na wajane, akamweka mbele yao akiwa hai."
           },
           {
-            "number": 42,
-            "text": "Ikawa Petro akakaa siku nyingi huko Yafa pamoja na mtu mmoja aitwaye Simoni, mtengenezaji wa ngozi."
+          "number": 42,
+          "text": "Jambo hilo likajulikana katika Yafa yote, na watu wengi wakamwamini Bwana."
+          },
+          {
+          "number": 43,
+          "text": "Ikawa Petro akakaa siku nyingi huko Yafa pamoja na mtu mmoja aitwaye Simoni, mtengenezaji wa ngozi."
           }
         ],
         "10": [
@@ -111250,11 +111625,11 @@
           },
           {
             "number": 23,
-            "text": "Siku iliyofuata wakaingia Kaisaria. Kornelio alikuwa akiwasubiri, akiwa amewakusanya jamaa zake na rafiki zake wa karibu."
+            "text": "Ndipo akawaita ndani, akawapa malazi. Kesho yake Petro akaondoka pamoja nao, na baadhi ya ndugu kutoka Yafa wakaenda pamoja naye."
           },
           {
             "number": 24,
-            "text": "Petro alipokuwa akiingia, Kornelio akakutana naye, akaanguka miguuni pake na kumsujudia."
+            "text": "Siku iliyofuata wakaingia Kaisaria. Kornelio alikuwa akiwasubiri, akiwa amewakusanya jamaa zake na rafiki zake wa karibu."
           },
           {
             "number": 25,
@@ -111459,25 +111834,21 @@
             "text": "Alipompata, akamleta Antiokia. Ikawa kwa muda wa mwaka mzima wakakusanyika pamoja na kanisa na kuwafundisha watu wengi. Na wanafunzi waliitwa Wakristo kwa mara ya kwanza huko Antiokia."
           },
           {
-            "number": 27,
-            "text": "Katika siku hizo manabii wakashuka kutoka Yerusalemu kwenda Antiokia."
-          },
-          {
-            "number": 28,
-            "text": "Katika siku hizo manabii wakashuka kutoka Yerusalemu kwenda Antiokia."
-          },
-          {
-            "number": 29,
-            "text": "Mmoja wao, jina lake Agabo, akasimama na kuonyesha kwa Roho kwamba kungekuwa na njaa kubwa katika ulimwengu wote; nayo ikatokea katika siku za Klaudio Kaisari."
-          },
-          {
-            "number": 30,
-            "text": "Ndipo wanafunzi wakaamua, kila mmoja kulingana na uwezo wake, kutuma msaada kwa ndugu waliokuwa wakiishi Uyahudi."
-          },
-          {
-            "number": 31,
-            "text": "Ndivyo walivyofanya, wakautuma msaada huo kwa wazee kupitia mikono ya Barnaba na Sauli."
-          }
+        "number": 27,
+        "text": "Katika siku hizo manabii wakashuka kutoka Yerusalemu kwenda Antiokia."
+        },
+        {
+        "number": 28,
+        "text": "Mmoja wao, jina lake Agabo, akasimama na kuonyesha kwa Roho kwamba kungekuwa na njaa kubwa katika ulimwengu wote; nayo ikatokea katika siku za Klaudio Kaisari."
+        },
+        {
+        "number": 29,
+        "text": "Ndipo wanafunzi wakaamua, kila mmoja kulingana na uwezo wake, kutuma msaada kwa ndugu waliokuwa wakiishi Uyahudi."
+        },
+        {
+        "number": 30,
+        "text": "Ndivyo walivyofanya, wakautuma msaada huo kwa wazee kupitia mikono ya Barnaba na Sauli."
+        }
         ],
         "12": [
           {
@@ -111842,7 +112213,7 @@
           },
           {
             "number": 13,
-            "text": "Ndipo kuhani wa Jupita, ambaye hekalu lake lilikuwa mbele ya mji wao, akaleta ng'ombe na mashada ya maua malangoni, akitaka kutoa dhabihu pamoja na watu."
+            "text": "Ndipo kuhani wa Jupita, ambaye hekalu lake lilikuwa mbele ya mji wao, akaleta ng'ombe na mashada ya maua malangoni, akitaka kutoa sadaka pamoja na watu."
           },
           {
             "number": 14,
@@ -111862,7 +112233,7 @@
           },
           {
             "number": 18,
-            "text": "Na kwa maneno hayo, kwa shida sana wakawazuia watu wasiwatolee dhabihu."
+            "text": "Na kwa maneno hayo, kwa shida sana wakawazuia watu wasiwatolee sadaka."
           },
           {
             "number": 19,
@@ -112859,108 +113230,112 @@
             "text": "Ndipo Paulo akajibu, Mnafanya nini kwa kulia na kuuvunja moyo wangu? Kwa maana niko tayari si kufungwa tu, bali hata kufa huko Yerusalemu kwa ajili ya jina la Bwana Yesu."
           },
           {
-            "number": 14,
-            "text": "Baada ya siku hizo tukachukua mizigo yetu, tukapanda kwenda Yerusalemu."
+          "number": 14,
+          "text": "Na kwa kuwa hakukubali kushawishiwa, tukaacha, tukisema, Mapenzi ya Bwana na yatendeke."
           },
           {
-            "number": 15,
-            "text": "Pia baadhi ya wanafunzi kutoka Kaisaria wakaenda pamoja nasi, wakamleta pamoja nao Mnasoni wa Kipro, mwanafunzi wa zamani, ambaye tulipaswa kufikia kwake."
+          "number": 15,
+          "text": "Baada ya siku hizo tukachukua mizigo yetu, tukapanda kwenda Yerusalemu."
           },
           {
-            "number": 16,
-            "text": "Pia baadhi ya wanafunzi kutoka Kaisaria wakaenda pamoja nasi, wakamleta pamoja nao Mnasoni wa Kipro, mwanafunzi wa zamani, ambaye tulipaswa kufikia kwake."
+          "number": 16,
+          "text": "Pia baadhi ya wanafunzi kutoka Kaisaria wakaenda pamoja nasi, wakamleta pamoja nao Mnasoni wa Kipro, mwanafunzi wa zamani, ambaye tulipaswa kufikia kwake."
           },
           {
-            "number": 17,
-            "text": "Tulipofika Yerusalemu, ndugu wakatupokea kwa furaha."
+          "number": 17,
+          "text": "Tulipofika Yerusalemu, ndugu wakatupokea kwa furaha."
           },
           {
-            "number": 18,
-            "text": "Siku iliyofuata Paulo akaenda pamoja nasi kwa Yakobo; na wazee wote walikuwapo."
+          "number": 18,
+          "text": "Siku iliyofuata Paulo akaenda pamoja nasi kwa Yakobo; na wazee wote walikuwapo."
           },
           {
-            "number": 19,
-            "text": "Baada ya kuwasalimu, akawaeleza kwa kina mambo ambayo Mungu alikuwa ameyafanya miongoni mwa Mataifa kupitia huduma yake."
+          "number": 19,
+          "text": "Baada ya kuwasalimu, akawaeleza kwa kina mambo ambayo Mungu alikuwa ameyafanya miongoni mwa Mataifa kupitia huduma yake."
           },
           {
-            "number": 20,
-            "text": "Waliposikia hayo, wakamtukuza Bwana, wakamwambia, Ndugu, unaona jinsi maelfu mengi ya Wayahudi walivyoamini; nao wote wana bidii kwa ajili ya Torati."
+          "number": 20,
+          "text": "Waliposikia hayo, wakamtukuza Bwana, wakamwambia, Ndugu, unaona jinsi maelfu mengi ya Wayahudi walivyoamini; nao wote wana bidii kwa ajili ya Torati."
           },
           {
-            "number": 21,
-            "text": "Nao wameambiwa habari zako kwamba unawafundisha Wayahudi wote walio miongoni mwa Mataifa kumwacha Musa, ukiwaambia kwamba wasiwatahiri watoto wao wala wasiishi kulingana na desturi."
+          "number": 21,
+          "text": "Nao wameambiwa habari zako kwamba unawafundisha Wayahudi wote walio miongoni mwa Mataifa kumwacha Musa, ukiwaambia kwamba wasiwatahiri watoto wao wala wasiishi kulingana na desturi."
           },
           {
-            "number": 22,
-            "text": "Basi tufanye nini? Bila shaka umati utakusanyika pamoja, kwa maana watasikia kwamba umefika."
+          "number": 22,
+          "text": "Basi tufanye nini? Bila shaka umati utakusanyika pamoja, kwa maana watasikia kwamba umefika."
           },
           {
-            "number": 23,
-            "text": "Basi fanya jambo hili tunalokuambia: Tunao watu wanne walio na nadhiri juu yao."
+          "number": 23,
+          "text": "Basi fanya jambo hili tunalokuambia: Tunao watu wanne walio na nadhiri juu yao."
           },
           {
-            "number": 24,
-            "text": "Wachukue hao, ujitakase pamoja nao, na uwalipie gharama zao ili wanyoe vichwa vyao; ndipo wote watajua kwamba mambo waliyoambiwa kuhusu wewe si ya kweli, bali kwamba wewe mwenyewe pia unaishi kwa utaratibu na kuihifadhi Torati."
+          "number": 24,
+          "text": "Wachukue hao, ujitakase pamoja nao, na uwalipie gharama zao ili wanyoe vichwa vyao; ndipo wote watajua kwamba mambo waliyoambiwa kuhusu wewe si ya kweli, bali kwamba wewe mwenyewe pia unaishi kwa utaratibu na kuihifadhi Torati."
           },
           {
-            "number": 25,
-            "text": "Lakini kuhusu Mataifa walioamini, tuliandika na kuamua kwamba wasihifadhi jambo kama hilo, isipokuwa tu wajihifadhi na vitu vilivyotolewa sadaka kwa sanamu, na damu, na vitu vilivyonyongwa, na uasherati."
+          "number": 25,
+          "text": "Lakini kuhusu Mataifa walioamini, tuliandika na kuamua kwamba wasihifadhi jambo kama hilo, isipokuwa tu wajihifadhi na vitu vilivyotolewa sadaka kwa sanamu, na damu, na vitu vilivyonyongwa, na uasherati."
           },
           {
-            "number": 26,
-            "text": "Ndipo Paulo akawachukua wale watu; na siku iliyofuata, baada ya kujitakasa pamoja nao, akaingia hekaluni kutangaza kutimia kwa siku za utakaso, mpaka sadaka itakapotolewa kwa ajili ya kila mmoja wao."
+          "number": 26,
+          "text": "Ndipo Paulo akawachukua wale watu; na siku iliyofuata, baada ya kujitakasa pamoja nao, akaingia hekaluni kutangaza kutimia kwa siku za utakaso, mpaka sadaka itakapotolewa kwa ajili ya kila mmoja wao."
           },
           {
-            "number": 27,
-            "text": "Zile siku saba zilipokuwa karibu kwisha, Wayahudi waliotoka Asia walipomwona Paulo hekaluni, wakawachochea watu wote, wakamkamata,"
+          "number": 27,
+          "text": "Zile siku saba zilipokuwa karibu kwisha, Wayahudi waliotoka Asia walipomwona Paulo hekaluni, wakawachochea watu wote, wakamkamata,"
           },
           {
-            "number": 28,
-            "text": "wakipaza sauti, Enyi watu wa Israeli, tusaidieni! Huyu ndiye mtu anayewafundisha watu wote kila mahali mambo yaliyo kinyume na watu hawa, na Torati, na mahali hapa; tena amewaingiza Wagiriki hekaluni na kupanajisi mahali hapa patakatifu."
+          "number": 28,
+          "text": "wakipaza sauti, Enyi watu wa Israeli, tusaidieni! Huyu ndiye mtu anayewafundisha watu wote kila mahali mambo yaliyo kinyume na watu hawa, na Torati, na mahali hapa; tena amewaingiza Wagiriki hekaluni na kupanajisi mahali hapa patakatifu."
           },
           {
-            "number": 29,
-            "text": "Kwa maana hapo awali walikuwa wamemwona Trofimo, Mwefeso, akiwa pamoja naye mjini, wakadhani kwamba Paulo alikuwa amemwingiza hekaluni."
+          "number": 29,
+          "text": "Kwa maana hapo awali walikuwa wamemwona Trofimo, Mwefeso, akiwa pamoja naye mjini, wakadhani kwamba Paulo alikuwa amemwingiza hekaluni."
           },
           {
-            "number": 30,
-            "text": "Mji wote ukachafuka, watu wakakimbilia pamoja; wakamkamata Paulo, wakamkokota nje ya hekalu, na mara milango ikafungwa."
+          "number": 30,
+          "text": "Mji wote ukachafuka, watu wakakimbilia pamoja; wakamkamata Paulo, wakamkokota nje ya hekalu, na mara milango ikafungwa."
           },
           {
-            "number": 31,
-            "text": "Walipokuwa wakitafuta kumuua, habari zikamfikia mkuu wa jeshi kwamba Yerusalemu yote ilikuwa katika ghasia."
+          "number": 31,
+          "text": "Walipokuwa wakitafuta kumuua, habari zikamfikia mkuu wa jeshi kwamba Yerusalemu yote ilikuwa katika ghasia."
           },
           {
-            "number": 32,
-            "text": "Mara akawachukua askari na maakida, akawakimbilia; nao walipomwona mkuu wa jeshi na askari, wakaacha kumpiga Paulo."
+          "number": 32,
+          "text": "Mara akawachukua askari na maakida, akawakimbilia; nao walipomwona mkuu wa jeshi na askari, wakaacha kumpiga Paulo."
           },
           {
-            "number": 33,
-            "text": "Ndipo mkuu wa jeshi akakaribia, akamkamata, akaamuru afungwe kwa minyororo miwili; akauliza yeye ni nani na amefanya nini. Baadhi ya watu katika umati wakapaza sauti wakisema jambo moja, na wengine jambo jingine; na kwa kuwa hakuweza kujua ukweli kwa sababu ya ghasia, akaamuru Paulo apelekwe ndani ya ngome."
+          "number": 33,
+          "text": "Ndipo mkuu wa jeshi akakaribia, akamkamata, akaamuru afungwe kwa minyororo miwili; akauliza yeye ni nani na amefanya nini."
           },
           {
-            "number": 34,
-            "text": "Alipofika kwenye ngazi, ikabidi abebwe na askari kwa sababu ya vurugu za watu."
+          "number": 34,
+          "text": "Baadhi ya watu katika umati wakapaza sauti wakisema jambo moja, na wengine jambo jingine; na kwa kuwa hakuweza kujua ukweli kwa sababu ya ghasia, akaamuru Paulo apelekwe ndani ya ngome."
           },
           {
-            "number": 35,
-            "text": "Kwa maana umati wa watu ulimfuata, ukipaza sauti, Mwondoe!"
+          "number": 35,
+          "text": "Alipofika kwenye ngazi, ikabidi abebwe na askari kwa sababu ya vurugu za watu."
           },
           {
-            "number": 36,
-            "text": "Paulo alipokuwa karibu kuingizwa ndani ya ngome, akamwambia mkuu wa jeshi, Je, naweza kusema nawe? Naye akasema, Je, unajua kusema Kigiriki?"
+          "number": 36,
+          "text": "Kwa maana umati wa watu ulimfuata, ukipaza sauti, Mwondoe!"
           },
           {
-            "number": 37,
-            "text": "Je, wewe si yule Mmisri ambaye siku zilizopita alianzisha ghasia na kuwaongoza jangwani watu elfu nne wauaji?"
+          "number": 37,
+          "text": "Paulo alipokuwa karibu kuingizwa ndani ya ngome, akamwambia mkuu wa jeshi, Je, naweza kusema nawe? Naye akasema, Je, unajua kusema Kigiriki?"
           },
           {
-            "number": 38,
-            "text": "Lakini Paulo akasema, Mimi ni Myahudi kutoka Tarso, mji wa Kilikia, raia wa mji usio mdogo; nami nakusihi, uniruhusu niseme na watu."
+          "number": 38,
+          "text": "Je, wewe si yule Mmisri ambaye siku zilizopita alianzisha ghasia na kuwaongoza jangwani watu elfu nne wauaji?"
           },
           {
-            "number": 39,
-            "text": "Alipomruhusu, Paulo akasimama juu ya ngazi, akawapungia watu mkono. Kulipotokea ukimya mkubwa, akasema nao kwa lugha ya Kiebrania, akisema,"
+          "number": 39,
+          "text": "Lakini Paulo akasema, Mimi ni Myahudi kutoka Tarso, mji wa Kilikia, raia wa mji usio mdogo; nami nakusihi, uniruhusu niseme na watu."
+          },
+          {
+          "number": 40,
+          "text": "Alipomruhusu, Paulo akasimama juu ya ngazi, akawapungia watu mkono. Kulipotokea ukimya mkubwa, akasema nao kwa lugha ya Kiebrania, akisema,"
           }
         ],
         "22": [
@@ -114238,7 +114613,7 @@
           },
           {
             "number": 25,
-            "text": "ambaye Mungu amemweka kuwa dhabihu ya upatanisho kupitia imani katika damu yake, ili kuudhihirisha usahihi wake kwa ajili ya msamaha wa dhambi zilizotendwa zamani, kupitia uvumilivu wa Mungu;"
+            "text": "ambaye Mungu amemweka kuwa sadaka ya upatanisho kupitia imani katika damu yake, ili kuudhihirisha usahihi wake kwa ajili ya msamaha wa dhambi zilizotendwa zamani, kupitia uvumilivu wa Mungu;"
           },
           {
             "number": 26,
@@ -115015,13 +115390,17 @@
             "text": "Lakini nasema, Je, hawakusikia? Naam, hakika, sauti yao ilienea katika dunia yote, na maneno yao mpaka miisho ya ulimwengu."
           },
           {
-            "number": 19,
-            "text": "Lakini Isaya ana ujasiri mkubwa, na anasema, Nilipatikana na wale ambao hawakunitafuta; nilijidhihirisha kwa wale ambao hawakuniulizia."
-          },
-          {
-            "number": 20,
-            "text": "Lakini kuhusu Israeli anasema, Mchana kutwa nimeinyosha mikono yangu kwa watu wasiotii na wanaopinga."
-          }
+        "number": 19,
+        "text": "Lakini nasema, Je, Israeli hawakujua? Kwanza Musa anasema, Nitawatia wivu kwa wale ambao si taifa, na kwa taifa lisilo na akili nitawakasirisha."
+        },
+        {
+        "number": 20,
+        "text": "Lakini Isaya ana ujasiri mkubwa, na anasema, Nilipatikana na wale ambao hawakunitafuta; nilijidhihirisha kwa wale ambao hawakuniulizia."
+        },
+        {
+        "number": 21,
+        "text": "Lakini kuhusu Israeli anasema, Mchana kutwa nimeinyosha mikono yangu kwa watu wasiotii na wanaopinga."
+        }
         ],
         "11": [
           {
@@ -115172,7 +115551,7 @@
         "12": [
           {
             "number": 1,
-            "text": "Basi nawasihi, ndugu, kwa rehema za Mungu, kwamba itoeni miili yenu kuwa dhabihu iliyo hai, takatifu, inayokubalika kwa Mungu, ambayo ndiyo ibada yenu yenye akili."
+            "text": "Basi nawasihi, ndugu, kwa rehema za Mungu, kwamba itoeni miili yenu kuwa sadaka iliyo hai, takatifu, inayokubalika kwa Mungu, ambayo ndiyo ibada yenu yenye akili."
           },
           {
             "number": 2,
@@ -116060,7 +116439,7 @@
           },
           {
             "number": 7,
-            "text": "Kwa hiyo iondoeni chachu ya kale, ili mpate kuwa donge jipya, kwa kuwa ninyi hamna chachu. Kwa maana Kristo, Pasaka yetu, ametolewa dhabihu kwa ajili yetu."
+            "text": "Kwa hiyo iondoeni chachu ya kale, ili mpate kuwa donge jipya, kwa kuwa ninyi hamna chachu. Kwa maana Kristo, Pasaka yetu, ametolewa sadaka kwa ajili yetu."
           },
           {
             "number": 8,
@@ -116488,7 +116867,7 @@
           },
           {
             "number": 26,
-            "text": "wa hiyo mimi nakimbia hivyo, si bila kusudi; napigana hivyo, si kama mtu anayepiga hewa;"
+            "text": "Kwa hiyo mimi nakimbia hivyo, si bila kusudi; napigana hivyo, si kama mtu anayepiga hewa;"
           },
           {
             "number": 27,
@@ -116566,7 +116945,7 @@
           },
           {
             "number": 18,
-            "text": "Waangalieni Israeli kwa jinsi ya mwili; je, wale wanaokula dhabihu si washiriki wa madhabahu?"
+            "text": "Waangalieni Israeli kwa jinsi ya mwili; je, wale wanaokula sadaka si washiriki wa madhabahu?"
           },
           {
             "number": 19,
@@ -117708,7 +118087,7 @@
           },
           {
             "number": 4,
-            "text": "ambao ndani yao mungu wa ulimwengu huu amepofusha nia za wale wasioamini, ili nuru ya Injili yenye utukufu ya Kristo, ambaye ni mfano wa Mungu, isiwaangazie."
+            "text": "ambao ndani yao mungu wa ulimwengu huu amepofusha akili za wale wasioamini, ili nuru ya Injili yenye utukufu ya Kristo, ambaye ni taswira ya Mungu, isiwaangazie."
           },
           {
             "number": 5,
@@ -117756,7 +118135,7 @@
           },
           {
             "number": 16,
-            "text": "Kwa sababu hiyo hatukati tamaa; bali ijapokuwa mtu wetu wa nje anaharibika, mtu wa ndani anafanywa upya siku baada ya siku."
+            "text": "Kwa sababu hiyo hatukati tamaa; bali ijapokuwa utu wetu wa nje anaharibika, utu wa ndani anafanywa upya siku baada ya siku."
           },
           {
             "number": 17,
@@ -118238,7 +118617,7 @@
           },
           {
             "number": 3,
-            "text": "Lakini nina hofu kwamba, kwa namna yoyote, kama vile nyoka alivyomdanganya Hawa kwa hila zake, vivyo hivyo nia zenu zisije zikaharibiwa na kuondolewa katika unyofu ulio ndani ya Kristo."
+            "text": "Lakini nina hofu kwamba, kwa namna yoyote, kama vile nyoka alivyomdanganya Hawa kwa hila zake, vivyo hivyo akili zenu zisije zikaharibiwa na kuondolewa katika unyofu ulio ndani ya Kristo."
           },
           {
             "number": 4,
@@ -119038,11 +119417,15 @@
           },
           {
             "number": 24,
-            "text": "Ikiwa tunaishi katika Roho, na tuenende pia katika Roho."
+            "text": "Na wale walio wa Kristo wameusulubisha mwili pamoja na tamaa na tamaa zake."
           },
           {
             "number": 25,
-            "text": "Tusitamani utukufu wa bure, tukichokozana sisi kwa sisi, na kuoneana wivu sisi kwa sisi."
+            "text": "Ikiwa tunaishi katika Roho, na tuenende pia katika Roho."
+          },
+          {
+            "number": 26,
+            "text": "Tusiwe wenye kutamani utukufu wa bure, tukichokozana, na kuoneana wivu."
           }
         ],
         "6": [
@@ -119494,7 +119877,7 @@
           },
           {
             "number": 24,
-            "text": "na mvae utu mpya, ambao umeumbwa kwa mfano wa Mungu katika usahihi na utakatifu wa kweli."
+            "text": "na mvae utu mpya, ambao umeumbwa kwa taswira ya Mungu katika usahihi na utakatifu wa kweli."
           },
           {
             "number": 25,
@@ -119536,7 +119919,7 @@
           },
           {
             "number": 2,
-            "text": "na enendeni katika upendo, kama Kristo naye alivyotupenda, na kujitoa mwenyewe kwa ajili yetu kuwa sadaka na dhabihu kwa Mungu, kuwa harufu nzuri yenye kupendeza."
+            "text": "na enendeni katika upendo, kama Kristo naye alivyotupenda, na kujitoa mwenyewe kwa ajili yetu kuwa toleo na sadaka kwa Mungu, kuwa harufu nzuri yenye kupendeza."
           },
           {
             "number": 3,
@@ -119916,7 +120299,7 @@
           },
           {
             "number": 6,
-            "text": "Ambaye yeye mwanzo alikuwa yuna namna ya Mungu kuwa ni kitu cha kushikamana nacho;"
+            "text": "Ambaye yeye mwanzo alikuwa yuna namna ya Mungu hakuhesabu kule kua sawa na Mungu kuwa ni kitu cha kushikamana nacho;"
           },
           {
             "number": 7,
@@ -119960,7 +120343,7 @@
           },
           {
             "number": 17,
-            "text": "Naam, na hata nikimiminwa kuwa sadaka juu ya dhabihu na huduma ya imani yenu, ninafurahi, na kufurahi pamoja nanyi nyote."
+            "text": "Naam, na hata nikimiminwa kuwa sadaka juu ya sadaka na huduma ya imani yenu, ninafurahi, na kufurahi pamoja nanyi nyote."
           },
           {
             "number": 18,
@@ -120172,7 +120555,7 @@
           },
           {
             "number": 18,
-            "text": "Lakini nina kila kitu, nami nina wingi; nimejazwa, baada ya kupokea kutoka kwa Epafrodito vitu mlivyonitumia, harufu nzuri yenye kupendeza, dhabihu inayokubalika, inayompendeza Mungu."
+            "text": "Lakini nina kila kitu, nami nina wingi; nimejazwa, baada ya kupokea kutoka kwa Epafrodito vitu mlivyonitumia, harufu nzuri yenye kupendeza, sadaka inayokubalika, inayompendeza Mungu."
           },
           {
             "number": 19,
@@ -120256,7 +120639,7 @@
           },
           {
             "number": 13,
-            "text": "Vambaye ametuokoa kutoka katika mamlaka ya giza, na kutuhamisha kuingia katika ufalme wa Mwana wake mpendwa;"
+            "text": "Ambaye ametuokoa kutoka katika mamlaka ya giza, na kutuhamisha kuingia katika ufalme wa Mwana wake mpendwa;"
           },
           {
             "number": 14,
@@ -120405,13 +120788,17 @@
             "text": "Kwa hiyo, ikiwa mmekufa pamoja na Kristo kutoka katika mafundisho ya msingi ya ulimwengu, kwa nini, kana kwamba mnaishi katika ulimwengu, mnajiweka chini ya maagizo,"
           },
           {
-            "number": 21,
-            "text": "(Usiguse, usionje, usishike ambayo yote huharibika kwa kutumiwa;) kufuatana na amri na mafundisho ya wanadamu?"
-          },
-          {
-            "number": 22,
-            "text": "Mambo hayo kwa kweli yanaonekana kuwa na hekima katika ibada ya kujichagulia wenyewe, na unyenyekevu, na kuutesa mwili; lakini hayana thamani yoyote katika kuzuia kutosheleza tamaa za mwili."
-          }
+        "number": 21,
+        "text": "Usiguse, usionje, usishike;"
+        },
+        {
+        "number": 22,
+        "text": "ambavyo vyote huharibika kwa kutumiwa; kufuatana na amri na mafundisho ya wanadamu?"
+        },
+        {
+        "number": 23,
+        "text": "Mambo hayo kwa kweli yanaonekana kuwa na hekima katika ibada ya kujichagulia wenyewe, na unyenyekevu, na kuutesa mwili; lakini hayana thamani yoyote katika kuzuia kutosheleza tamaa za mwili."
+        }
         ],
         "3": [
           {
@@ -121930,7 +122317,7 @@
           },
           {
             "number": 7,
-            "text": "Nimepiga vita vizuri, nimemaliza mwendo wangu, nimeilinda imani;"
+            "text": "Nimevipiga vita vilivyo vizuri, mwendo nimeumaliza, imani imani nimeilinda."
           },
           {
             "number": 8,
@@ -122108,7 +122495,7 @@
           },
           {
             "number": 10,
-            "text": "Wasiibe, bali waunyeshe uaminifu wote ulio mwema, ili katika mambo yote wayapambe mafundisho ya Mungu Mwokozi wetu."
+            "text": "Wasiibe, bali wauonyeshe uaminifu wote ulio mwema, ili katika mambo yote wayapambe mafundisho ya Mungu Mwokozi wetu."
           },
           {
             "number": 11,
@@ -122838,7 +123225,7 @@
           },
           {
             "number": 27,
-            "text": "ambaye hana haja kila siku, kama wale makuhani wakuu, kutoa dhabihu, kwanza kwa ajili ya dhambi zake mwenyewe, kisha kwa ajili ya dhambi za watu; kwa maana alifanya hivyo mara moja, alipojitoa mwenyewe."
+            "text": "ambaye hana haja kila siku, kama wale makuhani wakuu, kutoa sadaka, kwanza kwa ajili ya dhambi zake mwenyewe, kisha kwa ajili ya dhambi za watu; kwa maana alifanya hivyo mara moja, alipojitoa mwenyewe."
           },
           {
             "number": 28,
@@ -122934,7 +123321,7 @@
           },
           {
             "number": 9,
-            "text": "ambayo ilikuwa mfano kwa wakati ule wa sasa, ambapo zawadi na dhabihu zilitolewa, ambazo hazikuweza kumkamilisha katika dhamiri yeye aliyefanya ibada;"
+            "text": "ambayo ilikuwa mfano kwa wakati ule wa sasa, ambapo zawadi na sadaka zilitolewa, ambazo hazikuweza kumkamilisha katika dhamiri yeye aliyefanya ibada;"
           },
           {
             "number": 10,
@@ -122990,7 +123377,7 @@
           },
           {
             "number": 23,
-            "text": "Kwa hiyo ilikuwa lazima mifano ya vitu vilivyo mbinguni isafishwe kwa vitu hivi; lakini vitu vya mbinguni vyenyewe visafishwe kwa dhabihu zilizo bora zaidi kuliko hizi."
+            "text": "Kwa hiyo ilikuwa lazima mifano ya vitu vilivyo mbinguni isafishwe kwa vitu hivi; lakini vitu vya mbinguni vyenyewe visafishwe kwa sadaka zilizo bora zaidi kuliko hizi."
           },
           {
             "number": 24,
@@ -123002,7 +123389,7 @@
           },
           {
             "number": 26,
-            "text": "maana kama ingekuwa hivyo, ingempasa kuteseka mara nyingi tangu kuwekwa msingi wa ulimwengu; lakini sasa mara moja katika mwisho wa ulimwengu amedhihirishwa ili kuiondoa dhambi kwa dhabihu ya nafsi yake mwenyewe."
+            "text": "maana kama ingekuwa hivyo, ingempasa kuteseka mara nyingi tangu kuwekwa msingi wa ulimwengu; lakini sasa mara moja katika mwisho wa ulimwengu amedhihirishwa ili kuiondoa dhambi kwa sadaka ya nafsi yake mwenyewe."
           },
           {
             "number": 27,
@@ -123016,15 +123403,15 @@
         "10": [
           {
             "number": 1,
-            "text": "Kwa maana Torati, ikiwa na kivuli cha mambo mema yatakayokuja, wala si mfano halisi wa mambo hayo, haiwezi kamwe kwa dhabihu zile zile wanazozitoa mwaka baada ya mwaka daima kuwakamilisha wale wanaokaribia."
+            "text": "Kwa maana Torati, ikiwa na kivuli cha mambo mema yatakayokuja, wala si mfano halisi wa mambo hayo, haiwezi kamwe kwa sadaka zile zile wanazozitoa mwaka baada ya mwaka daima kuwakamilisha wale wanaokaribia."
           },
           {
             "number": 2,
-            "text": "Kwa maana kama ingekuwa hivyo, je, dhabihu hizo zisingekoma kutolewa? Kwa sababu waabuduo, wakiisha kusafishwa mara moja, wasingekuwa tena na dhamiri ya dhambi."
+            "text": "Kwa maana kama ingekuwa hivyo, je, sadaka hizo zisingekoma kutolewa? Kwa sababu waabuduo, wakiisha kusafishwa mara moja, wasingekuwa tena na dhamiri ya dhambi."
           },
           {
             "number": 3,
-            "text": "Lakini katika dhabihu hizo kuna ukumbusho wa dhambi tena kila mwaka."
+            "text": "Lakini katika sadaka hizo kuna ukumbusho wa dhambi tena kila mwaka."
           },
           {
             "number": 4,
@@ -123032,11 +123419,11 @@
           },
           {
             "number": 5,
-            "text": "Kwa hiyo, anapokuja ulimwenguni, anasema, Dhabihu na sadaka hukuzitaka, bali mwili umeniandalia;"
+            "text": "Kwa hiyo, anapokuja ulimwenguni, anasema, matoleo na sadaka hukuzitaka, bali mwili umeniandalia;"
           },
           {
             "number": 6,
-            "text": "katika sadaka za kuteketezwa na dhabihu kwa ajili ya dhambi hukupendezwa."
+            "text": "katika sadaka za kuteketezwa na sadaka kwa ajili ya dhambi hukupendezwa."
           },
           {
             "number": 7,
@@ -123044,7 +123431,7 @@
           },
           {
             "number": 8,
-            "text": "Hapo juu aliposema, Dhabihu na sadaka na sadaka za kuteketezwa na dhabihu kwa ajili ya dhambi hukuzitaka, wala hukupendezwa nazo; ambazo hutolewa kulingana na Torati;"
+            "text": "Hapo juu aliposema,matoleo na sadaka za kuteketezwa na sadaka kwa ajili ya dhambi hukuzitaka, wala hukupendezwa nazo; ambazo hutolewa kulingana na Torati;"
           },
           {
             "number": 9,
@@ -123060,7 +123447,7 @@
           },
           {
             "number": 12,
-            "text": "lakini huyu, baada ya kutoa dhabihu moja kwa ajili ya dhambi milele, aliketi mkono wa kuume wa Mungu;"
+            "text": "lakini huyu, baada ya kutoa sadaka moja kwa ajili ya dhambi milele, aliketi mkono wa kuume wa Mungu;"
           },
           {
             "number": 13,
@@ -123116,7 +123503,7 @@
           },
           {
             "number": 26,
-            "text": "Kwa maana ikiwa tunatenda dhambi kwa makusudi baada ya kupokea maarifa ya kweli, haibaki tena dhabihu kwa ajili ya dhambi,"
+            "text": "Kwa maana ikiwa tunatenda dhambi kwa makusudi baada ya kupokea maarifa ya kweli, haibaki tena sadaka kwa ajili ya dhambi,"
           },
           {
             "number": 27,
@@ -123642,7 +124029,7 @@
           },
           {
             "number": 20,
-            "text": "Kwa maana hasira ya mwanadamu haitendi haki ya Mungu."
+            "text": "Kwa maana hasira ya mwanadamu haitendi usahihi wa Mungu."
           },
           {
             "number": 21,
@@ -123756,7 +124143,7 @@
           },
           {
             "number": 21,
-            "text": "Je, Abrahamu baba yetu hakuhesabiwa kuwa mwenye haki kwa matendo, alipomtoa Isaka mwanawe juu ya madhabahu?"
+            "text": "Je, Abrahamu baba yetu hakuhesabiwa kuwa sahihi kwa matendo, alipomtoa Isaka mwanawe juu ya madhabahu?"
           },
           {
             "number": 22,
@@ -123768,11 +124155,11 @@
           },
           {
             "number": 24,
-            "text": "Basi mnaona kwamba kwa matendo mtu huhesabiwa kuwa mwenye haki, wala si kwa imani peke yake."
+            "text": "Basi mnaona kwamba kwa matendo mtu huhesabiwa kuwa sahihi, wala si kwa imani peke yake."
           },
           {
             "number": 25,
-            "text": "Vivyo hivyo, je, Rahabu yule kahaba hakuhesabiwa kuwa mwenye haki kwa matendo, alipowapokea wale wajumbe na kuwapeleka waondoke kwa njia nyingine?"
+            "text": "Vivyo hivyo, je, Rahabu yule kahaba hakuhesabiwa kuwa sahihi kwa matendo, alipowapokea wale wajumbe na kuwapeleka waondoke kwa njia nyingine?"
           },
           {
             "number": 26,
@@ -123814,7 +124201,7 @@
           },
           {
             "number": 9,
-            "text": "Kwa ulimi huo tunambariki Mungu, yaani Baba; na kwa ulimi huo tunawalaani wanadamu, ambao wameumbwa kwa mfano wa Mungu."
+            "text": "Kwa ulimi huo tunambariki Mungu, yaani Baba; na kwa ulimi huo tunawalaani wanadamu, ambao wameumbwa kwa taswira ya Mungu."
           },
           {
             "number": 10,
@@ -123946,7 +124333,7 @@
           },
           {
             "number": 6,
-            "text": "Mmemhukumu na kumuua mwenye haki; naye hawapingi."
+            "text": "Mmemhukumu na kumuua aliye sahihi; naye hawapingi."
           },
           {
             "number": 7,
@@ -123986,7 +124373,7 @@
           },
           {
             "number": 16,
-            "text": "Ungameni makosa yenu ninyi kwa ninyi na kuombeana, ili mpate kuponywa. Kuomba kwake mwenye haki kwafaa sana, akiomba kwa bidii."
+            "text": "Ungameni makosa yenu ninyi kwa ninyi na kuombeana, ili mpate kuponywa. Kuomba kwake aliye sahihi kwafaa sana, akiomba kwa bidii."
           },
           {
             "number": 17,
@@ -124254,7 +124641,7 @@
           },
           {
             "number": 9,
-            "text": "Hatimaye, ninyi nyote muwe na nia moja, mkihurumiana, mkipendana kama ndugu, mkiwa na moyo wa huruma na wenye adabu;"
+            "text": "Msilipe uovu kwa uovu, wala matusi kwa matusi; bali kinyume chake, barikini; mkijua ya kuwa kwa jambo hilo mmeitwa, ili mrithi baraka."
           },
           {
             "number": 10,
@@ -124266,7 +124653,7 @@
           },
           {
             "number": 12,
-            "text": "Kwa maana macho ya Bwana huwaelekea wenye haki, na masikio yake yako wazi kwa maombi yao; lakini uso wa Bwana uko dhidi ya wale watendao uovu."
+            "text": "Kwa maana macho ya Bwana huwaelekea walio sahihi, na masikio yake yako wazi kwa maombi yao; lakini uso wa Bwana uko dhidi ya wale watendao uovu."
           },
           {
             "number": 13,
@@ -124290,7 +124677,7 @@
           },
           {
             "number": 18,
-            "text": "Kwa maana Kristo naye aliteseka mara moja kwa ajili ya dhambi, mwenye haki kwa ajili ya wasio haki, ili atulete kwa Mungu; akauawa katika mwili, lakini akahuishwa kwa Roho;"
+            "text": "Kwa maana Kristo naye aliteseka mara moja kwa ajili ya dhambi, aliye sahihi kwa ajili ya wasio sahihi, ili atulete kwa Mungu; akauawa katika mwili, lakini akahuishwa kwa Roho;"
           },
           {
             "number": 19,
@@ -124568,11 +124955,11 @@
           },
           {
             "number": 7,
-            "text": "Lakini alimwokoa Lutu mwenye haki, aliyekuwa akiteswa sana na mwenendo mchafu wa watu waovu;"
+            "text": "Lakini alimwokoa Lutu aliye sahihi, aliyekuwa akiteswa sana na mwenendo mchafu wa watu waovu;"
           },
           {
             "number": 8,
-            "text": "(Kwa maana mtu huyo mwenye haki, alipokuwa akiishi miongoni mwao, alitesa roho yake ya haki siku baada ya siku kwa kuona na kusikia matendo yao ya uasi.)."
+            "text": "(Kwa maana mtu huyo aliye sahihi, alipokuwa akiishi miongoni mwao, alitesa roho yake ya haki siku baada ya siku kwa kuona na kusikia matendo yao ya uasi.)."
           },
           {
             "number": 9,
@@ -124760,7 +125147,7 @@
         "2": [
           {
             "number": 1,
-            "text": "Watoto wangu wadogo, ninawaandikia mambo haya ili msitende dhambi. Na ikiwa mtu yeyote anatenda dhambi, tunaye Mwombezi kwa Baba, Yesu Kristo mwenye haki;"
+            "text": "Watoto wangu wadogo, ninawaandikia mambo haya ili msitende dhambi. Na ikiwa mtu yeyote anatenda dhambi, tunaye Mwombezi kwa Baba, Yesu Kristo aliye sahihi;"
           },
           {
             "number": 2,
@@ -126190,7 +126577,7 @@
           },
           {
             "number": 18,
-            "text": "Na Mataifa walikasirika, na ghadhabu yako imekuja, na wakati wa wafu, ili wahukumiwe, na ili uwape thawabu watumishi wako manabii, na watakatifu, na wale wanaolicha jina lako, wadogo kwa wakubwa; na uwaangamize wale wanaoiangamiza dunia."
+            "text": "Na Mataifa walikasirika, na ghadhabu yako imekuja, na wakati wa wafu, ili wahukumiwe, na ili uwape thawabu watumishi wako manabii, na watakatifu, na wale wanaolihofu jina lako, wadogo kwa wakubwa; na uwaangamize wale wanaoiangamiza dunia."
           },
           {
             "number": 19,
@@ -126306,7 +126693,7 @@
           },
           {
             "number": 10,
-            "text": "Yeye apelekeye utumwani ataenda utumwani; yeye auaye kwa upanga lazima auawe kwa upanga. Hapa ndipo penye uvumilivu na imani ya watakatifu."
+            "text": "Yeye apelekaye utumwani ataenda utumwani; yeye auaye kwa upanga lazima auawe kwa upanga. Hapa ndipo penye uvumilivu na imani ya watakatifu."
           },
           {
             "number": 11,
@@ -126734,7 +127121,7 @@
           },
           {
             "number": 5,
-            "text": "Na sauti ikatoka katika kiti cha enzi, ikisema, Msifuni Mungu wetu, ninyi watumishi wake wote, na ninyi mnaomcha, wadogo kwa wakubwa."
+            "text": "Na sauti ikatoka katika kiti cha enzi, ikisema, Msifuni Mungu wetu, ninyi watumishi wake wote, na ninyi mnaomhofu, wadogo kwa wakubwa."
           },
           {
             "number": 6,

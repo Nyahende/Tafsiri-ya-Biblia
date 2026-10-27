@@ -9,6 +9,7 @@ import '../../screens/dictionary_screen.dart';
 import '../../screens/about_screen.dart';
 import 'bible_search_screen.dart';
 import 'tenzi_screen.dart';
+import 'audio_bible_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -201,7 +202,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     FeatureCard(
                       icon: Icons.headphones_rounded,
                       title: 'Sikiliza Biblia',
-                      onTap: () => _showComingSoon('Sikiliza Biblia'),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const AudioBibleScreen(),
+                          ),
+                        );
+                      },
                     ),
                     FeatureCard(
                       icon: Icons.library_music_rounded,

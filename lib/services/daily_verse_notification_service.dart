@@ -1,4 +1,5 @@
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:flutter/services.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
@@ -24,6 +25,9 @@ class DailyVerseNotificationService {
   static final FlutterLocalNotificationsPlugin _notifications =
       FlutterLocalNotificationsPlugin();
 
+  static bool _initialized = false;
+  static bool _permissionRequestInProgress = false;
+
   static void Function(DailyVerseNotificationTarget target)? onNotificationTap;
   static DailyVerseNotificationTarget? _pendingTarget;
 
@@ -33,7 +37,12 @@ class DailyVerseNotificationService {
 
   /// Initialize local notifications.
   static Future<void> initialize() async {
+    if (_initialized) {
+      return;
+    }
+
     tz.initializeTimeZones();
+    tz.setLocalLocation(tz.getLocation('Africa/Dar_es_Salaam'));
 
     const AndroidInitializationSettings androidSettings =
         AndroidInitializationSettings('@mipmap/ic_launcher');
@@ -54,16 +63,33 @@ class DailyVerseNotificationService {
     }
 
     await _requestNotificationPermission();
+
+    _initialized = true;
   }
 
   /// Ask for notification permission on supported Android versions.
   static Future<void> _requestNotificationPermission() async {
-    final AndroidFlutterLocalNotificationsPlugin? androidPlugin = _notifications
-        .resolvePlatformSpecificImplementation<
-          AndroidFlutterLocalNotificationsPlugin
-        >();
+    if (_permissionRequestInProgress) {
+      return;
+    }
 
-    await androidPlugin?.requestNotificationsPermission();
+    _permissionRequestInProgress = true;
+
+    try {
+      final AndroidFlutterLocalNotificationsPlugin? androidPlugin =
+          _notifications
+              .resolvePlatformSpecificImplementation<
+                AndroidFlutterLocalNotificationsPlugin
+              >();
+
+      await androidPlugin?.requestNotificationsPermission();
+    } on PlatformException catch (error) {
+      if (error.code != 'permissionRequestInProgress') {
+        rethrow;
+      }
+    } finally {
+      _permissionRequestInProgress = false;
+    }
   }
 
   /// Called when the user taps the Neno la Leo notification.
@@ -163,19 +189,22 @@ class DailyVerseNotificationService {
           tz.local,
         );
 
+        final String notificationBody =
+            '${verse.verseText}\n\n${verse.reference}';
+
         await _notifications.zonedSchedule(
           _notificationIdForDateAndHour(date, hour),
           'Neno la Leo 📖',
-          '${verse.verseText}\n\n${verse.reference}',
+          notificationBody,
           scheduledTime,
-          const NotificationDetails(
+          NotificationDetails(
             android: AndroidNotificationDetails(
               _channelId,
               _channelName,
               channelDescription: _channelDescription,
               importance: Importance.high,
               priority: Priority.high,
-              styleInformation: BigTextStyleInformation(''),
+              styleInformation: BigTextStyleInformation(notificationBody),
             ),
           ),
           androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,

@@ -1,13 +1,18 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import 'screens/splash_screen.dart';
 import 'screens/verse_reading_screen.dart';
 import 'services/daily_verse_notification_service.dart';
+import 'services/audio_bible_service.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await initializeAudioBibleService();
 
   await DailyVerseNotificationService.initialize();
 
@@ -31,11 +36,13 @@ Future<void> main() async {
         );
       };
 
-  await DailyVerseNotificationService.scheduleDailyVerseNotifications(
-    daysToSchedule: 30,
-  );
-
   runApp(const TafsiriYaBibliaApp());
+
+  unawaited(
+    DailyVerseNotificationService.scheduleDailyVerseNotifications(
+      daysToSchedule: 30,
+    ),
+  );
 }
 
 class TafsiriYaBibliaApp extends StatelessWidget {
