@@ -22,6 +22,24 @@ class _AudioBibleScreenState extends State<AudioBibleScreen> {
 
   final TextEditingController _searchController = TextEditingController();
 
+  late Future<AudioBibleSavedProgress?> _savedProgress;
+  late Future<List<AudioBibleHistoryEntry>> _listeningHistory;
+
+  @override
+  void initState() {
+    super.initState();
+    _savedProgress = audioBibleHandler.getSavedProgress();
+    _listeningHistory = audioBibleHandler.getListeningHistory();
+  }
+
+  void _refreshSavedProgress() {
+    if (!mounted) return;
+    setState(() {
+      _savedProgress = audioBibleHandler.getSavedProgress();
+      _listeningHistory = audioBibleHandler.getListeningHistory();
+    });
+  }
+
   String _searchText = '';
   bool _showOldTestament = true;
 
@@ -59,13 +77,14 @@ class _AudioBibleScreenState extends State<AudioBibleScreen> {
     super.dispose();
   }
 
-  void _openBook(AudioBibleBook book) {
-    Navigator.push(
+  void _openBook(AudioBibleBook book) async {
+    await Navigator.push(
       context,
       MaterialPageRoute<void>(
         builder: (_) => AudioBibleChaptersScreen(book: book),
       ),
     );
+    _refreshSavedProgress();
   }
 
   void _submitSearch(String value) {
@@ -110,6 +129,8 @@ class _AudioBibleScreenState extends State<AudioBibleScreen> {
         child: Column(
           children: [
             _buildHeader(),
+            _buildContinueListeningCard(),
+            _buildListeningHistoryButton(),
             _buildTestamentSelector(),
             const SizedBox(height: 14),
             Expanded(
@@ -131,6 +152,431 @@ class _AudioBibleScreenState extends State<AudioBibleScreen> {
       ),
       bottomNavigationBar: const _AudioBibleMiniPlayer(),
     );
+  }
+
+  Widget _buildContinueListeningCard() {
+    return FutureBuilder<AudioBibleSavedProgress?>(
+      future: _savedProgress,
+      builder: (context, snapshot) {
+        final progress = snapshot.data;
+        if (progress == null) return const SizedBox.shrink();
+
+        final durationMs = progress.duration.inMilliseconds;
+        final positionMs = progress.position.inMilliseconds;
+        final fraction = durationMs > 0
+            ? (positionMs / durationMs).clamp(0.0, 1.0)
+            : 0.0;
+
+        return Padding(
+          padding: const EdgeInsets.fromLTRB(20, 0, 20, 16),
+          child: Material(
+            color: Colors.transparent,
+            child: InkWell(
+              borderRadius: BorderRadius.circular(18),
+              onTap: () async {
+                final chapter = progress.chapter;
+                final book = findAudioBibleBookById(chapter.bookId);
+                if (book == null) return;
+                try {
+                  await audioBibleHandler.loadChapter(chapter);
+                } catch (error) {
+                  if (!mounted) return;
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text(
+                        'Imeshindikana kufungua sauti. Jaribu tena.',
+                      ),
+                    ),
+                  );
+                  return;
+                }
+                if (!mounted) return;
+                _openBook(book);
+              },
+              child: Ink(
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: lightGold,
+                  borderRadius: BorderRadius.circular(18),
+                  border: Border.all(color: gold.withValues(alpha: 0.35)),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Row(
+                      children: [
+                        Icon(Icons.headphones_rounded, color: gold, size: 20),
+                        SizedBox(width: 8),
+                        Text(
+                          'Endelea Kusikiliza',
+                          style: TextStyle(
+                            color: primaryBrown,
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Spacer(),
+                        Icon(
+                          Icons.play_circle_fill_rounded,
+                          color: primaryBrown,
+                          size: 28,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 9),
+                    Text(
+                      progress.chapter.title,
+                      style: const TextStyle(
+                        color: primaryBrown,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(5),
+                      child: LinearProgressIndicator(
+                        value: fraction,
+                        minHeight: 6,
+                        backgroundColor: gold.withValues(alpha: 0.20),
+                        valueColor: const AlwaysStoppedAnimation<Color>(gold),
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          _formatSavedTime(progress.position),
+                          style: const TextStyle(
+                            color: secondaryBrown,
+                            fontSize: 12,
+                          ),
+                        ),
+                        Text(
+                          durationMs > 0
+                              ? _formatSavedTime(progress.duration)
+                              : '--:--',
+                          style: const TextStyle(
+                            color: secondaryBrown,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildListeningHistoryButton() {
+    return FutureBuilder<List<AudioBibleHistoryEntry>>(
+      future: _listeningHistory,
+      builder: (context, snapshot) {
+        final entries = snapshot.data ?? <AudioBibleHistoryEntry>[];
+        if (entries.isEmpty) return const SizedBox.shrink();
+        return Padding(
+          padding: const EdgeInsets.fromLTRB(20, 0, 20, 14),
+          child: OutlinedButton.icon(
+            onPressed: () => _showListeningHistory(entries),
+            icon: const Icon(Icons.history_rounded),
+            label: Text('Historia ya Usikilizaji (${entries.length})'),
+            style: OutlinedButton.styleFrom(
+              foregroundColor: primaryBrown,
+              side: BorderSide(color: gold.withValues(alpha: 0.45)),
+              minimumSize: const Size(double.infinity, 46),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(14),
+              ),
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  Future<void> _showListeningHistory(
+    List<AudioBibleHistoryEntry> initialEntries,
+  ) async {
+    final entries = List<AudioBibleHistoryEntry>.from(initialEntries);
+    bool busy = false;
+
+    await showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: backgroundColor,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(22)),
+      ),
+      builder: (sheetContext) => StatefulBuilder(
+        builder: (sheetContext, updateSheet) => SafeArea(
+          child: SizedBox(
+            height: MediaQuery.sizeOf(sheetContext).height * 0.68,
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 12, 12, 12),
+                  child: Row(
+                    children: [
+                      const Expanded(
+                        child: Text(
+                          'Historia ya Usikilizaji',
+                          style: TextStyle(
+                            color: primaryBrown,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                      if (entries.isNotEmpty)
+                        TextButton.icon(
+                          onPressed: busy
+                              ? null
+                              : () async {
+                                  final confirmed = await showDialog<bool>(
+                                    context: sheetContext,
+                                    builder: (dialogContext) => AlertDialog(
+                                      title: const Text('Futa historia yote?'),
+                                      content: const Text(
+                                        'Sura zote zitaondolewa kwenye historia. '
+                                        'Sauti na sehemu uliyofikia kusikiliza havitafutwa.',
+                                      ),
+                                      actions: [
+                                        TextButton(
+                                          onPressed: () => Navigator.pop(
+                                            dialogContext,
+                                            false,
+                                          ),
+                                          child: const Text('Ghairi'),
+                                        ),
+                                        TextButton(
+                                          onPressed: () => Navigator.pop(
+                                            dialogContext,
+                                            true,
+                                          ),
+                                          child: const Text('Futa zote'),
+                                        ),
+                                      ],
+                                    ),
+                                  );
+                                  if (confirmed != true ||
+                                      !sheetContext.mounted)
+                                    return;
+                                  updateSheet(() => busy = true);
+                                  try {
+                                    await audioBibleHandler
+                                        .clearListeningHistory();
+                                    if (!sheetContext.mounted) return;
+                                    updateSheet(() {
+                                      entries.clear();
+                                      busy = false;
+                                    });
+                                    _refreshSavedProgress();
+                                  } catch (_) {
+                                    if (!sheetContext.mounted) return;
+                                    updateSheet(() => busy = false);
+                                    ScaffoldMessenger.of(
+                                      sheetContext,
+                                    ).showSnackBar(
+                                      const SnackBar(
+                                        content: Text(
+                                          'Imeshindikana kufuta historia.',
+                                        ),
+                                      ),
+                                    );
+                                  }
+                                },
+                          icon: const Icon(
+                            Icons.delete_sweep_outlined,
+                            size: 18,
+                          ),
+                          label: const Text('Futa zote'),
+                        ),
+                    ],
+                  ),
+                ),
+                Expanded(
+                  child: entries.isEmpty
+                      ? const Center(
+                          child: Text(
+                            'Hakuna historia ya usikilizaji.',
+                            style: TextStyle(color: secondaryBrown),
+                          ),
+                        )
+                      : ListView.separated(
+                          padding: const EdgeInsets.fromLTRB(16, 0, 16, 20),
+                          itemCount: entries.length,
+                          separatorBuilder: (_, __) => const Divider(height: 1),
+                          itemBuilder: (_, index) {
+                            final entry = entries[index];
+                            final durationMs = entry.duration.inMilliseconds;
+                            final fraction = durationMs > 0
+                                ? (entry.position.inMilliseconds / durationMs)
+                                      .clamp(0.0, 1.0)
+                                : 0.0;
+                            return ListTile(
+                              contentPadding: const EdgeInsets.symmetric(
+                                vertical: 7,
+                                horizontal: 4,
+                              ),
+                              leading: const Icon(
+                                Icons.headphones_rounded,
+                                color: gold,
+                              ),
+                              title: Text(
+                                entry.chapter.title,
+                                style: const TextStyle(
+                                  color: primaryBrown,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                              subtitle: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  const SizedBox(height: 7),
+                                  LinearProgressIndicator(
+                                    value: fraction,
+                                    minHeight: 4,
+                                    color: gold,
+                                    backgroundColor: lightGold,
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Text(
+                                    '${_formatSavedTime(entry.position)} / '
+                                    '${durationMs > 0 ? _formatSavedTime(entry.duration) : '--:--'}',
+                                    style: const TextStyle(
+                                      color: secondaryBrown,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              trailing: IconButton(
+                                tooltip: 'Ondoa kwenye historia',
+                                icon: const Icon(
+                                  Icons.delete_outline_rounded,
+                                  color: secondaryBrown,
+                                ),
+                                onPressed: busy
+                                    ? null
+                                    : () async {
+                                        final confirmed = await showDialog<bool>(
+                                          context: sheetContext,
+                                          builder: (dialogContext) => AlertDialog(
+                                            title: const Text(
+                                              'Ondoa kwenye historia?',
+                                            ),
+                                            content: Text(
+                                              'Unataka kuondoa ${entry.chapter.title} '
+                                              'kwenye historia ya usikilizaji? '
+                                              'Sauti na sehemu uliyofikia kusikiliza havitafutwa.',
+                                            ),
+                                            actions: [
+                                              TextButton(
+                                                onPressed: () => Navigator.pop(
+                                                  dialogContext,
+                                                  false,
+                                                ),
+                                                child: const Text('Ghairi'),
+                                              ),
+                                              TextButton(
+                                                onPressed: () => Navigator.pop(
+                                                  dialogContext,
+                                                  true,
+                                                ),
+                                                child: const Text('Ondoa'),
+                                              ),
+                                            ],
+                                          ),
+                                        );
+                                        if (confirmed != true ||
+                                            !sheetContext.mounted)
+                                          return;
+                                        updateSheet(() => busy = true);
+                                        try {
+                                          await audioBibleHandler
+                                              .removeListeningHistoryEntry(
+                                                entry.chapter,
+                                              );
+                                          if (!sheetContext.mounted) return;
+                                          updateSheet(() {
+                                            entries.removeWhere(
+                                              (e) =>
+                                                  e.chapter.mediaId ==
+                                                  entry.chapter.mediaId,
+                                            );
+                                            busy = false;
+                                          });
+                                          _refreshSavedProgress();
+                                        } catch (_) {
+                                          if (!sheetContext.mounted) return;
+                                          updateSheet(() => busy = false);
+                                          ScaffoldMessenger.of(
+                                            sheetContext,
+                                          ).showSnackBar(
+                                            const SnackBar(
+                                              content: Text(
+                                                'Imeshindikana kuondoa sura kwenye historia.',
+                                              ),
+                                            ),
+                                          );
+                                        }
+                                      },
+                              ),
+                              onTap: busy
+                                  ? null
+                                  : () async {
+                                      final book = findAudioBibleBookById(
+                                        entry.chapter.bookId,
+                                      );
+                                      if (book == null) return;
+                                      Navigator.pop(sheetContext);
+                                      try {
+                                        await audioBibleHandler.loadChapter(
+                                          entry.chapter,
+                                        );
+                                        if (!mounted) return;
+                                        _openBook(book);
+                                      } catch (_) {
+                                        if (!mounted) return;
+                                        ScaffoldMessenger.of(
+                                          context,
+                                        ).showSnackBar(
+                                          const SnackBar(
+                                            content: Text(
+                                              'Imeshindikana kufungua sauti. Jaribu tena.',
+                                            ),
+                                          ),
+                                        );
+                                      }
+                                    },
+                            );
+                          },
+                        ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+    _refreshSavedProgress();
+  }
+
+  String _formatSavedTime(Duration duration) {
+    final seconds = duration.inSeconds;
+    final hours = seconds ~/ 3600;
+    final minutes = (seconds % 3600) ~/ 60;
+    final remainder = seconds % 60;
+    if (hours > 0) {
+      return '${hours.toString().padLeft(2, '0')}:${minutes.toString().padLeft(2, '0')}:${remainder.toString().padLeft(2, '0')}';
+    }
+    return '${minutes.toString().padLeft(2, '0')}:${remainder.toString().padLeft(2, '0')}';
   }
 
   Widget _buildHeader() {

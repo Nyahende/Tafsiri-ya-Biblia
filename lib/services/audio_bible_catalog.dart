@@ -2,8 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-const String audioBibleBaseUrl =
-    'https://pub-7842f34ffdab40279be54aa6c052fe91.r2.dev';
+const String audioBibleBaseUrl = 'https://audio.jifunzebiblia.co.tz';
 
 const String _audioManifestAssetPath = 'assets/data/audio_manifest.json';
 
