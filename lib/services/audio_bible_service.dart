@@ -1,9 +1,6 @@
-import 'dart:io';
-
 import 'package:audio_service/audio_service.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/services.dart';
 import 'package:just_audio/just_audio.dart' as just_audio;
 
 import 'audio_bible_catalog.dart';
@@ -11,6 +8,10 @@ import 'audio_bible_catalog.dart';
 late final AudioBibleHandler audioBibleHandler;
 
 Future<void> initializeAudioBibleService() async {
+  // Load the small local Audio Bible manifest before the app starts.
+  // This keeps the books/chapter catalogue independent of the internet.
+  await initializeAudioBibleCatalog();
+
   audioBibleHandler = await AudioService.init(
     builder: AudioBibleHandler.new,
     config: const AudioServiceConfig(
@@ -50,6 +51,7 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
 
     _player.durationStream.listen((Duration? duration) {
       final MediaItem? currentItem = mediaItem.value;
+
       if (currentItem == null || duration == null) {
         return;
       }
@@ -76,6 +78,7 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
 
   AudioBibleChapter? get currentChapter {
     final MediaItem? currentItem = mediaItem.value;
+
     if (currentItem == null) {
       return null;
     }
@@ -85,11 +88,13 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
 
   bool get hasPreviousChapter {
     final AudioBibleChapter? chapter = currentChapter;
+
     return chapter != null && previousAudioBibleChapter(chapter) != null;
   }
 
   bool get hasNextChapter {
     final AudioBibleChapter? chapter = currentChapter;
+
     return chapter != null && nextAudioBibleChapter(chapter) != null;
   }
 
@@ -100,12 +105,14 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
     final MediaItem requestedItem = _mediaItemForChapter(chapter);
 
     final MediaItem? currentItem = mediaItem.value;
+
     final bool isSameChapter = currentItem?.id == requestedItem.id;
 
     if (!isSameChapter) {
       await _player.stop();
 
       final AudioBibleBook? book = findAudioBibleBookById(chapter.bookId);
+
       if (book != null) {
         queue.add(
           availableAudioChaptersForBook(
@@ -116,9 +123,8 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
 
       mediaItem.add(requestedItem);
 
-      final String localAudioPath = await _prepareAssetForPlayback(chapter);
-
-      final Duration? duration = await _player.setFilePath(localAudioPath);
+      // Stream directly from Cloudflare R2.
+      final Duration? duration = await _player.setUrl(chapter.audioUrl);
 
       mediaItem.add(requestedItem.copyWith(duration: duration));
 
@@ -168,11 +174,13 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
   @override
   Future<void> skipToPrevious() async {
     final AudioBibleChapter? chapter = currentChapter;
+
     if (chapter == null) {
       return;
     }
 
     final AudioBibleChapter? previous = previousAudioBibleChapter(chapter);
+
     if (previous == null) {
       return;
     }
@@ -183,11 +191,13 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
   @override
   Future<void> skipToNext() async {
     final AudioBibleChapter? chapter = currentChapter;
+
     if (chapter == null) {
       return;
     }
 
     final AudioBibleChapter? next = nextAudioBibleChapter(chapter);
+
     if (next == null) {
       return;
     }
@@ -233,6 +243,7 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
 
     try {
       final AudioBibleChapter? chapter = currentChapter;
+
       if (chapter == null) {
         await pause();
         return;
@@ -263,69 +274,6 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
     }
   }
 
-  Future<String> _prepareAssetForPlayback(AudioBibleChapter chapter) async {
-    final ByteData data = await rootBundle.load(chapter.assetPath);
-
-    if (data.lengthInBytes < 4) {
-      throw FormatException(
-        'Faili ya sauti ni tupu au imeharibika: ${chapter.assetPath}',
-      );
-    }
-
-    final Uint8List bytes = data.buffer.asUint8List(
-      data.offsetInBytes,
-      data.lengthInBytes,
-    );
-
-    final bool startsWithId3 =
-        bytes.length >= 3 &&
-        bytes[0] == 0x49 &&
-        bytes[1] == 0x44 &&
-        bytes[2] == 0x33;
-
-    final bool startsWithMp3Frame =
-        bytes.length >= 2 && bytes[0] == 0xFF && (bytes[1] & 0xE0) == 0xE0;
-
-    if (!startsWithId3 && !startsWithMp3Frame) {
-      final String firstBytes = bytes
-          .take(12)
-          .map((int value) => value.toRadixString(16).padLeft(2, '0'))
-          .join(' ');
-
-      throw FormatException(
-        'Asset si MP3 halali: ${chapter.assetPath}. '
-        'Mwanzo wa faili: $firstBytes',
-      );
-    }
-
-    final Directory audioCacheDirectory = Directory(
-      '${Directory.systemTemp.path}/jifunze_biblia_audio',
-    );
-
-    if (!await audioCacheDirectory.exists()) {
-      await audioCacheDirectory.create(recursive: true);
-    }
-
-    final String safeBookId = chapter.bookId.replaceAll(
-      RegExp(r'[^a-zA-Z0-9_-]'),
-      '_',
-    );
-
-    final File localFile = File(
-      '${audioCacheDirectory.path}/'
-      '${safeBookId}_${chapter.chapterNumber}.mp3',
-    );
-
-    final bool needsWrite =
-        !await localFile.exists() || await localFile.length() != bytes.length;
-
-    if (needsWrite) {
-      await localFile.writeAsBytes(bytes, flush: true);
-    }
-
-    return localFile.path;
-  }
-
   MediaItem _mediaItemForChapter(AudioBibleChapter chapter) {
     return MediaItem(
       id: chapter.mediaId,
@@ -336,7 +284,8 @@ class AudioBibleHandler extends BaseAudioHandler with SeekHandler {
         'bookId': chapter.bookId,
         'bookName': chapter.bookName,
         'chapterNumber': chapter.chapterNumber,
-        'assetPath': chapter.assetPath,
+        'audioUrl': chapter.audioUrl,
+        'remotePath': chapter.remotePath,
       },
     );
   }

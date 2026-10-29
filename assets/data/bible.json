@@ -13386,7 +13386,7 @@
           },
           {
             "number": 3,
-            "text": "Kila mtu atamcha mama yake na baba yake, na kuzihifadhi Sabato zangu; Mimi ni BWANA Mungu wenu."
+            "text": "Kila mtu atamhofu mama yake na baba yake, na kuzihifadhi Sabato zangu; Mimi ni BWANA Mungu wenu."
           },
           {
             "number": 4,
@@ -20766,7 +20766,7 @@
           },
           {
             "number": 13,
-            "text": "Utamcha BWANA Mungu wako, na kumtumikia, nawe utaapa kwa jina lake."
+            "text": "Utamhofu BWANA Mungu wako, na kumtumikia, nawe utaapa kwa jina lake."
           },
           {
             "number": 14,
@@ -21202,7 +21202,7 @@
           },
           {
             "number": 20,
-            "text": "Utamcha BWANA Mungu wako; yeye utamtumikia, na kwake utashikamana, nawe utaapa kwa jina lake."
+            "text": "Utamhofu BWANA Mungu wako; yeye utamtumikia, na kwake utashikamana, nawe utaapa kwa jina lake."
           },
           {
             "number": 21,
@@ -58249,7 +58249,7 @@
           },
           {
             "number": 12,
-            "text": "Ni mtu gani anayemcha BWANA? Yeye atamfundisha katika njia atakayochagua."
+            "text": "Ni mtu gani anayemhofu BWANA? Yeye atamfundisha katika njia atakayochagua."
           },
           {
             "number": 13,
@@ -88915,9 +88915,9 @@
       }
     },
     {
-      "id": "daniel",
-      "name": "Daniel",
-      "englishName": "Daniel",
+      "id": "danieli",
+      "name": "Danieli",
+      "englishName": "Danieli",
       "testament": "Agano la Kale",
       "bookNumber": 27,
       "chapterCount": 12,
@@ -93711,8 +93711,8 @@
       }
     },
     {
-      "id": "zakaria",
-      "name": "Zakaria",
+      "id": "zekaria",
+      "name": "Zekaria",
       "englishName": "Zechariah",
       "testament": "Agano la Kale",
       "bookNumber": 38,
@@ -94791,7 +94791,7 @@
           },
           {
             "number": 16,
-            "text": "Ndipo wale waliomhofu BWANA wakazungumza wao kwa wao; naye BWANA akasikiliza na kusikia. Nacho kitabu cha ukumbusho kikaandikwa mbele zake kwa ajili ya wale waliomcha BWANA na kulifikiria jina lake."
+            "text": "Ndipo wale waliomhofu BWANA wakazungumza wao kwa wao; naye BWANA akasikiliza na kusikia. Nacho kitabu cha ukumbusho kikaandikwa mbele zake kwa ajili ya wale waliomhofu BWANA na kulifikiria jina lake."
           },
           {
             "number": 17,
